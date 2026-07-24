@@ -1,0 +1,339 @@
+{
+  "CPTAC_Confirmatory": {
+    "ambiguous_linkage": 2,
+    "grade_proposed": {
+      "NA": 135
+    },
+    "histology_proposed": {
+      "endometrioid": 135
+    },
+    "n": 135,
+    "subtype_counts": {
+      "MMRd": 47,
+      "NSMP": 66,
+      "POLE": 6,
+      "p53abn": 16
+    }
+  },
+  "CPTAC_Discovery": {
+    "ambiguous_linkage": 1,
+    "grade_binary_boundary_conflicts": 7,
+    "grade_disagreements_any_ordinal": 16,
+    "grade_proposed": {
+      "NA": 12,
+      "high_grade": 8,
+      "low_grade": 75
+    },
+    "histology_conflicts": 12,
+    "histology_proposed": {
+      "NA": 12,
+      "endometrioid": 83
+    },
+    "n": 95,
+    "subtype_counts": {
+      "MMRd": 25,
+      "NSMP": 43,
+      "POLE": 7,
+      "p53abn": 20
+    }
+  },
+  "TCGA": {
+    "grade_proposed": {
+      "NA": 9,
+      "high_grade": 291,
+      "low_grade": 207
+    },
+    "grade_raw": {
+      "G1": 94,
+      "G2": 113,
+      "G3": 291,
+      "High Grade": 9
+    },
+    "histology_proposed": {
+      "NA": 1,
+      "endometrioid": 382,
+      "non_endometrioid": 124
+    },
+    "n": 507
+  },
+  "diagnostic_nodes": [
+    {
+      "cohort": "TCGA",
+      "condition_number": 1.898543470799749,
+      "fraction_hat_gt_3p_n": 0.0,
+      "max_leverage": 0.02040816326530613,
+      "n": 507,
+      "node": "base",
+      "p": 4,
+      "rank": 4,
+      "residual_df": 503,
+      "support_state": "PASS"
+    },
+    {
+      "cohort": "TCGA",
+      "condition_number": 2.496205389454472,
+      "fraction_hat_gt_3p_n": 0.0,
+      "max_leverage": 0.025795870496661155,
+      "n": 498,
+      "node": "base_plus_grade",
+      "p": 5,
+      "rank": 5,
+      "residual_df": 493,
+      "support_state": "FORBIDDEN"
+    },
+    {
+      "cohort": "TCGA",
+      "condition_number": 2.5649796385383357,
+      "fraction_hat_gt_3p_n": 0.009881422924901186,
+      "max_leverage": 0.035134152155737494,
+      "n": 506,
+      "node": "base_plus_histology",
+      "p": 5,
+      "rank": 5,
+      "residual_df": 501,
+      "support_state": "PASS"
+    },
+    {
+      "cohort": "TCGA",
+      "condition_number": 2.967003723282715,
+      "fraction_hat_gt_3p_n": 0.008048289738430584,
+      "max_leverage": 0.03713179706830318,
+      "n": 497,
+      "node": "base_plus_grade_plus_histology",
+      "p": 6,
+      "rank": 6,
+      "residual_df": 491,
+      "support_state": "FORBIDDEN"
+    },
+    {
+      "cohort": "TCGA",
+      "condition_number": 1.9976178687032722,
+      "fraction_hat_gt_3p_n": 0.0,
+      "max_leverage": 0.027710544454925493,
+      "n": 381,
+      "node": "endometrioid_only",
+      "p": 5,
+      "rank": 5,
+      "residual_df": 376,
+      "support_state": "PASS"
+    },
+    {
+      "cohort": "TCGA",
+      "condition_number": 1.3200271778680102,
+      "fraction_hat_gt_3p_n": 0.13658536585365855,
+      "max_leverage": 0.09090909090909093,
+      "n": 205,
+      "node": "optional_grade_stratified_low",
+      "p": 4,
+      "rank": 4,
+      "residual_df": 201,
+      "support_state": "FAIL"
+    },
+    {
+      "cohort": "TCGA",
+      "condition_number": 2.6460456750763557,
+      "fraction_hat_gt_3p_n": 0.0,
+      "max_leverage": 0.03846153846153843,
+      "n": 176,
+      "node": "optional_grade_stratified_high",
+      "p": 4,
+      "rank": 4,
+      "residual_df": 172,
+      "support_state": "PASS"
+    },
+    {
+      "cohort": "CPTAC_Discovery",
+      "condition_number": 1.4999608113822296,
+      "fraction_hat_gt_3p_n": 0.07446808510638298,
+      "max_leverage": 0.14285714285714288,
+      "n": 94,
+      "node": "base",
+      "p": 4,
+      "rank": 4,
+      "residual_df": 90,
+      "support_state": "BLOCKED"
+    },
+    {
+      "cohort": "CPTAC_Discovery",
+      "condition_number": 1.8548381848388027,
+      "fraction_hat_gt_3p_n": 0.04819277108433735,
+      "max_leverage": 0.2765072765072766,
+      "n": 83,
+      "node": "base_plus_grade",
+      "p": 5,
+      "rank": 5,
+      "residual_df": 78,
+      "support_state": "BLOCKED"
+    },
+    {
+      "cohort": "CPTAC_Discovery",
+      "condition_number": 1.3815259914136229,
+      "fraction_hat_gt_3p_n": 0.0,
+      "max_leverage": 0.1428571428571428,
+      "n": 83,
+      "node": "base_plus_histology",
+      "p": 4,
+      "rank": 4,
+      "residual_df": 79,
+      "support_state": "BLOCKED"
+    },
+    {
+      "cohort": "CPTAC_Discovery",
+      "condition_number": 1.8548381848388027,
+      "fraction_hat_gt_3p_n": 0.04819277108433735,
+      "max_leverage": 0.2765072765072766,
+      "n": 83,
+      "node": "base_plus_grade_plus_histology",
+      "p": 5,
+      "rank": 5,
+      "residual_df": 78,
+      "support_state": "BLOCKED"
+    },
+    {
+      "cohort": "CPTAC_Discovery",
+      "condition_number": 1.8548381848388027,
+      "fraction_hat_gt_3p_n": 0.04819277108433735,
+      "max_leverage": 0.2765072765072766,
+      "n": 83,
+      "node": "endometrioid_only",
+      "p": 5,
+      "rank": 5,
+      "residual_df": 78,
+      "support_state": "BLOCKED"
+    },
+    {
+      "cohort": "CPTAC_Discovery",
+      "condition_number": 1.2985791602390504,
+      "fraction_hat_gt_3p_n": 0.13333333333333333,
+      "max_leverage": 0.24999999999999997,
+      "n": 75,
+      "node": "optional_grade_stratified_low",
+      "p": 4,
+      "rank": 4,
+      "residual_df": 71,
+      "support_state": "BLOCKED"
+    },
+    {
+      "cohort": "CPTAC_Discovery",
+      "condition_number": 9128728566715892.0,
+      "fraction_hat_gt_3p_n": 0.0,
+      "max_leverage": 0.9999999999999992,
+      "n": 8,
+      "node": "optional_grade_stratified_high",
+      "p": 4,
+      "rank": 3,
+      "residual_df": 4,
+      "support_state": "BLOCKED"
+    },
+    {
+      "cohort": "CPTAC_Confirmatory",
+      "condition_number": 1.3911143591257313,
+      "fraction_hat_gt_3p_n": 0.045112781954887216,
+      "max_leverage": 0.16666666666666663,
+      "n": 133,
+      "node": "base",
+      "p": 4,
+      "rank": 4,
+      "residual_df": 129,
+      "support_state": "BLOCKED"
+    },
+    {
+      "cohort": "CPTAC_Confirmatory",
+      "condition_number": null,
+      "fraction_hat_gt_3p_n": null,
+      "max_leverage": null,
+      "n": 0,
+      "node": "base_plus_grade",
+      "p": 4,
+      "rank": null,
+      "residual_df": -4,
+      "support_state": "BLOCKED"
+    },
+    {
+      "cohort": "CPTAC_Confirmatory",
+      "condition_number": 1.3911143591257313,
+      "fraction_hat_gt_3p_n": 0.045112781954887216,
+      "max_leverage": 0.16666666666666663,
+      "n": 133,
+      "node": "base_plus_histology",
+      "p": 4,
+      "rank": 4,
+      "residual_df": 129,
+      "support_state": "BLOCKED"
+    },
+    {
+      "cohort": "CPTAC_Confirmatory",
+      "condition_number": null,
+      "fraction_hat_gt_3p_n": null,
+      "max_leverage": null,
+      "n": 0,
+      "node": "base_plus_grade_plus_histology",
+      "p": 4,
+      "rank": null,
+      "residual_df": -4,
+      "support_state": "BLOCKED"
+    },
+    {
+      "cohort": "CPTAC_Confirmatory",
+      "condition_number": null,
+      "fraction_hat_gt_3p_n": null,
+      "max_leverage": null,
+      "n": 0,
+      "node": "endometrioid_only",
+      "p": 4,
+      "rank": null,
+      "residual_df": -4,
+      "support_state": "BLOCKED"
+    },
+    {
+      "cohort": "CPTAC_Confirmatory",
+      "condition_number": null,
+      "fraction_hat_gt_3p_n": null,
+      "max_leverage": null,
+      "n": 0,
+      "node": "optional_grade_stratified_low",
+      "p": 4,
+      "rank": null,
+      "residual_df": -4,
+      "support_state": "BLOCKED"
+    },
+    {
+      "cohort": "CPTAC_Confirmatory",
+      "condition_number": null,
+      "fraction_hat_gt_3p_n": null,
+      "max_leverage": null,
+      "n": 0,
+      "node": "optional_grade_stratified_high",
+      "p": 4,
+      "rank": null,
+      "residual_df": -4,
+      "support_state": "BLOCKED"
+    }
+  ],
+  "field_comparison": {
+    "aggregate_and_map_fields_compared": 359,
+    "aggregate_and_map_mismatches": 0,
+    "diagnostic_fields_compared": 247,
+    "diagnostic_mismatches": 0,
+    "ledger_fields_compared": 11792,
+    "ledger_mismatches": 0,
+    "max_numeric_difference_matching_fields": 4.83081796787e-10,
+    "total_fields_compared": 12398,
+    "total_mismatches": 0
+  },
+  "mechanical_state": {
+    "CPTAC_adjustment": "BLOCKED",
+    "TCGA_candidates": [
+      "base",
+      "base_plus_binary_histology",
+      "endometrioid_only_plus_grade"
+    ],
+    "TCGA_forbidden": [
+      "all_histology_plus_grade",
+      "all_histology_plus_grade_plus_histology",
+      "optional_grade_stratified"
+    ],
+    "global": "RESTRICT_TCGA_ONLY",
+    "phase2_currently_permitted": false
+  }
+}

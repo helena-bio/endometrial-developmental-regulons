@@ -1,0 +1,7 @@
+field	level	n
+histology_proposed	NA	1
+histology_proposed	endometrioid	382
+histology_proposed	non_endometrioid	124
+grade_proposed	NA	9
+grade_proposed	high_grade	291
+grade_proposed	low_grade	207

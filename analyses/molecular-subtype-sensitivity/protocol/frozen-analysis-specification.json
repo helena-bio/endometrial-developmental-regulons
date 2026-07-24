@@ -1,0 +1,173 @@
+{
+  "task": "TASK_A_PERCLASS_C2",
+  "classification": "HYPOTHESIS_POSTHOC_EXPLANATORY_SENSITIVITY",
+  "status": "FROZEN_BEFORE_TASK_A_OUTCOME_COMPUTATION",
+  "git": {
+    "worktree": "data/external/original-workspace/revgate-task-a-perclass",
+    "branch": "experiment/task-a-perclass-c2-sensitivity",
+    "base_head": "83503bad47b60193598b2b9ebe819c22c83e8ac1"
+  },
+  "targets": [
+    {"name": "GATA2", "role": "PRIMARY_EXPLANATORY"},
+    {"name": "SOX9", "role": "PRIMARY_EXPLANATORY"},
+    {"name": "HOXA9", "role": "SECONDARY_COMPLETENESS"},
+    {"name": "WT1", "role": "SECONDARY_COMPLETENESS"},
+    {"name": "PAX8", "role": "SECONDARY_COMPLETENESS_PRIOR_C1_TARGET"},
+    {"name": "LHX1", "role": "SECONDARY_COMPLETENESS_PRIOR_C1_TARGET"}
+  ],
+  "subtype_order": ["POLE", "MMRd", "NSMP", "p53abn"],
+  "contrasts": {
+    "POLE_vs_NSMP": [1.0, 0.0, -1.0, 0.0],
+    "MMRd_vs_NSMP": [0.0, 1.0, -1.0, 0.0],
+    "POLE_vs_MMRd": [1.0, -1.0, 0.0, 0.0],
+    "FROZEN_C2": [0.5, 0.5, -1.0, 0.0]
+  },
+  "sign_convention": "FIRST_NAMED_SUBTYPE_MINUS_SECOND_NAMED_SUBTYPE",
+  "models": {
+    "TCGA_PRIMARY_CPE_N506": {
+      "formula": "score ~ subtype + M4 + Aran_CPE + ESTIMATE_composition",
+      "expected_counts": {"total": 506, "POLE": 49, "MMRd": 148, "NSMP": 146, "p53abn": 163}
+    },
+    "TCGA_NOPURITY_N507": {
+      "formula": "score ~ subtype + M4 + ESTIMATE_composition",
+      "expected_counts": {"total": 507, "POLE": 49, "MMRd": 148, "NSMP": 147, "p53abn": 163}
+    },
+    "CPTAC_DISCOVERY_N95": {
+      "formula": "score ~ subtype + M4 + ESTIMATE_composition",
+      "expected_counts": {"total": 95, "POLE": 7, "MMRd": 25, "NSMP": 43, "p53abn": 20}
+    },
+    "CPTAC_CONFIRMATORY_N135": {
+      "formula": "score ~ subtype + M4 + ESTIMATE_composition",
+      "expected_counts": {"total": 135, "POLE": 6, "MMRd": 47, "NSMP": 66, "p53abn": 16}
+    }
+  },
+  "same_fit_rule": "ALL_CONTRASTS_FROM_ONE_FROZEN_FULL_MODEL_PER_TARGET_MODEL",
+  "standardization": "d=coefficient/residual_SD_from_same_fit",
+  "uncertainty": {
+    "coefficient_ci": "TWO_SIDED_95_PERCENT_MODEL_BASED_T",
+    "bootstrap_ci": "PATIENT_CASE_BOOTSTRAP_PERCENTILE_95_PERCENT",
+    "n_boot": 2000,
+    "permutation": "SUBTYPE_LABEL_TWO_SIDED_ABS_D_ADD_ONE",
+    "n_perm": 2000,
+    "permutation_comparison_tolerance": 1e-12,
+    "family_raw_p": "perm_p_raw",
+    "meta_raw_p": "TWO_SIDED_NORMAL_FIXED_EFFECT"
+  },
+  "meta": {
+    "scope": "CPTAC_DISCOVERY_PLUS_CONFIRMATORY_ONLY",
+    "scale": "STANDARDIZED_D",
+    "method": "INVERSE_VARIANCE_FIXED_EFFECT",
+    "se": "BOOTSTRAP_SE_D",
+    "raw_expression_pooling": false,
+    "one_stratum_fallback": false,
+    "require_both_strata": true,
+    "report_opposite_direction_flag": true
+  },
+  "descriptive_multiplicity": {
+    "method": "BENJAMINI_HOCHBERG",
+    "planned_size_each": 18,
+    "families": [
+      "BH18_TCGA_PRIMARY",
+      "BH18_TCGA_NOPURITY",
+      "BH18_CPTAC_DISCOVERY",
+      "BH18_CPTAC_CONFIRMATORY",
+      "BH18_CPTAC_FIXED_EFFECT_META"
+    ],
+    "composition": "6_TARGETS_X_3_CONTRASTS",
+    "missing_p_rule": "INSERT_1.0_FOR_BH_WITH_PLANNED_DENOMINATOR_18_THEN_RESTORE_MISSING_ROW_Q_TO_NA",
+    "confirmatory_credit": false,
+    "replace_frozen_families": false
+  },
+  "materiality": {
+    "source": "INHERITED_FROZEN_B2_H1_FLOOR",
+    "abs_d_pm_floor": 0.5,
+    "new_threshold": false,
+    "equivalence_claim": false
+  },
+  "taxonomy_order": [
+    "NOT_EVALUABLE",
+    "ZERO_BOUNDARY_UNRESOLVED",
+    "OPPOSITE_DIRECTION_HETEROGENEITY_SUPPORTED",
+    "OPPOSITE_DIRECTION_POINT_HETEROGENEITY_UNRESOLVED",
+    "SAME_DIRECTION_MATERIALLY_DIFFERENT_POLE_DOMINANT",
+    "SAME_DIRECTION_MATERIALLY_DIFFERENT_MMRD_DOMINANT",
+    "SAME_DIRECTION_DISTINGUISHABLE_BELOW_MATERIALITY_FLOOR",
+    "SAME_DIRECTION_COMPATIBLE_BOTH_RESOLVED",
+    "SAME_DIRECTION_POINT_ESTIMATES_UNRESOLVED"
+  ],
+  "taxonomy_rules": {
+    "interval_basis": "MODEL_BASED_TWO_SIDED_95_PERCENT_T_INTERVAL",
+    "direct_difference": "POLE_vs_MMRd_COEFFICIENT_AND_95_PERCENT_CI_FROM_SAME_MODEL",
+    "no_nonsignificance_as_equality": true,
+    "opposite_supported_requires": "OPPOSITE_POINT_SIGNS_AND_PM_CI_EXCLUDES_ZERO_AND_BOTH_CLASS_VS_NSMP_CIS_EXCLUDE_ZERO",
+    "dominance_requires": "SAME_POINT_SIGN_AND_PM_CI_EXCLUDES_ZERO_AND_ABS_D_PM_GE_0.5",
+    "dominance_direction": "CLASS_WITH_LARGER_ABS_CLASS_VS_NSMP_COEFFICIENT",
+    "compatible_requires": "SAME_POINT_SIGN_AND_PM_CI_INCLUDES_ZERO"
+  },
+  "meta_taxonomy": {
+    "prefix": "CPTAC_META_",
+    "substitution": "USE_D_FE_AND_FIXED_EFFECT_NORMAL_95_PERCENT_CI_FOR_EACH_CONTRAST",
+    "direct_difference": "DIRECT_FIXED_EFFECT_POLE_vs_MMRd",
+    "pooled_unstandardized_coefficient": null,
+    "pooled_residual_sd": null
+  },
+  "identity": {
+    "unstandardized": "b_C2=0.5*b_POLE_vs_NSMP+0.5*b_MMRd_vs_NSMP",
+    "standardized": "d_C2=0.5*d_POLE_vs_NSMP+0.5*d_MMRd_vs_NSMP",
+    "scaled_tolerance": 1e-12,
+    "bootstrap_replicate_level_required": true,
+    "meta_identity_required": false,
+    "meta_caveat": "STRATUM_RESIDUAL_SCALES_AND_CONTRAST_SPECIFIC_INVERSE_VARIANCE_WEIGHTS"
+  },
+  "seeds": {
+    "master": 20260722,
+    "subseed_rule": "int(sha256('20260722:' + step_id).hexdigest()[:8],16)",
+    "step_ids": ["boot__<model>__<target>", "perm__<model>__<target>"],
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "data_version_refusal": "BLOCKED_DATA_VERSION_MISMATCH_NO_SUBSTITUTION",
+  "firewall": {
+    "sample_mix_alone_is_artifact": false,
+    "retuning_allowed": false,
+    "outcome_dependent_family_change_allowed": false,
+    "frozen_verdict_change_allowed": false,
+    "manuscript_edit_allowed": false,
+    "causal_claim_allowed": false,
+    "individual_patient_claim_allowed": false,
+    "upstream_write_allowed": false,
+    "src_write_allowed": false,
+    "commit_push_stage_allowed": false
+  },
+  "required_input_sha256": {
+    "data/external/original-workspace/revgate-tcga-no-purity-verify/experiments/task030_verify_current_main/REPRODUCIBILITY_MANIFEST.json": "f3f7d520e3479dd1675e6f220581c0a44a386b7357e9022da7c410d9fbd81c4a",
+    "data/external/original-workspace/revgate-tcga-no-purity-verify/experiments/task030_verify_current_main/SHA256SUMS.txt": "7a3146f8f631b7d1cbc70601edd7715e19aef10b105dd98f8510041fa19c71f9",
+    "data/external/original-workspace/revgate-tcga-no-purity-verify/experiments/task030_verify_current_main/results/SIX_TARGET_RESULTS.tsv": "e7445a4df6a48ca05a2a73460687a6fd8399e08b3e7c66843702f7385b465e13",
+    "data/external/original-workspace/revgate-tcga-no-purity-verify/experiments/task030_verify_current_main/results/COVARIATE_COMPATIBILITY.tsv": "25ab052b2ee1ba79bee7307ffb2f4cdd56bf1170f673e22e607320128c524072",
+    "data/external/original-workspace/revgate-tcga-no-purity-verify/experiments/task030_verify_current_main/critic_cycle2_targeted/VALIDATION_REPORT_TARGETED_CYCLE2.md": "e3a25f3607805e0e8d8335498807656b5688c1234b898c8076ede6a59f3bfe4d",
+    "data/external/original-workspace/task028-freeze-b-draft/sealed_v3/B2_MODEL_SPEC.md": "682099a03923778d170ff4bd46e8b475405419fe1fadb3259ce4c2e75b43f2c1",
+    "data/external/original-workspace/task028-freeze-b-draft/sealed_v3/SEAL_MANIFEST.sha256": "0d1bfa4f808c1b9b4c63c8b7a3774c47ed43c537de5d1c2f35d24b9389e3020e",
+    "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/scores_v3.npz": "956b7a968f35d1da57719e3bc7392decbdd6e292ac31d4dec100b6632518b0cb",
+    "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/covariates_v3.tsv": "cc46495c0abc6877182c9bff8d4ba44f11599d8bc5bc7a8cb6f8331aa1ec3c9a",
+    "data/external/original-workspace/task028-freeze-b-draft/execution/scripts_v3/model_engine.py": "4d7bfb997c9dc188daf9e584a791ff490dfcfdd7fa365c20bca8a2c066f42065",
+    "data/external/original-workspace/task028-freeze-b-draft/execution/results_v3/phase2b_models.json": "376835bfcc90821ce1d0a40e3614b83300fa1667f7d02210ebe56bfe34958c60",
+    "data/external/original-workspace/task028-freeze-b-draft/execution/results_v3/RESULT_SEAL.sha256": "49406f449d876185b247040e886e03c52db7c5c7ab67117ef039198a67cade5e",
+    "data/external/original-workspace/task029-external-replication-feasibility/FROZEN_REPLICATION_DESIGN.md": "3647de824054f1a01597e8161ad04aeb3f00ea12efbd714c01b892caf8fcea43",
+    "data/external/original-workspace/task029-external-replication-feasibility/SEAL_MANIFEST_replication.sha256": "54ea5d95c12e83203b2977d70655d5a368c00f66df17006ae02ff78bfca06743",
+    "data/external/original-workspace/task029-external-replication-feasibility/execution/intermediate/INTERMEDIATE_SEAL.sha256": "1ac085f8fd2939fa526ea1fa4ed027a312ab322b78c75870f2bfcccd4b32309f",
+    "data/external/original-workspace/task029-external-replication-feasibility/execution/intermediate/log2tpm_Discovery.npy": "e108c1d33ab2a214959a8c1a0a8e276c33d47853127d3c66968622fd735274c7",
+    "data/external/original-workspace/task029-external-replication-feasibility/execution/intermediate/log2tpm_Confirmatory.npy": "bd50b7ad762ff4d5573153878d264245424ef11fa8516ebc2462f7ec454d4b02",
+    "data/external/original-workspace/task029-external-replication-feasibility/execution/intermediate/acq02_join_ledger.json": "7bfa84133e84070086782f23c2e30a6f2c15487ee4bf039e6d8eab7b187b4713",
+    "data/external/original-workspace/task029-external-replication-feasibility/execution/scripts/exec01_score_model_meta.py": "6d2459227196868822f778cb9abfbb84e8ea04358d6298625c7fc086dc40b8fd",
+    "data/external/original-workspace/task029-external-replication-feasibility/execution/results/REPRODUCIBILITY_MANIFEST.json": "94bfcb5c6a12e840a0363ceb250dd94c70dab2d5be4570095837d69bb4db3f9f",
+    "data/external/original-workspace/task029-external-replication-feasibility/execution/results/RESULT_SEAL.sha256": "8653ebbe1f884d335a9efb8dfa7654e6e2e225b71d4a3395a975d69cfa96ad4a"
+  },
+  "data_versions": {
+    "TCGA": "GDC STAR Counts GENCODE_v36 60660_genes frozen_507_primary_tumors Aran_CPE_complete_case_506",
+    "CPTAC": "GDC_Data_Release_45.0_2025-12-04_commit_8f7c2a51ab0084b216ad1b62a3fae8b945439c53_STAR_Counts_GENCODE_v36",
+    "CPTAC_confirmatory_roster_sha256": "2ea92c4279918c3a6158b24ebfa1e0e36ffc2876d50fd2ed3f07265a389e0e31",
+    "CPTAC_confirmatory_roster_size": 277385
+  },
+  "success": "COMPLETE_REPRODUCIBLE_EXPLANATORY_RESOLUTION_REGARDLESS_OF_SIGN_MAGNITUDE_OR_SIGNIFICANCE_WITH_ALL_IDENTITIES_FAMILIES_AND_FIREWALL_CHECKS_PASSING"
+}

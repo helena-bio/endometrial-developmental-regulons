@@ -1,0 +1,72 @@
+cohort	population	source_field	raw_token	count
+TCGA	source_payload	GRADE	G1	97
+TCGA	source_payload	GRADE	G2	119
+TCGA	source_payload	GRADE	G3	302
+TCGA	source_payload	GRADE	High Grade	11
+TCGA	source_payload	ICD_O_3_HISTOLOGY	8020/3	2
+TCGA	source_payload	ICD_O_3_HISTOLOGY	8140/3	1
+TCGA	source_payload	ICD_O_3_HISTOLOGY	8255/3	1
+TCGA	source_payload	ICD_O_3_HISTOLOGY	8310/3	1
+TCGA	source_payload	ICD_O_3_HISTOLOGY	8380/3	397
+TCGA	source_payload	ICD_O_3_HISTOLOGY	8382/3	2
+TCGA	source_payload	ICD_O_3_HISTOLOGY	8441/3	120
+TCGA	source_payload	ICD_O_3_HISTOLOGY	8460/3	3
+TCGA	source_payload	ICD_O_3_HISTOLOGY	8461/3	2
+CPTAC_Discovery	source_payload	HISTOLOGIC_GRADE_FIGO	FIGO grade 1	37
+CPTAC_Discovery	source_payload	HISTOLOGIC_GRADE_FIGO	FIGO grade 2	38
+CPTAC_Discovery	source_payload	HISTOLOGIC_GRADE_FIGO	FIGO grade 3	8
+CPTAC_Discovery	source_payload	HISTOLOGIC_TYPE	Endometrioid	83
+CPTAC_Discovery	source_payload	HISTOLOGIC_TYPE	Serous	12
+CPTAC_Discovery	source_payload	PDC_tumor_grade	G1	32
+CPTAC_Discovery	source_payload	PDC_tumor_grade	G2	41
+CPTAC_Discovery	source_payload	PDC_tumor_grade	G3	28
+CPTAC_Discovery	source_payload	PDC_tumor_grade	Not Reported	19
+CPTAC_Discovery	source_payload	PDC_tumor_grade	Unknown	3
+CPTAC_Discovery	source_payload	PDC_morphology	8380/3	104
+CPTAC_Discovery	source_payload	PDC_morphology	Not Reported	19
+CPTAC_Discovery	source_payload	PDC_primary_diagnosis	Endometrioid adenocarcinoma, NOS	104
+CPTAC_Discovery	source_payload	PDC_primary_diagnosis	Not Reported	19
+CPTAC_Confirmatory	source_payload	PDC_tumor_grade	G1	40
+CPTAC_Confirmatory	source_payload	PDC_tumor_grade	G2	68
+CPTAC_Confirmatory	source_payload	PDC_tumor_grade	G3	28
+CPTAC_Confirmatory	source_payload	PDC_tumor_grade	High Grade	1
+CPTAC_Confirmatory	source_payload	PDC_tumor_grade	Not Reported	21
+CPTAC_Confirmatory	source_payload	PDC_tumor_grade	Unknown	1
+CPTAC_Confirmatory	source_payload	PDC_morphology	8380/3	138
+CPTAC_Confirmatory	source_payload	PDC_morphology	Not Reported	21
+CPTAC_Confirmatory	source_payload	PDC_primary_diagnosis	Endometrioid adenocarcinoma, NOS	138
+CPTAC_Confirmatory	source_payload	PDC_primary_diagnosis	Not Reported	21
+TCGA	frozen_analytic_roster	grade_raw	G1	94
+TCGA	frozen_analytic_roster	grade_raw	G2	113
+TCGA	frozen_analytic_roster	grade_raw	G3	291
+TCGA	frozen_analytic_roster	grade_raw	High Grade	9
+TCGA	frozen_analytic_roster	grade_secondary_raw	MISSING_ABSENT_OR_NOT_APPLICABLE	507
+TCGA	frozen_analytic_roster	histology_raw	8020/3	1
+TCGA	frozen_analytic_roster	histology_raw	8140/3	1
+TCGA	frozen_analytic_roster	histology_raw	8255/3	1
+TCGA	frozen_analytic_roster	histology_raw	8310/3	1
+TCGA	frozen_analytic_roster	histology_raw	8380/3	380
+TCGA	frozen_analytic_roster	histology_raw	8382/3	2
+TCGA	frozen_analytic_roster	histology_raw	8441/3	116
+TCGA	frozen_analytic_roster	histology_raw	8460/3	3
+TCGA	frozen_analytic_roster	histology_raw	8461/3	2
+TCGA	frozen_analytic_roster	histology_secondary_raw	MISSING_ABSENT_OR_NOT_APPLICABLE	507
+CPTAC_Discovery	frozen_analytic_roster	grade_raw	FIGO grade 1	37
+CPTAC_Discovery	frozen_analytic_roster	grade_raw	FIGO grade 2	38
+CPTAC_Discovery	frozen_analytic_roster	grade_raw	FIGO grade 3	8
+CPTAC_Discovery	frozen_analytic_roster	grade_raw	MISSING_ABSENT_OR_NOT_APPLICABLE	12
+CPTAC_Discovery	frozen_analytic_roster	grade_secondary_raw	G1	31
+CPTAC_Discovery	frozen_analytic_roster	grade_secondary_raw	G2	38
+CPTAC_Discovery	frozen_analytic_roster	grade_secondary_raw	G3	23
+CPTAC_Discovery	frozen_analytic_roster	grade_secondary_raw	Unknown	3
+CPTAC_Discovery	frozen_analytic_roster	histology_raw	Endometrioid	83
+CPTAC_Discovery	frozen_analytic_roster	histology_raw	Serous	12
+CPTAC_Discovery	frozen_analytic_roster	histology_secondary_raw	8380/3	95
+CPTAC_Confirmatory	frozen_analytic_roster	grade_raw	G1	38
+CPTAC_Confirmatory	frozen_analytic_roster	grade_raw	G2	67
+CPTAC_Confirmatory	frozen_analytic_roster	grade_raw	G3	28
+CPTAC_Confirmatory	frozen_analytic_roster	grade_raw	High Grade	1
+CPTAC_Confirmatory	frozen_analytic_roster	grade_raw	Unknown	1
+CPTAC_Confirmatory	frozen_analytic_roster	grade_secondary_raw	MISSING_ABSENT_OR_NOT_APPLICABLE	135
+CPTAC_Confirmatory	frozen_analytic_roster	histology_raw	8380/3	135
+CPTAC_Confirmatory	frozen_analytic_roster	histology_secondary_raw	MISSING_ABSENT_OR_NOT_APPLICABLE	135

@@ -1,0 +1,16 @@
+{
+  "findings": {},
+  "patterns": {
+    "binary_array_load": "(?i)(numpy|np)\\.load\\s*\\([^\\n]*(npy|npz)",
+    "forbidden_external_worktree": "(?i)(revgate-task-a-perclass|task030-|data/external/original-workspace/revgate/)",
+    "forbidden_outcome_keyword": "(?i)(overall_survival|progression|recurrence|days_to_death|vital_status)",
+    "forbidden_scientific_artifact_keyword": "(?i)(regulon|score_array|primary_results|per_target|coefficient|effect_size|p_value|q_value|confidence_interval)",
+    "forbidden_target_scientific_pair": "(?i)(gata2|sox9|hoxa9|wt1|pax8|lhx1).*(result|score|coefficient|effect|figure)",
+    "network_module": "(?i)(urllib|requests|httpx|socket|aiohttp)",
+    "parquet_read": "(?i)(read_parquet|parquet\\.ParquetFile)",
+    "recursive_discovery": "(?i)(rglob\\s*\\(|os\\.walk\\s*\\(|glob\\s*\\(.*\\*\\*)"
+  },
+  "script": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/audit_phase1.py",
+  "sha256_checked_separately_in_manifest": true,
+  "status": "PASS"
+}

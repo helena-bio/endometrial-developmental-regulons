@@ -1,0 +1,3 @@
+config	F1_family_size	F1_gated_module_count	F2_family_size	F1_q_max_abs_delta_vs_sealed	F1_gate_membership_exact_match	F2_q_max_abs_delta_vs_sealed	no_change_reconstruction_pass
+PRIMARY	21	17	51	0	True	0	True
+SENS_nopurity	21	17	51	0	True	0	True

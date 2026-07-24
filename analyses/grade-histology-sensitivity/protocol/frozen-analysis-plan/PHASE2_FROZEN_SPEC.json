@@ -1,0 +1,399 @@
+{
+  "schema_version": "1.0.0",
+  "frozen_utc": "2026-07-22T18:37:50Z",
+  "classification": "HYPOTHESIS_POST_HOC_EXPLANATORY_SENSITIVITY_PHASE2",
+  "branch": "experiment/task-b-grade-histology-sensitivity",
+  "git_commit": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+  "outcome_blind_research_freeze": true,
+  "phase1_binding": {
+    "state": "RESTRICT_TCGA_ONLY",
+    "VALIDATION_REPORT": "SURVIVES",
+    "critic_statement": "I cannot break it",
+    "critic_sha256": "1b83bae3d188db5e844c1786f3d5773c0e2c183d8a050d5c0f575b8c6eeadbcf",
+    "minor_m1": "Ignore placeholder diagnostics for blocked CPTAC nodes; never reproduce or report those rows as literal fits."
+  },
+  "scope": {
+    "cohort": "TCGA-UCEC",
+    "cptac_permitted": false,
+    "primary_explanatory_targets": ["GATA2", "SOX9"],
+    "completeness_only_targets": ["HOXA9", "WT1", "PAX8", "LHX1"],
+    "no_new_targets": true,
+    "no_per_class_task_a_inference": true,
+    "score": "frozen TASK-028 signed regulon score only",
+    "contrast": {
+      "name": "C2",
+      "subtype_order": ["POLE", "MMRd", "NSMP", "p53abn"],
+      "weights": [0.5, 0.5, -1.0, 0.0],
+      "orientation": "0.5*POLE + 0.5*MMRd - NSMP",
+      "full_model_required": true
+    },
+    "raw_p_only": true,
+    "q_values_forbidden": true,
+    "confirmatory_category_forbidden": true,
+    "multiplicity_credit": false
+  },
+  "input_data_versions": {
+    "tcga_expression": "GDC STAR Counts, GENCODE v36, augmented_star_gene_counts tpm_unstranded transformed as log2(TPM+1), frozen 507 one-primary-tumour TCGA-UCEC cohort",
+    "task028_model_spec": "TASK-028 Freeze B v3, B2_MODEL_SPEC.md",
+    "task028_score_file": "scores_v3.npz; frozen TASK-028 score array; hash-pinned and not loaded during this freeze",
+    "task028_covariates": "covariates_v3.tsv; columns patient_barcode, subtype, M4_prolif, purity_CPE, purity_ABSOLUTE, estimate_stromal, estimate_immune, composition, cpe_complete_case, absolute_complete_case",
+    "task028_patient_order": "patient_order_v3.json; hash-pinned and not inspected during this freeze",
+    "purity": "Aran et al. 2015 consensus CPE, complete-case only",
+    "composition": "frozen ESTIMATE-derived composition covariate",
+    "clinical_grade": "cBioPortal ucec_tcga_pan_can_atlas_2018 sample-level GRADE, Phase-1 frozen mapping restricted to endometrioid carcinoma",
+    "clinical_histology": "cBioPortal ucec_tcga_pan_can_atlas_2018 patient-level ICD_O_3_HISTOLOGY, Phase-1 frozen binary mapping"
+  },
+  "inputs": [
+    {
+      "path": "data/external/original-workspace/task028-freeze-b-draft/sealed_v3/B2_MODEL_SPEC.md",
+      "sha256": "682099a03923778d170ff4bd46e8b475405419fe1fadb3259ce4c2e75b43f2c1",
+      "access": "read",
+      "purpose": "clean frozen model design"
+    },
+    {
+      "path": "data/external/original-workspace/task028-freeze-b-draft/execution/scripts_v3/model_engine.py",
+      "sha256": "4d7bfb997c9dc188daf9e584a791ff490dfcfdd7fa365c20bca8a2c066f42065",
+      "access": "read_and_import",
+      "purpose": "clean locked OLS, contrast, bootstrap, permutation, and BH utility source; BH is not used here"
+    },
+    {
+      "path": "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/scores_v3.npz",
+      "sha256": "956b7a968f35d1da57719e3bc7392decbdd6e292ac31d4dec100b6632518b0cb",
+      "access": "experimenter_load_only_after_freeze",
+      "purpose": "frozen molecular outcome array"
+    },
+    {
+      "path": "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/covariates_v3.tsv",
+      "sha256": "cc46495c0abc6877182c9bff8d4ba44f11599d8bc5bc7a8cb6f8331aa1ec3c9a",
+      "access": "experimenter_read_only_after_freeze",
+      "purpose": "frozen patient covariates and base rosters"
+    },
+    {
+      "path": "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/patient_order_v3.json",
+      "sha256": "e494200b1a9d1c026679d039181bf34cfa3be62892e3d55bca2aeec0dab5e432",
+      "access": "experimenter_read_only_after_freeze",
+      "purpose": "frozen score-to-patient order"
+    },
+    {
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/PHASE1_FEASIBILITY_RULES.json",
+      "sha256": "aa1eaea70991d9e915f499243a11964e01b7242c2f190cac783661b896e1eb42",
+      "access": "read",
+      "purpose": "binding support and diagnostics rules"
+    },
+    {
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/INPUTS_LOCK.json",
+      "sha256": "bdaa15a40800cb5384abda946ef2c388f97fbb4fdcc16c4c901d9d00452d9039",
+      "access": "read",
+      "purpose": "Phase-1 clinical source and version lock"
+    },
+    {
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/PHASE1_DECISION.json",
+      "sha256": "a9b01e817d9e84180dc4804811dd2d0e33c245925a11bc8d5996363c42e7bc94",
+      "access": "read",
+      "purpose": "binding allowed and forbidden clinical nodes"
+    },
+    {
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/FROZEN_HARMONIZATION_SPEC.json",
+      "sha256": "c4252fd1d17a07212852a894631afd7a8df3b331ccf9aed314869b0e5512a362",
+      "access": "read",
+      "purpose": "binding clinical mappings and rules"
+    },
+    {
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/HARMONIZATION_MAP.tsv",
+      "sha256": "c255355de4b6c4b366a626d7e79b26f474d55ead67387d1fde519743ac7e316b",
+      "access": "read",
+      "purpose": "immutable observed-token map"
+    },
+    {
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/LINKAGE_LEDGER.tsv",
+      "sha256": "c6087dc8e685b305ccd3ff9d1da02846ff8a306018cc1fb0820cf3825fc8e823",
+      "access": "read",
+      "purpose": "sole patient-level clinical and linkage source"
+    },
+    {
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/MISSINGNESS.tsv",
+      "sha256": "02e08cb20fe60056b6a23b4bd9837d07ba80a6c729f1fcf366e28d50d97dc69e",
+      "access": "read",
+      "purpose": "sealed Phase-1 missingness audit"
+    },
+    {
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/RAW_CATEGORY_COUNTS.tsv",
+      "sha256": "09fe226376379a333715c3dcfce4d1282e882a368e92c3eb3f6a9ece9abbec80",
+      "access": "read",
+      "purpose": "sealed raw clinical distributions"
+    },
+    {
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/SUBTYPE_BY_PROPOSED_CATEGORY.tsv",
+      "sha256": "91726649b4e910d5f08318304f052a044fba786e581d0efca0fee39b4737e0dc",
+      "access": "read",
+      "purpose": "sealed clinical-by-subtype support table"
+    },
+    {
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_critic/VALIDATION_REPORT_PHASE1.md",
+      "sha256": "1b83bae3d188db5e844c1786f3d5773c0e2c183d8a050d5c0f575b8c6eeadbcf",
+      "access": "read",
+      "purpose": "binding survived reviewer verdict and MINOR M1"
+    }
+  ],
+  "refuse_on_any_hash_mismatch": true,
+  "models": {
+    "coding": {
+      "subtype_reference": "POLE",
+      "subtype_dummy_order": ["MMRd", "NSMP", "p53abn"],
+      "histology_reference": "endometrioid",
+      "histology_level": "non_endometrioid",
+      "grade_reference": "high_grade",
+      "grade_level": "low_grade",
+      "continuous_covariates_used_as_stored": true,
+      "emm_reference": "mean of each continuous covariate within the fitted rows"
+    },
+    "base_specifications": [
+      {
+        "id": "primary_cpe",
+        "roster": "cpe_complete_case == true",
+        "columns": ["intercept", "subtype_3df", "M4_prolif", "purity_CPE", "composition"]
+      },
+      {
+        "id": "no_purity",
+        "roster": "full frozen patient order",
+        "columns": ["intercept", "subtype_3df", "M4_prolif", "composition"]
+      }
+    ],
+    "roster_difference_rule": "primary_cpe and no_purity may differ only through cpe_complete_case",
+    "nodes": [
+      {
+        "id": "full_base",
+        "filter": "base roster only",
+        "comparison": "none",
+        "models": ["base"]
+      },
+      {
+        "id": "histology_matched",
+        "filter": "base roster AND histology_proposed in {endometrioid,non_endometrioid}",
+        "comparison": "exact matched rows",
+        "models": ["base_refit", "base_plus_binary_histology"]
+      },
+      {
+        "id": "endometrioid_grade_matched",
+        "filter": "base roster AND histology_proposed == endometrioid AND grade_proposed in {low_grade,high_grade}",
+        "comparison": "exact matched rows",
+        "models": ["base_refit", "base_plus_binary_grade"]
+      }
+    ],
+    "forbidden_nodes": [
+      "all_histology_grade",
+      "grade_plus_histology",
+      "grade_stratified",
+      "any_interaction",
+      "three_level_histology",
+      "three_level_grade",
+      "any_rescue_parameterization",
+      "any_cptac_model"
+    ],
+    "ols": {
+      "solver": "numpy.linalg.lstsq with no outcome-dependent tuning",
+      "beta_c2_from_treatment_coding": "0.5*beta_MMRd - beta_NSMP",
+      "residual_variance": "SSE/(n-p)",
+      "contrast_se": "sqrt(L * sigma2*(X'X)^-1 * L')",
+      "primary_raw_p": "two-sided Student t p for beta_C2/SE with n-p df",
+      "coefficient_ci": "two-sided 95 percent Student t CI",
+      "residual_sd": "sqrt(SSE/(n-p))",
+      "d": "beta_C2/residual_sd"
+    }
+  },
+  "uncertainty": {
+    "master_seed": 20260713,
+    "subseed": "unsigned big-endian integer from first 8 SHA256 bytes of ASCII '20260713|TASKB_PHASE2|<analysis_step_id>'",
+    "analysis_step_id_fields": ["cohort", "base_specification", "node", "target", "contrast", "procedure"],
+    "bootstrap": {
+      "attempts": 2000,
+      "unit": "patient",
+      "sampling": "with replacement from exact fitted rows, all fields jointly",
+      "ci": "95 percent percentile",
+      "invalid_attempt": "missing subtype, rank deficient, non-finite, or failed exact gate calculation; never replaced",
+      "minimum_valid": 1900,
+      "matched_comparison": "same bootstrap indices for base and adjusted models"
+    },
+    "permutation": {
+      "count": 2000,
+      "method": "permute subtype labels among fitted rows with outcome, clinical factor, and covariates fixed",
+      "statistic": "abs(d_C2)",
+      "p": "(1 + count(abs(d_perm)>=abs(d_obs)))/2001",
+      "role": "diagnostic_only"
+    },
+    "no_q_values": true
+  },
+  "full_design_gates": {
+    "min_n": "max(80,10*p)",
+    "min_residual_df": 30,
+    "all_four_subtypes": true,
+    "histology_min_per_subtype": 5,
+    "endometrioid_grade_min_per_subtype": 10,
+    "clinical_level_min_overall": 20,
+    "clinical_level_min_in_each_of_two_subtypes": 5,
+    "clinical_level_fraction_from_one_subtype_fail_ge": 0.9,
+    "rank_tolerance": "machine_epsilon*max(n,p)*largest_singular_value",
+    "rank_lt_p": "NOT_ESTIMABLE",
+    "condition_number": {
+      "design": "standardized non-intercept columns",
+      "pass_max": 30,
+      "unstable_max": 100,
+      "above_100": "NOT_ESTIMABLE"
+    },
+    "vif_gvif": {
+      "one_df": "VIF from inverse predictor correlation matrix",
+      "multi_df": "GVIF=det(R_AA)*det(R_BB)/det(R); report GVIF^(1/(2*df))",
+      "pass_max": 5,
+      "unstable_max": 10,
+      "above_10": "FAIL"
+    },
+    "cramers_v": {
+      "formula": "sqrt(chi2/(n*min(r-1,c-1)))",
+      "warning_gt": 0.8,
+      "fail_gt": 0.9
+    },
+    "complete_nesting_or_structural_separation": "FAIL",
+    "dummy_absolute_correlation_fail_ge": 0.95,
+    "near_zero_variance": {
+      "frequency_ratio_gt": 19,
+      "percent_unique_le": 10,
+      "joint_rule": "FAIL"
+    },
+    "leverage": {
+      "flag_hat_gt": "2*p/n",
+      "high_hat_gt": "3*p/n",
+      "fail_any_hat_ge": 0.5,
+      "fail_fraction_high_gt": 0.05
+    },
+    "influence": {
+      "cooks_d_flag_gt": "4/(n-p)",
+      "dfbeta_flag_abs_gt": "2/sqrt(n)",
+      "externally_studentized_residual_flag_abs_gt": 3,
+      "flags_trigger_leave_one_case_audit": true,
+      "no_automatic_deletion": true,
+      "single_case_direction_change": "UNSTABLE_NOT_INTERPRETED",
+      "single_case_abs_d_change_ge": 0.2
+    },
+    "no_model_repair": true
+  },
+  "attenuation": {
+    "matched_n_required": true,
+    "d_base": "beta_base/sigma_base",
+    "d_adjusted": "beta_adjusted/sigma_adjusted",
+    "signed_delta_d": "d_adjusted-d_base",
+    "absolute_delta_d": "abs(d_adjusted-d_base)",
+    "magnitude_attenuation": "abs(d_base)-abs(d_adjusted)",
+    "percent_attenuation": "100*(abs(d_base)-abs(d_adjusted))/abs(d_base)",
+    "beta_change": "beta_adjusted-beta_base",
+    "residual_scale_contribution": "beta_base*(1/sigma_adjusted-1/sigma_base)",
+    "coefficient_contribution": "(beta_adjusted-beta_base)/sigma_adjusted",
+    "decomposition_tolerance_abs": 1e-12,
+    "if_abs_d_base_lt": 0.05,
+    "if_abs_d_base_lt_action": "percent attenuation NA",
+    "if_abs_beta_base_lt": 1e-8,
+    "if_abs_beta_base_lt_action": "coefficient percent attenuation NA",
+    "sign_reversal_action": "percent attenuation NA",
+    "increased_magnitude_action": "retain negative attenuation and label amplified",
+    "unstable_action": "report but do not interpret"
+  },
+  "taxonomy": {
+    "descriptive_only": true,
+    "precedence": [
+      "unstable",
+      "base_near_null_unclassifiable",
+      "sign_reversal",
+      "amplified",
+      "near_null_or_disappears_descriptively",
+      "same_direction_materially_attenuated",
+      "largely_retained"
+    ],
+    "base_near_null_unclassifiable": "abs(d_base)<0.05",
+    "sign_reversal": "nonzero d_base and d_adjusted have opposite signs",
+    "amplified": "same direction and abs(d_adjusted)>abs(d_base)+1e-12",
+    "near_null_or_disappears_descriptively": "abs(d_base)>=0.05 and abs(d_adjusted)<0.05 without sign reversal",
+    "same_direction_materially_attenuated": "same direction, abs(d_adjusted)>=0.05, magnitude attenuation>=0.10, and percent attenuation>=20",
+    "largely_retained": "all other stable same-direction comparisons",
+    "non_significance_is_never_disappearance": true,
+    "cannot_create_claim": true
+  },
+  "required_outputs": [
+    "n_subtype_counts_missingness_distributions",
+    "coefficient_se_t_ci_raw_p_direction_residual_sd_d_d_ci",
+    "exact_design_diagnostics_and_influence",
+    "matched_n_attenuation_and_decomposition_for_GATA2_SOX9",
+    "six_target_appendix",
+    "full_tsv_csv_json",
+    "manuscript_ready_sensitivity_table_without_manuscript_edit",
+    "missingness_and_distribution_tables",
+    "scripts_environment_commands_manifest_checksums",
+    "two_deterministic_producer_runs",
+    "independent_VALIDATION_REPORT",
+    "proposed_results_methods_limitations_wording_only"
+  ],
+  "reproducibility": {
+    "producer_runs": 2,
+    "fresh_environment_each_run": true,
+    "scientific_outputs_byte_identical": true,
+    "run_specific_provenance_excluded_from_scientific_byte_comparison": true,
+    "independent_critic_required": true
+  },
+  "upstream_reconciliation": {
+    "timing": "only after both new producer runs and checksums are complete",
+    "current_upstream_result_path_authorized": false,
+    "required_authorization": "Sophia supplies exact sealed upstream result path and SHA256",
+    "if_absent": "BLOCKED_PENDING_EXPLICIT_UPSTREAM_PIN",
+    "compare": "full_base C2 only",
+    "verdict_drift_forbidden": true,
+    "new_output_mutation_forbidden": true
+  },
+  "interpretation_firewall": [
+    "not a unique causal estimand",
+    "no purity-independence claim",
+    "no causal claim",
+    "no target category or verdict claim",
+    "no individual-patient claim",
+    "no treatment claim",
+    "no journal-selection claim",
+    "no manuscript change"
+  ],
+  "experimenter": {
+    "execution_root": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution",
+    "permitted_existing_paths": "exact paths in inputs array plus phase2_freeze package only",
+    "permitted_writes": "execution_root only",
+    "recursive_discovery": false,
+    "forbidden_paths": [
+      "data/external/original-workspace/task030-*",
+      "data/external/original-workspace/revgate-tcga-no-purity-verify",
+      "data/external/original-workspace/revgate-task-a-perclass",
+      "data/external/original-workspace/revgate",
+      "data/external/original-workspace/task028-freeze-b-draft/execution/results*",
+      "data/external/original-workspace/task028-freeze-b-draft/**/results/**",
+      "**/manuscript/**",
+      "**/*.docx",
+      "**/*.pdf",
+      "**/*figure*",
+      "**/*Figure*",
+      "any unpinned upstream result"
+    ],
+    "forbidden_actions": [
+      "edit src/**",
+      "edit any Phase-1 artifact",
+      "edit manuscript",
+      "stage commit push or create PR",
+      "change category reference contrast target or patient set after outcome access",
+      "drop a patient or covariate to improve fit",
+      "open CPTAC molecular data"
+    ]
+  },
+  "research_outcome_access_attestation": {
+    "scores_v3_npz": "SHA256 only; never loaded or listed",
+    "covariates_v3_tsv": "SHA256 plus one purpose-built header-only no-row inspection; no row inspected",
+    "patient_order_v3_json": "SHA256 only; content not inspected",
+    "molecular_results_accessed": false,
+    "task030_accessed": false,
+    "task_a_accessed": false,
+    "no_purity_verification_worktree_accessed": false,
+    "manuscript_or_figure_accessed": false,
+    "molecular_result_in_freeze": false
+  }
+}

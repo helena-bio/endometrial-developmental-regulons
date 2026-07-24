@@ -1,0 +1,45 @@
+{
+  "cptac_phase2_permitted": false,
+  "exact_full_molecular_design_tested": false,
+  "global_state": "RESTRICT_TCGA_ONLY",
+  "molecular_conclusion": "NONE; no molecular data or target estimates were accessed.",
+  "outcome_blind": true,
+  "per_cohort": {
+    "CPTAC_Confirmatory": {
+      "allowed_nodes": [],
+      "grade": "BLOCKED",
+      "histology": "BLOCKED",
+      "reason": "Two frozen analytic cases have two aliquots without an exact frozen selector; generic tumor_grade lacks locked FIGO semantics and histology has one retained level."
+    },
+    "CPTAC_Discovery": {
+      "allowed_nodes": [],
+      "grade": "BLOCKED",
+      "histology": "BLOCKED",
+      "reason": "One frozen analytic case has two distinct Primary Tumor samples without an exact frozen selector; grade high level is below support and cBio/PDC histology conflicts exist."
+    },
+    "TCGA": {
+      "allowed_nodes": [
+        "base",
+        "base_plus_histology",
+        "endometrioid_only"
+      ],
+      "forbidden_nodes": [
+        "base_plus_grade_all_histologies",
+        "base_plus_grade_plus_histology",
+        "optional_grade_stratified"
+      ],
+      "grade": "PARTIAL_MODEL_HIERARCHY",
+      "histology": "PASS",
+      "reason": "Exact linkage; binary histology and endometrioid-restricted grade node supported; all-histology grade semantics not documented; optional low-grade stratum fails the frozen leverage rule, so the required pair of grade strata is not supported."
+    }
+  },
+  "per_variable": {
+    "grade": "RESTRICT_TCGA_ONLY",
+    "histology": "RESTRICT_TCGA_ONLY"
+  },
+  "phase2_after_fresh_critic_and_sophia_authorization": "TCGA_ONLY_SUPPORTED_NODES",
+  "phase2_currently_permitted": false,
+  "phase2_must_repeat_exact_full_design_diagnostics": true,
+  "precedence_application": "CPTAC stratum BLOCKED states are retained; the defined RESTRICT_TCGA_ONLY state applies globally because TCGA has supported requested nodes and every CPTAC route is blocked.",
+  "schema_version": "1.0.0"
+}

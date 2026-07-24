@@ -1,0 +1,140 @@
+{
+  "analysis": {
+    "config_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/EXECUTION_CONFIG.json",
+    "config_sha256": "45d1f85dd7e23f9cfc3447625cbb97ee94f41b122ffba09cd8a06a7c447e01f4",
+    "cycle5_plumbing_fix_only": true,
+    "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/run_phase2.py",
+    "postseal_analysis_edit": false,
+    "postseal_config_edit": false,
+    "postseal_execution_count": 2,
+    "postseal_retry": false,
+    "sha256": "4f5d4959a5b4bf6964ff7858eefb8cf181ced2de93fbc98d00c6c5058265c2aa"
+  },
+  "branch": "experiment/task-b-grade-histology-sensitivity",
+  "byte_identity": {
+    "report_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/BYTE_IDENTITY_REPORT.json",
+    "report_sha256": "775e420352f51bf82dbf8338ff50837b44d285b9c6573685355fd0f0814f129b",
+    "scientific_file_count": 13,
+    "status": "BYTE_IDENTICAL"
+  },
+  "classification": "HYPOTHESIS_POST_HOC_EXPLANATORY_SENSITIVITY_PHASE2",
+  "commands": {
+    "bootstrap_note": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/audit_bootstrap.txt",
+    "chronological_table": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/COMMANDS_CHRONOLOGICAL.tsv",
+    "completed_logged_shell_commands_in_table": 102,
+    "raw_audit_directory": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/audit"
+  },
+  "completed_utc": "2026-07-23T11:02:33Z",
+  "critic_required": true,
+  "deviations": [
+    {
+      "id": "D1",
+      "scientific_effect": "none; no outcome was opened and no fit used real outcomes",
+      "severity": "DISCLOSED_PRESEAL_PLUMBING",
+      "text": "Two pre-seal synthetic computations passed, but strace followed live tee helpers and deadlocked. Both attempts and exit-137 tracer terminations are preserved. The audit wrapper was corrected before sealing; the third traced synthetic test passed and exited cleanly."
+    },
+    {
+      "id": "D2",
+      "scientific_effect": "none; pre-seal and before outcome access",
+      "severity": "DISCLOSED_AUDIT_BOOTSTRAP",
+      "text": "One post-patch attempt to invoke audit_exec.sh directly failed with Permission denied before the wrapper could log itself; the exact command and error are disclosed in COMMAND_COVERAGE_NOTE.md and the tool transcript. The immediately following bash-invoked command restored executable mode and is logged."
+    },
+    {
+      "id": "D3",
+      "scientific_effect": "none on Cycle-6 computation; broader-than-needed upstream read disclosed",
+      "severity": "DISCLOSED_RECONCILIATION_SCOPE",
+      "text": "While resolving Task-028 module identifiers after output freeze, a filtered command printed GATA2/SOX9 C1 and C3 rows in addition to the authorized C2 rows. This occurred only after both Cycle-6 outputs were read-only and byte-frozen; no analysis code, taxonomy, output, or verdict changed."
+    },
+    {
+      "id": "D4",
+      "scientific_effect": "none; all six point estimates reconciled to Task-028",
+      "severity": "DISCLOSED_UPSTREAM_COVERAGE",
+      "text": "The pinned Task-030 point table contains GATA2, SOX9, HOXA9, and WT1 only. The pinned Task-028 primary and no-purity tables supplied all six targets, including PAX8 and LHX1."
+    },
+    {
+      "id": "D5",
+      "scientific_effect": "none; both scientific executions had already succeeded and been made read-only",
+      "severity": "DISCLOSED_PROVENANCE_CLOSEOUT",
+      "text": "The first provenance-only finalizer attempt stopped before writing the manifest because the trace auditor treated bwrap ancestor-directory traversal as an unexpected workspace access. The raw traceback and exit status are preserved. The auditor was corrected to allow only lexical ancestors of the sealed Cycle-6 root and then rerun; frozen run1/run2 files were never changed."
+    }
+  ],
+  "environment": {
+    "interpreter": "/usr/bin/python3",
+    "network_isolation": "bwrap --unshare-net",
+    "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/ENVIRONMENT.txt",
+    "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+    "sha256": "ffd1b79c3d6a9e8357760219578a1c7010ece06374b40b2a8e944a986b985c92"
+  },
+  "git_commit": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+  "pre_outcome_seal": {
+    "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/PRE_OUTCOME_EXECUTION_SEAL.json",
+    "sealed_before_outcome_load": true,
+    "sha256": "a829e3664ab6c73e8e95c805d055d0e35b90852b77fc8224cc6fb33ff5962cc0",
+    "validated_input_hash_count": 16
+  },
+  "prohibited_changes": {
+    "docs_changed": false,
+    "frozen_tcga_cptac_verdict_changed": false,
+    "manuscript_changed": false,
+    "src_changed": false,
+    "staged_or_committed": false,
+    "target_category_changed": false
+  },
+  "raw_numbers_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/RAW_NUMBERS.json",
+  "raw_numbers_sha256": "f528a4713b1a040a09968ddd68a7fdeb59b19cb30706d6d898e5a5a2962f72c4",
+  "runs": {
+    "run1": {
+      "exit_code": 0,
+      "open_trace_sha256": "2af6bc1f20bb1238f1ca306b1f45df7162339256c157b42ec13e5b374844c205",
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/run1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "37ed14b8b73abb37bab563c7e0ef70115fe918f06f0af24e4d55f400b2642cd4"
+    },
+    "run2": {
+      "exit_code": 0,
+      "open_trace_sha256": "aa311af634a47edcb5238bb2af5695d88def43e827bb37118571faba05ff1de7",
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/run2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "37ed14b8b73abb37bab563c7e0ef70115fe918f06f0af24e4d55f400b2642cd4"
+    }
+  },
+  "schema_version": "1.0.0",
+  "scientific_output_hashes": {
+    "ANALYTICAL_REPORT.md": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+    "CLINICAL_DISTRIBUTIONS.tsv": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+    "COHORT_COUNTS.tsv": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+    "INFLUENCE_RECORDS.tsv": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+    "INPUT_ACCESS_INVENTORY.tsv": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+    "MANUSCRIPT_READY_SENSITIVITY_TABLE.tsv": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+    "MATCHED_DECOMPOSITIONS.tsv": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+    "MISSINGNESS.tsv": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+    "MODEL_DIAGNOSTICS.tsv": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+    "MODEL_RESULTS.tsv": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+    "PROPOSED_WORDING.md": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+    "SCIENTIFIC_RESULTS.json": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+    "SIX_TARGET_APPENDIX.tsv": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090"
+  },
+  "scientific_verdict": "NONE_PRODUCER_DOES_NOT_DECIDE",
+  "scope": "TCGA-UCEC only; post-hoc explanatory sensitivity; no CPTAC adjusted inference",
+  "seed": 20260713,
+  "status": "DONE",
+  "subseed_rule": "first 8 bytes big-endian SHA256 of ASCII 20260713|TASKB_PHASE2|<analysis_step_id>",
+  "trace_audit": {
+    "forbidden_path_match_count": 0,
+    "internet_connect_count": 0,
+    "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/POSTSEAL_TRACE_AUDIT.json",
+    "sha256": "81f23fb2190721ff72287d7371f4646ad04744c081475aae463f7bf87a717937",
+    "status": "PASS"
+  },
+  "upstream_reconciliation": {
+    "check_count": 54,
+    "max_absolute_delta": 4.440892098500626e-15,
+    "mismatch_count": 0,
+    "new_output_mutation": false,
+    "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/UPSTREAM_POINT_ESTIMATE_RECONCILIATION.json",
+    "performed_after_output_freeze": true,
+    "sha256": "8cbc77e9209a5dd6f2791e04bd1409137cf9e1fb3081ff3e5dee1637d7616230",
+    "status": "MATCH",
+    "verdict_or_category_mutation": false
+  }
+}

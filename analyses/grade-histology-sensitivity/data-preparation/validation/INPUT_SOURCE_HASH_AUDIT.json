@@ -1,0 +1,798 @@
+{
+  "acquired_6": [
+    {
+      "actual": "4af93f837dda71a50b6e5010fb63404b851f29ed4b671f611351c1d6af3c3edc",
+      "expected": "4af93f837dda71a50b6e5010fb63404b851f29ed4b671f611351c1d6af3c3edc",
+      "match": true,
+      "path": "tcga_cbio_grade.json"
+    },
+    {
+      "actual": "fce9c7b47ef10a85876cc92c8b1eee330246db91a4c20b0403f9b9ce0f4a89b9",
+      "expected": "fce9c7b47ef10a85876cc92c8b1eee330246db91a4c20b0403f9b9ce0f4a89b9",
+      "match": true,
+      "path": "tcga_cbio_icdo_histology.json"
+    },
+    {
+      "actual": "287b4a02df4f41c3ff64727215bf56a003b6d048e7d20e06af1e359d9d5075d9",
+      "expected": "287b4a02df4f41c3ff64727215bf56a003b6d048e7d20e06af1e359d9d5075d9",
+      "match": true,
+      "path": "cptac_discovery_grade.json"
+    },
+    {
+      "actual": "4133634004e840605a9e1fc9c3b4a1cafeeb8dd182fcf4a5dc9f5cfef7e17393",
+      "expected": "4133634004e840605a9e1fc9c3b4a1cafeeb8dd182fcf4a5dc9f5cfef7e17393",
+      "match": true,
+      "path": "cptac_discovery_histology.json"
+    },
+    {
+      "actual": "8143943f3084a93ee1e49a62f892c8ac02b16efd74ee7a5e42df8109157e442e",
+      "expected": "8143943f3084a93ee1e49a62f892c8ac02b16efd74ee7a5e42df8109157e442e",
+      "match": true,
+      "path": "pdc_PDC000125_grade_histology.json"
+    },
+    {
+      "actual": "de0dc78e2705070d8b21d0fb3db8c2a777a246ef49398036872fc0c6abebe61d",
+      "expected": "de0dc78e2705070d8b21d0fb3db8c2a777a246ef49398036872fc0c6abebe61d",
+      "match": true,
+      "path": "pdc_PDC000439_grade_histology.json"
+    }
+  ],
+  "allowlisted_12": [
+    {
+      "actual": "e6f9d390730bff4248379b2280b12e2914ec800e2f56516b466f2151b169f3be",
+      "expected": "e6f9d390730bff4248379b2280b12e2914ec800e2f56516b466f2151b169f3be",
+      "match": true,
+      "path": "data/external/original-workspace/task027-acquire-freeze-a/freeze_a_redux/cohort_selected_primary.tsv"
+    },
+    {
+      "actual": "17a899a4869fccf806859342454bde440027786a48bdd50f1d1eace810b1ef9e",
+      "expected": "17a899a4869fccf806859342454bde440027786a48bdd50f1d1eace810b1ef9e",
+      "match": true,
+      "path": "data/external/original-workspace/task024-freeze-a/subtype_normalized.tsv"
+    },
+    {
+      "actual": "315a9d29f1add19fd90db85188762937ac2e49262d64a51813aca5fb5ccb48ad",
+      "expected": "315a9d29f1add19fd90db85188762937ac2e49262d64a51813aca5fb5ccb48ad",
+      "match": true,
+      "path": "data/external/original-workspace/task029-external-replication-feasibility/join_tables/discovery_join.json"
+    },
+    {
+      "actual": "95b9f754970e7f0691faddf6e350aca6cfe465c5c0c98600a4ed34ebbfe43743",
+      "expected": "95b9f754970e7f0691faddf6e350aca6cfe465c5c0c98600a4ed34ebbfe43743",
+      "match": true,
+      "path": "data/external/original-workspace/task029-external-replication-feasibility/join_tables/confirmatory_join.json"
+    },
+    {
+      "actual": "25161910befe62fea99ba5d754e0e43f8d2d80413538b8bfcac0c52aa5e58e6e",
+      "expected": "25161910befe62fea99ba5d754e0e43f8d2d80413538b8bfcac0c52aa5e58e6e",
+      "match": true,
+      "path": "data/external/original-workspace/task029-external-replication-feasibility/sources/cbio_2020_clinattr.json"
+    },
+    {
+      "actual": "96794b79b83a663a9caf5dc51dce3d71a29983040a2b4125f972a100c7627628",
+      "expected": "96794b79b83a663a9caf5dc51dce3d71a29983040a2b4125f972a100c7627628",
+      "match": true,
+      "path": "data/external/original-workspace/task029-external-replication-feasibility/sources_task029gate/uec_cptac_gdc_clinattr.json"
+    },
+    {
+      "actual": "61d05e1298312fbdf98e23b027b93e9b0310612baf1fc9fb6fe088913bc08291",
+      "expected": "61d05e1298312fbdf98e23b027b93e9b0310612baf1fc9fb6fe088913bc08291",
+      "match": true,
+      "path": "data/external/original-workspace/task029-external-replication-feasibility/sources/pdc_clin_PDC000125.json"
+    },
+    {
+      "actual": "6ff6418b4f201d7f2db3b1c69617d3435a01b4877cf37a06f4c56a4fb7ba4012",
+      "expected": "6ff6418b4f201d7f2db3b1c69617d3435a01b4877cf37a06f4c56a4fb7ba4012",
+      "match": true,
+      "path": "data/external/original-workspace/task029-external-replication-feasibility/sources/pdc_clin_PDC000439.json"
+    },
+    {
+      "actual": "c98f51f1ec9916252a210c40fae93adfe2ae42e998decdac5adbf82c8bd3b74e",
+      "expected": "c98f51f1ec9916252a210c40fae93adfe2ae42e998decdac5adbf82c8bd3b74e",
+      "match": true,
+      "path": "data/external/original-workspace/task029-external-replication-feasibility/sources/pdc_discovery_biospec.json"
+    },
+    {
+      "actual": "bc159c1d0500cce635b7631a069c814a9f3c802f947dc3c9bf828573e0b7aae9",
+      "expected": "bc159c1d0500cce635b7631a069c814a9f3c802f947dc3c9bf828573e0b7aae9",
+      "match": true,
+      "path": "data/external/original-workspace/task029-external-replication-feasibility/sources/pdc_confirmatory_biospec.json"
+    },
+    {
+      "actual": "4e5fd1736d2b5a17f6cd66929953a6893f4858a0a480480faa26ccafd2e798c8",
+      "expected": "4e5fd1736d2b5a17f6cd66929953a6893f4858a0a480480faa26ccafd2e798c8",
+      "match": true,
+      "path": "data/external/original-workspace/task029-external-replication-feasibility/sources_task029gate/gdc_case_mapping.json"
+    },
+    {
+      "actual": "87514a428a9cf4810621ff7c46f5c6696f78bda2e3fecf66e7fe9920cbe9fbda",
+      "expected": "87514a428a9cf4810621ff7c46f5c6696f78bda2e3fecf66e7fe9920cbe9fbda",
+      "match": true,
+      "path": "data/external/original-workspace/task029-external-replication-feasibility/sources_task029gate/gdc_rna_primary_by_case.json"
+    }
+  ],
+  "inventory": [
+    {
+      "exists": true,
+      "relative_path": "ALLOWLIST_VALIDATION.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/ALLOWLIST_VALIDATION.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "CANONICAL_RUN_COMPARISON.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/CANONICAL_RUN_COMPARISON.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "COMMANDS.txt",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/COMMANDS.txt",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "ENVIRONMENT.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/ENVIRONMENT.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "EXPERIMENTER_ACCESS_LOG.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/EXPERIMENTER_ACCESS_LOG.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "INPUTS_LOCK.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/INPUTS_LOCK.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "OPEN_FILE_AUDIT.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/OPEN_FILE_AUDIT.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "OPEN_FILE_AUDIT_SUMMARY.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/OPEN_FILE_AUDIT_SUMMARY.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "PREFLIGHT_SCHEMA_REPORT.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/PREFLIGHT_SCHEMA_REPORT.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "PRESERVATION_STATUS.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/PRESERVATION_STATUS.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "REPRODUCIBILITY_MANIFEST.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/REPRODUCIBILITY_MANIFEST.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "STATIC_SCAN_REPORT.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/STATIC_SCAN_REPORT.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquire_inputs.py",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquire_inputs.py",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition/raw_round_1/cptac_discovery_cbio_grade.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition/raw_round_1/cptac_discovery_cbio_grade.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition/raw_round_1/cptac_discovery_cbio_histology.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition/raw_round_1/cptac_discovery_cbio_histology.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition/raw_round_1/pdc_PDC000125.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition/raw_round_1/pdc_PDC000125.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition/raw_round_1/pdc_PDC000439.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition/raw_round_1/pdc_PDC000439.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition/raw_round_1/tcga_cbio_grade.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition/raw_round_1/tcga_cbio_grade.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition/raw_round_1/tcga_cbio_icdo_histology.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition/raw_round_1/tcga_cbio_icdo_histology.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition/raw_round_2/cptac_discovery_cbio_grade.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition/raw_round_2/cptac_discovery_cbio_grade.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition/raw_round_2/cptac_discovery_cbio_histology.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition/raw_round_2/cptac_discovery_cbio_histology.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition/raw_round_2/pdc_PDC000125.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition/raw_round_2/pdc_PDC000125.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition/raw_round_2/pdc_PDC000439.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition/raw_round_2/pdc_PDC000439.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition/raw_round_2/tcga_cbio_grade.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition/raw_round_2/tcga_cbio_grade.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition/raw_round_2/tcga_cbio_icdo_histology.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition/raw_round_2/tcga_cbio_icdo_histology.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition/round_1_metadata.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition/round_1_metadata.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition/round_2_metadata.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition/round_2_metadata.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition_round1_open_trace.log",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition_round1_open_trace.log",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition_round1_retry_open_trace.log",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition_round1_retry_open_trace.log",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "acquisition_round2_open_trace.log",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition_round2_open_trace.log",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "audit_phase1.py",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/audit_phase1.py",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "closeout.py",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/closeout.py",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "finalize_inputs_lock.py",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/finalize_inputs_lock.py",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "preflight_validate.py",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/preflight_validate.py",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run1/DESIGN_DIAGNOSTICS.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/DESIGN_DIAGNOSTICS.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run1/FROZEN_HARMONIZATION_SPEC.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/FROZEN_HARMONIZATION_SPEC.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run1/HARMONIZATION_MAP.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/HARMONIZATION_MAP.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run1/LINKAGE_LEDGER.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/LINKAGE_LEDGER.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run1/MISSINGNESS.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/MISSINGNESS.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run1/OUTCOME_FIREWALL_ATTESTATION.txt",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/OUTCOME_FIREWALL_ATTESTATION.txt",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run1/PHASE1_DECISION.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/PHASE1_DECISION.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run1/PHASE1_FEASIBILITY_REPORT.md",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/PHASE1_FEASIBILITY_REPORT.md",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run1/RAW_CATEGORY_COUNTS.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/RAW_CATEGORY_COUNTS.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run1/SOURCE_FIELD_DICTIONARY.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/SOURCE_FIELD_DICTIONARY.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run1/SUBTYPE_BY_PROPOSED_CATEGORY.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/SUBTYPE_BY_PROPOSED_CATEGORY.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run1/SUBTYPE_BY_RAW_CATEGORY.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/SUBTYPE_BY_RAW_CATEGORY.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run1_complete_open_trace.log",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1_complete_open_trace.log",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run2/DESIGN_DIAGNOSTICS.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2/DESIGN_DIAGNOSTICS.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run2/FROZEN_HARMONIZATION_SPEC.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2/FROZEN_HARMONIZATION_SPEC.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run2/HARMONIZATION_MAP.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2/HARMONIZATION_MAP.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run2/LINKAGE_LEDGER.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2/LINKAGE_LEDGER.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run2/MISSINGNESS.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2/MISSINGNESS.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run2/OUTCOME_FIREWALL_ATTESTATION.txt",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2/OUTCOME_FIREWALL_ATTESTATION.txt",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run2/PHASE1_DECISION.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2/PHASE1_DECISION.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run2/PHASE1_FEASIBILITY_REPORT.md",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2/PHASE1_FEASIBILITY_REPORT.md",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run2/RAW_CATEGORY_COUNTS.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2/RAW_CATEGORY_COUNTS.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run2/SOURCE_FIELD_DICTIONARY.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2/SOURCE_FIELD_DICTIONARY.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run2/SUBTYPE_BY_PROPOSED_CATEGORY.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2/SUBTYPE_BY_PROPOSED_CATEGORY.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run2/SUBTYPE_BY_RAW_CATEGORY.tsv",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2/SUBTYPE_BY_RAW_CATEGORY.tsv",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "run2_complete_open_trace.log",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2_complete_open_trace.log",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "static_scan.py",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/static_scan.py",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "trace_audit.py",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/trace_audit.py",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "inputs/cptac_discovery_grade.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/inputs/cptac_discovery_grade.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "inputs/cptac_discovery_histology.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/inputs/cptac_discovery_histology.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "inputs/pdc_PDC000125_grade_histology.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/inputs/pdc_PDC000125_grade_histology.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "inputs/pdc_PDC000439_grade_histology.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/inputs/pdc_PDC000439_grade_histology.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "inputs/tcga_cbio_grade.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/inputs/tcga_cbio_grade.json",
+      "sha_match": true,
+      "size_match": true
+    },
+    {
+      "exists": true,
+      "relative_path": "inputs/tcga_cbio_icdo_histology.json",
+      "resolved_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/inputs/tcga_cbio_icdo_histology.json",
+      "sha_match": true,
+      "size_match": true
+    }
+  ],
+  "inventory_all_match": true,
+  "inventory_path_resolution": "inputs/* relative to task root; all other rows relative to phase1_execution",
+  "inventory_rows": 68,
+  "inventory_sha256": "b2f93e2d4feb93ea4b8c001f0e7a8fa6509be6748b1ec4ad00154cc663657508",
+  "manifest_all_references_match": true,
+  "manifest_reference_count": 43,
+  "manifest_references": [
+    {
+      "match": true,
+      "reference": "protocol:ALLOWED_INPUTS_AND_OUTCOME_FIREWALL.json"
+    },
+    {
+      "match": true,
+      "reference": "protocol:PHASE1_FEASIBILITY_RULES.json"
+    },
+    {
+      "match": true,
+      "reference": "protocol:PHASE1_OUTCOME_BLIND_PROTOCOL.md"
+    },
+    {
+      "match": true,
+      "reference": "protocol:RESEARCH_ACCESS_LOG.tsv"
+    },
+    {
+      "match": true,
+      "reference": "input:cptac_discovery_cbio_grade"
+    },
+    {
+      "match": true,
+      "reference": "input:cptac_discovery_cbio_histology"
+    },
+    {
+      "match": true,
+      "reference": "input:pdc_PDC000125"
+    },
+    {
+      "match": true,
+      "reference": "input:pdc_PDC000439"
+    },
+    {
+      "match": true,
+      "reference": "input:tcga_cbio_grade"
+    },
+    {
+      "match": true,
+      "reference": "input:tcga_cbio_icdo_histology"
+    },
+    {
+      "match": true,
+      "reference": "code:acquire_inputs.py"
+    },
+    {
+      "match": true,
+      "reference": "code:audit_phase1.py"
+    },
+    {
+      "match": true,
+      "reference": "code:closeout.py"
+    },
+    {
+      "match": true,
+      "reference": "code:finalize_inputs_lock.py"
+    },
+    {
+      "match": true,
+      "reference": "code:preflight_validate.py"
+    },
+    {
+      "match": true,
+      "reference": "code:static_scan.py"
+    },
+    {
+      "match": true,
+      "reference": "code:trace_audit.py"
+    },
+    {
+      "match": true,
+      "reference": "run1:DESIGN_DIAGNOSTICS.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run2:DESIGN_DIAGNOSTICS.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run1:FROZEN_HARMONIZATION_SPEC.json"
+    },
+    {
+      "match": true,
+      "reference": "run2:FROZEN_HARMONIZATION_SPEC.json"
+    },
+    {
+      "match": true,
+      "reference": "run1:HARMONIZATION_MAP.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run2:HARMONIZATION_MAP.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run1:LINKAGE_LEDGER.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run2:LINKAGE_LEDGER.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run1:MISSINGNESS.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run2:MISSINGNESS.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run1:OUTCOME_FIREWALL_ATTESTATION.txt"
+    },
+    {
+      "match": true,
+      "reference": "run2:OUTCOME_FIREWALL_ATTESTATION.txt"
+    },
+    {
+      "match": true,
+      "reference": "run1:PHASE1_DECISION.json"
+    },
+    {
+      "match": true,
+      "reference": "run2:PHASE1_DECISION.json"
+    },
+    {
+      "match": true,
+      "reference": "run1:PHASE1_FEASIBILITY_REPORT.md"
+    },
+    {
+      "match": true,
+      "reference": "run2:PHASE1_FEASIBILITY_REPORT.md"
+    },
+    {
+      "match": true,
+      "reference": "run1:RAW_CATEGORY_COUNTS.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run2:RAW_CATEGORY_COUNTS.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run1:SOURCE_FIELD_DICTIONARY.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run2:SOURCE_FIELD_DICTIONARY.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run1:SUBTYPE_BY_PROPOSED_CATEGORY.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run2:SUBTYPE_BY_PROPOSED_CATEGORY.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run1:SUBTYPE_BY_RAW_CATEGORY.tsv"
+    },
+    {
+      "match": true,
+      "reference": "run2:SUBTYPE_BY_RAW_CATEGORY.tsv"
+    },
+    {
+      "match": true,
+      "reference": "input_lock"
+    },
+    {
+      "match": true,
+      "reference": "static_scan"
+    }
+  ],
+  "protocol_4": [
+    {
+      "actual": "09c6950e997b9c2534180d34c86e246ba749943b07a4f6bed62f5cbcea5ee2b9",
+      "expected": "09c6950e997b9c2534180d34c86e246ba749943b07a4f6bed62f5cbcea5ee2b9",
+      "match": true,
+      "path": "PHASE1_OUTCOME_BLIND_PROTOCOL.md"
+    },
+    {
+      "actual": "aa1eaea70991d9e915f499243a11964e01b7242c2f190cac783661b896e1eb42",
+      "expected": "aa1eaea70991d9e915f499243a11964e01b7242c2f190cac783661b896e1eb42",
+      "match": true,
+      "path": "PHASE1_FEASIBILITY_RULES.json"
+    },
+    {
+      "actual": "40e11800d4d5f56388ca7563886215d07e219dc6d8f440b7069e0d3be772615b",
+      "expected": "40e11800d4d5f56388ca7563886215d07e219dc6d8f440b7069e0d3be772615b",
+      "match": true,
+      "path": "ALLOWED_INPUTS_AND_OUTCOME_FIREWALL.json"
+    },
+    {
+      "actual": "bd754088fe6d8528b5f5ddbdb0246a956834d06e75fc8b5cebd6ffa20934352b",
+      "expected": "bd754088fe6d8528b5f5ddbdb0246a956834d06e75fc8b5cebd6ffa20934352b",
+      "match": true,
+      "path": "RESEARCH_ACCESS_LOG.tsv"
+    }
+  ]
+}

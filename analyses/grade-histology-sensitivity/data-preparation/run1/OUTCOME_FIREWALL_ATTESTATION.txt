@@ -1,0 +1,7 @@
+I did not open or load any molecular score, expression matrix, target result, coefficient, effect-size table, figure, manuscript, or Task A scientific artifact.
+Every input byte read is either SHA-pinned above or was acquired by an exact field-restricted specification and locked before values were inspected.
+No clinical category, exclusion, collapse, or mapping was selected after a molecular outcome was seen.
+Unknown and conflicting annotations remained missing.
+If clean separation failed, I stopped and returned BLOCKED.
+No Phase-2 molecular model was run.
+The exact full molecular design remains untested and is gated for a separately authorized Phase 2.

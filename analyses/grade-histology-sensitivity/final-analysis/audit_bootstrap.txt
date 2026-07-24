@@ -1,0 +1,9 @@
+Cycle 6 audit bootstrap
+
+The first filesystem command created this cycle-owned directory:
+mkdir -p data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6
+
+The next action created audit_exec.sh and this bootstrap record with the
+apply_patch tool. All subsequent shell commands are executed through
+audit_exec.sh and receive immutable per-command stdout, stderr, metadata,
+exit-status, timestamps, and checksums.

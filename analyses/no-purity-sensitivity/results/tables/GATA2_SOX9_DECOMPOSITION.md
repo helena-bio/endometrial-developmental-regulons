@@ -1,0 +1,14 @@
+# GATA2 and SOX9 purity correlations and delta-d decomposition
+
+Both Pearson product-moment and Spearman rank correlations are reported because the binding TASK-030 diagnostic reported both without designating one as the sole primary correlation. n=506 complete Aran-CPE cases.
+
+The binding symmetric Shapley decomposition is exact for d=b/s: coefficient component = 0.5*(b1-b0)*(1/s0+1/s1); residual-scale component = 0.5*(b0+b1)*(1/s1-1/s0); delta d = coefficient component + residual-scale component. The TSV also reports d-b/s algebra errors and sum-to-delta residuals.
+
+| target | stage | correlation_n | pearson_r_score_vs_Aran_CPE | spearman_rho_score_vs_Aran_CPE | from_coefficient | from_residual_sd | from_d | to_coefficient | to_residual_sd | to_d | delta_d | coefficient_component | residual_scale_component | sum_to_delta_residual |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| GATA2 | purity_covariate_removal_common_n506 | 506 | -0.2348589034049991 | -0.2905596083281568 | -4.350546249801706 | 7.866733242530207 | -0.5530308599103358 | -4.253910738628477 | 7.887491856298368 | -0.5393236298851602 | 0.0137072300251757 | 0.0122679063358542 | 0.0014393236893214 | -1.9298798670241976e-17 |
+| GATA2 | sample_set_change_common_n506_to_official_n507 | 506 | -0.2348589034049991 | -0.2905596083281568 | -4.253910738628477 | 7.887491856298368 | -0.5393236298851602 | -4.247921749727045 | 7.879739129225472 | -0.5390942111232796 | 0.0002294187618806 | 0.0007596756025042 | -0.0005302568406236 | -1.713039432527097e-17 |
+| GATA2 | total_primary_n506_to_official_n507 | 506 | -0.2348589034049991 | -0.2905596083281568 | -4.350546249801706 | 7.866733242530207 | -0.5530308599103358 | -4.247921749727045 | 7.879739129225472 | -0.5390942111232796 | 0.0139366487870563 | 0.0130346108845925 | 0.0009020379024637 | -3.393552799879629e-17 |
+| SOX9 | purity_covariate_removal_common_n506 | 506 | -0.0321865915827802 | -0.0788336805717928 | -4.242428087949566 | 8.048453155611265 | -0.5271109871580488 | -4.094344216784874 | 8.10596351931286 | -0.505102719378134 | 0.0220082677799148 | 0.0183337784292624 | 0.0036744893506524 | -7.676151381197371e-17 |
+| SOX9 | sample_set_change_common_n506_to_official_n507 | 506 | -0.0321865915827802 | -0.0788336805717928 | -4.094344216784874 | 8.10596351931286 | -0.505102719378134 | -4.123034660762284 | 8.100614878917622 | -0.5089779877688975 | -0.0038752683907635 | -0.003540592763921 | -0.0003346756268425 | -5.854691731421724e-18 |
+| SOX9 | total_primary_n506_to_official_n507 | 506 | -0.0321865915827802 | -0.0788336805717928 | -4.242428087949566 | 8.048453155611265 | -0.5271109871580488 | -4.123034660762284 | 8.100614878917622 | -0.5089779877688975 | 0.0181329993891512 | 0.0147865712839697 | 0.0033464281051815 | -8.023096076392733e-17 |

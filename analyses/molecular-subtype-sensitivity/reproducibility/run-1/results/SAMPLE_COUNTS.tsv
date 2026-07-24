@@ -1,0 +1,5 @@
+model	observed_total	observed_POLE	observed_MMRd	observed_NSMP	observed_p53abn	expected_total	expected_POLE	expected_MMRd	expected_NSMP	expected_p53abn	match
+TCGA_PRIMARY_CPE_N506	506	49	148	146	163	506	49	148	146	163	True
+TCGA_NOPURITY_N507	507	49	148	147	163	507	49	148	147	163	True
+CPTAC_DISCOVERY_N95	95	7	25	43	20	95	7	25	43	20	True
+CPTAC_CONFIRMATORY_N135	135	6	47	66	16	135	6	47	66	16	True

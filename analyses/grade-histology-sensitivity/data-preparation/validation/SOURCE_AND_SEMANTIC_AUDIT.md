@@ -1,0 +1,13 @@
+# Source and semantic audit
+
+Status: PASS for the stated restrictive interpretation.
+
+- The six official responses are exact field-restricted clinical payloads. cBio records carry only the requested clinical attribute plus patient/sample linkage keys. PDC records carry only case linkage, morphology, primary diagnosis, and generic tumour grade. Live reviewer refetches returned the identical producer bytes twice.
+- cBioPortal documents clinical attributes as study-author-defined/free-form rather than a universal ontology. Therefore the TCGA sample-level `GRADE` token cannot silently be treated as a common all-histology FIGO construct. Restriction of its G1/G2/G3 mapping to endometrioid carcinoma is conservative and required. Official documentation: https://docs.cbioportal.org/file-formats/ and https://docs.cbioportal.org/supported-data-types/.
+- The locked CPTAC Discovery dictionary explicitly defines `HISTOLOGIC_GRADE_FIGO` as Histologic FIGO Grade. The PDC field is only generic `tumor_grade`; the locked local dictionary does not establish FIGO meaning for Confirmatory. Confirmatory grade is therefore unavailable, not inferentially repaired.
+- ISGYP pathology recommendations define binary FIGO for endometrioid carcinoma as grades 1-2 low versus grade 3 high and distinguish serous/clear-cell/undifferentiated/carcinosarcoma entities from FIGO grade-3 endometrioid carcinoma. Non-endometrioid tumours must not be manufactured as grade 3. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6295928/.
+- Official SEER/ICD-O material supports 8380/3 as endometrioid adenocarcinoma and 8441/3 as serous carcinoma; the remaining frozen code map is consistent with the declared non-endometrioid classes. 8140/3 is adenocarcinoma NOS and correctly remains missing rather than being inferred. Sources: https://seer.cancer.gov/icd-o-3/ and https://seer.cancer.gov/seer-inquiry/inquiry-detail/20200023/.
+- Discovery cBio versus PDC values disagree for 16 ordinal grade records (7 cross the binary boundary) and 12 histology records. Generic PDC grade is not substituted for explicit cBio FIGO grade. Same-precedence histology conflicts remain missing; there is no preferred-source rescue.
+- The outcome-independent map follows the pre-acquisition protocol semantics and official tokens. Its SHA-256 is `c4252fd1d17a07212852a894631afd7a8df3b331ccf9aed314869b0e5512a362`. No molecular outcome was available to choose or tune a category. Phase 2, if separately authorized, must reuse this map without modification.
+
+Semantic limitation: compatible labels do not prove identical pathology review across TCGA, CPTAC Discovery, and CPTAC Confirmatory. No clinical coefficient may be raw-pooled across cohorts.

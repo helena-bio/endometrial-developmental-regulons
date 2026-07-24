@@ -1,0 +1,9 @@
+{
+  "critic_owned_write_scope": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_critic",
+  "docs_unstaged_diff_bytes": 0,
+  "forbidden_content_open_count_in_critic_traces": 0,
+  "limitation": "No reviewer start snapshot exists for every external dirty worktree or manuscript byte. Hash-only/current-state evidence cannot prove historical preservation. The reviewer wrote only under phase1_critic, and its traces show zero forbidden content opens.",
+  "producer_inventory_68_unchanged": true,
+  "protocol_researcher_hashes_unchanged": true,
+  "src_unstaged_diff_bytes": 0
+}

@@ -1,0 +1,2953 @@
+{
+  "branch": "experiment/task-b-grade-histology-sensitivity",
+  "commands": {
+    "chronological_table_count": 102,
+    "chronological_table_extra_ids": [],
+    "chronological_table_ids": [
+      "0001",
+      "0002",
+      "0003",
+      "0004",
+      "0005",
+      "0006",
+      "0007",
+      "0008",
+      "0009",
+      "0010",
+      "0011",
+      "0012",
+      "0013",
+      "0014",
+      "0015",
+      "0016",
+      "0017",
+      "0018",
+      "0019",
+      "0020",
+      "0021",
+      "0022",
+      "0023",
+      "0024",
+      "0025",
+      "0026",
+      "0027",
+      "0028",
+      "0029",
+      "0030",
+      "0031",
+      "0032",
+      "0033",
+      "0034",
+      "0035",
+      "0036",
+      "0037",
+      "0038",
+      "0039",
+      "0040",
+      "0041",
+      "0042",
+      "0043",
+      "0044",
+      "0045",
+      "0046",
+      "0047",
+      "0048",
+      "0049",
+      "0050",
+      "0051",
+      "0052",
+      "0053",
+      "0054",
+      "0055",
+      "0056",
+      "0057",
+      "0058",
+      "0059",
+      "0060",
+      "0061",
+      "0062",
+      "0063",
+      "0064",
+      "0065",
+      "0066",
+      "0067",
+      "0068",
+      "0069",
+      "0070",
+      "0071",
+      "0072",
+      "0073",
+      "0074",
+      "0075",
+      "0076",
+      "0077",
+      "0078",
+      "0079",
+      "0080",
+      "0081",
+      "0082",
+      "0083",
+      "0084",
+      "0085",
+      "0086",
+      "0087",
+      "0088",
+      "0089",
+      "0090",
+      "0091",
+      "0092",
+      "0093",
+      "0094",
+      "0095",
+      "0096",
+      "0097",
+      "0098",
+      "0099",
+      "0100",
+      "0101",
+      "0102"
+    ],
+    "chronological_table_missing_raw_ids": [
+      "0103",
+      "0104",
+      "0105",
+      "0106"
+    ],
+    "permission_error_disclosed_only_outside_wrapper": true,
+    "permission_error_note": "The direct wrapper invocation could not start and therefore has no command ID; COMMAND_COVERAGE_NOTE.md preserves the exact command/error.",
+    "raw_checks": [
+      {
+        "command_id": "0001",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0002",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0003",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0004",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0005",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0006",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0007",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0008",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0009",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0010",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0011",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0012",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0013",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0014",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0015",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0016",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0017",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0018",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0019",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0020",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0021",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0022",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0023",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0024",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0025",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0026",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0027",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0028",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0029",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0030",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0031",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0032",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0033",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0034",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0035",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0037",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0038",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0039",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0040",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0036",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0041",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0043",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0044",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0042",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0045",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0046",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0047",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0048",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0049",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0050",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0051",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0052",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0053",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0054",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0055",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0056",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0057",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0058",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0059",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0060",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0061",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0062",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0063",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0064",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0065",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0066",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0067",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0068",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0069",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0070",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0071",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0072",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0073",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0074",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0075",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0076",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0077",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0078",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0079",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0080",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0081",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0082",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0083",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0084",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0085",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0086",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0087",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0088",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0089",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0090",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0091",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0092",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0093",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0094",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0095",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0096",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0097",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0098",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0099",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0100",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0101",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0102",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0103",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0104",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0105",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      },
+      {
+        "command_id": "0106",
+        "log_meta_identity": true,
+        "meta_exists": true,
+        "stderr_exists": true,
+        "stderr_hash_match": true,
+        "stdout_exists": true,
+        "stdout_hash_match": true
+      }
+    ],
+    "raw_command_count": 106,
+    "raw_ids_contiguous": false,
+    "raw_per_command_all_match": true
+  },
+  "file_inventory": {
+    "match_count": 68,
+    "mismatch_count": 0,
+    "row_count": 68,
+    "rows": [
+      {
+        "actual_sha256": "775e420352f51bf82dbf8338ff50837b44d285b9c6573685355fd0f0814f129b",
+        "actual_size": 4155,
+        "exists": true,
+        "expected_sha256": "775e420352f51bf82dbf8338ff50837b44d285b9c6573685355fd0f0814f129b",
+        "expected_size": 4155,
+        "match": true,
+        "path": "BYTE_IDENTITY_REPORT.json"
+      },
+      {
+        "actual_sha256": "a93cd5bef6d8b2319c0b28aba5d4a270ce4417d3360e94b36e0220bdc822bb22",
+        "actual_size": 48853,
+        "exists": true,
+        "expected_sha256": "a93cd5bef6d8b2319c0b28aba5d4a270ce4417d3360e94b36e0220bdc822bb22",
+        "expected_size": 48853,
+        "match": true,
+        "path": "COMMANDS_CHRONOLOGICAL.tsv"
+      },
+      {
+        "actual_sha256": "8a9ef914da29a1ea1c7eb7c35d7cc0a31d08512c9534505947d5801acd1640ea",
+        "actual_size": 1185,
+        "exists": true,
+        "expected_sha256": "8a9ef914da29a1ea1c7eb7c35d7cc0a31d08512c9534505947d5801acd1640ea",
+        "expected_size": 1185,
+        "match": true,
+        "path": "COMMAND_COVERAGE_NOTE.md"
+      },
+      {
+        "actual_sha256": "3c76d2241844bbc4338c8fcb87bef5a0150281d2e36735166d26f287a849e4f2",
+        "actual_size": 4816,
+        "exists": true,
+        "expected_sha256": "3c76d2241844bbc4338c8fcb87bef5a0150281d2e36735166d26f287a849e4f2",
+        "expected_size": 4816,
+        "match": true,
+        "path": "CYCLE5_TO_CYCLE6_CODE_DIFF.patch"
+      },
+      {
+        "actual_sha256": "967fc7cfbc08a7f7abb5a8e5dfd954ce94eb2f9680e3c503a2d9e1bd60498b1e",
+        "actual_size": 2036,
+        "exists": true,
+        "expected_sha256": "967fc7cfbc08a7f7abb5a8e5dfd954ce94eb2f9680e3c503a2d9e1bd60498b1e",
+        "expected_size": 2036,
+        "match": true,
+        "path": "DEVIATIONS.md"
+      },
+      {
+        "actual_sha256": "ffd1b79c3d6a9e8357760219578a1c7010ece06374b40b2a8e944a986b985c92",
+        "actual_size": 330,
+        "exists": true,
+        "expected_sha256": "ffd1b79c3d6a9e8357760219578a1c7010ece06374b40b2a8e944a986b985c92",
+        "expected_size": 330,
+        "match": true,
+        "path": "ENVIRONMENT.txt"
+      },
+      {
+        "actual_sha256": "45d1f85dd7e23f9cfc3447625cbb97ee94f41b122ffba09cd8a06a7c447e01f4",
+        "actual_size": 2348,
+        "exists": true,
+        "expected_sha256": "45d1f85dd7e23f9cfc3447625cbb97ee94f41b122ffba09cd8a06a7c447e01f4",
+        "expected_size": 2348,
+        "match": true,
+        "path": "EXECUTION_CONFIG.json"
+      },
+      {
+        "actual_sha256": "0b29f01e06db89dec558803347ece674be87bc7b17206c6555ca7953487a9231",
+        "actual_size": 4920,
+        "exists": true,
+        "expected_sha256": "0b29f01e06db89dec558803347ece674be87bc7b17206c6555ca7953487a9231",
+        "expected_size": 4920,
+        "match": true,
+        "path": "INPUT_ACCESS_ALLOWLIST.tsv"
+      },
+      {
+        "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual_size": 0,
+        "exists": true,
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expected_size": 0,
+        "match": true,
+        "path": "POSTSEAL_RUN1.stderr"
+      },
+      {
+        "actual_sha256": "37ed14b8b73abb37bab563c7e0ef70115fe918f06f0af24e4d55f400b2642cd4",
+        "actual_size": 84,
+        "exists": true,
+        "expected_sha256": "37ed14b8b73abb37bab563c7e0ef70115fe918f06f0af24e4d55f400b2642cd4",
+        "expected_size": 84,
+        "match": true,
+        "path": "POSTSEAL_RUN1.stdout"
+      },
+      {
+        "actual_sha256": "2af6bc1f20bb1238f1ca306b1f45df7162339256c157b42ec13e5b374844c205",
+        "actual_size": 833684,
+        "exists": true,
+        "expected_sha256": "2af6bc1f20bb1238f1ca306b1f45df7162339256c157b42ec13e5b374844c205",
+        "expected_size": 833684,
+        "match": true,
+        "path": "POSTSEAL_RUN1_OPEN_TRACE.log"
+      },
+      {
+        "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual_size": 0,
+        "exists": true,
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expected_size": 0,
+        "match": true,
+        "path": "POSTSEAL_RUN2.stderr"
+      },
+      {
+        "actual_sha256": "37ed14b8b73abb37bab563c7e0ef70115fe918f06f0af24e4d55f400b2642cd4",
+        "actual_size": 84,
+        "exists": true,
+        "expected_sha256": "37ed14b8b73abb37bab563c7e0ef70115fe918f06f0af24e4d55f400b2642cd4",
+        "expected_size": 84,
+        "match": true,
+        "path": "POSTSEAL_RUN2.stdout"
+      },
+      {
+        "actual_sha256": "aa311af634a47edcb5238bb2af5695d88def43e827bb37118571faba05ff1de7",
+        "actual_size": 833684,
+        "exists": true,
+        "expected_sha256": "aa311af634a47edcb5238bb2af5695d88def43e827bb37118571faba05ff1de7",
+        "expected_size": 833684,
+        "match": true,
+        "path": "POSTSEAL_RUN2_OPEN_TRACE.log"
+      },
+      {
+        "actual_sha256": "81f23fb2190721ff72287d7371f4646ad04744c081475aae463f7bf87a717937",
+        "actual_size": 6361,
+        "exists": true,
+        "expected_sha256": "81f23fb2190721ff72287d7371f4646ad04744c081475aae463f7bf87a717937",
+        "expected_size": 6361,
+        "match": true,
+        "path": "POSTSEAL_TRACE_AUDIT.json"
+      },
+      {
+        "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual_size": 0,
+        "exists": true,
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expected_size": 0,
+        "match": true,
+        "path": "PRESEAL_SYNTHETIC.stderr"
+      },
+      {
+        "actual_sha256": "7a471ae504c761f8ef556fc3694b45e92b0925b02fa3e4af7122743e3ac7c97d",
+        "actual_size": 20,
+        "exists": true,
+        "expected_sha256": "7a471ae504c761f8ef556fc3694b45e92b0925b02fa3e4af7122743e3ac7c97d",
+        "expected_size": 20,
+        "match": true,
+        "path": "PRESEAL_SYNTHETIC.stdout"
+      },
+      {
+        "actual_sha256": "b29437e5a01d4dbfc3c6817fd34e6a7331b5fea0d3d2fc3efc06aab115b98cfc",
+        "actual_size": 818193,
+        "exists": true,
+        "expected_sha256": "b29437e5a01d4dbfc3c6817fd34e6a7331b5fea0d3d2fc3efc06aab115b98cfc",
+        "expected_size": 818193,
+        "match": true,
+        "path": "PRESEAL_SYNTHETIC_OPEN_TRACE.log"
+      },
+      {
+        "actual_sha256": "de341a2d135c476aa818b32337f7d0d3a92ddc1dc3a1a7562300e9e6863dbadf",
+        "actual_size": 818193,
+        "exists": true,
+        "expected_sha256": "de341a2d135c476aa818b32337f7d0d3a92ddc1dc3a1a7562300e9e6863dbadf",
+        "expected_size": 818193,
+        "match": true,
+        "path": "PRESEAL_SYNTHETIC_OPEN_TRACE_CLEAN.log"
+      },
+      {
+        "actual_sha256": "e5c0fd9379ddc98d7a360d88a8812b5768e07790c90bfdb4509e2529ea2ebf5b",
+        "actual_size": 818193,
+        "exists": true,
+        "expected_sha256": "e5c0fd9379ddc98d7a360d88a8812b5768e07790c90bfdb4509e2529ea2ebf5b",
+        "expected_size": 818193,
+        "match": true,
+        "path": "PRESEAL_SYNTHETIC_OPEN_TRACE_SUCCESS.log"
+      },
+      {
+        "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual_size": 0,
+        "exists": true,
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expected_size": 0,
+        "match": true,
+        "path": "PRESEAL_SYNTHETIC_SUCCESS.stderr"
+      },
+      {
+        "actual_sha256": "7a471ae504c761f8ef556fc3694b45e92b0925b02fa3e4af7122743e3ac7c97d",
+        "actual_size": 20,
+        "exists": true,
+        "expected_sha256": "7a471ae504c761f8ef556fc3694b45e92b0925b02fa3e4af7122743e3ac7c97d",
+        "expected_size": 20,
+        "match": true,
+        "path": "PRESEAL_SYNTHETIC_SUCCESS.stdout"
+      },
+      {
+        "actual_sha256": "a829e3664ab6c73e8e95c805d055d0e35b90852b77fc8224cc6fb33ff5962cc0",
+        "actual_size": 6186,
+        "exists": true,
+        "expected_sha256": "a829e3664ab6c73e8e95c805d055d0e35b90852b77fc8224cc6fb33ff5962cc0",
+        "expected_size": 6186,
+        "match": true,
+        "path": "PRE_OUTCOME_EXECUTION_SEAL.json"
+      },
+      {
+        "actual_sha256": "ff19d43dfeaeb14f104a3d5a501f3a32f55cfe848862add0bd573cfc43f1d972",
+        "actual_size": 2517,
+        "exists": true,
+        "expected_sha256": "ff19d43dfeaeb14f104a3d5a501f3a32f55cfe848862add0bd573cfc43f1d972",
+        "expected_size": 2517,
+        "match": true,
+        "path": "RAW_ANALYTICAL_REPORT.md"
+      },
+      {
+        "actual_sha256": "f528a4713b1a040a09968ddd68a7fdeb59b19cb30706d6d898e5a5a2962f72c4",
+        "actual_size": 13439,
+        "exists": true,
+        "expected_sha256": "f528a4713b1a040a09968ddd68a7fdeb59b19cb30706d6d898e5a5a2962f72c4",
+        "expected_size": 13439,
+        "match": true,
+        "path": "RAW_NUMBERS.json"
+      },
+      {
+        "actual_sha256": "3b21e951e72a9b0634758ca0b064043ae8d29c6afb2f7dea187109cc1a0b4b33",
+        "actual_size": 9012,
+        "exists": true,
+        "expected_sha256": "3b21e951e72a9b0634758ca0b064043ae8d29c6afb2f7dea187109cc1a0b4b33",
+        "expected_size": 9012,
+        "match": true,
+        "path": "REPRODUCIBILITY_MANIFEST.json"
+      },
+      {
+        "actual_sha256": "43ed5fe55fa783db8295b6efb89e15c5c87b89f0f4cc70ddcc1dffb2796434f6",
+        "actual_size": 1228,
+        "exists": true,
+        "expected_sha256": "43ed5fe55fa783db8295b6efb89e15c5c87b89f0f4cc70ddcc1dffb2796434f6",
+        "expected_size": 1228,
+        "match": true,
+        "path": "RUN1_SCIENTIFIC_SHA256SUMS.txt"
+      },
+      {
+        "actual_sha256": "5037e967e4219aa2f35a3025fbb6ce6b3e06e76268286e802dda86cfc13a4591",
+        "actual_size": 1228,
+        "exists": true,
+        "expected_sha256": "5037e967e4219aa2f35a3025fbb6ce6b3e06e76268286e802dda86cfc13a4591",
+        "expected_size": 1228,
+        "match": true,
+        "path": "RUN2_SCIENTIFIC_SHA256SUMS.txt"
+      },
+      {
+        "actual_sha256": "5a087205aef8b1a5d2c7443cc880935b143685ab1edaafa7dcb6bb617b2f754f",
+        "actual_size": 2478,
+        "exists": true,
+        "expected_sha256": "5a087205aef8b1a5d2c7443cc880935b143685ab1edaafa7dcb6bb617b2f754f",
+        "expected_size": 2478,
+        "match": true,
+        "path": "STATIC_ACCESS_SCAN.json"
+      },
+      {
+        "actual_sha256": "8cbc77e9209a5dd6f2791e04bd1409137cf9e1fb3081ff3e5dee1637d7616230",
+        "actual_size": 1599,
+        "exists": true,
+        "expected_sha256": "8cbc77e9209a5dd6f2791e04bd1409137cf9e1fb3081ff3e5dee1637d7616230",
+        "expected_size": 1599,
+        "match": true,
+        "path": "UPSTREAM_POINT_ESTIMATE_RECONCILIATION.json"
+      },
+      {
+        "actual_sha256": "65b63f0d4f65f7359d7a19e2ab7fabffbf2d394d26a9de32f162a9c2bbc60f5a",
+        "actual_size": 7763,
+        "exists": true,
+        "expected_sha256": "65b63f0d4f65f7359d7a19e2ab7fabffbf2d394d26a9de32f162a9c2bbc60f5a",
+        "expected_size": 7763,
+        "match": true,
+        "path": "UPSTREAM_POINT_ESTIMATE_RECONCILIATION.tsv"
+      },
+      {
+        "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual_size": 0,
+        "exists": true,
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expected_size": 0,
+        "match": true,
+        "path": "UPSTREAM_RECONCILIATION.stderr"
+      },
+      {
+        "actual_sha256": "710e2328c9d3ec4866c942f531063e721f8a77a39e03cfb4877ff8e408e5c181",
+        "actual_size": 1479,
+        "exists": true,
+        "expected_sha256": "710e2328c9d3ec4866c942f531063e721f8a77a39e03cfb4877ff8e408e5c181",
+        "expected_size": 1479,
+        "match": true,
+        "path": "UPSTREAM_RECONCILIATION.stdout"
+      },
+      {
+        "actual_sha256": "0af5df1e4d91486b69ba5a885f461816a6579c3bb60eaee22b74cf3e81a77878",
+        "actual_size": 918,
+        "exists": true,
+        "expected_sha256": "0af5df1e4d91486b69ba5a885f461816a6579c3bb60eaee22b74cf3e81a77878",
+        "expected_size": 918,
+        "match": true,
+        "path": "UPSTREAM_RECONCILIATION_ACCESS_LOG.tsv"
+      },
+      {
+        "actual_sha256": "1dc66e9a62bb82b855338e3a29311ddafe41a85760a3157c1750d5277d54497b",
+        "actual_size": 69895,
+        "exists": true,
+        "expected_sha256": "1dc66e9a62bb82b855338e3a29311ddafe41a85760a3157c1750d5277d54497b",
+        "expected_size": 69895,
+        "match": true,
+        "path": "UPSTREAM_RECONCILIATION_OPEN_TRACE.log"
+      },
+      {
+        "actual_sha256": "1c24712f79af1cea09a3b782d81cd16ab55f9be815bb972abfdc4e5bee685b9c",
+        "actual_size": 480,
+        "exists": true,
+        "expected_sha256": "1c24712f79af1cea09a3b782d81cd16ab55f9be815bb972abfdc4e5bee685b9c",
+        "expected_size": 480,
+        "match": true,
+        "path": "audit_bootstrap.txt"
+      },
+      {
+        "actual_sha256": "afd8f7b264eaf023b9e69bf58bedaa8f6ddb0241fe0ba7150cd8062059e17c91",
+        "actual_size": 1947,
+        "exists": true,
+        "expected_sha256": "afd8f7b264eaf023b9e69bf58bedaa8f6ddb0241fe0ba7150cd8062059e17c91",
+        "expected_size": 1947,
+        "match": true,
+        "path": "audit_exec.sh"
+      },
+      {
+        "actual_sha256": "0ed138bae9fa10e9ecdb0563aae24bcd05becf780b5095800511c244e0b1421b",
+        "actual_size": 22547,
+        "exists": true,
+        "expected_sha256": "0ed138bae9fa10e9ecdb0563aae24bcd05becf780b5095800511c244e0b1421b",
+        "expected_size": 22547,
+        "match": true,
+        "path": "finalize_cycle6.py"
+      },
+      {
+        "actual_sha256": "28c5754c0d556258dddaf11fce70c3fd714b91e539af9133709caa282ad1f59f",
+        "actual_size": 11123,
+        "exists": true,
+        "expected_sha256": "28c5754c0d556258dddaf11fce70c3fd714b91e539af9133709caa282ad1f59f",
+        "expected_size": 11123,
+        "match": true,
+        "path": "prepare_seal.py"
+      },
+      {
+        "actual_sha256": "b3e6b57dadcc5c4c8f6e35e929df6fe336ed48a3f6a4252f540b2495f3881aed",
+        "actual_size": 7243,
+        "exists": true,
+        "expected_sha256": "b3e6b57dadcc5c4c8f6e35e929df6fe336ed48a3f6a4252f540b2495f3881aed",
+        "expected_size": 7243,
+        "match": true,
+        "path": "reconcile_upstream.py"
+      },
+      {
+        "actual_sha256": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+        "actual_size": 343,
+        "exists": true,
+        "expected_sha256": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+        "expected_size": 343,
+        "match": true,
+        "path": "run1/ANALYTICAL_REPORT.md"
+      },
+      {
+        "actual_sha256": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+        "actual_size": 193,
+        "exists": true,
+        "expected_sha256": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+        "expected_size": 193,
+        "match": true,
+        "path": "run1/CLINICAL_DISTRIBUTIONS.tsv"
+      },
+      {
+        "actual_sha256": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+        "actual_size": 1156,
+        "exists": true,
+        "expected_sha256": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+        "expected_size": 1156,
+        "match": true,
+        "path": "run1/COHORT_COUNTS.tsv"
+      },
+      {
+        "actual_sha256": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+        "actual_size": 790292,
+        "exists": true,
+        "expected_sha256": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+        "expected_size": 790292,
+        "match": true,
+        "path": "run1/INFLUENCE_RECORDS.tsv"
+      },
+      {
+        "actual_sha256": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+        "actual_size": 4383,
+        "exists": true,
+        "expected_sha256": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+        "expected_size": 4383,
+        "match": true,
+        "path": "run1/INPUT_ACCESS_INVENTORY.tsv"
+      },
+      {
+        "actual_sha256": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+        "actual_size": 3713,
+        "exists": true,
+        "expected_sha256": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+        "expected_size": 3713,
+        "match": true,
+        "path": "run1/MANUSCRIPT_READY_SENSITIVITY_TABLE.tsv"
+      },
+      {
+        "actual_sha256": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+        "actual_size": 10402,
+        "exists": true,
+        "expected_sha256": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+        "expected_size": 10402,
+        "match": true,
+        "path": "run1/MATCHED_DECOMPOSITIONS.tsv"
+      },
+      {
+        "actual_sha256": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+        "actual_size": 67,
+        "exists": true,
+        "expected_sha256": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+        "expected_size": 67,
+        "match": true,
+        "path": "run1/MISSINGNESS.tsv"
+      },
+      {
+        "actual_sha256": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+        "actual_size": 18104,
+        "exists": true,
+        "expected_sha256": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+        "expected_size": 18104,
+        "match": true,
+        "path": "run1/MODEL_DIAGNOSTICS.tsv"
+      },
+      {
+        "actual_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "actual_size": 22446,
+        "exists": true,
+        "expected_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "expected_size": 22446,
+        "match": true,
+        "path": "run1/MODEL_RESULTS.tsv"
+      },
+      {
+        "actual_sha256": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+        "actual_size": 1523,
+        "exists": true,
+        "expected_sha256": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+        "expected_size": 1523,
+        "match": true,
+        "path": "run1/PROPOSED_WORDING.md"
+      },
+      {
+        "actual_sha256": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+        "actual_size": 135794,
+        "exists": true,
+        "expected_sha256": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+        "expected_size": 135794,
+        "match": true,
+        "path": "run1/SCIENTIFIC_RESULTS.json"
+      },
+      {
+        "actual_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "actual_size": 22446,
+        "exists": true,
+        "expected_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "expected_size": 22446,
+        "match": true,
+        "path": "run1/SIX_TARGET_APPENDIX.tsv"
+      },
+      {
+        "actual_sha256": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+        "actual_size": 343,
+        "exists": true,
+        "expected_sha256": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+        "expected_size": 343,
+        "match": true,
+        "path": "run2/ANALYTICAL_REPORT.md"
+      },
+      {
+        "actual_sha256": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+        "actual_size": 193,
+        "exists": true,
+        "expected_sha256": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+        "expected_size": 193,
+        "match": true,
+        "path": "run2/CLINICAL_DISTRIBUTIONS.tsv"
+      },
+      {
+        "actual_sha256": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+        "actual_size": 1156,
+        "exists": true,
+        "expected_sha256": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+        "expected_size": 1156,
+        "match": true,
+        "path": "run2/COHORT_COUNTS.tsv"
+      },
+      {
+        "actual_sha256": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+        "actual_size": 790292,
+        "exists": true,
+        "expected_sha256": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+        "expected_size": 790292,
+        "match": true,
+        "path": "run2/INFLUENCE_RECORDS.tsv"
+      },
+      {
+        "actual_sha256": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+        "actual_size": 4383,
+        "exists": true,
+        "expected_sha256": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+        "expected_size": 4383,
+        "match": true,
+        "path": "run2/INPUT_ACCESS_INVENTORY.tsv"
+      },
+      {
+        "actual_sha256": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+        "actual_size": 3713,
+        "exists": true,
+        "expected_sha256": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+        "expected_size": 3713,
+        "match": true,
+        "path": "run2/MANUSCRIPT_READY_SENSITIVITY_TABLE.tsv"
+      },
+      {
+        "actual_sha256": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+        "actual_size": 10402,
+        "exists": true,
+        "expected_sha256": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+        "expected_size": 10402,
+        "match": true,
+        "path": "run2/MATCHED_DECOMPOSITIONS.tsv"
+      },
+      {
+        "actual_sha256": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+        "actual_size": 67,
+        "exists": true,
+        "expected_sha256": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+        "expected_size": 67,
+        "match": true,
+        "path": "run2/MISSINGNESS.tsv"
+      },
+      {
+        "actual_sha256": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+        "actual_size": 18104,
+        "exists": true,
+        "expected_sha256": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+        "expected_size": 18104,
+        "match": true,
+        "path": "run2/MODEL_DIAGNOSTICS.tsv"
+      },
+      {
+        "actual_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "actual_size": 22446,
+        "exists": true,
+        "expected_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "expected_size": 22446,
+        "match": true,
+        "path": "run2/MODEL_RESULTS.tsv"
+      },
+      {
+        "actual_sha256": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+        "actual_size": 1523,
+        "exists": true,
+        "expected_sha256": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+        "expected_size": 1523,
+        "match": true,
+        "path": "run2/PROPOSED_WORDING.md"
+      },
+      {
+        "actual_sha256": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+        "actual_size": 135794,
+        "exists": true,
+        "expected_sha256": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+        "expected_size": 135794,
+        "match": true,
+        "path": "run2/SCIENTIFIC_RESULTS.json"
+      },
+      {
+        "actual_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "actual_size": 22446,
+        "exists": true,
+        "expected_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "expected_size": 22446,
+        "match": true,
+        "path": "run2/SIX_TARGET_APPENDIX.tsv"
+      },
+      {
+        "actual_sha256": "4f5d4959a5b4bf6964ff7858eefb8cf181ced2de93fbc98d00c6c5058265c2aa",
+        "actual_size": 23449,
+        "exists": true,
+        "expected_sha256": "4f5d4959a5b4bf6964ff7858eefb8cf181ced2de93fbc98d00c6c5058265c2aa",
+        "expected_size": 23449,
+        "match": true,
+        "path": "run_phase2.py"
+      },
+      {
+        "actual_sha256": "20630160a846062de32635ad00dd02d95df6dee2be628b42a645c020c41b0e8b",
+        "actual_size": 335,
+        "exists": true,
+        "expected_sha256": "20630160a846062de32635ad00dd02d95df6dee2be628b42a645c020c41b0e8b",
+        "expected_size": 335,
+        "match": true,
+        "path": "trace_exec.sh"
+      }
+    ]
+  },
+  "head": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+  "input_allowlist": {
+    "match_count": 16,
+    "mismatch_count": 0,
+    "row_count": 16,
+    "rows": [
+      {
+        "expected": "cc46495c0abc6877182c9bff8d4ba44f11599d8bc5bc7a8cb6f8331aa1ec3c9a",
+        "independent_actual": "cc46495c0abc6877182c9bff8d4ba44f11599d8bc5bc7a8cb6f8331aa1ec3c9a",
+        "key": "covariates",
+        "match": true,
+        "path": "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/covariates_v3.tsv",
+        "recorded_actual": "cc46495c0abc6877182c9bff8d4ba44f11599d8bc5bc7a8cb6f8331aa1ec3c9a"
+      },
+      {
+        "expected": "1b83bae3d188db5e844c1786f3d5773c0e2c183d8a050d5c0f575b8c6eeadbcf",
+        "independent_actual": "1b83bae3d188db5e844c1786f3d5773c0e2c183d8a050d5c0f575b8c6eeadbcf",
+        "key": "reviewer",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_critic/VALIDATION_REPORT_PHASE1.md",
+        "recorded_actual": "1b83bae3d188db5e844c1786f3d5773c0e2c183d8a050d5c0f575b8c6eeadbcf"
+      },
+      {
+        "expected": "a9b01e817d9e84180dc4804811dd2d0e33c245925a11bc8d5996363c42e7bc94",
+        "independent_actual": "a9b01e817d9e84180dc4804811dd2d0e33c245925a11bc8d5996363c42e7bc94",
+        "key": "decision",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/PHASE1_DECISION.json",
+        "recorded_actual": "a9b01e817d9e84180dc4804811dd2d0e33c245925a11bc8d5996363c42e7bc94"
+      },
+      {
+        "expected": "682099a03923778d170ff4bd46e8b475405419fe1fadb3259ce4c2e75b43f2c1",
+        "independent_actual": "682099a03923778d170ff4bd46e8b475405419fe1fadb3259ce4c2e75b43f2c1",
+        "key": "design",
+        "match": true,
+        "path": "data/external/original-workspace/task028-freeze-b-draft/sealed_v3/B2_MODEL_SPEC.md",
+        "recorded_actual": "682099a03923778d170ff4bd46e8b475405419fe1fadb3259ce4c2e75b43f2c1"
+      },
+      {
+        "expected": "4d7bfb997c9dc188daf9e584a791ff490dfcfdd7fa365c20bca8a2c066f42065",
+        "independent_actual": "4d7bfb997c9dc188daf9e584a791ff490dfcfdd7fa365c20bca8a2c066f42065",
+        "key": "engine",
+        "match": true,
+        "path": "data/external/original-workspace/task028-freeze-b-draft/execution/scripts_v3/model_engine.py",
+        "recorded_actual": "4d7bfb997c9dc188daf9e584a791ff490dfcfdd7fa365c20bca8a2c066f42065"
+      },
+      {
+        "expected": "c255355de4b6c4b366a626d7e79b26f474d55ead67387d1fde519743ac7e316b",
+        "independent_actual": "c255355de4b6c4b366a626d7e79b26f474d55ead67387d1fde519743ac7e316b",
+        "key": "harm_map",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/HARMONIZATION_MAP.tsv",
+        "recorded_actual": "c255355de4b6c4b366a626d7e79b26f474d55ead67387d1fde519743ac7e316b"
+      },
+      {
+        "expected": "c4252fd1d17a07212852a894631afd7a8df3b331ccf9aed314869b0e5512a362",
+        "independent_actual": "c4252fd1d17a07212852a894631afd7a8df3b331ccf9aed314869b0e5512a362",
+        "key": "harm_spec",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/FROZEN_HARMONIZATION_SPEC.json",
+        "recorded_actual": "c4252fd1d17a07212852a894631afd7a8df3b331ccf9aed314869b0e5512a362"
+      },
+      {
+        "expected": "bdaa15a40800cb5384abda946ef2c388f97fbb4fdcc16c4c901d9d00452d9039",
+        "independent_actual": "bdaa15a40800cb5384abda946ef2c388f97fbb4fdcc16c4c901d9d00452d9039",
+        "key": "input_lock",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/INPUTS_LOCK.json",
+        "recorded_actual": "bdaa15a40800cb5384abda946ef2c388f97fbb4fdcc16c4c901d9d00452d9039"
+      },
+      {
+        "expected": "c6087dc8e685b305ccd3ff9d1da02846ff8a306018cc1fb0820cf3825fc8e823",
+        "independent_actual": "c6087dc8e685b305ccd3ff9d1da02846ff8a306018cc1fb0820cf3825fc8e823",
+        "key": "ledger",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/LINKAGE_LEDGER.tsv",
+        "recorded_actual": "c6087dc8e685b305ccd3ff9d1da02846ff8a306018cc1fb0820cf3825fc8e823"
+      },
+      {
+        "expected": "02e08cb20fe60056b6a23b4bd9837d07ba80a6c729f1fcf366e28d50d97dc69e",
+        "independent_actual": "02e08cb20fe60056b6a23b4bd9837d07ba80a6c729f1fcf366e28d50d97dc69e",
+        "key": "missing",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/MISSINGNESS.tsv",
+        "recorded_actual": "02e08cb20fe60056b6a23b4bd9837d07ba80a6c729f1fcf366e28d50d97dc69e"
+      },
+      {
+        "expected": "e494200b1a9d1c026679d039181bf34cfa3be62892e3d55bca2aeec0dab5e432",
+        "independent_actual": "e494200b1a9d1c026679d039181bf34cfa3be62892e3d55bca2aeec0dab5e432",
+        "key": "order",
+        "match": true,
+        "path": "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/patient_order_v3.json",
+        "recorded_actual": "e494200b1a9d1c026679d039181bf34cfa3be62892e3d55bca2aeec0dab5e432"
+      },
+      {
+        "expected": "91726649b4e910d5f08318304f052a044fba786e581d0efca0fee39b4737e0dc",
+        "independent_actual": "91726649b4e910d5f08318304f052a044fba786e581d0efca0fee39b4737e0dc",
+        "key": "proposed",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/SUBTYPE_BY_PROPOSED_CATEGORY.tsv",
+        "recorded_actual": "91726649b4e910d5f08318304f052a044fba786e581d0efca0fee39b4737e0dc"
+      },
+      {
+        "expected": "09fe226376379a333715c3dcfce4d1282e882a368e92c3eb3f6a9ece9abbec80",
+        "independent_actual": "09fe226376379a333715c3dcfce4d1282e882a368e92c3eb3f6a9ece9abbec80",
+        "key": "raw_counts",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/RAW_CATEGORY_COUNTS.tsv",
+        "recorded_actual": "09fe226376379a333715c3dcfce4d1282e882a368e92c3eb3f6a9ece9abbec80"
+      },
+      {
+        "expected": "aa1eaea70991d9e915f499243a11964e01b7242c2f190cac783661b896e1eb42",
+        "independent_actual": "aa1eaea70991d9e915f499243a11964e01b7242c2f190cac783661b896e1eb42",
+        "key": "rules",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/PHASE1_FEASIBILITY_RULES.json",
+        "recorded_actual": "aa1eaea70991d9e915f499243a11964e01b7242c2f190cac783661b896e1eb42"
+      },
+      {
+        "expected": "956b7a968f35d1da57719e3bc7392decbdd6e292ac31d4dec100b6632518b0cb",
+        "independent_actual": "956b7a968f35d1da57719e3bc7392decbdd6e292ac31d4dec100b6632518b0cb",
+        "key": "scores",
+        "match": true,
+        "path": "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/scores_v3.npz",
+        "recorded_actual": "956b7a968f35d1da57719e3bc7392decbdd6e292ac31d4dec100b6632518b0cb"
+      },
+      {
+        "expected": "14343c81ed4a9211e26117d5489ef24d3d158a028121b4c78e633e956a24ef35",
+        "independent_actual": "14343c81ed4a9211e26117d5489ef24d3d158a028121b4c78e633e956a24ef35",
+        "key": "spec",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_freeze/PHASE2_FROZEN_SPEC.json",
+        "recorded_actual": "14343c81ed4a9211e26117d5489ef24d3d158a028121b4c78e633e956a24ef35"
+      }
+    ]
+  },
+  "output_sha256s": {
+    "line_count": 69,
+    "match_count": 69,
+    "mismatch_count": 0,
+    "rows": [
+      {
+        "actual": "775e420352f51bf82dbf8338ff50837b44d285b9c6573685355fd0f0814f129b",
+        "expected": "775e420352f51bf82dbf8338ff50837b44d285b9c6573685355fd0f0814f129b",
+        "line": 1,
+        "match": true,
+        "path": "BYTE_IDENTITY_REPORT.json"
+      },
+      {
+        "actual": "a93cd5bef6d8b2319c0b28aba5d4a270ce4417d3360e94b36e0220bdc822bb22",
+        "expected": "a93cd5bef6d8b2319c0b28aba5d4a270ce4417d3360e94b36e0220bdc822bb22",
+        "line": 2,
+        "match": true,
+        "path": "COMMANDS_CHRONOLOGICAL.tsv"
+      },
+      {
+        "actual": "8a9ef914da29a1ea1c7eb7c35d7cc0a31d08512c9534505947d5801acd1640ea",
+        "expected": "8a9ef914da29a1ea1c7eb7c35d7cc0a31d08512c9534505947d5801acd1640ea",
+        "line": 3,
+        "match": true,
+        "path": "COMMAND_COVERAGE_NOTE.md"
+      },
+      {
+        "actual": "3c76d2241844bbc4338c8fcb87bef5a0150281d2e36735166d26f287a849e4f2",
+        "expected": "3c76d2241844bbc4338c8fcb87bef5a0150281d2e36735166d26f287a849e4f2",
+        "line": 4,
+        "match": true,
+        "path": "CYCLE5_TO_CYCLE6_CODE_DIFF.patch"
+      },
+      {
+        "actual": "967fc7cfbc08a7f7abb5a8e5dfd954ce94eb2f9680e3c503a2d9e1bd60498b1e",
+        "expected": "967fc7cfbc08a7f7abb5a8e5dfd954ce94eb2f9680e3c503a2d9e1bd60498b1e",
+        "line": 5,
+        "match": true,
+        "path": "DEVIATIONS.md"
+      },
+      {
+        "actual": "ffd1b79c3d6a9e8357760219578a1c7010ece06374b40b2a8e944a986b985c92",
+        "expected": "ffd1b79c3d6a9e8357760219578a1c7010ece06374b40b2a8e944a986b985c92",
+        "line": 6,
+        "match": true,
+        "path": "ENVIRONMENT.txt"
+      },
+      {
+        "actual": "45d1f85dd7e23f9cfc3447625cbb97ee94f41b122ffba09cd8a06a7c447e01f4",
+        "expected": "45d1f85dd7e23f9cfc3447625cbb97ee94f41b122ffba09cd8a06a7c447e01f4",
+        "line": 7,
+        "match": true,
+        "path": "EXECUTION_CONFIG.json"
+      },
+      {
+        "actual": "c4b79a7115fa0731dcecc98988a6904ca1e5920e195d765a14ccaac5baa34117",
+        "expected": "c4b79a7115fa0731dcecc98988a6904ca1e5920e195d765a14ccaac5baa34117",
+        "line": 8,
+        "match": true,
+        "path": "FILE_INVENTORY.tsv"
+      },
+      {
+        "actual": "0b29f01e06db89dec558803347ece674be87bc7b17206c6555ca7953487a9231",
+        "expected": "0b29f01e06db89dec558803347ece674be87bc7b17206c6555ca7953487a9231",
+        "line": 9,
+        "match": true,
+        "path": "INPUT_ACCESS_ALLOWLIST.tsv"
+      },
+      {
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "line": 10,
+        "match": true,
+        "path": "POSTSEAL_RUN1.stderr"
+      },
+      {
+        "actual": "37ed14b8b73abb37bab563c7e0ef70115fe918f06f0af24e4d55f400b2642cd4",
+        "expected": "37ed14b8b73abb37bab563c7e0ef70115fe918f06f0af24e4d55f400b2642cd4",
+        "line": 11,
+        "match": true,
+        "path": "POSTSEAL_RUN1.stdout"
+      },
+      {
+        "actual": "2af6bc1f20bb1238f1ca306b1f45df7162339256c157b42ec13e5b374844c205",
+        "expected": "2af6bc1f20bb1238f1ca306b1f45df7162339256c157b42ec13e5b374844c205",
+        "line": 12,
+        "match": true,
+        "path": "POSTSEAL_RUN1_OPEN_TRACE.log"
+      },
+      {
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "line": 13,
+        "match": true,
+        "path": "POSTSEAL_RUN2.stderr"
+      },
+      {
+        "actual": "37ed14b8b73abb37bab563c7e0ef70115fe918f06f0af24e4d55f400b2642cd4",
+        "expected": "37ed14b8b73abb37bab563c7e0ef70115fe918f06f0af24e4d55f400b2642cd4",
+        "line": 14,
+        "match": true,
+        "path": "POSTSEAL_RUN2.stdout"
+      },
+      {
+        "actual": "aa311af634a47edcb5238bb2af5695d88def43e827bb37118571faba05ff1de7",
+        "expected": "aa311af634a47edcb5238bb2af5695d88def43e827bb37118571faba05ff1de7",
+        "line": 15,
+        "match": true,
+        "path": "POSTSEAL_RUN2_OPEN_TRACE.log"
+      },
+      {
+        "actual": "81f23fb2190721ff72287d7371f4646ad04744c081475aae463f7bf87a717937",
+        "expected": "81f23fb2190721ff72287d7371f4646ad04744c081475aae463f7bf87a717937",
+        "line": 16,
+        "match": true,
+        "path": "POSTSEAL_TRACE_AUDIT.json"
+      },
+      {
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "line": 17,
+        "match": true,
+        "path": "PRESEAL_SYNTHETIC.stderr"
+      },
+      {
+        "actual": "7a471ae504c761f8ef556fc3694b45e92b0925b02fa3e4af7122743e3ac7c97d",
+        "expected": "7a471ae504c761f8ef556fc3694b45e92b0925b02fa3e4af7122743e3ac7c97d",
+        "line": 18,
+        "match": true,
+        "path": "PRESEAL_SYNTHETIC.stdout"
+      },
+      {
+        "actual": "b29437e5a01d4dbfc3c6817fd34e6a7331b5fea0d3d2fc3efc06aab115b98cfc",
+        "expected": "b29437e5a01d4dbfc3c6817fd34e6a7331b5fea0d3d2fc3efc06aab115b98cfc",
+        "line": 19,
+        "match": true,
+        "path": "PRESEAL_SYNTHETIC_OPEN_TRACE.log"
+      },
+      {
+        "actual": "de341a2d135c476aa818b32337f7d0d3a92ddc1dc3a1a7562300e9e6863dbadf",
+        "expected": "de341a2d135c476aa818b32337f7d0d3a92ddc1dc3a1a7562300e9e6863dbadf",
+        "line": 20,
+        "match": true,
+        "path": "PRESEAL_SYNTHETIC_OPEN_TRACE_CLEAN.log"
+      },
+      {
+        "actual": "e5c0fd9379ddc98d7a360d88a8812b5768e07790c90bfdb4509e2529ea2ebf5b",
+        "expected": "e5c0fd9379ddc98d7a360d88a8812b5768e07790c90bfdb4509e2529ea2ebf5b",
+        "line": 21,
+        "match": true,
+        "path": "PRESEAL_SYNTHETIC_OPEN_TRACE_SUCCESS.log"
+      },
+      {
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "line": 22,
+        "match": true,
+        "path": "PRESEAL_SYNTHETIC_SUCCESS.stderr"
+      },
+      {
+        "actual": "7a471ae504c761f8ef556fc3694b45e92b0925b02fa3e4af7122743e3ac7c97d",
+        "expected": "7a471ae504c761f8ef556fc3694b45e92b0925b02fa3e4af7122743e3ac7c97d",
+        "line": 23,
+        "match": true,
+        "path": "PRESEAL_SYNTHETIC_SUCCESS.stdout"
+      },
+      {
+        "actual": "a829e3664ab6c73e8e95c805d055d0e35b90852b77fc8224cc6fb33ff5962cc0",
+        "expected": "a829e3664ab6c73e8e95c805d055d0e35b90852b77fc8224cc6fb33ff5962cc0",
+        "line": 24,
+        "match": true,
+        "path": "PRE_OUTCOME_EXECUTION_SEAL.json"
+      },
+      {
+        "actual": "ff19d43dfeaeb14f104a3d5a501f3a32f55cfe848862add0bd573cfc43f1d972",
+        "expected": "ff19d43dfeaeb14f104a3d5a501f3a32f55cfe848862add0bd573cfc43f1d972",
+        "line": 25,
+        "match": true,
+        "path": "RAW_ANALYTICAL_REPORT.md"
+      },
+      {
+        "actual": "f528a4713b1a040a09968ddd68a7fdeb59b19cb30706d6d898e5a5a2962f72c4",
+        "expected": "f528a4713b1a040a09968ddd68a7fdeb59b19cb30706d6d898e5a5a2962f72c4",
+        "line": 26,
+        "match": true,
+        "path": "RAW_NUMBERS.json"
+      },
+      {
+        "actual": "3b21e951e72a9b0634758ca0b064043ae8d29c6afb2f7dea187109cc1a0b4b33",
+        "expected": "3b21e951e72a9b0634758ca0b064043ae8d29c6afb2f7dea187109cc1a0b4b33",
+        "line": 27,
+        "match": true,
+        "path": "REPRODUCIBILITY_MANIFEST.json"
+      },
+      {
+        "actual": "43ed5fe55fa783db8295b6efb89e15c5c87b89f0f4cc70ddcc1dffb2796434f6",
+        "expected": "43ed5fe55fa783db8295b6efb89e15c5c87b89f0f4cc70ddcc1dffb2796434f6",
+        "line": 28,
+        "match": true,
+        "path": "RUN1_SCIENTIFIC_SHA256SUMS.txt"
+      },
+      {
+        "actual": "5037e967e4219aa2f35a3025fbb6ce6b3e06e76268286e802dda86cfc13a4591",
+        "expected": "5037e967e4219aa2f35a3025fbb6ce6b3e06e76268286e802dda86cfc13a4591",
+        "line": 29,
+        "match": true,
+        "path": "RUN2_SCIENTIFIC_SHA256SUMS.txt"
+      },
+      {
+        "actual": "5a087205aef8b1a5d2c7443cc880935b143685ab1edaafa7dcb6bb617b2f754f",
+        "expected": "5a087205aef8b1a5d2c7443cc880935b143685ab1edaafa7dcb6bb617b2f754f",
+        "line": 30,
+        "match": true,
+        "path": "STATIC_ACCESS_SCAN.json"
+      },
+      {
+        "actual": "8cbc77e9209a5dd6f2791e04bd1409137cf9e1fb3081ff3e5dee1637d7616230",
+        "expected": "8cbc77e9209a5dd6f2791e04bd1409137cf9e1fb3081ff3e5dee1637d7616230",
+        "line": 31,
+        "match": true,
+        "path": "UPSTREAM_POINT_ESTIMATE_RECONCILIATION.json"
+      },
+      {
+        "actual": "65b63f0d4f65f7359d7a19e2ab7fabffbf2d394d26a9de32f162a9c2bbc60f5a",
+        "expected": "65b63f0d4f65f7359d7a19e2ab7fabffbf2d394d26a9de32f162a9c2bbc60f5a",
+        "line": 32,
+        "match": true,
+        "path": "UPSTREAM_POINT_ESTIMATE_RECONCILIATION.tsv"
+      },
+      {
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "line": 33,
+        "match": true,
+        "path": "UPSTREAM_RECONCILIATION.stderr"
+      },
+      {
+        "actual": "710e2328c9d3ec4866c942f531063e721f8a77a39e03cfb4877ff8e408e5c181",
+        "expected": "710e2328c9d3ec4866c942f531063e721f8a77a39e03cfb4877ff8e408e5c181",
+        "line": 34,
+        "match": true,
+        "path": "UPSTREAM_RECONCILIATION.stdout"
+      },
+      {
+        "actual": "0af5df1e4d91486b69ba5a885f461816a6579c3bb60eaee22b74cf3e81a77878",
+        "expected": "0af5df1e4d91486b69ba5a885f461816a6579c3bb60eaee22b74cf3e81a77878",
+        "line": 35,
+        "match": true,
+        "path": "UPSTREAM_RECONCILIATION_ACCESS_LOG.tsv"
+      },
+      {
+        "actual": "1dc66e9a62bb82b855338e3a29311ddafe41a85760a3157c1750d5277d54497b",
+        "expected": "1dc66e9a62bb82b855338e3a29311ddafe41a85760a3157c1750d5277d54497b",
+        "line": 36,
+        "match": true,
+        "path": "UPSTREAM_RECONCILIATION_OPEN_TRACE.log"
+      },
+      {
+        "actual": "1c24712f79af1cea09a3b782d81cd16ab55f9be815bb972abfdc4e5bee685b9c",
+        "expected": "1c24712f79af1cea09a3b782d81cd16ab55f9be815bb972abfdc4e5bee685b9c",
+        "line": 37,
+        "match": true,
+        "path": "audit_bootstrap.txt"
+      },
+      {
+        "actual": "afd8f7b264eaf023b9e69bf58bedaa8f6ddb0241fe0ba7150cd8062059e17c91",
+        "expected": "afd8f7b264eaf023b9e69bf58bedaa8f6ddb0241fe0ba7150cd8062059e17c91",
+        "line": 38,
+        "match": true,
+        "path": "audit_exec.sh"
+      },
+      {
+        "actual": "0ed138bae9fa10e9ecdb0563aae24bcd05becf780b5095800511c244e0b1421b",
+        "expected": "0ed138bae9fa10e9ecdb0563aae24bcd05becf780b5095800511c244e0b1421b",
+        "line": 39,
+        "match": true,
+        "path": "finalize_cycle6.py"
+      },
+      {
+        "actual": "28c5754c0d556258dddaf11fce70c3fd714b91e539af9133709caa282ad1f59f",
+        "expected": "28c5754c0d556258dddaf11fce70c3fd714b91e539af9133709caa282ad1f59f",
+        "line": 40,
+        "match": true,
+        "path": "prepare_seal.py"
+      },
+      {
+        "actual": "b3e6b57dadcc5c4c8f6e35e929df6fe336ed48a3f6a4252f540b2495f3881aed",
+        "expected": "b3e6b57dadcc5c4c8f6e35e929df6fe336ed48a3f6a4252f540b2495f3881aed",
+        "line": 41,
+        "match": true,
+        "path": "reconcile_upstream.py"
+      },
+      {
+        "actual": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+        "expected": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+        "line": 42,
+        "match": true,
+        "path": "run1/ANALYTICAL_REPORT.md"
+      },
+      {
+        "actual": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+        "expected": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+        "line": 43,
+        "match": true,
+        "path": "run1/CLINICAL_DISTRIBUTIONS.tsv"
+      },
+      {
+        "actual": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+        "expected": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+        "line": 44,
+        "match": true,
+        "path": "run1/COHORT_COUNTS.tsv"
+      },
+      {
+        "actual": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+        "expected": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+        "line": 45,
+        "match": true,
+        "path": "run1/INFLUENCE_RECORDS.tsv"
+      },
+      {
+        "actual": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+        "expected": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+        "line": 46,
+        "match": true,
+        "path": "run1/INPUT_ACCESS_INVENTORY.tsv"
+      },
+      {
+        "actual": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+        "expected": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+        "line": 47,
+        "match": true,
+        "path": "run1/MANUSCRIPT_READY_SENSITIVITY_TABLE.tsv"
+      },
+      {
+        "actual": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+        "expected": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+        "line": 48,
+        "match": true,
+        "path": "run1/MATCHED_DECOMPOSITIONS.tsv"
+      },
+      {
+        "actual": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+        "expected": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+        "line": 49,
+        "match": true,
+        "path": "run1/MISSINGNESS.tsv"
+      },
+      {
+        "actual": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+        "expected": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+        "line": 50,
+        "match": true,
+        "path": "run1/MODEL_DIAGNOSTICS.tsv"
+      },
+      {
+        "actual": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "expected": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "line": 51,
+        "match": true,
+        "path": "run1/MODEL_RESULTS.tsv"
+      },
+      {
+        "actual": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+        "expected": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+        "line": 52,
+        "match": true,
+        "path": "run1/PROPOSED_WORDING.md"
+      },
+      {
+        "actual": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+        "expected": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+        "line": 53,
+        "match": true,
+        "path": "run1/SCIENTIFIC_RESULTS.json"
+      },
+      {
+        "actual": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "expected": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "line": 54,
+        "match": true,
+        "path": "run1/SIX_TARGET_APPENDIX.tsv"
+      },
+      {
+        "actual": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+        "expected": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+        "line": 55,
+        "match": true,
+        "path": "run2/ANALYTICAL_REPORT.md"
+      },
+      {
+        "actual": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+        "expected": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+        "line": 56,
+        "match": true,
+        "path": "run2/CLINICAL_DISTRIBUTIONS.tsv"
+      },
+      {
+        "actual": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+        "expected": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+        "line": 57,
+        "match": true,
+        "path": "run2/COHORT_COUNTS.tsv"
+      },
+      {
+        "actual": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+        "expected": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+        "line": 58,
+        "match": true,
+        "path": "run2/INFLUENCE_RECORDS.tsv"
+      },
+      {
+        "actual": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+        "expected": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+        "line": 59,
+        "match": true,
+        "path": "run2/INPUT_ACCESS_INVENTORY.tsv"
+      },
+      {
+        "actual": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+        "expected": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+        "line": 60,
+        "match": true,
+        "path": "run2/MANUSCRIPT_READY_SENSITIVITY_TABLE.tsv"
+      },
+      {
+        "actual": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+        "expected": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+        "line": 61,
+        "match": true,
+        "path": "run2/MATCHED_DECOMPOSITIONS.tsv"
+      },
+      {
+        "actual": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+        "expected": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+        "line": 62,
+        "match": true,
+        "path": "run2/MISSINGNESS.tsv"
+      },
+      {
+        "actual": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+        "expected": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+        "line": 63,
+        "match": true,
+        "path": "run2/MODEL_DIAGNOSTICS.tsv"
+      },
+      {
+        "actual": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "expected": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "line": 64,
+        "match": true,
+        "path": "run2/MODEL_RESULTS.tsv"
+      },
+      {
+        "actual": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+        "expected": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+        "line": 65,
+        "match": true,
+        "path": "run2/PROPOSED_WORDING.md"
+      },
+      {
+        "actual": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+        "expected": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+        "line": 66,
+        "match": true,
+        "path": "run2/SCIENTIFIC_RESULTS.json"
+      },
+      {
+        "actual": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "expected": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "line": 67,
+        "match": true,
+        "path": "run2/SIX_TARGET_APPENDIX.tsv"
+      },
+      {
+        "actual": "4f5d4959a5b4bf6964ff7858eefb8cf181ced2de93fbc98d00c6c5058265c2aa",
+        "expected": "4f5d4959a5b4bf6964ff7858eefb8cf181ced2de93fbc98d00c6c5058265c2aa",
+        "line": 68,
+        "match": true,
+        "path": "run_phase2.py"
+      },
+      {
+        "actual": "20630160a846062de32635ad00dd02d95df6dee2be628b42a645c020c41b0e8b",
+        "expected": "20630160a846062de32635ad00dd02d95df6dee2be628b42a645c020c41b0e8b",
+        "line": 69,
+        "match": true,
+        "path": "trace_exec.sh"
+      }
+    ]
+  },
+  "phase2_input_hashes": {
+    "match_count": 26,
+    "mismatch_count": 0,
+    "row_count": 26,
+    "rows": [
+      {
+        "actual": "682099a03923778d170ff4bd46e8b475405419fe1fadb3259ce4c2e75b43f2c1",
+        "class": "TASK028_DESIGN",
+        "expected": "682099a03923778d170ff4bd46e8b475405419fe1fadb3259ce4c2e75b43f2c1",
+        "match": true,
+        "path": "data/external/original-workspace/task028-freeze-b-draft/sealed_v3/B2_MODEL_SPEC.md"
+      },
+      {
+        "actual": "4d7bfb997c9dc188daf9e584a791ff490dfcfdd7fa365c20bca8a2c066f42065",
+        "class": "TASK028_CODE",
+        "expected": "4d7bfb997c9dc188daf9e584a791ff490dfcfdd7fa365c20bca8a2c066f42065",
+        "match": true,
+        "path": "data/external/original-workspace/task028-freeze-b-draft/execution/scripts_v3/model_engine.py"
+      },
+      {
+        "actual": "956b7a968f35d1da57719e3bc7392decbdd6e292ac31d4dec100b6632518b0cb",
+        "class": "TASK028_OUTCOME",
+        "expected": "956b7a968f35d1da57719e3bc7392decbdd6e292ac31d4dec100b6632518b0cb",
+        "match": true,
+        "path": "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/scores_v3.npz"
+      },
+      {
+        "actual": "cc46495c0abc6877182c9bff8d4ba44f11599d8bc5bc7a8cb6f8331aa1ec3c9a",
+        "class": "TASK028_COVARIATES",
+        "expected": "cc46495c0abc6877182c9bff8d4ba44f11599d8bc5bc7a8cb6f8331aa1ec3c9a",
+        "match": true,
+        "path": "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/covariates_v3.tsv"
+      },
+      {
+        "actual": "e494200b1a9d1c026679d039181bf34cfa3be62892e3d55bca2aeec0dab5e432",
+        "class": "TASK028_ORDER",
+        "expected": "e494200b1a9d1c026679d039181bf34cfa3be62892e3d55bca2aeec0dab5e432",
+        "match": true,
+        "path": "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/patient_order_v3.json"
+      },
+      {
+        "actual": "09c6950e997b9c2534180d34c86e246ba749943b07a4f6bed62f5cbcea5ee2b9",
+        "class": "PHASE1_PROTOCOL",
+        "expected": "09c6950e997b9c2534180d34c86e246ba749943b07a4f6bed62f5cbcea5ee2b9",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/PHASE1_OUTCOME_BLIND_PROTOCOL.md"
+      },
+      {
+        "actual": "aa1eaea70991d9e915f499243a11964e01b7242c2f190cac783661b896e1eb42",
+        "class": "PHASE1_RULES",
+        "expected": "aa1eaea70991d9e915f499243a11964e01b7242c2f190cac783661b896e1eb42",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/PHASE1_FEASIBILITY_RULES.json"
+      },
+      {
+        "actual": "40e11800d4d5f56388ca7563886215d07e219dc6d8f440b7069e0d3be772615b",
+        "class": "PHASE1_FIREWALL",
+        "expected": "40e11800d4d5f56388ca7563886215d07e219dc6d8f440b7069e0d3be772615b",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/ALLOWED_INPUTS_AND_OUTCOME_FIREWALL.json"
+      },
+      {
+        "actual": "bdaa15a40800cb5384abda946ef2c388f97fbb4fdcc16c4c901d9d00452d9039",
+        "class": "PHASE1_INPUT_LOCK",
+        "expected": "bdaa15a40800cb5384abda946ef2c388f97fbb4fdcc16c4c901d9d00452d9039",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/INPUTS_LOCK.json"
+      },
+      {
+        "actual": "ca526090be27c87b0c90935723f5be45419897a7198b91ef1dfd8e1b5dc9879d",
+        "class": "PHASE1_MANIFEST",
+        "expected": "ca526090be27c87b0c90935723f5be45419897a7198b91ef1dfd8e1b5dc9879d",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/REPRODUCIBILITY_MANIFEST.json"
+      },
+      {
+        "actual": "a9b01e817d9e84180dc4804811dd2d0e33c245925a11bc8d5996363c42e7bc94",
+        "class": "PHASE1_DECISION",
+        "expected": "a9b01e817d9e84180dc4804811dd2d0e33c245925a11bc8d5996363c42e7bc94",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/PHASE1_DECISION.json"
+      },
+      {
+        "actual": "c4252fd1d17a07212852a894631afd7a8df3b331ccf9aed314869b0e5512a362",
+        "class": "PHASE1_HARMONIZATION_SPEC",
+        "expected": "c4252fd1d17a07212852a894631afd7a8df3b331ccf9aed314869b0e5512a362",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/FROZEN_HARMONIZATION_SPEC.json"
+      },
+      {
+        "actual": "c255355de4b6c4b366a626d7e79b26f474d55ead67387d1fde519743ac7e316b",
+        "class": "PHASE1_HARMONIZATION_MAP",
+        "expected": "c255355de4b6c4b366a626d7e79b26f474d55ead67387d1fde519743ac7e316b",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/HARMONIZATION_MAP.tsv"
+      },
+      {
+        "actual": "c6087dc8e685b305ccd3ff9d1da02846ff8a306018cc1fb0820cf3825fc8e823",
+        "class": "PHASE1_LINKAGE",
+        "expected": "c6087dc8e685b305ccd3ff9d1da02846ff8a306018cc1fb0820cf3825fc8e823",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/LINKAGE_LEDGER.tsv"
+      },
+      {
+        "actual": "02e08cb20fe60056b6a23b4bd9837d07ba80a6c729f1fcf366e28d50d97dc69e",
+        "class": "PHASE1_MISSINGNESS",
+        "expected": "02e08cb20fe60056b6a23b4bd9837d07ba80a6c729f1fcf366e28d50d97dc69e",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/MISSINGNESS.tsv"
+      },
+      {
+        "actual": "09fe226376379a333715c3dcfce4d1282e882a368e92c3eb3f6a9ece9abbec80",
+        "class": "PHASE1_RAW_COUNTS",
+        "expected": "09fe226376379a333715c3dcfce4d1282e882a368e92c3eb3f6a9ece9abbec80",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/RAW_CATEGORY_COUNTS.tsv"
+      },
+      {
+        "actual": "5599d54f8578bca87976a5ebcce5c94df37c1337f478c05e12cf421f0aaf9959",
+        "class": "PHASE1_FIELD_DICTIONARY",
+        "expected": "5599d54f8578bca87976a5ebcce5c94df37c1337f478c05e12cf421f0aaf9959",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/SOURCE_FIELD_DICTIONARY.tsv"
+      },
+      {
+        "actual": "91726649b4e910d5f08318304f052a044fba786e581d0efca0fee39b4737e0dc",
+        "class": "PHASE1_PROPOSED_COUNTS",
+        "expected": "91726649b4e910d5f08318304f052a044fba786e581d0efca0fee39b4737e0dc",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/SUBTYPE_BY_PROPOSED_CATEGORY.tsv"
+      },
+      {
+        "actual": "54703638e1dad819802d4545bf598e061fa64994cd406922ef10abe15c9110e3",
+        "class": "PHASE1_RAW_SUBTYPE_COUNTS",
+        "expected": "54703638e1dad819802d4545bf598e061fa64994cd406922ef10abe15c9110e3",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/SUBTYPE_BY_RAW_CATEGORY.tsv"
+      },
+      {
+        "actual": "4affeecd2795778f8d016530c3df1bb19a17e0a84ecf19e89f2fcf216e635fd2",
+        "class": "PHASE1_DIAGNOSTICS",
+        "expected": "4affeecd2795778f8d016530c3df1bb19a17e0a84ecf19e89f2fcf216e635fd2",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/DESIGN_DIAGNOSTICS.tsv"
+      },
+      {
+        "actual": "5c7c3fa50e7fcd0f35eadbafbe62b35a5f8dd94c7470a79daf008405051b892e",
+        "class": "PHASE1_REPORT",
+        "expected": "5c7c3fa50e7fcd0f35eadbafbe62b35a5f8dd94c7470a79daf008405051b892e",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/PHASE1_FEASIBILITY_REPORT.md"
+      },
+      {
+        "actual": "1393934215808dcc14466bb250e2832f1b9a50588fe7f8d6c3774118fbf01d60",
+        "class": "PHASE1_ATTESTATION",
+        "expected": "1393934215808dcc14466bb250e2832f1b9a50588fe7f8d6c3774118fbf01d60",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/OUTCOME_FIREWALL_ATTESTATION.txt"
+      },
+      {
+        "actual": "1b83bae3d188db5e844c1786f3d5773c0e2c183d8a050d5c0f575b8c6eeadbcf",
+        "class": "PHASE1_CRITIC",
+        "expected": "1b83bae3d188db5e844c1786f3d5773c0e2c183d8a050d5c0f575b8c6eeadbcf",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_critic/VALIDATION_REPORT_PHASE1.md"
+      },
+      {
+        "actual": "1f19908c6e7a96b460be5962d1a21cd2743cb567186717d1247fe699503ede03",
+        "class": "PHASE1_SOURCE_AUDIT",
+        "expected": "1f19908c6e7a96b460be5962d1a21cd2743cb567186717d1247fe699503ede03",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_critic/SOURCE_AND_SEMANTIC_AUDIT.md"
+      },
+      {
+        "actual": "040483724321b8846c0447b988f4482f3f1aad410dc42b6e0f9556b16eff353b",
+        "class": "PHASE1_INPUT_AUDIT",
+        "expected": "040483724321b8846c0447b988f4482f3f1aad410dc42b6e0f9556b16eff353b",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_critic/INPUT_SOURCE_HASH_AUDIT.json"
+      },
+      {
+        "actual": "324e570bcb7a33a68c56b887f653fd7c55734276dd5a6076677edc948d5051a5",
+        "class": "PHASE1_FIREWALL_AUDIT",
+        "expected": "324e570bcb7a33a68c56b887f653fd7c55734276dd5a6076677edc948d5051a5",
+        "match": true,
+        "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_critic/FIREWALL_OPEN_TRACE_AUDIT.json"
+      }
+    ]
+  },
+  "preservation": {
+    "external": [
+      {
+        "branch": "experiment/embryonic-atlas",
+        "expected": "17fcf6c711c9b376b1fef426440e7583526547ef456f6bada618ef0d2970bc22",
+        "head": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+        "match": true,
+        "observed": "17fcf6c711c9b376b1fef426440e7583526547ef456f6bada618ef0d2970bc22",
+        "path": "data/external/original-workspace/revgate"
+      },
+      {
+        "branch": "experiment/task-a-perclass-c2-sensitivity",
+        "expected": "84d57032f00ad4846d9e8c8223e9d1b1fd1d6ad9dcbeb85443fff58672ef59c3",
+        "head": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+        "match": true,
+        "observed": "84d57032f00ad4846d9e8c8223e9d1b1fd1d6ad9dcbeb85443fff58672ef59c3",
+        "path": "data/external/original-workspace/revgate-task-a-perclass"
+      },
+      {
+        "branch": "experiment/tcga-no-purity-verify",
+        "expected": "16a3e9e9cf8bc9b3ae225c8e25c964939eb1a8d7a8212f844f652f45923e5210",
+        "head": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+        "match": true,
+        "observed": "16a3e9e9cf8bc9b3ae225c8e25c964939eb1a8d7a8212f844f652f45923e5210",
+        "path": "data/external/original-workspace/revgate-tcga-no-purity-verify"
+      }
+    ],
+    "external_all_match": true,
+    "manuscript_docx_pdf_status_paths": [],
+    "note": "The listed staged docs changes predate cycle 6; their Phase-1/freeze bytes are separately hash-pinned and reverified.",
+    "src_paths_changed": [],
+    "staged_src_docs_paths": [
+      "docs/agents/CHANGELOG.md",
+      "docs/reference/FINDINGS_REGISTRY.md",
+      "docs/reference/RESULTS_REGISTRY.md",
+      "docs/research/findings/TASK-B_grade_histology_feasibility_and_phase2_block.md"
+    ],
+    "unstaged_src_docs_paths": []
+  },
+  "run1_sha256s": {
+    "line_count": 13,
+    "match_count": 13,
+    "mismatch_count": 0,
+    "rows": [
+      {
+        "actual": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+        "expected": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+        "line": 1,
+        "match": true,
+        "path": "run1/ANALYTICAL_REPORT.md"
+      },
+      {
+        "actual": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+        "expected": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+        "line": 2,
+        "match": true,
+        "path": "run1/CLINICAL_DISTRIBUTIONS.tsv"
+      },
+      {
+        "actual": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+        "expected": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+        "line": 3,
+        "match": true,
+        "path": "run1/COHORT_COUNTS.tsv"
+      },
+      {
+        "actual": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+        "expected": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+        "line": 4,
+        "match": true,
+        "path": "run1/INFLUENCE_RECORDS.tsv"
+      },
+      {
+        "actual": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+        "expected": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+        "line": 5,
+        "match": true,
+        "path": "run1/INPUT_ACCESS_INVENTORY.tsv"
+      },
+      {
+        "actual": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+        "expected": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+        "line": 6,
+        "match": true,
+        "path": "run1/MANUSCRIPT_READY_SENSITIVITY_TABLE.tsv"
+      },
+      {
+        "actual": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+        "expected": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+        "line": 7,
+        "match": true,
+        "path": "run1/MATCHED_DECOMPOSITIONS.tsv"
+      },
+      {
+        "actual": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+        "expected": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+        "line": 8,
+        "match": true,
+        "path": "run1/MISSINGNESS.tsv"
+      },
+      {
+        "actual": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+        "expected": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+        "line": 9,
+        "match": true,
+        "path": "run1/MODEL_DIAGNOSTICS.tsv"
+      },
+      {
+        "actual": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "expected": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "line": 10,
+        "match": true,
+        "path": "run1/MODEL_RESULTS.tsv"
+      },
+      {
+        "actual": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+        "expected": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+        "line": 11,
+        "match": true,
+        "path": "run1/PROPOSED_WORDING.md"
+      },
+      {
+        "actual": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+        "expected": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+        "line": 12,
+        "match": true,
+        "path": "run1/SCIENTIFIC_RESULTS.json"
+      },
+      {
+        "actual": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "expected": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "line": 13,
+        "match": true,
+        "path": "run1/SIX_TARGET_APPENDIX.tsv"
+      }
+    ]
+  },
+  "run2_sha256s": {
+    "line_count": 13,
+    "match_count": 13,
+    "mismatch_count": 0,
+    "rows": [
+      {
+        "actual": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+        "expected": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+        "line": 1,
+        "match": true,
+        "path": "run2/ANALYTICAL_REPORT.md"
+      },
+      {
+        "actual": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+        "expected": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+        "line": 2,
+        "match": true,
+        "path": "run2/CLINICAL_DISTRIBUTIONS.tsv"
+      },
+      {
+        "actual": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+        "expected": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+        "line": 3,
+        "match": true,
+        "path": "run2/COHORT_COUNTS.tsv"
+      },
+      {
+        "actual": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+        "expected": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+        "line": 4,
+        "match": true,
+        "path": "run2/INFLUENCE_RECORDS.tsv"
+      },
+      {
+        "actual": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+        "expected": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+        "line": 5,
+        "match": true,
+        "path": "run2/INPUT_ACCESS_INVENTORY.tsv"
+      },
+      {
+        "actual": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+        "expected": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+        "line": 6,
+        "match": true,
+        "path": "run2/MANUSCRIPT_READY_SENSITIVITY_TABLE.tsv"
+      },
+      {
+        "actual": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+        "expected": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+        "line": 7,
+        "match": true,
+        "path": "run2/MATCHED_DECOMPOSITIONS.tsv"
+      },
+      {
+        "actual": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+        "expected": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+        "line": 8,
+        "match": true,
+        "path": "run2/MISSINGNESS.tsv"
+      },
+      {
+        "actual": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+        "expected": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+        "line": 9,
+        "match": true,
+        "path": "run2/MODEL_DIAGNOSTICS.tsv"
+      },
+      {
+        "actual": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "expected": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "line": 10,
+        "match": true,
+        "path": "run2/MODEL_RESULTS.tsv"
+      },
+      {
+        "actual": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+        "expected": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+        "line": 11,
+        "match": true,
+        "path": "run2/PROPOSED_WORDING.md"
+      },
+      {
+        "actual": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+        "expected": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+        "line": 12,
+        "match": true,
+        "path": "run2/SCIENTIFIC_RESULTS.json"
+      },
+      {
+        "actual": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "expected": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "line": 13,
+        "match": true,
+        "path": "run2/SIX_TARGET_APPENDIX.tsv"
+      }
+    ]
+  },
+  "run_identity": {
+    "all_read_only": true,
+    "identity_count": 13,
+    "rows": [
+      {
+        "byte_identical": true,
+        "file": "ANALYTICAL_REPORT.md",
+        "run1_mode": 292,
+        "run1_sha256": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+        "run2_mode": 292,
+        "run2_sha256": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0"
+      },
+      {
+        "byte_identical": true,
+        "file": "CLINICAL_DISTRIBUTIONS.tsv",
+        "run1_mode": 292,
+        "run1_sha256": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+        "run2_mode": 292,
+        "run2_sha256": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0"
+      },
+      {
+        "byte_identical": true,
+        "file": "COHORT_COUNTS.tsv",
+        "run1_mode": 292,
+        "run1_sha256": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+        "run2_mode": 292,
+        "run2_sha256": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10"
+      },
+      {
+        "byte_identical": true,
+        "file": "INFLUENCE_RECORDS.tsv",
+        "run1_mode": 292,
+        "run1_sha256": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+        "run2_mode": 292,
+        "run2_sha256": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8"
+      },
+      {
+        "byte_identical": true,
+        "file": "INPUT_ACCESS_INVENTORY.tsv",
+        "run1_mode": 292,
+        "run1_sha256": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+        "run2_mode": 292,
+        "run2_sha256": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290"
+      },
+      {
+        "byte_identical": true,
+        "file": "MANUSCRIPT_READY_SENSITIVITY_TABLE.tsv",
+        "run1_mode": 292,
+        "run1_sha256": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+        "run2_mode": 292,
+        "run2_sha256": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9"
+      },
+      {
+        "byte_identical": true,
+        "file": "MATCHED_DECOMPOSITIONS.tsv",
+        "run1_mode": 292,
+        "run1_sha256": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+        "run2_mode": 292,
+        "run2_sha256": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6"
+      },
+      {
+        "byte_identical": true,
+        "file": "MISSINGNESS.tsv",
+        "run1_mode": 292,
+        "run1_sha256": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+        "run2_mode": 292,
+        "run2_sha256": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2"
+      },
+      {
+        "byte_identical": true,
+        "file": "MODEL_DIAGNOSTICS.tsv",
+        "run1_mode": 292,
+        "run1_sha256": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+        "run2_mode": 292,
+        "run2_sha256": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221"
+      },
+      {
+        "byte_identical": true,
+        "file": "MODEL_RESULTS.tsv",
+        "run1_mode": 292,
+        "run1_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "run2_mode": 292,
+        "run2_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090"
+      },
+      {
+        "byte_identical": true,
+        "file": "PROPOSED_WORDING.md",
+        "run1_mode": 292,
+        "run1_sha256": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+        "run2_mode": 292,
+        "run2_sha256": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267"
+      },
+      {
+        "byte_identical": true,
+        "file": "SCIENTIFIC_RESULTS.json",
+        "run1_mode": 292,
+        "run1_sha256": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+        "run2_mode": 292,
+        "run2_sha256": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8"
+      },
+      {
+        "byte_identical": true,
+        "file": "SIX_TARGET_APPENDIX.tsv",
+        "run1_mode": 292,
+        "run1_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+        "run2_mode": 292,
+        "run2_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090"
+      }
+    ],
+    "run1_count": 13,
+    "run1_directory_mode": 365,
+    "run2_count": 13,
+    "run2_directory_mode": 365
+  },
+  "traces": {
+    "postseal": {
+      "POSTSEAL_RUN1_OPEN_TRACE.log": {
+        "declared_inputs_seen": {
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/PHASE1_FEASIBILITY_RULES.json": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_critic/VALIDATION_REPORT_PHASE1.md": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/INPUTS_LOCK.json": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/FROZEN_HARMONIZATION_SPEC.json": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/HARMONIZATION_MAP.tsv": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/LINKAGE_LEDGER.tsv": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/MISSINGNESS.tsv": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/PHASE1_DECISION.json": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/RAW_CATEGORY_COUNTS.tsv": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/SUBTYPE_BY_PROPOSED_CATEGORY.tsv": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_freeze/PHASE2_FROZEN_SPEC.json": true,
+          "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/covariates_v3.tsv": true,
+          "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/patient_order_v3.json": true,
+          "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/scores_v3.npz": true,
+          "data/external/original-workspace/task028-freeze-b-draft/execution/scripts_v3/model_engine.py": true,
+          "data/external/original-workspace/task028-freeze-b-draft/sealed_v3/B2_MODEL_SPEC.md": true
+        },
+        "forbidden_occurrence_count": 0,
+        "internet_connect_count": 0,
+        "line_count": 5736,
+        "unexpected_workspace_paths": []
+      },
+      "POSTSEAL_RUN2_OPEN_TRACE.log": {
+        "declared_inputs_seen": {
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/PHASE1_FEASIBILITY_RULES.json": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_critic/VALIDATION_REPORT_PHASE1.md": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/INPUTS_LOCK.json": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/FROZEN_HARMONIZATION_SPEC.json": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/HARMONIZATION_MAP.tsv": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/LINKAGE_LEDGER.tsv": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/MISSINGNESS.tsv": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/PHASE1_DECISION.json": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/RAW_CATEGORY_COUNTS.tsv": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/SUBTYPE_BY_PROPOSED_CATEGORY.tsv": true,
+          "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_freeze/PHASE2_FROZEN_SPEC.json": true,
+          "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/covariates_v3.tsv": true,
+          "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/patient_order_v3.json": true,
+          "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/scores_v3.npz": true,
+          "data/external/original-workspace/task028-freeze-b-draft/execution/scripts_v3/model_engine.py": true,
+          "data/external/original-workspace/task028-freeze-b-draft/sealed_v3/B2_MODEL_SPEC.md": true
+        },
+        "forbidden_occurrence_count": 0,
+        "internet_connect_count": 0,
+        "line_count": 5736,
+        "unexpected_workspace_paths": []
+      }
+    },
+    "postseal_all_clean": true,
+    "preseal": {
+      "PRESEAL_SYNTHETIC_OPEN_TRACE.log": {
+        "forbidden_occurrence_count": 0,
+        "internet_connect_count": 0,
+        "line_count": 5636
+      },
+      "PRESEAL_SYNTHETIC_OPEN_TRACE_CLEAN.log": {
+        "forbidden_occurrence_count": 0,
+        "internet_connect_count": 0,
+        "line_count": 5636
+      },
+      "PRESEAL_SYNTHETIC_OPEN_TRACE_SUCCESS.log": {
+        "forbidden_occurrence_count": 0,
+        "internet_connect_count": 0,
+        "line_count": 5636
+      }
+    },
+    "preseal_all_clean": true,
+    "seal_claims_preoutcome": {
+      "covariate_file_preseal_access": "SHA256_ONLY",
+      "network_namespace": "bwrap --unshare-net",
+      "outcome_file_preseal_access": "SHA256_ONLY",
+      "patient_order_preseal_access": "SHA256_ONLY",
+      "prior_numerical_outputs_opened": false,
+      "static_access_scan": "PASS",
+      "synthetic_serialization_fixture": "Python and NumPy bool/int/uint/float/string scalars, 0d/1d/2d arrays, tuples, nested mappings, and actual synthetic diagnostics",
+      "synthetic_test": "PASS",
+      "synthetic_trace_audit": "PASS"
+    },
+    "upstream": {
+      "authorized_inputs_seen": {
+        "data/external/original-workspace/task028-freeze-b-draft/execution/results_v3/primary_results.tsv": true,
+        "data/external/original-workspace/task028-freeze-b-draft/execution/results_v3/sensitivity_SENS_nopurity.tsv": true,
+        "data/external/original-workspace/task030-tcga-nopurity-audit/results/tcga_primary_vs_nopurity_per_target.tsv": true
+      },
+      "internet_connect_count": 0,
+      "line_count": 602,
+      "unexpected_workspace_paths": []
+    }
+  }
+}

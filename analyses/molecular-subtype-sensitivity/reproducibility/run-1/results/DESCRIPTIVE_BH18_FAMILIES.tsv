@@ -1,0 +1,6 @@
+family	model	planned_size	evaluable_count	missing_placeholders_inserted	raw_p_source
+BH18_TCGA_PRIMARY	TCGA_PRIMARY_CPE_N506	18	18	0	permutation p
+BH18_TCGA_NOPURITY	TCGA_NOPURITY_N507	18	18	0	permutation p
+BH18_CPTAC_DISCOVERY	CPTAC_DISCOVERY_N95	18	18	0	permutation p
+BH18_CPTAC_CONFIRMATORY	CPTAC_CONFIRMATORY_N135	18	18	0	permutation p
+BH18_CPTAC_FIXED_EFFECT_META	CPTAC_FIXED_EFFECT_META	18	18	0	fixed-effect normal p

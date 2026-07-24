@@ -1,0 +1,20 @@
+{
+  "paths": {
+    "spec": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_freeze/PHASE2_FROZEN_SPEC.json",
+    "engine": "data/external/original-workspace/task028-freeze-b-draft/execution/scripts_v3/model_engine.py",
+    "design": "data/external/original-workspace/task028-freeze-b-draft/sealed_v3/B2_MODEL_SPEC.md",
+    "scores": "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/scores_v3.npz",
+    "covariates": "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/covariates_v3.tsv",
+    "order": "data/external/original-workspace/task028-freeze-b-draft/execution/intermediate/patient_order_v3.json",
+    "rules": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/PHASE1_FEASIBILITY_RULES.json",
+    "input_lock": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/INPUTS_LOCK.json",
+    "decision": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/PHASE1_DECISION.json",
+    "harm_spec": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/FROZEN_HARMONIZATION_SPEC.json",
+    "harm_map": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/HARMONIZATION_MAP.tsv",
+    "ledger": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/LINKAGE_LEDGER.tsv",
+    "missing": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/MISSINGNESS.tsv",
+    "raw_counts": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/RAW_CATEGORY_COUNTS.tsv",
+    "proposed": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1/SUBTYPE_BY_PROPOSED_CATEGORY.tsv",
+    "reviewer": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_critic/VALIDATION_REPORT_PHASE1.md"
+  }
+}

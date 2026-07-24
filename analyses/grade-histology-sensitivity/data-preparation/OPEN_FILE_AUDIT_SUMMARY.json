@@ -1,0 +1,27 @@
+{
+  "acquisition_network_trace_note": "Acquisition strace captured opens; exact remote requests, headers, hashes, and timestamps are recorded in INPUTS_LOCK. Analysis traces additionally captured network syscalls.",
+  "decision_counts": {
+    "ALLOW_DECLARED_ACQUISITION_OUTPUT": 14,
+    "ALLOW_DECLARED_ENVIRONMENT": 12,
+    "ALLOW_DECLARED_OUTPUT": 24,
+    "ALLOW_EXACT_SHA_PINNED_EXTERNAL": 12,
+    "ALLOW_LOCKED_ACQUIRED_INPUT": 32,
+    "ALLOW_OS_RUNTIME_OR_RELATIVE_RUNTIME": 1205,
+    "ALLOW_PHASE1_CODE_DIRECTORY": 6,
+    "ALLOW_PHASE1_CODE_LOCK_OR_RULE": 20
+  },
+  "denied_open_events": [],
+  "external_inet_events": [],
+  "network_namespace": "isolated; only bwrap AF_NETLINK loopback setup and local AF_UNIX attempts observed",
+  "open_events": 1325,
+  "schema_version": "1.0.0",
+  "status": "PASS",
+  "trace_method": "Acquisition: strace -f openat/open/creat in standalone minimal processes. Analysis: strace -f openat/open/creat/network around bwrap --unshare-net.",
+  "trace_stages": [
+    "acquisition_round1_failed_http503",
+    "acquisition_round1_retry",
+    "acquisition_round2",
+    "analysis_run1",
+    "analysis_run2"
+  ]
+}

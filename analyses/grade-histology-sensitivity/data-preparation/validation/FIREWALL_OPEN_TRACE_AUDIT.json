@@ -1,0 +1,104 @@
+{
+  "critic_external_analysis_network_count": 0,
+  "critic_forbidden_open_count": 0,
+  "critic_raw_traces": [
+    {
+      "external_network_events": [],
+      "forbidden_open_paths": [],
+      "line_count": 214,
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_critic/acquire_round1_open_trace.log",
+      "quoted_open_path_count": 164
+    },
+    {
+      "external_network_events": [],
+      "forbidden_open_paths": [],
+      "line_count": 213,
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_critic/acquire_round2_open_trace.log",
+      "quoted_open_path_count": 163
+    },
+    {
+      "external_network_events": [],
+      "forbidden_open_paths": [],
+      "line_count": 480,
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_critic/independent_analysis_open_trace.log",
+      "quoted_open_path_count": 469
+    }
+  ],
+  "early_preflight_assessment": "Current PREFLIGHT_SCHEMA_REPORT is sanitized (dynamic identifiers redacted). The disclosed superseded version contained linkage identifiers only; no retained initial bytes exist, so exact prior content cannot be independently proven. Identifiers are permitted linkage metadata, not grade/histology or molecular outcomes.",
+  "gdc_case_mapping_assessment": "SHA matches allowlist but top-level schema is a broad mapping definition, not a case crosswalk; producer denied and did not use it.",
+  "producer_bwrap_unshare_net_commands": 2,
+  "producer_env_i_commands": 10,
+  "producer_external_analysis_network_count": 0,
+  "producer_failed_attempts": [
+    {
+      "attempt": 1,
+      "endpoint": "https://www.cbioportal.org/api/studies/ucec_tcga_pan_can_atlas_2018/clinical-data?clinicalDataType=SAMPLE&attributeId=GRADE&pageSize=100000&pageNumber=0&projection=SUMMARY",
+      "http_status": 503,
+      "resolution": "Exact frozen request retried without changing fields or endpoint.",
+      "response_body_saved": false,
+      "round": 1
+    }
+  ],
+  "producer_forbidden_open_count": 0,
+  "producer_numpy": "2.3.5",
+  "producer_parsed_expected_1325": true,
+  "producer_parsed_open_rows": 1325,
+  "producer_raw_trace_stages": [
+    {
+      "external_network_events": [],
+      "forbidden_open_paths": [],
+      "line_count": 295,
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition_round1_open_trace.log",
+      "quoted_open_path_count": 295
+    },
+    {
+      "external_network_events": [],
+      "forbidden_open_paths": [],
+      "line_count": 186,
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition_round1_retry_open_trace.log",
+      "quoted_open_path_count": 186
+    },
+    {
+      "external_network_events": [],
+      "forbidden_open_paths": [],
+      "line_count": 186,
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/acquisition_round2_open_trace.log",
+      "quoted_open_path_count": 186
+    },
+    {
+      "external_network_events": [],
+      "forbidden_open_paths": [],
+      "line_count": 340,
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1_complete_open_trace.log",
+      "quoted_open_path_count": 329
+    },
+    {
+      "external_network_events": [],
+      "forbidden_open_paths": [],
+      "line_count": 340,
+      "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2_complete_open_trace.log",
+      "quoted_open_path_count": 329
+    }
+  ],
+  "producer_stage_count": 5,
+  "producer_static_scan": {
+    "findings": {},
+    "patterns": {
+      "binary_array_load": "(?i)(numpy|np)\\.load\\s*\\([^\\n]*(npy|npz)",
+      "forbidden_external_worktree": "(?i)(revgate-task-a-perclass|task030-|data/external/original-workspace/revgate/)",
+      "forbidden_outcome_keyword": "(?i)(overall_survival|progression|recurrence|days_to_death|vital_status)",
+      "forbidden_scientific_artifact_keyword": "(?i)(regulon|score_array|primary_results|per_target|coefficient|effect_size|p_value|q_value|confidence_interval)",
+      "forbidden_target_scientific_pair": "(?i)(gata2|sox9|hoxa9|wt1|pax8|lhx1).*(result|score|coefficient|effect|figure)",
+      "network_module": "(?i)(urllib|requests|httpx|socket|aiohttp)",
+      "parquet_read": "(?i)(read_parquet|parquet\\.ParquetFile)",
+      "recursive_discovery": "(?i)(rglob\\s*\\(|os\\.walk\\s*\\(|glob\\s*\\(.*\\*\\*)"
+    },
+    "script": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/audit_phase1.py",
+    "sha256_checked_separately_in_manifest": true,
+    "status": "PASS"
+  },
+  "producer_summary_denied_count": 0,
+  "producer_summary_external_inet_count": 0,
+  "producer_summary_status": "PASS",
+  "status": "PASS"
+}

@@ -1,0 +1,39 @@
+TASK-030 targeted cycle-2 reviewer command record
+completed_utc=2026-07-22T15:08:52Z
+
+All commands were read-only except creating this review directory and its four new files.
+No producer workflow, numerical recomputation, fetch, checkout, stage, commit, push, DOCX/PDF generation, or manuscript edit was performed.
+
+Documentation and evidence reads:
+  sed -n ... revgate/docs/agents/reference/ANTI_FABRICATION_DOCTRINE.md
+  sed -n ... revgate/docs/reference/RISKS.md
+  sed -n ... revgate/docs/reference/FORMULA.md
+  sed -n ... revgate/docs/reference/STATE.md
+  sed -n ... revgate/docs/agents/reviewer/MEMORY.md
+  sed/rg/jq/awk/diff over the cycle-1 reviewer records, cycle-2 revision records, base report, fetch transcript, integrity tables, and reproducibility manifests named in the assignment
+
+Checksum verification:
+  (cd PACKAGE && sha256sum -c SHA256SUMS.txt)
+  result: 78/78 OK
+  (cd PACKAGE/reviewer && sha256sum -c CRITIC_SHA256SUMS.txt)
+  result: 84/84 OK
+  note: an initial invocation from PACKAGE used the wrong checksum working directory and failed only with missing relative paths; the corrected invocation above is binding.
+
+Read-only Git checks:
+  git -C VERIFICATION_WORKTREE ls-remote origin refs/heads/main
+  result: 83503bad47b60193598b2b9ebe819c22c83e8ac1 refs/heads/main
+  git -C VERIFICATION_WORKTREE branch --show-current
+  git -C VERIFICATION_WORKTREE rev-parse HEAD
+  git -C ORIGINAL_WORKTREE branch --show-current
+  git -C ORIGINAL_WORKTREE rev-parse HEAD
+  git -C ORIGINAL_WORKTREE status --porcelain=v1 -uall | sha256sum
+
+Integrity aggregation, before and after review writes:
+  find PACKAGE -type f ! -path 'PACKAGE/critic_cycle2_targeted/*' -print0 | sort -z | xargs -0 sha256sum | sha256sum
+  result: 503 files; 89ef14dba5adc9c27b4b5e0ea5073505923365d1c9cbc1be809e45a3280c7de6
+  find PACKAGE -type f outside the review directory, restricted to manuscript paths, DOCX/PDF, scripts, manifests, and checksum files, then sort -z | xargs -0 sha256sum | sha256sum
+  result: 119 files; 14b658fefa75f6cd0990bb6e96a574e770f5b04d3cf57d7045609e41dcb92220
+
+New review artifacts:
+  mkdir PACKAGE/critic_cycle2_targeted
+  apply_patch created VALIDATION_REPORT_TARGETED_CYCLE2.md, TARGETED_EVIDENCE.tsv, COMMANDS.txt, and TARGETED_SHA256SUMS.txt only.

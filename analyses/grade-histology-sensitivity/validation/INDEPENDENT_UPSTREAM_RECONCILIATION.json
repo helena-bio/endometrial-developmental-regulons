@@ -1,0 +1,24 @@
+{
+  "check_count": 54,
+  "input_hashes": {
+    "data/external/original-workspace/task028-freeze-b-draft/execution/results_v3/primary_results.tsv": "50df517a55744c12cac1db62a40b123976b1e4dc7efc2b806fe9f6d2a1608f9f",
+    "data/external/original-workspace/task028-freeze-b-draft/execution/results_v3/sensitivity_SENS_nopurity.tsv": "be4a89f723cc1e8f62405ea32f4acb6dccf386cf7cb06f26627a6120478c43d7",
+    "data/external/original-workspace/task030-tcga-nopurity-audit/results/tcga_primary_vs_nopurity_per_target.tsv": "f49685bf10cf6f8c8302ddaa81fe4f8c0d60ee36107e7d7f01c89692a52e5399"
+  },
+  "max_absolute_delta": 4.440892098500626e-15,
+  "mismatch_count": 0,
+  "task028_targets": [
+    "GATA2",
+    "SOX9",
+    "HOXA9",
+    "WT1",
+    "PAX8",
+    "LHX1"
+  ],
+  "task030_targets": [
+    "GATA2",
+    "HOXA9",
+    "SOX9",
+    "WT1"
+  ]
+}

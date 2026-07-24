@@ -1,0 +1,112 @@
+{
+  "manuscript_inventory": {
+    "content_opened": false,
+    "index_metadata_sha256": "4cc74308afb0b17220cabe8c25d8004c23ff45a9317d369755147d209348ed87",
+    "start_and_end_git_head_same": true,
+    "tracked_entry_count": 2
+  },
+  "original_dirty_worktree": {
+    "content_opened": false,
+    "end_status": {
+      "branch_head": "## experiment/embryonic-atlas",
+      "line_count": 239,
+      "sha256_of_status_text": "f2d963c7f9e48e82d7a87342cafec0af403d758a03df41c6654601ac59fb2624"
+    },
+    "preservation_evidence": "Both canonical strace audits show zero opens under this path.",
+    "start_status_snapshot": "NOT_CAPTURED_BY_EXPERIMENTER"
+  },
+  "protocol_researcher_artifacts": {
+    "all_unchanged": true,
+    "end_actual_sha256": {
+      "ALLOWED_INPUTS_AND_OUTCOME_FIREWALL.json": "40e11800d4d5f56388ca7563886215d07e219dc6d8f440b7069e0d3be772615b",
+      "PHASE1_FEASIBILITY_RULES.json": "aa1eaea70991d9e915f499243a11964e01b7242c2f190cac783661b896e1eb42",
+      "PHASE1_OUTCOME_BLIND_PROTOCOL.md": "09c6950e997b9c2534180d34c86e246ba749943b07a4f6bed62f5cbcea5ee2b9",
+      "RESEARCH_ACCESS_LOG.tsv": "bd754088fe6d8528b5f5ddbdb0246a956834d06e75fc8b5cebd6ffa20934352b"
+    },
+    "start_expected_sha256": {
+      "ALLOWED_INPUTS_AND_OUTCOME_FIREWALL.json": "40e11800d4d5f56388ca7563886215d07e219dc6d8f440b7069e0d3be772615b",
+      "PHASE1_FEASIBILITY_RULES.json": "aa1eaea70991d9e915f499243a11964e01b7242c2f190cac783661b896e1eb42",
+      "PHASE1_OUTCOME_BLIND_PROTOCOL.md": "09c6950e997b9c2534180d34c86e246ba749943b07a4f6bed62f5cbcea5ee2b9",
+      "RESEARCH_ACCESS_LOG.tsv": "bd754088fe6d8528b5f5ddbdb0246a956834d06e75fc8b5cebd6ffa20934352b"
+    }
+  },
+  "src_tree": {
+    "end_head_tree": "64804827670ef33bb58663fdae5d0aa257aa9b08",
+    "staged_diff_count": 0,
+    "start_head_tree": "64804827670ef33bb58663fdae5d0aa257aa9b08",
+    "unchanged": true,
+    "unstaged_diff_count": 0
+  },
+  "task030_paths": {
+    "content_opened": false,
+    "end_directory_metadata": [
+      {
+        "kind": "directory",
+        "mtime_ns_metadata": 1784332011821301875,
+        "path": "data/external/original-workspace/task030-final-manuscript-integration",
+        "size_metadata": 4096
+      },
+      {
+        "kind": "directory",
+        "mtime_ns_metadata": 1784733506408907178,
+        "path": "data/external/original-workspace/task030-git-objects.4aogvK",
+        "size_metadata": 4096
+      },
+      {
+        "kind": "directory",
+        "mtime_ns_metadata": 1784300514487841751,
+        "path": "data/external/original-workspace/task030-tcga-nopurity-audit",
+        "size_metadata": 4096
+      },
+      {
+        "kind": "directory",
+        "mtime_ns_metadata": 1784307949242456830,
+        "path": "data/external/original-workspace/task030-tcga-nopurity-audit-cycle2",
+        "size_metadata": 4096
+      }
+    ],
+    "preservation_evidence": "Both canonical strace audits show zero opens under task030 paths.",
+    "start_status_snapshot": "NOT_CAPTURED_BY_EXPERIMENTER"
+  },
+  "task_a_staged_worktree": {
+    "content_opened": false,
+    "end_status": {
+      "branch_head": "## experiment/task-a-perclass-c2-sensitivity...origin/main",
+      "line_count": 176,
+      "sha256_of_status_text": "2c81b01c862e214ddab89898b8f7cb49f6373309b6d7af9b27a30a81f4705366"
+    },
+    "preservation_evidence": "Both canonical strace audits show zero opens under this path.",
+    "start_status_snapshot": "NOT_CAPTURED_BY_EXPERIMENTER; no claim of bytewise start/end equality beyond zero-access trace."
+  },
+  "upstream_allowlisted_inputs": {
+    "all_hashes_unchanged": true,
+    "end_actual": {
+      "data/external/original-workspace/task024-freeze-a/subtype_normalized.tsv": "17a899a4869fccf806859342454bde440027786a48bdd50f1d1eace810b1ef9e",
+      "data/external/original-workspace/task027-acquire-freeze-a/freeze_a_redux/cohort_selected_primary.tsv": "e6f9d390730bff4248379b2280b12e2914ec800e2f56516b466f2151b169f3be",
+      "data/external/original-workspace/task029-external-replication-feasibility/join_tables/confirmatory_join.json": "95b9f754970e7f0691faddf6e350aca6cfe465c5c0c98600a4ed34ebbfe43743",
+      "data/external/original-workspace/task029-external-replication-feasibility/join_tables/discovery_join.json": "315a9d29f1add19fd90db85188762937ac2e49262d64a51813aca5fb5ccb48ad",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources/cbio_2020_clinattr.json": "25161910befe62fea99ba5d754e0e43f8d2d80413538b8bfcac0c52aa5e58e6e",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources/pdc_clin_PDC000125.json": "61d05e1298312fbdf98e23b027b93e9b0310612baf1fc9fb6fe088913bc08291",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources/pdc_clin_PDC000439.json": "6ff6418b4f201d7f2db3b1c69617d3435a01b4877cf37a06f4c56a4fb7ba4012",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources/pdc_confirmatory_biospec.json": "bc159c1d0500cce635b7631a069c814a9f3c802f947dc3c9bf828573e0b7aae9",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources/pdc_discovery_biospec.json": "c98f51f1ec9916252a210c40fae93adfe2ae42e998decdac5adbf82c8bd3b74e",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources_task029gate/gdc_case_mapping.json": "4e5fd1736d2b5a17f6cd66929953a6893f4858a0a480480faa26ccafd2e798c8",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources_task029gate/gdc_rna_primary_by_case.json": "87514a428a9cf4810621ff7c46f5c6696f78bda2e3fecf66e7fe9920cbe9fbda",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources_task029gate/uec_cptac_gdc_clinattr.json": "96794b79b83a663a9caf5dc51dce3d71a29983040a2b4125f972a100c7627628"
+    },
+    "start_expected_from_firewall": {
+      "data/external/original-workspace/task024-freeze-a/subtype_normalized.tsv": "17a899a4869fccf806859342454bde440027786a48bdd50f1d1eace810b1ef9e",
+      "data/external/original-workspace/task027-acquire-freeze-a/freeze_a_redux/cohort_selected_primary.tsv": "e6f9d390730bff4248379b2280b12e2914ec800e2f56516b466f2151b169f3be",
+      "data/external/original-workspace/task029-external-replication-feasibility/join_tables/confirmatory_join.json": "95b9f754970e7f0691faddf6e350aca6cfe465c5c0c98600a4ed34ebbfe43743",
+      "data/external/original-workspace/task029-external-replication-feasibility/join_tables/discovery_join.json": "315a9d29f1add19fd90db85188762937ac2e49262d64a51813aca5fb5ccb48ad",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources/cbio_2020_clinattr.json": "25161910befe62fea99ba5d754e0e43f8d2d80413538b8bfcac0c52aa5e58e6e",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources/pdc_clin_PDC000125.json": "61d05e1298312fbdf98e23b027b93e9b0310612baf1fc9fb6fe088913bc08291",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources/pdc_clin_PDC000439.json": "6ff6418b4f201d7f2db3b1c69617d3435a01b4877cf37a06f4c56a4fb7ba4012",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources/pdc_confirmatory_biospec.json": "bc159c1d0500cce635b7631a069c814a9f3c802f947dc3c9bf828573e0b7aae9",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources/pdc_discovery_biospec.json": "c98f51f1ec9916252a210c40fae93adfe2ae42e998decdac5adbf82c8bd3b74e",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources_task029gate/gdc_case_mapping.json": "4e5fd1736d2b5a17f6cd66929953a6893f4858a0a480480faa26ccafd2e798c8",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources_task029gate/gdc_rna_primary_by_case.json": "87514a428a9cf4810621ff7c46f5c6696f78bda2e3fecf66e7fe9920cbe9fbda",
+      "data/external/original-workspace/task029-external-replication-feasibility/sources_task029gate/uec_cptac_gdc_clinattr.json": "96794b79b83a663a9caf5dc51dce3d71a29983040a2b4125f972a100c7627628"
+    }
+  }
+}

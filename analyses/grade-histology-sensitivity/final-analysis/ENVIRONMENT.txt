@@ -1,0 +1,10 @@
+Interpreter: /usr/bin/python3
+Interpreter SHA-256: 1643dacd9feaedc58f3cc581e4d22577dfe25c09b10282936186ccf0f2e61118
+Python: 3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]
+NumPy: 2.3.5
+SciPy: 1.17.1
+pandas: 2.3.3
+statsmodels: 0.14.6
+Platform: Linux x86_64
+Locale discipline: ASCII output
+Network discipline: bwrap --unshare-net

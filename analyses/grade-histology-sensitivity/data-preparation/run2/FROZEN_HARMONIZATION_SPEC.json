@@ -1,0 +1,173 @@
+{
+  "design_diagnostics": {
+    "coding": "Use a declared reference level and full-rank treatment coding for fitting; use the frozen contrast matrix for subtype contrasts. Standardize continuous columns only for diagnostics.",
+    "condition_number": {
+      "compute_on_standardized_non_intercept_design": true,
+      "gt_100": "model_not_estimable",
+      "pass_max": 30,
+      "warning_max": 100
+    },
+    "full_rank": {
+      "fail_if_rank_lt_p": true,
+      "required": true,
+      "svd_tolerance": "machine_epsilon * max(n, p) * largest_singular_value"
+    },
+    "influence_phase2_only": {
+      "cooks_d_flag_gt": "4/(n-p)",
+      "dfbeta_flag_abs_gt": "2/sqrt(n)",
+      "instability_if_single_case_absolute_d_change_ge": 0.2,
+      "instability_if_single_case_changes_direction": true,
+      "no_automatic_case_deletion": true,
+      "studentized_residual_flag_abs_gt": 3
+    },
+    "leverage_phase1": {
+      "fail_if_any_hat_ge": 0.5,
+      "fail_if_fraction_high_flags_gt": 0.05,
+      "flag_hat_gt": "2*p/n",
+      "high_flag_hat_gt": "3*p/n"
+    },
+    "near_zero_variance": {
+      "action": "fail_that_clinical_parameterization",
+      "frequency_ratio_gt": 19,
+      "percent_unique_le": 10
+    },
+    "phase1_limitation": "Molecular covariate arrays are firewalled. Phase 1 computes clinical/subtype design diagnostics only. The exact full-model rank, VIF, leverage, and influence checks are mandatory gates repeated in Phase 2 after outcome access is separately authorized.",
+    "subtype_clinical_collinearity": {
+      "any_dummy_absolute_correlation_ge": 0.95,
+      "complete_nesting_or_structural_separation": "fail",
+      "cramers_v_fail_gt": 0.9,
+      "cramers_v_warning_gt": 0.8
+    },
+    "vif": {
+      "between_5_and_10": "unstable_sensitivity_only",
+      "multi_df_fail_gt": 10,
+      "multi_df_metric": "GVIF^(1/(2*df))",
+      "multi_df_pass_max": 5,
+      "one_df_fail_gt": 10,
+      "one_df_pass_max": 5
+    }
+  },
+  "exclusions": [
+    "not frozen roster",
+    "not exact frozen primary analytic tumour",
+    "technical reference or normal",
+    "exact linkage unavailable",
+    "same-precedence conflict",
+    "unknown or not reported",
+    "frozen support/design failure"
+  ],
+  "frozen_before_phase2": true,
+  "grade": {
+    "mapping": {
+      "FIGO grade 1": "low_grade",
+      "FIGO grade 2": "low_grade",
+      "FIGO grade 3": "high_grade",
+      "G1": "low_grade",
+      "G2": "low_grade",
+      "G3": "high_grade"
+    },
+    "non_endometrioid_not_assigned_grade_by_histology": true,
+    "requires_documented_FIGO_semantics": true,
+    "unknown_conflict_missing": true
+  },
+  "histology": {
+    "binary_mapping": {
+      "8020/3": [
+        "non_endometrioid",
+        "other_non_endometrioid"
+      ],
+      "8255/3": [
+        "non_endometrioid",
+        "other_non_endometrioid"
+      ],
+      "8310/3": [
+        "non_endometrioid",
+        "other_non_endometrioid"
+      ],
+      "8380/3": [
+        "endometrioid",
+        "endometrioid"
+      ],
+      "8382/3": [
+        "endometrioid",
+        "endometrioid"
+      ],
+      "8441/3": [
+        "non_endometrioid",
+        "serous"
+      ],
+      "8460/3": [
+        "non_endometrioid",
+        "serous"
+      ],
+      "8461/3": [
+        "non_endometrioid",
+        "serous"
+      ],
+      "Endometrioid": [
+        "endometrioid",
+        "endometrioid"
+      ],
+      "Serous": [
+        "non_endometrioid",
+        "serous"
+      ]
+    },
+    "mixed_never_reassigned": true,
+    "three_level_support_required": true,
+    "unknown_conflict_missing": true
+  },
+  "minimum_support": {
+    "additive_adjustment": {
+      "min_complete_case_n": 80,
+      "min_complete_case_n_formula": "max(80, 10 * p)",
+      "min_n_per_subtype": 5,
+      "p_definition": "number of columns in the exact full design matrix including intercept",
+      "requires_all_four_subtype_levels": true,
+      "requires_each_retained_clinical_level_in_at_least_two_subtypes": true,
+      "three_level_histology_uses_separate_serous_support_rule": true
+    },
+    "common": {
+      "fail_if_clinical_level_fraction_from_one_subtype_ge": 0.9,
+      "min_n_for_level_in_each_of_at_least_two_subtypes": 5,
+      "min_n_per_design_column": 10,
+      "min_overall_n_per_retained_clinical_level": 20,
+      "min_residual_df": 30
+    },
+    "endometrioid_only": {
+      "grade_use_requires_nonmissing_grade_in_subset": true,
+      "min_complete_case_n": 80,
+      "min_complete_case_n_formula": "max(80, 10 * p)",
+      "min_n_per_subtype": 10,
+      "requires_all_four_subtype_levels": true
+    },
+    "optional_grade_stratified": {
+      "if_failed": "Do not run or report grade-stratified molecular results.",
+      "min_n_per_subtype_per_stratum": 10,
+      "min_number_of_supported_grade_strata": 2,
+      "per_stratum_min_n": 80,
+      "per_stratum_min_n_formula": "max(80, 10 * p)",
+      "requires_all_four_subtype_levels_per_stratum": true
+    }
+  },
+  "model_hierarchy": {
+    "causal_warning": "Grade and histology may be confounders, mediators, consequences of subtype biology, or proxies for measurement and classification. Adjustment is not a unique causal estimand.",
+    "clinical_additions": "Add the frozen grade and histology factors without interactions. No category or reference-level choice may depend on a molecular result.",
+    "cptac_primary": "Exact frozen no-purity subtype + M4 proliferation + frozen ESTIMATE composition model, stratum-specific with the frozen meta-analysis structure.",
+    "order": [
+      "base",
+      "base_plus_grade",
+      "base_plus_histology",
+      "base_plus_grade_plus_histology",
+      "endometrioid_only",
+      "optional_grade_stratified"
+    ],
+    "stop_rule": "Run a node only if its Phase-1 support and its Phase-2 exact-design diagnostics pass. Do not invent a replacement node.",
+    "tcga_primary": "Exact frozen subtype + M4 proliferation + Aran CPE purity + frozen ESTIMATE composition model.",
+    "tcga_required_sensitivity": "Exact frozen no-purity model, otherwise identical."
+  },
+  "outcome_accessed": false,
+  "phase2_exact_full_design_untested": true,
+  "schema_version": "1.0.0",
+  "source_precedence": "No undocumented precedence; Discovery cBio/PDC histology disagreement becomes missing."
+}

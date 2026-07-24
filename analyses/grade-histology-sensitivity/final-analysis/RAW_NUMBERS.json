@@ -1,0 +1,506 @@
+{
+  "bootstrap_valid_min": 2000,
+  "clinical_distributions": {
+    "grade_proposed|NA": 9,
+    "grade_proposed|high_grade": 291,
+    "grade_proposed|low_grade": 207,
+    "histology_proposed|NA": 1,
+    "histology_proposed|endometrioid": 382,
+    "histology_proposed|non_endometrioid": 124
+  },
+  "cohort_counts": [
+    {
+      "base_specification": "primary_cpe",
+      "level": "POLE",
+      "n": "49",
+      "node": "full_base",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "level": "MMRd",
+      "n": "148",
+      "node": "full_base",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "level": "NSMP",
+      "n": "146",
+      "node": "full_base",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "level": "p53abn",
+      "n": "163",
+      "node": "full_base",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "level": "POLE",
+      "n": "49",
+      "node": "histology_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "level": "MMRd",
+      "n": "148",
+      "node": "histology_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "level": "NSMP",
+      "n": "146",
+      "node": "histology_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "level": "p53abn",
+      "n": "162",
+      "node": "histology_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "level": "POLE",
+      "n": "44",
+      "node": "endometrioid_grade_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "level": "MMRd",
+      "n": "142",
+      "node": "endometrioid_grade_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "level": "NSMP",
+      "n": "138",
+      "node": "endometrioid_grade_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "level": "p53abn",
+      "n": "56",
+      "node": "endometrioid_grade_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "no_purity",
+      "level": "POLE",
+      "n": "49",
+      "node": "full_base",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "no_purity",
+      "level": "MMRd",
+      "n": "148",
+      "node": "full_base",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "no_purity",
+      "level": "NSMP",
+      "n": "147",
+      "node": "full_base",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "no_purity",
+      "level": "p53abn",
+      "n": "163",
+      "node": "full_base",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "no_purity",
+      "level": "POLE",
+      "n": "49",
+      "node": "histology_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "no_purity",
+      "level": "MMRd",
+      "n": "148",
+      "node": "histology_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "no_purity",
+      "level": "NSMP",
+      "n": "147",
+      "node": "histology_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "no_purity",
+      "level": "p53abn",
+      "n": "162",
+      "node": "histology_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "no_purity",
+      "level": "POLE",
+      "n": "44",
+      "node": "endometrioid_grade_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "no_purity",
+      "level": "MMRd",
+      "n": "142",
+      "node": "endometrioid_grade_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "no_purity",
+      "level": "NSMP",
+      "n": "139",
+      "node": "endometrioid_grade_matched",
+      "stratum": "subtype"
+    },
+    {
+      "base_specification": "no_purity",
+      "level": "p53abn",
+      "n": "56",
+      "node": "endometrioid_grade_matched",
+      "stratum": "subtype"
+    }
+  ],
+  "decomposition_interpretability_counts": {
+    "PASS": 24
+  },
+  "decomposition_rows": 24,
+  "diagnostic_rows": 60,
+  "diagnostic_summary": {
+    "max_condition_number": 4.400066109474329,
+    "max_gvif_adjusted": 1.1544599442039043,
+    "max_hat": 0.2026518224135735,
+    "max_single_case_abs_d_change": 0.04213103957486519,
+    "max_vif": 3.7163612061832887,
+    "row_count": 60,
+    "status_counts": {
+      "PASS": 60
+    }
+  },
+  "full_base": {
+    "no_purity|GATA2": {
+      "coefficient": -4.247921749727046,
+      "d": -0.5390942111232797,
+      "d_ci": [
+        -0.8263738023986925,
+        -0.2705943274792117
+      ],
+      "interpretability": "PASS",
+      "n": 507,
+      "permutation_p": 0.0004997501249375312,
+      "raw_p": 4.042889795414237e-05,
+      "residual_sd": 7.879739129225473
+    },
+    "no_purity|HOXA9": {
+      "coefficient": -2.9628415599919777,
+      "d": -0.6143320509752975,
+      "d_ci": [
+        -0.8895120615920953,
+        -0.3450219504060565
+      ],
+      "interpretability": "PASS",
+      "n": 507,
+      "permutation_p": 0.0004997501249375312,
+      "raw_p": 3.0657931353986833e-06,
+      "residual_sd": 4.822866648888411
+    },
+    "no_purity|LHX1": {
+      "coefficient": -0.8897939166782497,
+      "d": -0.2859435127207113,
+      "d_ci": [
+        -0.5191495658301407,
+        -0.057183674532466165
+      ],
+      "interpretability": "PASS",
+      "n": 507,
+      "permutation_p": 0.011494252873563218,
+      "raw_p": 0.02848411887683789,
+      "residual_sd": 3.111782142605681
+    },
+    "no_purity|PAX8": {
+      "coefficient": -1.2369071385833348,
+      "d": -0.2565453459669662,
+      "d_ci": [
+        -0.5173756340402011,
+        -0.0027121316160134967
+      ],
+      "interpretability": "PASS",
+      "n": 507,
+      "permutation_p": 0.03298350824587706,
+      "raw_p": 0.04926893608682894,
+      "residual_sd": 4.821397690615693
+    },
+    "no_purity|SOX9": {
+      "coefficient": -4.123034660762284,
+      "d": -0.5089779877688976,
+      "d_ci": [
+        -0.7622425670306688,
+        -0.2556513052382841
+      ],
+      "interpretability": "PASS",
+      "n": 507,
+      "permutation_p": 0.0004997501249375312,
+      "raw_p": 0.00010480050853617325,
+      "residual_sd": 8.100614878917623
+    },
+    "no_purity|WT1": {
+      "coefficient": -5.9148364340534885,
+      "d": -0.5982549355797858,
+      "d_ci": [
+        -0.8734117055777567,
+        -0.3499137616640534
+      ],
+      "interpretability": "PASS",
+      "n": 507,
+      "permutation_p": 0.0004997501249375312,
+      "raw_p": 5.447752456189425e-06,
+      "residual_sd": 9.886815941303105
+    },
+    "primary_cpe|GATA2": {
+      "coefficient": -4.35054624980171,
+      "d": -0.5530308599103365,
+      "d_ci": [
+        -0.8420548684692785,
+        -0.27997687121447334
+      ],
+      "interpretability": "PASS",
+      "n": 506,
+      "permutation_p": 0.0004997501249375312,
+      "raw_p": 2.6736982074373046e-05,
+      "residual_sd": 7.866733242530207
+    },
+    "primary_cpe|HOXA9": {
+      "coefficient": -3.080517359062466,
+      "d": -0.6460193835851901,
+      "d_ci": [
+        -0.9179430867588859,
+        -0.3987947635786571
+      ],
+      "interpretability": "PASS",
+      "n": 506,
+      "permutation_p": 0.0004997501249375312,
+      "raw_p": 1.007193405885388e-06,
+      "residual_sd": 4.768459642753491
+    },
+    "primary_cpe|LHX1": {
+      "coefficient": -0.8645189076719668,
+      "d": -0.2775882984560936,
+      "d_ci": [
+        -0.5093023840603043,
+        -0.05114180451426256
+      ],
+      "interpretability": "PASS",
+      "n": 506,
+      "permutation_p": 0.015992003998001,
+      "raw_p": 0.03384325367935647,
+      "residual_sd": 3.114392474323656
+    },
+    "primary_cpe|PAX8": {
+      "coefficient": -1.1872375555572268,
+      "d": -0.24614740102777763,
+      "d_ci": [
+        -0.512322187873581,
+        0.006007702730876033
+      ],
+      "interpretability": "PASS",
+      "n": 506,
+      "permutation_p": 0.03498250874562719,
+      "raw_p": 0.05976808648562172,
+      "residual_sd": 4.823278858927491
+    },
+    "primary_cpe|SOX9": {
+      "coefficient": -4.242428087949566,
+      "d": -0.5271109871580488,
+      "d_ci": [
+        -0.7916312211729886,
+        -0.2557703201017633
+      ],
+      "interpretability": "PASS",
+      "n": 506,
+      "permutation_p": 0.0004997501249375312,
+      "raw_p": 6.175779247449964e-05,
+      "residual_sd": 8.048453155611263
+    },
+    "primary_cpe|WT1": {
+      "coefficient": -5.851230229526426,
+      "d": -0.5909520933744157,
+      "d_ci": [
+        -0.861423647410625,
+        -0.3277304684598758
+      ],
+      "interpretability": "PASS",
+      "n": 506,
+      "permutation_p": 0.0004997501249375312,
+      "raw_p": 7.393533135848483e-06,
+      "residual_sd": 9.901361371130976
+    }
+  },
+  "influence_records": 5231,
+  "input_hash_rows": 16,
+  "missingness": {
+    "grade_proposed": 9,
+    "histology_proposed": 1,
+    "purity_CPE": 1
+  },
+  "model_rows": 60,
+  "paired_bootstrap_valid_min": 2000,
+  "primary_target_matched_decompositions": [
+    {
+      "adjusted_d": -0.5597712760515765,
+      "base_d": -0.5558789403103389,
+      "base_specification": "primary_cpe",
+      "interpretability": "PASS",
+      "magnitude_attenuation": -0.003892335741237596,
+      "n": 505,
+      "node": "histology_matched",
+      "percent_attenuation": -0.700212844736403,
+      "signed_delta_d": -0.003892335741237596,
+      "signed_delta_d_ci": [
+        -0.026761943112700644,
+        0.011230845285638176
+      ],
+      "target": "GATA2",
+      "taxonomy": "amplified"
+    },
+    {
+      "adjusted_d": -0.5297813854619271,
+      "base_d": -0.5291309148252982,
+      "base_specification": "primary_cpe",
+      "interpretability": "PASS",
+      "magnitude_attenuation": -0.0006504706366289303,
+      "n": 505,
+      "node": "histology_matched",
+      "percent_attenuation": -0.12293189046489461,
+      "signed_delta_d": -0.0006504706366289303,
+      "signed_delta_d_ci": [
+        -0.01905716438477477,
+        0.009289671371469124
+      ],
+      "target": "SOX9",
+      "taxonomy": "amplified"
+    },
+    {
+      "adjusted_d": -0.433509538333443,
+      "base_d": -0.5227928265211615,
+      "base_specification": "primary_cpe",
+      "interpretability": "PASS",
+      "magnitude_attenuation": 0.08928328818771852,
+      "n": 380,
+      "node": "endometrioid_grade_matched",
+      "percent_attenuation": 17.078139495876293,
+      "signed_delta_d": 0.08928328818771852,
+      "signed_delta_d_ci": [
+        0.029266285017137288,
+        0.16947357732469648
+      ],
+      "target": "GATA2",
+      "taxonomy": "largely_retained"
+    },
+    {
+      "adjusted_d": -0.5606404084161077,
+      "base_d": -0.6165726113223186,
+      "base_specification": "primary_cpe",
+      "interpretability": "PASS",
+      "magnitude_attenuation": 0.055932202906210815,
+      "n": 380,
+      "node": "endometrioid_grade_matched",
+      "percent_attenuation": 9.07147055822948,
+      "signed_delta_d": 0.055932202906210815,
+      "signed_delta_d_ci": [
+        0.0014235636028643334,
+        0.12272040603782777
+      ],
+      "target": "SOX9",
+      "taxonomy": "largely_retained"
+    },
+    {
+      "adjusted_d": -0.5469378469013179,
+      "base_d": -0.542232441599985,
+      "base_specification": "no_purity",
+      "interpretability": "PASS",
+      "magnitude_attenuation": -0.004705405301332899,
+      "n": 506,
+      "node": "histology_matched",
+      "percent_attenuation": -0.8677838027264633,
+      "signed_delta_d": -0.004705405301332899,
+      "signed_delta_d_ci": [
+        -0.028328667062315217,
+        0.010706652569074732
+      ],
+      "target": "GATA2",
+      "taxonomy": "amplified"
+    },
+    {
+      "adjusted_d": -0.5126709207166386,
+      "base_d": -0.5113189620563914,
+      "base_specification": "no_purity",
+      "interpretability": "PASS",
+      "magnitude_attenuation": -0.0013519586602471767,
+      "n": 506,
+      "node": "histology_matched",
+      "percent_attenuation": -0.2644061262289104,
+      "signed_delta_d": -0.0013519586602471767,
+      "signed_delta_d_ci": [
+        -0.02277558881235861,
+        0.008674338324850563
+      ],
+      "target": "SOX9",
+      "taxonomy": "amplified"
+    },
+    {
+      "adjusted_d": -0.4204021063571799,
+      "base_d": -0.5104109666608909,
+      "base_specification": "no_purity",
+      "interpretability": "PASS",
+      "magnitude_attenuation": 0.09000886030371102,
+      "n": 381,
+      "node": "endometrioid_grade_matched",
+      "percent_attenuation": 17.634585889200046,
+      "signed_delta_d": 0.09000886030371102,
+      "signed_delta_d_ci": [
+        0.029389000424207976,
+        0.1651029853399464
+      ],
+      "target": "GATA2",
+      "taxonomy": "largely_retained"
+    },
+    {
+      "adjusted_d": -0.5379733286811993,
+      "base_d": -0.5964969298045149,
+      "base_specification": "no_purity",
+      "interpretability": "PASS",
+      "magnitude_attenuation": 0.05852360112331556,
+      "n": 381,
+      "node": "endometrioid_grade_matched",
+      "percent_attenuation": 9.811215816734386,
+      "signed_delta_d": 0.05852360112331556,
+      "signed_delta_d_ci": [
+        0.003939903072046991,
+        0.127480485566221
+      ],
+      "target": "SOX9",
+      "taxonomy": "largely_retained"
+    }
+  ],
+  "taxonomy_counts": {
+    "amplified": 8,
+    "largely_retained": 16
+  }
+}

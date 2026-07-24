@@ -1,0 +1,25 @@
+{
+  "commands": [
+    "env -i ... strace independent_acquire.py --round 1",
+    "env -i ... strace independent_acquire.py --round 2",
+    "strace bwrap --unshare-net env -i ... independent_reconstruct.py",
+    "strace bwrap --unshare-net env -i ... firewall_trace_audit.py"
+  ],
+  "controlled_environment": {
+    "LANG": "C",
+    "LC_ALL": "C",
+    "PATH": "/usr/bin:/bin",
+    "PYTHONHASHSEED": "0",
+    "TZ": "UTC"
+  },
+  "numpy": "2.3.5",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "python_executable": "/usr/bin/python3",
+  "scripts": {
+    "critic_closeout.py": "0e5d86e360943d36f68674b05d0581b34131531b58e2610013e8ed7de0c5084d",
+    "firewall_trace_audit.py": "4e3609f9724156b816520e8a3927617ba41ed0595f6a96ad4545dc3d96e44e61",
+    "independent_acquire.py": "3aa094a86020d3babc2420647604548ec0b714d44fe248b0fa42fa75786f6023",
+    "independent_reconstruct.py": "aeb9fdc73217c5eb5392206b88d006c13376a618dac629a64930f9c11c0a033d"
+  }
+}

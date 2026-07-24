@@ -1,0 +1,16 @@
+field	tcga_nopurity	cptac_primary	field_verdict	reason
+cohort_structure	one TCGA-UCEC cohort; n=507 no-purity	CPTAC Discovery n=95 plus Confirmatory n=135 fit separately	COMPATIBLE-ONLY	independent cohorts and two CPTAC strata
+subtype_encoding	POLE/MMRd/NSMP/p53abn	same four labels and hierarchy mapping	COMPATIBLE-ONLY	classifier implementations differ; labels are not algorithmically identical
+purity_term	omitted in frozen no-purity sensitivity	omitted in frozen CPTAC primary	IDENTICAL	term presence is identical; residual purity confounding remains
+proliferation_covariate	M4 rank-based ssGSEA	same frozen M4 definition, recomputed per stratum	COMPATIBLE-ONLY	definition matches; realized values/scaling are cohort-specific
+composition_covariate	ESTIMATE stromal plus immune composition	same frozen ESTIMATE composition definition, recomputed per stratum	COMPATIBLE-ONLY	definition matches; cohort-specific expression-derived values
+assay_platform_covariates	no explicit assay/platform term in one TCGA fit	no explicit assay/platform term within stratum; strata fit separately	COMPATIBLE-ONLY	platform/study handled by separate fits rather than an identical design column
+batch_site_terms	no batch/site term	true tissue source site unavailable; no improvised primary site term	COMPATIBLE-ONLY	CPTAC site limitation and two-stratum structure are not identical to TCGA
+estimand	covariate-adjusted subtype marginal-mean contrast standardized by residual SD	same within-stratum standardized subtype contrast	COMPATIBLE-ONLY	same estimand form but cohort/stratum-specific residual scales
+contrast_C1	[-1/3,-1/3,-1/3,+1]	same equal-within-side full-model contrast	IDENTICAL	exact design contrast
+contrast_C2	[+1/2,+1/2,-1,0]	same equal-within-side full-model contrast	IDENTICAL	exact design contrast
+score_definition	sealed signed aREA over 761 edges	same sealed signed aREA definition	COMPATIBLE-ONLY	all-zero filtering and duplicate-symbol row choice are data-set specific
+score_scaling	score and covariate ranks/scales within TCGA	recomputed separately in Discovery and Confirmatory	COMPATIBLE-ONLY	absolute score scales are not transported across cohorts
+raw_expression_pooling	single-cohort fit	no raw pooling across CPTAC strata	COMPATIBLE-ONLY	CPTAC combines effects, not expression matrices
+meta_analysis	none	inverse-variance fixed-effect meta-analysis over two strata; random effects sensitivity only	COMPATIBLE-ONLY	structure exists only in CPTAC
+multiplicity	F1 21 modules then full gated F2 51 contrasts per configuration	BH-of-6 target family	COMPATIBLE-ONLY	distinct frozen inferential families

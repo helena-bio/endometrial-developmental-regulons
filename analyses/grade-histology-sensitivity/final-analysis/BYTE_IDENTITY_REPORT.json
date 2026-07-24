@@ -1,0 +1,111 @@
+{
+  "all_byte_identical": true,
+  "files": [
+    {
+      "byte_identical": true,
+      "file": "ANALYTICAL_REPORT.md",
+      "run1_sha256": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+      "run1_size": 343,
+      "run2_sha256": "8ca9ceab140bfe754eec3b84696cc824a30d2022f6085730a05485bcaa008af0",
+      "run2_size": 343
+    },
+    {
+      "byte_identical": true,
+      "file": "CLINICAL_DISTRIBUTIONS.tsv",
+      "run1_sha256": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+      "run1_size": 193,
+      "run2_sha256": "b3cd4a7b3aca1b1740fcb8c209eaab710c1693083b0d757d18f07ae1b12403c0",
+      "run2_size": 193
+    },
+    {
+      "byte_identical": true,
+      "file": "COHORT_COUNTS.tsv",
+      "run1_sha256": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+      "run1_size": 1156,
+      "run2_sha256": "da6e90bf2f8b34f0df2816844d0fc44a377bed97ca8b77e67516ed7d13417e10",
+      "run2_size": 1156
+    },
+    {
+      "byte_identical": true,
+      "file": "INFLUENCE_RECORDS.tsv",
+      "run1_sha256": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+      "run1_size": 790292,
+      "run2_sha256": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+      "run2_size": 790292
+    },
+    {
+      "byte_identical": true,
+      "file": "INPUT_ACCESS_INVENTORY.tsv",
+      "run1_sha256": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+      "run1_size": 4383,
+      "run2_sha256": "7f2e4c08c5481b0753dc08e1467bd9aeeb3ec1752b466a71fefdbdf9837cb290",
+      "run2_size": 4383
+    },
+    {
+      "byte_identical": true,
+      "file": "MANUSCRIPT_READY_SENSITIVITY_TABLE.tsv",
+      "run1_sha256": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+      "run1_size": 3713,
+      "run2_sha256": "c5d8f2722c2d1befe276fa537f7db63e56d3fd67d37ec6eca05cc36e6718ffc9",
+      "run2_size": 3713
+    },
+    {
+      "byte_identical": true,
+      "file": "MATCHED_DECOMPOSITIONS.tsv",
+      "run1_sha256": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+      "run1_size": 10402,
+      "run2_sha256": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+      "run2_size": 10402
+    },
+    {
+      "byte_identical": true,
+      "file": "MISSINGNESS.tsv",
+      "run1_sha256": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+      "run1_size": 67,
+      "run2_sha256": "4e444be521a174e376e4a9f43cf223c4c3bfccf8dc657c544a2f45ee767f37f2",
+      "run2_size": 67
+    },
+    {
+      "byte_identical": true,
+      "file": "MODEL_DIAGNOSTICS.tsv",
+      "run1_sha256": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+      "run1_size": 18104,
+      "run2_sha256": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+      "run2_size": 18104
+    },
+    {
+      "byte_identical": true,
+      "file": "MODEL_RESULTS.tsv",
+      "run1_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+      "run1_size": 22446,
+      "run2_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+      "run2_size": 22446
+    },
+    {
+      "byte_identical": true,
+      "file": "PROPOSED_WORDING.md",
+      "run1_sha256": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+      "run1_size": 1523,
+      "run2_sha256": "528889f43228b10448c36e4e44aec8c4ce5ea0ab32e39128019953e8d4c0b267",
+      "run2_size": 1523
+    },
+    {
+      "byte_identical": true,
+      "file": "SCIENTIFIC_RESULTS.json",
+      "run1_sha256": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+      "run1_size": 135794,
+      "run2_sha256": "a10c5d92f9bb1a9165ca255b6b7f98bba247ee17435e11f69dad36741fa076b8",
+      "run2_size": 135794
+    },
+    {
+      "byte_identical": true,
+      "file": "SIX_TARGET_APPENDIX.tsv",
+      "run1_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+      "run1_size": 22446,
+      "run2_sha256": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+      "run2_size": 22446
+    }
+  ],
+  "scientific_file_count": 13,
+  "status": "BYTE_IDENTICAL"
+}

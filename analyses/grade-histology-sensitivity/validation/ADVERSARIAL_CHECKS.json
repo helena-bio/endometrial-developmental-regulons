@@ -1,0 +1,525 @@
+{
+  "all_model_c2_estimates_negative": true,
+  "leave_one_out": [
+    {
+      "base_specification": "primary_cpe",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": -0.0016804982348198605,
+      "leave_one_out_magnitude_attenuation_min": -0.006677367245907506,
+      "leave_one_out_percent_attenuation_max": -0.2926523983087796,
+      "leave_one_out_percent_attenuation_min": -1.1926414380581054,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "amplified": 505
+      },
+      "n": 505,
+      "node": "histology_matched",
+      "original_taxonomy": "amplified",
+      "target": "GATA2"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.00022338977042801744,
+      "leave_one_out_magnitude_attenuation_min": -0.00210052956258433,
+      "leave_one_out_percent_attenuation_max": 0.04092424356623719,
+      "leave_one_out_percent_attenuation_min": -0.38455500702037665,
+      "leave_one_out_taxonomy_change_n": 4,
+      "leave_one_out_taxonomy_counts": {
+        "amplified": 501,
+        "largely_retained": 4
+      },
+      "n": 505,
+      "node": "histology_matched",
+      "original_taxonomy": "amplified",
+      "target": "SOX9"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": -0.003124055965272654,
+      "leave_one_out_magnitude_attenuation_min": -0.009441864265810507,
+      "leave_one_out_percent_attenuation_max": -0.477775552075171,
+      "leave_one_out_percent_attenuation_min": -1.4446173962546631,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "amplified": 505
+      },
+      "n": 505,
+      "node": "histology_matched",
+      "original_taxonomy": "amplified",
+      "target": "HOXA9"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.0018382510371396377,
+      "leave_one_out_magnitude_attenuation_min": 0.0005991432549796727,
+      "leave_one_out_percent_attenuation_max": 0.31792099260852513,
+      "leave_one_out_percent_attenuation_min": 0.10034243281304454,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 505
+      },
+      "n": 505,
+      "node": "histology_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "WT1"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.016091480176375433,
+      "leave_one_out_magnitude_attenuation_min": 0.0014603439666917017,
+      "leave_one_out_percent_attenuation_max": 6.463723873822964,
+      "leave_one_out_percent_attenuation_min": 0.568742301659013,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 505
+      },
+      "n": 505,
+      "node": "histology_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "PAX8"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.014921087429167201,
+      "leave_one_out_magnitude_attenuation_min": 0.0006283363494973271,
+      "leave_one_out_percent_attenuation_max": 5.257635280160274,
+      "leave_one_out_percent_attenuation_min": 0.22046057567028465,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 505
+      },
+      "n": 505,
+      "node": "histology_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "LHX1"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.09624483301271747,
+      "leave_one_out_magnitude_attenuation_min": 0.08517472215957006,
+      "leave_one_out_percent_attenuation_max": 18.68189300312096,
+      "leave_one_out_percent_attenuation_min": 15.775539279746415,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 380
+      },
+      "n": 380,
+      "node": "endometrioid_grade_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "GATA2"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.0612257337466563,
+      "leave_one_out_magnitude_attenuation_min": 0.05187637192940042,
+      "leave_one_out_percent_attenuation_max": 10.005468549771054,
+      "leave_one_out_percent_attenuation_min": 8.323551824313647,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 380
+      },
+      "n": 380,
+      "node": "endometrioid_grade_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "SOX9"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.03581431867447993,
+      "leave_one_out_magnitude_attenuation_min": 0.026722260394827613,
+      "leave_one_out_percent_attenuation_max": 5.764610774234836,
+      "leave_one_out_percent_attenuation_min": 4.196807491235096,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 380
+      },
+      "n": 380,
+      "node": "endometrioid_grade_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "HOXA9"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": -0.00619422508551104,
+      "leave_one_out_magnitude_attenuation_min": -0.014827263456315798,
+      "leave_one_out_percent_attenuation_max": -1.0374996977145743,
+      "leave_one_out_percent_attenuation_min": -2.5606612940964455,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "amplified": 380
+      },
+      "n": 380,
+      "node": "endometrioid_grade_matched",
+      "original_taxonomy": "amplified",
+      "target": "WT1"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.038396021950773074,
+      "leave_one_out_magnitude_attenuation_min": 0.02546365933135139,
+      "leave_one_out_percent_attenuation_max": 18.872994252526805,
+      "leave_one_out_percent_attenuation_min": 11.478071024865931,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 380
+      },
+      "n": 380,
+      "node": "endometrioid_grade_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "PAX8"
+    },
+    {
+      "base_specification": "primary_cpe",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.04081666111797955,
+      "leave_one_out_magnitude_attenuation_min": 0.02712130916959582,
+      "leave_one_out_percent_attenuation_max": 13.26538709140885,
+      "leave_one_out_percent_attenuation_min": 8.285753042769066,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 380
+      },
+      "n": 380,
+      "node": "endometrioid_grade_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "LHX1"
+    },
+    {
+      "base_specification": "no_purity",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": -0.00222981764240171,
+      "leave_one_out_magnitude_attenuation_min": -0.0076735613633942545,
+      "leave_one_out_percent_attenuation_max": -0.3970586687445256,
+      "leave_one_out_percent_attenuation_min": -1.4056909249177276,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "amplified": 506
+      },
+      "n": 506,
+      "node": "histology_matched",
+      "original_taxonomy": "amplified",
+      "target": "GATA2"
+    },
+    {
+      "base_specification": "no_purity",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": -0.00017594328446346452,
+      "leave_one_out_magnitude_attenuation_min": -0.003156551443969313,
+      "leave_one_out_percent_attenuation_max": -0.033236971650125825,
+      "leave_one_out_percent_attenuation_min": -0.5956977942048474,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "amplified": 506
+      },
+      "n": 506,
+      "node": "histology_matched",
+      "original_taxonomy": "amplified",
+      "target": "SOX9"
+    },
+    {
+      "base_specification": "no_purity",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": -0.004192070709752804,
+      "leave_one_out_magnitude_attenuation_min": -0.01113393627190129,
+      "leave_one_out_percent_attenuation_max": -0.6734130356073887,
+      "leave_one_out_percent_attenuation_min": -1.792798935206587,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "amplified": 506
+      },
+      "n": 506,
+      "node": "histology_matched",
+      "original_taxonomy": "amplified",
+      "target": "HOXA9"
+    },
+    {
+      "base_specification": "no_purity",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.0020358436480065745,
+      "leave_one_out_magnitude_attenuation_min": 0.0006926613189137676,
+      "leave_one_out_percent_attenuation_max": 0.3472131389576672,
+      "leave_one_out_percent_attenuation_min": 0.11454586905864574,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 506
+      },
+      "n": 506,
+      "node": "histology_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "WT1"
+    },
+    {
+      "base_specification": "no_purity",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.017338219048754155,
+      "leave_one_out_magnitude_attenuation_min": 0.0024241169765975012,
+      "leave_one_out_percent_attenuation_max": 6.684484691514869,
+      "leave_one_out_percent_attenuation_min": 0.908699328558501,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 506
+      },
+      "n": 506,
+      "node": "histology_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "PAX8"
+    },
+    {
+      "base_specification": "no_purity",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.016140126320697445,
+      "leave_one_out_magnitude_attenuation_min": 0.0018525437647122778,
+      "leave_one_out_percent_attenuation_max": 5.5172347658400955,
+      "leave_one_out_percent_attenuation_min": 0.630417910242874,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 506
+      },
+      "n": 506,
+      "node": "histology_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "LHX1"
+    },
+    {
+      "base_specification": "no_purity",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.09688333890376316,
+      "leave_one_out_magnitude_attenuation_min": 0.08591328050476194,
+      "leave_one_out_percent_attenuation_max": 19.2610836409182,
+      "leave_one_out_percent_attenuation_min": 16.213196095700244,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 381
+      },
+      "n": 381,
+      "node": "endometrioid_grade_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "GATA2"
+    },
+    {
+      "base_specification": "no_purity",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.06345191655912152,
+      "leave_one_out_magnitude_attenuation_min": 0.05423144126817625,
+      "leave_one_out_percent_attenuation_max": 10.782780660022715,
+      "leave_one_out_percent_attenuation_min": 8.931171634014726,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 381
+      },
+      "n": 381,
+      "node": "endometrioid_grade_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "SOX9"
+    },
+    {
+      "base_specification": "no_purity",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.03914316483336966,
+      "leave_one_out_magnitude_attenuation_min": 0.028570802499380488,
+      "leave_one_out_percent_attenuation_max": 6.612535750619706,
+      "leave_one_out_percent_attenuation_min": 4.509297702257694,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 381
+      },
+      "n": 381,
+      "node": "endometrioid_grade_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "HOXA9"
+    },
+    {
+      "base_specification": "no_purity",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": -0.006153334794914644,
+      "leave_one_out_magnitude_attenuation_min": -0.014931517502986047,
+      "leave_one_out_percent_attenuation_max": -1.0197027232896165,
+      "leave_one_out_percent_attenuation_min": -2.513037967204657,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "amplified": 381
+      },
+      "n": 381,
+      "node": "endometrioid_grade_matched",
+      "original_taxonomy": "amplified",
+      "target": "WT1"
+    },
+    {
+      "base_specification": "no_purity",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.03710624715109928,
+      "leave_one_out_magnitude_attenuation_min": 0.024685438984400537,
+      "leave_one_out_percent_attenuation_max": 17.473423099118612,
+      "leave_one_out_percent_attenuation_min": 10.713470641532128,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 381
+      },
+      "n": 381,
+      "node": "endometrioid_grade_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "PAX8"
+    },
+    {
+      "base_specification": "no_purity",
+      "leave_one_out_adjusted_sign_change_n": 0,
+      "leave_one_out_base_sign_change_n": 0,
+      "leave_one_out_magnitude_attenuation_max": 0.04107004573452849,
+      "leave_one_out_magnitude_attenuation_min": 0.028003040361736953,
+      "leave_one_out_percent_attenuation_max": 13.41492804534167,
+      "leave_one_out_percent_attenuation_min": 8.40174988983569,
+      "leave_one_out_taxonomy_change_n": 0,
+      "leave_one_out_taxonomy_counts": {
+        "largely_retained": 381
+      },
+      "n": 381,
+      "node": "endometrioid_grade_matched",
+      "original_taxonomy": "largely_retained",
+      "target": "LHX1"
+    }
+  ],
+  "leave_one_out_any_c2_sign_change": false,
+  "leave_one_out_taxonomy_change_rows": [
+    {
+      "base_specification": "primary_cpe",
+      "count": 4,
+      "node": "histology_matched",
+      "target": "SOX9",
+      "taxonomies": {
+        "amplified": 501,
+        "largely_retained": 4
+      }
+    }
+  ],
+  "producer_cohorts": [
+    "TCGA-UCEC"
+  ],
+  "producer_contrasts": [
+    "C2"
+  ],
+  "producer_nodes": [
+    "endometrioid_grade_matched",
+    "full_base",
+    "histology_matched"
+  ],
+  "producer_taxonomies": {
+    "amplified": 8,
+    "largely_retained": 16
+  },
+  "q_value_columns": [],
+  "threshold_margin_primary": [
+    {
+      "base_specification": "primary_cpe",
+      "magnitude_attenuation": -0.003892335741237596,
+      "margin_to_0_10": 0.1038923357412376,
+      "margin_to_20_percent": 20.700212844736402,
+      "node": "histology_matched",
+      "percent_attenuation": -0.700212844736403,
+      "target": "GATA2",
+      "would_pass_relaxed_0_08_and_15_percent": false
+    },
+    {
+      "base_specification": "primary_cpe",
+      "magnitude_attenuation": -0.0006504706366289303,
+      "margin_to_0_10": 0.10065047063662894,
+      "margin_to_20_percent": 20.122931890464894,
+      "node": "histology_matched",
+      "percent_attenuation": -0.12293189046489461,
+      "target": "SOX9",
+      "would_pass_relaxed_0_08_and_15_percent": false
+    },
+    {
+      "base_specification": "primary_cpe",
+      "magnitude_attenuation": 0.08928328818771852,
+      "margin_to_0_10": 0.010716711812281482,
+      "margin_to_20_percent": 2.921860504123707,
+      "node": "endometrioid_grade_matched",
+      "percent_attenuation": 17.078139495876293,
+      "target": "GATA2",
+      "would_pass_relaxed_0_08_and_15_percent": true
+    },
+    {
+      "base_specification": "primary_cpe",
+      "magnitude_attenuation": 0.055932202906210815,
+      "margin_to_0_10": 0.04406779709378919,
+      "margin_to_20_percent": 10.92852944177052,
+      "node": "endometrioid_grade_matched",
+      "percent_attenuation": 9.07147055822948,
+      "target": "SOX9",
+      "would_pass_relaxed_0_08_and_15_percent": false
+    },
+    {
+      "base_specification": "no_purity",
+      "magnitude_attenuation": -0.004705405301332899,
+      "margin_to_0_10": 0.1047054053013329,
+      "margin_to_20_percent": 20.867783802726464,
+      "node": "histology_matched",
+      "percent_attenuation": -0.8677838027264633,
+      "target": "GATA2",
+      "would_pass_relaxed_0_08_and_15_percent": false
+    },
+    {
+      "base_specification": "no_purity",
+      "magnitude_attenuation": -0.0013519586602471767,
+      "margin_to_0_10": 0.10135195866024718,
+      "margin_to_20_percent": 20.26440612622891,
+      "node": "histology_matched",
+      "percent_attenuation": -0.2644061262289104,
+      "target": "SOX9",
+      "would_pass_relaxed_0_08_and_15_percent": false
+    },
+    {
+      "base_specification": "no_purity",
+      "magnitude_attenuation": 0.09000886030371102,
+      "margin_to_0_10": 0.009991139696288981,
+      "margin_to_20_percent": 2.3654141107999536,
+      "node": "endometrioid_grade_matched",
+      "percent_attenuation": 17.634585889200046,
+      "target": "GATA2",
+      "would_pass_relaxed_0_08_and_15_percent": true
+    },
+    {
+      "base_specification": "no_purity",
+      "magnitude_attenuation": 0.05852360112331556,
+      "margin_to_0_10": 0.041476398876684445,
+      "margin_to_20_percent": 10.188784183265614,
+      "node": "endometrioid_grade_matched",
+      "percent_attenuation": 9.811215816734386,
+      "target": "SOX9",
+      "would_pass_relaxed_0_08_and_15_percent": false
+    }
+  ]
+}

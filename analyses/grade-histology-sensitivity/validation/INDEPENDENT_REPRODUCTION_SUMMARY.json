@@ -1,0 +1,97 @@
+{
+  "bootstrap_valid_min": 2000,
+  "comparisons": [
+    {
+      "extra_keys": [],
+      "independent_rows": 60,
+      "max_absolute_difference": 0.0,
+      "max_absolute_location": null,
+      "max_relative_difference": 0.0,
+      "max_relative_location": null,
+      "mismatch_count": 0,
+      "missing_keys": [],
+      "numeric_fields_compared": 1140,
+      "producer_rows": 60,
+      "table": "MODEL_RESULTS.tsv",
+      "text_fields_compared": 120
+    },
+    {
+      "extra_keys": [],
+      "independent_rows": 60,
+      "max_absolute_difference": 0.0,
+      "max_absolute_location": null,
+      "max_relative_difference": 0.0,
+      "max_relative_location": null,
+      "mismatch_count": 0,
+      "missing_keys": [],
+      "numeric_fields_compared": 948,
+      "producer_rows": 60,
+      "table": "MODEL_DIAGNOSTICS.tsv",
+      "text_fields_compared": 372
+    },
+    {
+      "extra_keys": [],
+      "independent_rows": 5231,
+      "max_absolute_difference": 1.3877787807814457e-17,
+      "max_absolute_location": [
+        "primary_cpe|endometrioid_grade_matched|base_refit|WT1",
+        "TCGA-B5-A0K1",
+        "136",
+        "cooks_d",
+        0.05785656165440128,
+        0.05785656165440126
+      ],
+      "max_relative_difference": 6.362744937852376e-16,
+      "max_relative_location": [
+        "primary_cpe|histology_matched|base_refit|WT1",
+        "TCGA-AJ-A3I9",
+        "61",
+        "cooks_d",
+        0.00408956392151639,
+        0.0040895639215163876
+      ],
+      "mismatch_count": 0,
+      "missing_keys": [],
+      "numeric_fields_compared": 20924,
+      "producer_rows": 5231,
+      "table": "INFLUENCE_RECORDS.tsv",
+      "text_fields_compared": 0
+    },
+    {
+      "extra_keys": [],
+      "independent_rows": 24,
+      "max_absolute_difference": 0.0,
+      "max_absolute_location": null,
+      "max_relative_difference": 0.0,
+      "max_relative_location": null,
+      "mismatch_count": 0,
+      "missing_keys": [],
+      "numeric_fields_compared": 456,
+      "producer_rows": 24,
+      "table": "MATCHED_DECOMPOSITIONS.tsv",
+      "text_fields_compared": 48
+    }
+  ],
+  "decomposition_rows": 24,
+  "diagnostic_rows": 60,
+  "diagnostic_status_counts": {
+    "PASS": 60
+  },
+  "implementation_independence": "No producer script imported, executed, copied, or called.",
+  "influence_rows": 5231,
+  "maximum_adjusted_subtype_gvif": 1.1544599442039043,
+  "maximum_condition_number": 4.400066109474329,
+  "maximum_decomposition_error": 1.214306433183765e-16,
+  "maximum_hat": 0.2026518224135735,
+  "maximum_single_case_abs_d_change": 0.04213103957486519,
+  "maximum_vif": 3.7163612061832887,
+  "model_rows": 60,
+  "paired_bootstrap_valid_min": 2000,
+  "roster_rows": 2785,
+  "seed_rows": 144,
+  "single_case_direction_change_count": 0,
+  "taxonomy_counts": {
+    "amplified": 8,
+    "largely_retained": 16
+  }
+}

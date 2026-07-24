@@ -1,0 +1,7 @@
+python3 -m py_compile experiments/taskA_perclass_c2/reviewer/independent_reproduction/critic_reproduce.py
+env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONHASHSEED=0 python3 experiments/taskA_perclass_c2/reviewer/independent_reproduction/critic_reproduce.py > experiments/taskA_perclass_c2/reviewer/independent_reproduction/stdout.log 2> experiments/taskA_perclass_c2/reviewer/independent_reproduction/stderr.log
+(cd experiments/taskA_perclass_c2 && sha256sum -c SHA256SUMS.txt)
+git diff --quiet HEAD -- src
+git -C data/external/original-workspace/revgate diff --quiet HEAD -- src
+git -C data/external/original-workspace/revgate-tcga-no-purity-verify diff --quiet HEAD -- src
+

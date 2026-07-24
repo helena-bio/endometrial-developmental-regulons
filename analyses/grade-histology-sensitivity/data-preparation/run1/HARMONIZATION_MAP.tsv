@@ -1,0 +1,38 @@
+cohort	source_field	raw_token	normalized_token	proposed_category	authority	reason	outcome_blind
+TCGA	GRADE	G1	G1	low_grade	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+TCGA	GRADE	G2	G2	low_grade	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+TCGA	GRADE	G3	G3	high_grade	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+TCGA	GRADE	High Grade	High Grade	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+TCGA	ICD_O_3_HISTOLOGY	8020/3	8020/3	non_endometrioid	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+TCGA	ICD_O_3_HISTOLOGY	8140/3	8140/3	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+TCGA	ICD_O_3_HISTOLOGY	8255/3	8255/3	non_endometrioid	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+TCGA	ICD_O_3_HISTOLOGY	8310/3	8310/3	non_endometrioid	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+TCGA	ICD_O_3_HISTOLOGY	8380/3	8380/3	endometrioid	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+TCGA	ICD_O_3_HISTOLOGY	8382/3	8382/3	endometrioid	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+TCGA	ICD_O_3_HISTOLOGY	8441/3	8441/3	non_endometrioid	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+TCGA	ICD_O_3_HISTOLOGY	8460/3	8460/3	non_endometrioid	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+TCGA	ICD_O_3_HISTOLOGY	8461/3	8461/3	non_endometrioid	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+CPTAC_Discovery	HISTOLOGIC_GRADE_FIGO	FIGO grade 1	FIGO grade 1	low_grade	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+CPTAC_Discovery	HISTOLOGIC_GRADE_FIGO	FIGO grade 2	FIGO grade 2	low_grade	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+CPTAC_Discovery	HISTOLOGIC_GRADE_FIGO	FIGO grade 3	FIGO grade 3	high_grade	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+CPTAC_Discovery	HISTOLOGIC_TYPE	Endometrioid	Endometrioid	endometrioid	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+CPTAC_Discovery	HISTOLOGIC_TYPE	Serous	Serous	non_endometrioid	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+CPTAC_Discovery	PDC_tumor_grade	G1	G1	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Discovery	PDC_tumor_grade	G2	G2	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Discovery	PDC_tumor_grade	G3	G3	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Discovery	PDC_tumor_grade	Not Reported	Not Reported	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Discovery	PDC_tumor_grade	Unknown	Unknown	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Discovery	PDC_morphology	8380/3	8380/3	endometrioid	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+CPTAC_Discovery	PDC_morphology	Not Reported	Not Reported	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Discovery	PDC_primary_diagnosis	Endometrioid adenocarcinoma, NOS	Endometrioid adenocarcinoma, NOS	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Discovery	PDC_primary_diagnosis	Not Reported	Not Reported	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Confirmatory	PDC_tumor_grade	G1	G1	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Confirmatory	PDC_tumor_grade	G2	G2	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Confirmatory	PDC_tumor_grade	G3	G3	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Confirmatory	PDC_tumor_grade	High Grade	High Grade	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Confirmatory	PDC_tumor_grade	Not Reported	Not Reported	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Confirmatory	PDC_tumor_grade	Unknown	Unknown	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Confirmatory	PDC_morphology	8380/3	8380/3	endometrioid	frozen protocol plus source field/coding definition	frozen_exact_token_mapping	YES
+CPTAC_Confirmatory	PDC_morphology	Not Reported	Not Reported	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Confirmatory	PDC_primary_diagnosis	Endometrioid adenocarcinoma, NOS	Endometrioid adenocarcinoma, NOS	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES
+CPTAC_Confirmatory	PDC_primary_diagnosis	Not Reported	Not Reported	MISSING	frozen protocol plus source field/coding definition	missing_unknown_unsupported_or_semantics_not_documented	YES

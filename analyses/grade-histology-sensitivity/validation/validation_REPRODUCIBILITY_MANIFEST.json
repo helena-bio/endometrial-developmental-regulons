@@ -1,0 +1,135 @@
+{
+  "artifacts": [
+    {
+      "path": "ADVERSARIAL_CHECKS.json",
+      "sha256": "05bd1a05ca70b792f9d21ed9ff05504df535e40f58fa613eb690f72f01939da2",
+      "size": 19836
+    },
+    {
+      "path": "INDEPENDENT_INFLUENCE_RECORDS.tsv",
+      "sha256": "fe1bfc61f20eea670256b2d3e35ec6a7f2af0d83e61d9a8e2809ab735879c947",
+      "size": 782250
+    },
+    {
+      "path": "INDEPENDENT_MATCHED_DECOMPOSITIONS.tsv",
+      "sha256": "d5d0028fe15b8ff4a553a4177a35dc4b0c42744d6c34a709b0066b4799d87b34",
+      "size": 10165
+    },
+    {
+      "path": "INDEPENDENT_MODEL_DIAGNOSTICS.tsv",
+      "sha256": "d3457b695fccb45d455dadea4693163416ae652fc355fca3da27dead0195c100",
+      "size": 17948
+    },
+    {
+      "path": "INDEPENDENT_MODEL_RESULTS.tsv",
+      "sha256": "dbca26bea2a4112bd5adc152078fc87dc6904bfd2d44ab9c02cac5b6876845c1",
+      "size": 21949
+    },
+    {
+      "path": "INDEPENDENT_REPRODUCTION_SUMMARY.json",
+      "sha256": "c9ecb4f5cdc4ab4b9f06540ad21e45ea61d235e57b904a816c156368976fddc2",
+      "size": 2834
+    },
+    {
+      "path": "INDEPENDENT_ROSTERS.tsv",
+      "sha256": "99eb6c27893b17c9eb7c9922fa40d1ce386f2bd278a724c4c6e7ecbd362b9f35",
+      "size": 141771
+    },
+    {
+      "path": "INDEPENDENT_SEEDS.tsv",
+      "sha256": "181ed77d6c658cb105f873f04e8a993350addf23ce23469bacccfba3f58f6b62",
+      "size": 11816
+    },
+    {
+      "path": "INDEPENDENT_UPSTREAM_RECONCILIATION.json",
+      "sha256": "db3273d3f3268eb46354d0c9de4ad2ba3f627b0b84aeb9e3bcd56c0e5542bede",
+      "size": 838
+    },
+    {
+      "path": "INDEPENDENT_UPSTREAM_RECONCILIATION.tsv",
+      "sha256": "160ed2f5ea6e6c85d9ab0e7468a79b91e7f5796852220d9750759748839f056e",
+      "size": 6285
+    },
+    {
+      "path": "PROVENANCE_AUDIT.json",
+      "sha256": "8c5bccebf977134823ad5d149e59b31477f82f6b80cb6b4629b8662fb34080ce",
+      "size": 110821
+    },
+    {
+      "path": "adversarial_checks.py",
+      "sha256": "24c63fedc2fa380d7251000f15c1dbfc2fab1892c0497bbdea3ec76a09e1b68a",
+      "size": 7950
+    },
+    {
+      "path": "build_critic_manifest.py",
+      "sha256": "448250df0e85e9703f954ff6f30c0c1b62cef09cb9461168abb1558644860cba",
+      "size": 5641
+    },
+    {
+      "path": "independent_reconstruction.py",
+      "sha256": "e52e3482f27f2a553719975ac384b599f861d27e2e335ebc72621c393c65a1c8",
+      "size": 30922
+    },
+    {
+      "path": "independent_upstream_reconciliation.py",
+      "sha256": "3bb8ac3bd1386b6f6c59ceb030bdd5ae6e9705bc7bbe89b8825518ba1be5c94f",
+      "size": 4945
+    },
+    {
+      "path": "provenance_audit.py",
+      "sha256": "52daa2e18ef7b1c3a1049b427edea83f744b5dccddb898e9e53e1139a20a76dd",
+      "size": 17731
+    }
+  ],
+  "branch": "experiment/task-b-grade-histology-sensitivity",
+  "classification": "HYPOTHESIS_POST_HOC_EXPLANATORY_SENSITIVITY_PHASE2",
+  "commands": [
+    "/usr/bin/python3 experiments/taskB_grade_histology/phase2_critic_cycle6/independent_reconstruction.py",
+    "/usr/bin/python3 experiments/taskB_grade_histology/phase2_critic_cycle6/independent_upstream_reconciliation.py",
+    "/usr/bin/python3 experiments/taskB_grade_histology/phase2_critic_cycle6/provenance_audit.py",
+    "(cd experiments/taskB_grade_histology/phase2_critic_cycle6 && /usr/bin/python3 adversarial_checks.py)",
+    "/usr/bin/python3 experiments/taskB_grade_histology/phase2_critic_cycle6/build_critic_manifest.py"
+  ],
+  "environment": {
+    "interpreter": "/usr/bin/python3",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+    "scipy": "1.17.1"
+  },
+  "git_commit": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+  "master_seed": 20260713,
+  "results": {
+    "all_c2_estimates_negative": true,
+    "decomposition_rows": 24,
+    "diagnostic_rows": 60,
+    "field_mismatch_count": 0,
+    "influence_rows": 5231,
+    "leave_one_out_any_c2_sign_change": false,
+    "maximum_independent_producer_absolute_delta": 1.3877787807814457e-17,
+    "model_rows": 60,
+    "output_sha256_checks": 69,
+    "output_sha256_mismatches": 0,
+    "phase2_input_hash_checks": 26,
+    "phase2_input_hash_mismatches": 0,
+    "upstream_checks": 54,
+    "upstream_maximum_absolute_delta": 4.440892098500626e-15,
+    "upstream_mismatches": 0
+  },
+  "role": "fresh_independent_binding_critic_cycle6",
+  "scope": "TCGA-UCEC post-hoc explanatory compatibility only; no CPTAC adjusted inference; no verdict/category/manuscript change.",
+  "sealed_inputs": {
+    "LINKAGE_LEDGER.tsv": "c6087dc8e685b305ccd3ff9d1da02846ff8a306018cc1fb0820cf3825fc8e823",
+    "PHASE2_FROZEN_SPEC.json": "14343c81ed4a9211e26117d5489ef24d3d158a028121b4c78e633e956a24ef35",
+    "covariates_v3.tsv": "cc46495c0abc6877182c9bff8d4ba44f11599d8bc5bc7a8cb6f8331aa1ec3c9a",
+    "cycle6_run1_INFLUENCE_RECORDS.tsv": "5e07c72f5376d989402d64fcad6d3caa60ac6b0a0b816cff938acf52cb4e9dd8",
+    "cycle6_run1_MATCHED_DECOMPOSITIONS.tsv": "b6fd3cc094a6dd5b3f76b0a8ddf71311e1776d37b7b07c216485b72f7a48cab6",
+    "cycle6_run1_MODEL_DIAGNOSTICS.tsv": "cf8797723da44ae2235e677ef190767ebe0ca55b6ff6f4f02b5390f345f44221",
+    "cycle6_run1_MODEL_RESULTS.tsv": "0738c65a7d1631ea425693d117b46e000ecd67d92e285b035316a229a9f4b090",
+    "patient_order_v3.json": "e494200b1a9d1c026679d039181bf34cfa3be62892e3d55bca2aeec0dab5e432",
+    "scores_v3.npz": "956b7a968f35d1da57719e3bc7392decbdd6e292ac31d4dec100b6632518b0cb"
+  },
+  "subseed_rule": "first 8 SHA256 bytes, unsigned big-endian, of ASCII 20260713|TASKB_PHASE2|<analysis_step_id>",
+  "verdict": "SURVIVES"
+}

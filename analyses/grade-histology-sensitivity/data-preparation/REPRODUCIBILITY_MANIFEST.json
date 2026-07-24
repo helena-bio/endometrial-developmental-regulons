@@ -1,0 +1,87 @@
+{
+  "acquired_input_hashes": {
+    "cptac_discovery_cbio_grade": "287b4a02df4f41c3ff64727215bf56a003b6d048e7d20e06af1e359d9d5075d9",
+    "cptac_discovery_cbio_histology": "4133634004e840605a9e1fc9c3b4a1cafeeb8dd182fcf4a5dc9f5cfef7e17393",
+    "pdc_PDC000125": "8143943f3084a93ee1e49a62f892c8ac02b16efd74ee7a5e42df8109157e442e",
+    "pdc_PDC000439": "de0dc78e2705070d8b21d0fb3db8c2a777a246ef49398036872fc0c6abebe61d",
+    "tcga_cbio_grade": "4af93f837dda71a50b6e5010fb63404b851f29ed4b671f611351c1d6af3c3edc",
+    "tcga_cbio_icdo_histology": "fce9c7b47ef10a85876cc92c8b1eee330246db91a4c20b0403f9b9ce0f4a89b9"
+  },
+  "branch": "experiment/task-b-grade-histology-sensitivity",
+  "canonical_output_hashes": {
+    "DESIGN_DIAGNOSTICS.tsv": "4affeecd2795778f8d016530c3df1bb19a17e0a84ecf19e89f2fcf216e635fd2",
+    "FROZEN_HARMONIZATION_SPEC.json": "c4252fd1d17a07212852a894631afd7a8df3b331ccf9aed314869b0e5512a362",
+    "HARMONIZATION_MAP.tsv": "c255355de4b6c4b366a626d7e79b26f474d55ead67387d1fde519743ac7e316b",
+    "LINKAGE_LEDGER.tsv": "c6087dc8e685b305ccd3ff9d1da02846ff8a306018cc1fb0820cf3825fc8e823",
+    "MISSINGNESS.tsv": "02e08cb20fe60056b6a23b4bd9837d07ba80a6c729f1fcf366e28d50d97dc69e",
+    "OUTCOME_FIREWALL_ATTESTATION.txt": "1393934215808dcc14466bb250e2832f1b9a50588fe7f8d6c3774118fbf01d60",
+    "PHASE1_DECISION.json": "a9b01e817d9e84180dc4804811dd2d0e33c245925a11bc8d5996363c42e7bc94",
+    "PHASE1_FEASIBILITY_REPORT.md": "5c7c3fa50e7fcd0f35eadbafbe62b35a5f8dd94c7470a79daf008405051b892e",
+    "RAW_CATEGORY_COUNTS.tsv": "09fe226376379a333715c3dcfce4d1282e882a368e92c3eb3f6a9ece9abbec80",
+    "SOURCE_FIELD_DICTIONARY.tsv": "5599d54f8578bca87976a5ebcce5c94df37c1337f478c05e12cf421f0aaf9959",
+    "SUBTYPE_BY_PROPOSED_CATEGORY.tsv": "91726649b4e910d5f08318304f052a044fba786e581d0efca0fee39b4737e0dc",
+    "SUBTYPE_BY_RAW_CATEGORY.tsv": "54703638e1dad819802d4545bf598e061fa64994cd406922ef10abe15c9110e3"
+  },
+  "classification": "HYPOTHESIS_POST_HOC_EXPLANATORY_SENSITIVITY_PHASE1_OUTCOME_BLIND",
+  "code_hashes": {
+    "acquire_inputs.py": "ec3ee6be58b44c2afb8bba28a2f8d792a697fbdeaa063009caa03677d6b6cf4a",
+    "audit_phase1.py": "1a41b45e85a1dd99fc48c0fb6e92430a7ae4ea83c6035a4e3564a6f706c42954",
+    "closeout.py": "738fa435730420908bb1db9cdf4f83ef1897d7e63fe8de050503151a1c04b994",
+    "finalize_inputs_lock.py": "64c519f12b93e1313bac977d6b825749456c62d12c96c835089ccf65501d3640",
+    "preflight_validate.py": "bb21be3c7b58724bd80f22a07cc2bff445e9c74c235e058e6e22570849e3cb84",
+    "static_scan.py": "8799bc992db9955bcf030edb91d02c9c8013ecbf9c41ade83bf9ae00e12f3835",
+    "trace_audit.py": "579cb9d58c2fcf847abc5cf87afbc0dc336b7054e8c250cc2882660160fa72a6"
+  },
+  "commands": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/COMMANDS.txt",
+  "cptac_phase2_permitted": false,
+  "deviations": [
+    "Initial exact cBio request returned HTTP 503 before a body was saved; identical frozen request was retried successfully",
+    "Early preflight schema report version briefly enumerated linkage identifiers but no grade/histology or molecular values; it was sanitized and superseded before canonical audit",
+    "Fresh venv inherited host NumPy 2.3.5 via --system-site-packages; no post-acquisition package download",
+    "Start snapshots for forbidden external worktrees were not captured; preservation is supported by zero-access strace plus end status digests, not a fabricated start/end equality claim"
+  ],
+  "environment": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/ENVIRONMENT.json",
+  "existing_allowlist_hash_status": "ALL_12_MATCH; one content-scope exception denied and unused",
+  "frozen_protocol_hashes": {
+    "ALLOWED_INPUTS_AND_OUTCOME_FIREWALL.json": "40e11800d4d5f56388ca7563886215d07e219dc6d8f440b7069e0d3be772615b",
+    "PHASE1_FEASIBILITY_RULES.json": "aa1eaea70991d9e915f499243a11964e01b7242c2f190cac783661b896e1eb42",
+    "PHASE1_OUTCOME_BLIND_PROTOCOL.md": "09c6950e997b9c2534180d34c86e246ba749943b07a4f6bed62f5cbcea5ee2b9",
+    "RESEARCH_ACCESS_LOG.tsv": "bd754088fe6d8528b5f5ddbdb0246a956834d06e75fc8b5cebd6ffa20934352b"
+  },
+  "git_commit": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+  "global_mechanical_state": "RESTRICT_TCGA_ONLY",
+  "input_lock_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/INPUTS_LOCK.json",
+  "input_lock_sha256": "bdaa15a40800cb5384abda946ef2c388f97fbb4fdcc16c4c901d9d00452d9039",
+  "manifest_generated_utc_excluded_from_canonical_comparison": "2026-07-22T18:04:58Z",
+  "no_molecular_model_run": true,
+  "open_file_audit": {
+    "external_inet_events": 0,
+    "parsed_table": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/OPEN_FILE_AUDIT.tsv",
+    "status": "PASS",
+    "summary": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/OPEN_FILE_AUDIT_SUMMARY.json",
+    "trace_run1": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run1_complete_open_trace.log",
+    "trace_run2": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/run2_complete_open_trace.log"
+  },
+  "phase2_after_required_fresh_critic_and_sophia_authorization": "TCGA_ONLY: base, base_plus_binary_histology, endometrioid_only_with_grade",
+  "phase2_currently_permitted": false,
+  "random_seed": "NO_RANDOMNESS; PYTHONHASHSEED=0",
+  "schema_version": "1.0.0",
+  "source_limitations": [
+    "gdc_case_mapping.json content does not match its allowlist description and was denied/unused",
+    "one Discovery exact analytic primary-tumour selector is unavailable",
+    "two Confirmatory exact analytic aliquot selectors are unavailable",
+    "Discovery cBio/PDC clinical sources conflict for some cases",
+    "Confirmatory generic tumor_grade is not documented as FIGO in the locked local metadata",
+    "Phase 1 cannot test the exact full molecular design"
+  ],
+  "static_scan": {
+    "path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/STATIC_SCAN_REPORT.json",
+    "sha256": "9eaa31f342fcc073ce38ca4e7e4c2819fd280b2290e3f35507354321c6f1d929",
+    "status": "PASS"
+  },
+  "status": "done",
+  "two_run_comparison": {
+    "all_byte_identical": true,
+    "table": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase1_execution/CANONICAL_RUN_COMPARISON.tsv"
+  }
+}

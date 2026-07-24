@@ -1,0 +1,11 @@
+timestamp_utc	actor	action	path_or_endpoint	purpose	status
+2026-07-22T18:08:52Z	reviewer	bootstrap	phase1_critic/CRITIC_ACCESS_LOG.tsv	Initialize independent outcome-blind audit log before task-input inspection	OK
+2026-07-22T18:08:52Z	reviewer	metadata_and_hash	mandated docs and Phase-1 protocol/firewall/rules/research log/producer manifest	Verify branch, HEAD, paths, sizes, and mandated hashes before content inspection	OK
+2026-07-22T18:09:00Z	reviewer	read_full	PHASE1_OUTCOME_BLIND_PROTOCOL.md; PHASE1_FEASIBILITY_RULES.json; ALLOWED_INPUTS_AND_OUTCOME_FIREWALL.json; RESEARCH_ACCESS_LOG.tsv	Apply frozen rules and default-deny firewall	ALLOW_NO_MOLECULAR_OUTCOME
+2026-07-22T18:09:30Z	reviewer	hash_and_schema	12 pre-existing allowlisted files	Verify exact SHA-256 and permitted columns/keys; retain only roster/subtype/linkage/dictionary scope	ALLOW_EXACT_SCOPE
+2026-07-22T18:10:39Z	reviewer	network_acquisition	six exact frozen cBio/PDC field-restricted requests round 1	Validate wrappers and record keys before values; save and hash clinical-only bytes	ALLOW_EXACT_FIELD_RESTRICTED
+2026-07-22T18:10:52Z	reviewer	network_acquisition	six exact frozen cBio/PDC field-restricted requests round 2	Repeat acquisition and require raw/canonical byte identity	ALLOW_EXACT_FIELD_RESTRICTED
+2026-07-22T18:12:00Z	reviewer	clinical_only_read	six locked task inputs plus permitted frozen rosters/subtype/linkage/biospecimen inputs	Independent linkage, raw counts, harmonization, missingness, cross-tabs, and design diagnostics	ALLOW_AFTER_LOCK_NO_MOLECULAR
+2026-07-22T18:17:00Z	reviewer	producer_comparison	phase1_execution manifest/inventory/run1/run2/trace/static-scan/environment/access-log artifacts	Adversarial field-level, checksum, reproducibility, and firewall comparison	ALLOW_PRODUCER_PHASE1_ONLY
+2026-07-22T18:21:00Z	reviewer	remote_semantic_reference	ISGYP PMC6295928; official cBioPortal clinical docs; official SEER/ICD-O resources	Verify FIGO scope, cBio free-form semantics, and ICD-O mapping without patient or molecular data	ALLOW_PUBLIC_REFERENCE
+2026-07-22T18:25:21Z	reviewer	preservation_check	protocol hashes; producer 68-row inventory; git diffs limited to src/docs; reviewer traces	Confirm reviewer writes stayed in phase1_critic and disclose lack of historical snapshots	OK_WITH_DISCLOSED_LIMITATION

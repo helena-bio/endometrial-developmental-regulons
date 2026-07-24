@@ -1,0 +1,142 @@
+{
+  "comparison_failures": 0,
+  "comparison_fields": 2694,
+  "comparison_matches": 2694,
+  "counts": [
+    {
+      "MMRd": 148,
+      "NSMP": 146,
+      "POLE": 49,
+      "model": "TCGA_PRIMARY_CPE_N506",
+      "p53abn": 163,
+      "total": 506
+    },
+    {
+      "MMRd": 148,
+      "NSMP": 147,
+      "POLE": 49,
+      "model": "TCGA_NOPURITY_N507",
+      "p53abn": 163,
+      "total": 507
+    },
+    {
+      "MMRd": 25,
+      "NSMP": 43,
+      "POLE": 7,
+      "model": "CPTAC_DISCOVERY_N95",
+      "p53abn": 20,
+      "total": 95
+    },
+    {
+      "MMRd": 47,
+      "NSMP": 66,
+      "POLE": 6,
+      "model": "CPTAC_CONFIRMATORY_N135",
+      "p53abn": 16,
+      "total": 135
+    }
+  ],
+  "definitive_runs": {
+    "all_byte_identical": true,
+    "files": 27
+  },
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+    "scipy": "1.17.1"
+  },
+  "identity_max": {
+    "b_abs_error": 4.440892098500626e-16,
+    "bootstrap_max_b_scaled_error": 2.2188237418924412e-16,
+    "bootstrap_max_d_scaled_error": 2.845340254531963e-16,
+    "d_abs_error": 1.1102230246251565e-16
+  },
+  "input_recheck": {
+    "all_match": true,
+    "rows": 111
+  },
+  "max_abs_diff": 7.105427357601002e-15,
+  "max_rel_diff": 7.445363786539227e-13,
+  "preservation": {
+    "end": {
+      "original": {
+        "branch": "experiment/embryonic-atlas",
+        "head": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+        "path": "data/external/original-workspace/revgate",
+        "staged_binary_diff_sha256": "ae116f632bff956b9d57de68a6e2aa30bc15cd08b038bb0c5be0cb9172731d86",
+        "status_sha256": "fc992695e585c4d567ef7f811681a813592e8c18cc7edb92d70c7f4f9bb1adc5",
+        "unstaged_binary_diff_sha256": "2f160d4764a49f1a20eb10f183fa81ea724f047a737098979f17991b1022465e"
+      },
+      "task030": {
+        "branch": "experiment/tcga-no-purity-verify",
+        "head": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+        "path": "data/external/original-workspace/revgate-tcga-no-purity-verify",
+        "staged_binary_diff_sha256": "7b038c254ff75cfbeffca20ddb70b1179d86d6e0bb1e3c2ae5731382b721f2c0",
+        "status_sha256": "1762b2324f93da1ad6973b989296f0f30b22d2605ff337b7a07aa6f6eebbf004",
+        "unstaged_binary_diff_sha256": "7b038c254ff75cfbeffca20ddb70b1179d86d6e0bb1e3c2ae5731382b721f2c0"
+      }
+    },
+    "start": {
+      "original": {
+        "branch": "experiment/embryonic-atlas",
+        "head": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+        "path": "data/external/original-workspace/revgate",
+        "staged_binary_diff_sha256": "ae116f632bff956b9d57de68a6e2aa30bc15cd08b038bb0c5be0cb9172731d86",
+        "status_sha256": "fc992695e585c4d567ef7f811681a813592e8c18cc7edb92d70c7f4f9bb1adc5",
+        "unstaged_binary_diff_sha256": "2f160d4764a49f1a20eb10f183fa81ea724f047a737098979f17991b1022465e"
+      },
+      "task030": {
+        "branch": "experiment/tcga-no-purity-verify",
+        "head": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+        "path": "data/external/original-workspace/revgate-tcga-no-purity-verify",
+        "staged_binary_diff_sha256": "7b038c254ff75cfbeffca20ddb70b1179d86d6e0bb1e3c2ae5731382b721f2c0",
+        "status_sha256": "1762b2324f93da1ad6973b989296f0f30b22d2605ff337b7a07aa6f6eebbf004",
+        "unstaged_binary_diff_sha256": "7b038c254ff75cfbeffca20ddb70b1179d86d6e0bb1e3c2ae5731382b721f2c0"
+      }
+    },
+    "unchanged": true
+  },
+  "schema_correction": {
+    "new_columns": [
+      "meta_discovery_coefficient",
+      "meta_discovery_coefficient_SE",
+      "meta_discovery_residual_SD",
+      "meta_discovery_d",
+      "meta_discovery_boot_SE_d",
+      "meta_discovery_weight",
+      "meta_confirmatory_coefficient",
+      "meta_confirmatory_coefficient_SE",
+      "meta_confirmatory_residual_SD",
+      "meta_confirmatory_d",
+      "meta_confirmatory_boot_SE_d",
+      "meta_confirmatory_weight",
+      "meta_weight_fraction_discovery",
+      "meta_weight_fraction_confirmatory",
+      "meta_opposite_direction_flag"
+    ],
+    "scientific_common_fields_equal": true
+  },
+  "targets_used_cptac": {
+    "CPTAC_CONFIRMATORY_N135": {
+      "GATA2": 75,
+      "HOXA9": 19,
+      "LHX1": 6,
+      "PAX8": 23,
+      "SOX9": 70,
+      "WT1": 93
+    },
+    "CPTAC_DISCOVERY_N95": {
+      "GATA2": 75,
+      "HOXA9": 19,
+      "LHX1": 6,
+      "PAX8": 23,
+      "SOX9": 70,
+      "WT1": 92
+    }
+  }
+}

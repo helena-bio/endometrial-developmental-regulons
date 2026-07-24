@@ -1,0 +1,37 @@
+{
+  "analysis_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/run_phase2.py",
+  "config_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/EXECUTION_CONFIG.json",
+  "network_namespace": "bwrap --unshare-net",
+  "static_forbidden_findings": {
+    "docx": [],
+    "figure_path": [],
+    "manuscript_path": [],
+    "no_purity_worktree": [],
+    "pdf": [],
+    "task028_results": [],
+    "task030": [],
+    "task_a": []
+  },
+  "status": "PASS",
+  "synthetic_trace_forbidden_findings": {
+    "covariates": 0,
+    "figure": 0,
+    "manuscript": 0,
+    "order": 0,
+    "results": 0,
+    "scores": 0,
+    "task030": 0,
+    "task_a": 0
+  },
+  "synthetic_trace_line_count": 5636,
+  "synthetic_trace_network_syscall_count": 6,
+  "synthetic_trace_network_syscall_lines": [
+    "777181 socket(AF_UNIX, SOCK_DGRAM|SOCK_CLOEXEC, 0) = 4",
+    "777181 socket(AF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, NETLINK_ROUTE) = 4",
+    "777181 sendto(4, [{nlmsg_len=40, nlmsg_type=0x14 /* NLMSG_??? */, nlmsg_flags=NLM_F_REQUEST|NLM_F_ACK|0x600, nlmsg_seq=0, nlmsg_pid=777181}, \"\\x02\\x08\\x80\\xfe\\x01\\x00\\x00\\x00\\x08\\x00\\x02\\x00\\x7f\\x00\\x00\\x01\\x08\\x00\\x01\\x00\\x7f\\x00\\x00\\x01\"], 40, 0, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 40",
+    "777181 recvfrom(4, [{nlmsg_len=36, nlmsg_type=NLMSG_ERROR, nlmsg_flags=NLM_F_CAPPED, nlmsg_seq=0, nlmsg_pid=777181}, {error=0, msg={nlmsg_len=40, nlmsg_type=0x14 /* NLMSG_??? */, nlmsg_flags=NLM_F_REQUEST|NLM_F_ACK|0x600, nlmsg_seq=0, nlmsg_pid=777181}}], 1024, 0, NULL, NULL) = 36",
+    "777181 sendto(4, [{nlmsg_len=32, nlmsg_type=0x10 /* NLMSG_??? */, nlmsg_flags=NLM_F_REQUEST|NLM_F_ACK, nlmsg_seq=1, nlmsg_pid=777181}, \"\\x00\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\"], 32, 0, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 32",
+    "777181 recvfrom(4, [{nlmsg_len=36, nlmsg_type=NLMSG_ERROR, nlmsg_flags=NLM_F_CAPPED, nlmsg_seq=1, nlmsg_pid=777181}, {error=0, msg={nlmsg_len=32, nlmsg_type=0x10 /* NLMSG_??? */, nlmsg_flags=NLM_F_REQUEST|NLM_F_ACK, nlmsg_seq=1, nlmsg_pid=777181}}], 1024, 0, NULL, NULL) = 36"
+  ],
+  "synthetic_trace_path": "data/external/original-workspace/revgate-task-b-grade-histology/experiments/taskB_grade_histology/phase2_execution_cycle6/PRESEAL_SYNTHETIC_OPEN_TRACE_SUCCESS.log"
+}
