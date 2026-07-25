@@ -1,0 +1,21 @@
+factor	selection_scope	mapped_primary_targets	positive_primary_edges	negative_primary_edges	excluded_unresolved_edges	total_admitted_edges	direction_prior_recorded	direction_prior
+PAX8	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	23	20	3	1	24	yes	retained/pro-tumour; serous/p53abn-enriched; not loss
+PAX2	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	20	16	4	1	21	no	not individually specified in the frozen source record
+SOX17	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	31	27	4	1	32	yes	subtype-split; suppressive/lost in endometrioid/NSMP; possibly retained with PAX8 in serous
+HOXA10	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	32	22	10	4	36	yes	predominantly loss by methylation, with cited minority ambiguity
+HOXA11	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	5	3	2	0	5	yes	predominantly loss by methylation
+HOXA9	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	19	17	2	3	22	no	not individually specified in the frozen source record
+HOXA13	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	14	8	6	0	14	no	not individually specified in the frozen source record
+WT1	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	92	69	24	7	100	yes	serous-associated lineage marker; direction reported, not enforced
+GATA3	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	133	110	23	6	139	no	not individually specified in the frozen source record
+GATA2	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	76	65	11	3	79	no	not individually specified in the frozen source record
+EMX2	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	6	2	4	0	6	no	not individually specified in the frozen source record
+LHX1	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	6	5	1	0	6	no	not individually specified in the frozen source record
+MSX1	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	24	12	12	0	24	no	not individually specified in the frozen source record
+MSX2	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	40	21	19	1	41	no	not individually specified in the frozen source record
+DLX5	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	31	30	1	0	31	no	not individually specified in the frozen source record
+SIX1	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	15	14	1	0	15	no	not individually specified in the frozen source record
+SALL1	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	5	4	1	0	5	no	not individually specified in the frozen source record
+TBX18	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	9	8	1	0	9	no	not individually specified in the frozen source record
+FOXA2	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	109	91	18	7	116	no	not individually specified in the frozen source record
+SOX9	frozen literature/embryology Mullerian developmental TF panel; selected before tumour analysis	70	54	16	7	77	no	not individually specified in the frozen source record
