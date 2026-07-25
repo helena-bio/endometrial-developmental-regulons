@@ -1,0 +1,63 @@
+{
+  "frozen_cohort_n": 507,
+  "subtype_counts_507": {
+    "POLE": 49,
+    "MMRd": 148,
+    "NSMP": 147,
+    "p53abn": 163
+  },
+  "CPE_primary": {
+    "n": 506,
+    "subtype_counts": {
+      "POLE": 49,
+      "MMRd": 148,
+      "NSMP": 146,
+      "p53abn": 163
+    },
+    "excluded": [
+      "TCGA-BS-A0TG"
+    ],
+    "exclusion_reason": "primary purity covariate non-finite"
+  },
+  "no_purity_sensitivity": {
+    "n": 507,
+    "subtype_counts": {
+      "POLE": 49,
+      "MMRd": 148,
+      "NSMP": 147,
+      "p53abn": 163
+    },
+    "excluded": []
+  },
+  "ABSOLUTE_sensitivity": {
+    "n": 502,
+    "subtype_counts": {
+      "POLE": 48,
+      "MMRd": 148,
+      "NSMP": 144,
+      "p53abn": 162
+    },
+    "excluded": [
+      {
+        "patient": "TCGA-A5-A0G1",
+        "subtype": "POLE"
+      },
+      {
+        "patient": "TCGA-A5-A1OH",
+        "subtype": "p53abn"
+      },
+      {
+        "patient": "TCGA-BG-A0M9",
+        "subtype": "NSMP"
+      },
+      {
+        "patient": "TCGA-D1-A0ZU",
+        "subtype": "NSMP"
+      },
+      {
+        "patient": "TCGA-EY-A1GT",
+        "subtype": "NSMP"
+      }
+    ]
+  }
+}

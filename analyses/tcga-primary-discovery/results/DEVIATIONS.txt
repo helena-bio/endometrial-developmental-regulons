@@ -1,0 +1,51 @@
+TASK-028 FREEZE B v3 -- EXECUTION DEVIATIONS LOG (experimenter)
+================================================================================
+git HEAD unchanged 83503bad47b60193598b2b9ebe819c22c83e8ac1 (start==end). ASCII only.
+No sealed spec / module / covariate / threshold / contrast was modified. No tuning.
+
+D1 (LOAD-BEARING -- scoring helper correctness fix, NOT a spec change)
+--------------------------------------------------------------------------------
+The execution-side aREA helper (execution/scripts/scoring.py, a v2 experimenter helper
+under execution/, NOT part of the sealed packet) had a defect that surfaced only now that
+Phase 2 signed VIPER/aREA was actually run (the prior v2 attempt STOPPED at Phase 1, so the
+defect was never exercised). _make_signature_z sets zero-variance gene rows to NaN; there
+are 3121 zero-variance genes in the 60660 GENCODE-v36 universe, ALL of them all-zero
+(undetectable across all 507 tumours). area_regulon then ranked the signature over the FULL
+60660-length z column with scipy.rankdata, which returns all-NaN when ANY input is NaN ->
+every regulon NES came out NaN (507/507 for all 20 regulons in the first Phase-2a run).
+
+FIX (execution/scripts_v3/scoring.py): restrict the aREA signature rank universe to genes
+with a finite z (the measured / non-zero-variance signature), exactly as canonical
+viper::aREA operates on the measured expression signature. Zero-variance (all-zero /
+undetectable) genes carry no signal and are excluded from the ranking; a regulon target
+that is itself undetectable contributes nothing. This is the SAME "undetectable" exclusion
+the sealed all-zero rule (B2.2) already applies to module genes, applied to the ranking
+universe. It changes NO threshold / weight / parameter / edge sign / regulon membership; it
+makes aREA compute the signed enrichment B2.3 specifies rather than return NaN. After the
+fix all M1 + 20 regulon primary scores are finite (nonfinite_primary = {}). Verified on
+PAX8 (23/23 targets used, 507 finite NES) before the full re-run.
+
+D2 (non-load-bearing -- ABSOLUTE join corrected to the sealed provenance logic)
+--------------------------------------------------------------------------------
+The prior v2 Phase-1 QC join for PanCanAtlas ABSOLUTE produced finite coverage 480 (a join
+bug: it used only the 'sample' column and mishandled aliquot->patient union). The v3 QC uses
+the SEALED ABSOLUTE_PROVENANCE.md join (patient from 'sample' aliquot with 'array' fallback,
+finite-value union at patient level), which reproduces the sealed n=502 complete-case
+(row-presence 503), dropped set {A5-A0G1(POLE), A5-A1OH(p53abn), BG-A0M9/D1-A0ZU/EY-A1GT(NSMP)}.
+This is re-derivation to the sealed authority, not a spec change.
+
+D3 (recorded, not a deviation) -- replicate counts
+--------------------------------------------------------------------------------
+n_boot = 2000 and n_perm = 2000 were fixed a priori (the sealed spec pins the seed rule and
+the CI/permutation method but not a specific replicate count). Deterministic from the master
+seed; re-run reproduced 492 primary+D_t values bit-identically.
+
+D4 (recorded) -- sensitivities NOT run (per instruction)
+--------------------------------------------------------------------------------
+Per the resume instruction, only the six frozen deliverable sensitivities were run
+{no-purity n=507, ABSOLUTE n=502, compact-M1, signed-ssGSEA, S1, S2}. The OPTIONAL/
+permissible-but-not-frozen items were NOT run: IHC estimator-harmonization (explicitly
+"do NOT run"); M3_sensitivity DoRothEA/ChIP regulon set (B2.7 permissible, not in the frozen
+deliverable set, and no signed sensitivity edge ledger exists to score it without
+fabrication); scoring-method mean-z/singscore concordance; interaction-framed discordance.
+The 35 SECONDARY-B normals were NOT opened.

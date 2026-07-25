@@ -1,0 +1,7 @@
+target	d_meta	meta_ci_lo	meta_ci_hi	meta_ci_excl0	BH_q_of_6	opposite_direction_veto
+GATA2	-0.8762	-1.3109	-0.4416	True	0.000467	False
+HOXA9	-0.3251	-0.7883	0.1380	False	0.202578	False
+SOX9	-0.7998	-1.2651	-0.3345	True	0.001509	False
+WT1	-0.1655	-0.5465	0.2156	False	0.394685	False
+LHX1	0.5089	0.0294	0.9883	True	0.056265	True
+PAX8	0.7588	0.3373	1.1804	True	0.001255	False

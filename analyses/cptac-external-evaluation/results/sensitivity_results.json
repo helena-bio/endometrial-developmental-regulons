@@ -1,0 +1,225 @@
+{
+  "phase": "TASK-029 pre-frozen sensitivities",
+  "master_seed": 20260714,
+  "git_HEAD": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+  "sensitivity_a_estimate_purity": {
+    "label": "ESTIMATE-purity sensitivity (V2 + ESTIMATE-derived purity covariate)",
+    "cannot_override_primary": true,
+    "per_strat": {},
+    "collinearity": {
+      "Discovery": {
+        "VIF": {
+          "MMRd": 3.383797737449321,
+          "NSMP": 4.552777510891326,
+          "p53abn": 3.073285183264786,
+          "M4": 1.6312674635801694,
+          "composition": 439123473.6867889,
+          "estimate_purity": 439123452.2784232
+        },
+        "corr_composition_purity": -0.9999999988369686,
+        "max_VIF": 439123473.6867889
+      },
+      "Confirmatory": {
+        "VIF": {
+          "MMRd": 5.8055614272216465,
+          "NSMP": 6.395899022096247,
+          "p53abn": 3.3247200731379993,
+          "M4": 1.5203417731111915,
+          "composition": 354761775.067065,
+          "estimate_purity": 354761872.8767878
+        },
+        "corr_composition_purity": -0.999999998585769,
+        "max_VIF": 354761872.8767878
+      }
+    },
+    "meta": {
+      "LHX1": {
+        "d_meta": 0.5088660404073511,
+        "se_meta": 0.2446270608768265,
+        "z": 2.0801706834207234,
+        "p": 0.037509880197881595,
+        "ci_lo": 0.029397001088771135,
+        "ci_hi": 0.9883350797259309,
+        "ci_excl0": true,
+        "opposite_veto": true,
+        "strata": {
+          "Discovery": {
+            "d": -0.030118757122474207,
+            "se": 0.3453888337649178,
+            "ci_lo": -0.7279339349419287,
+            "ci_hi": 0.63285675413453
+          },
+          "Confirmatory": {
+            "d": 1.0513988396919678,
+            "se": 0.3465237731111042,
+            "ci_lo": 0.46665613474037976,
+            "ci_hi": 1.809984928731452
+          }
+        },
+        "BH_q_of_6": 0.05626482029682239
+      },
+      "PAX8": {
+        "d_meta": 0.7588373582175848,
+        "se_meta": 0.2150717868574828,
+        "z": 3.5282980129812564,
+        "p": 0.00041824100344175493,
+        "ci_lo": 0.33729665597691855,
+        "ci_hi": 1.180378060458251,
+        "ci_excl0": true,
+        "opposite_veto": false,
+        "strata": {
+          "Discovery": {
+            "d": 0.4534659940473656,
+            "se": 0.30776472684518735,
+            "ci_lo": -0.14602696152355576,
+            "ci_hi": 1.0980973179472946
+          },
+          "Confirmatory": {
+            "d": 1.050299819906361,
+            "se": 0.30067408861526396,
+            "ci_lo": 0.4964888909961143,
+            "ci_hi": 1.6994770196563784
+          }
+        },
+        "BH_q_of_6": 0.0012547230103252649
+      },
+      "GATA2": {
+        "d_meta": -0.8762120781083228,
+        "se_meta": 0.22175849856859528,
+        "z": -3.951199542583885,
+        "p": 7.776045369123363e-05,
+        "ci_lo": -1.3108587353027694,
+        "ci_hi": -0.44156542091387607,
+        "ci_excl0": true,
+        "opposite_veto": false,
+        "strata": {
+          "Discovery": {
+            "d": -0.6896204921775306,
+            "se": 0.3565763129199473,
+            "ci_lo": -1.41008670572046,
+            "ci_hi": -0.030414691366929997
+          },
+          "Confirmatory": {
+            "d": -0.993898398547439,
+            "se": 0.2831844840174327,
+            "ci_lo": -1.6241928085759825,
+            "ci_hi": -0.49934523604084025
+          }
+        },
+        "BH_q_of_6": 0.0004665627221474018
+      },
+      "HOXA9": {
+        "d_meta": -0.3251441938623455,
+        "se_meta": 0.2362930362479818,
+        "z": -1.3760210585347818,
+        "p": 0.16881511367367374,
+        "ci_lo": -0.7882785449083898,
+        "ci_hi": 0.13799015718369884,
+        "ci_excl0": false,
+        "opposite_veto": false,
+        "strata": {
+          "Discovery": {
+            "d": -0.5366961304317234,
+            "se": 0.3792963015168623,
+            "ci_lo": -1.277162547178018,
+            "ci_hi": 0.22272689312349062
+          },
+          "Confirmatory": {
+            "d": -0.1909660413763255,
+            "se": 0.3020723743218035,
+            "ci_lo": -0.8133699878199775,
+            "ci_hi": 0.3600561759948921
+          }
+        },
+        "BH_q_of_6": 0.2025781364084085
+      },
+      "SOX9": {
+        "d_meta": -0.7997881880106653,
+        "se_meta": 0.23739401663417217,
+        "z": -3.369032629171742,
+        "p": 0.0007543249854029402,
+        "ci_lo": -1.2650804606136428,
+        "ci_hi": -0.33449591540768786,
+        "ci_excl0": true,
+        "opposite_veto": false,
+        "strata": {
+          "Discovery": {
+            "d": -1.000600634778416,
+            "se": 0.35679230496932923,
+            "ci_lo": -1.7401785141283261,
+            "ci_hi": -0.3450003790790459
+          },
+          "Confirmatory": {
+            "d": -0.640270291488737,
+            "se": 0.31799835432949825,
+            "ci_lo": -1.2865740692147336,
+            "ci_hi": -0.060100710336971085
+          }
+        },
+        "BH_q_of_6": 0.0015086499708058803
+      },
+      "WT1": {
+        "d_meta": -0.16545671079080107,
+        "se_meta": 0.19439146345377825,
+        "z": -0.8511521434692157,
+        "p": 0.3946848429981754,
+        "ci_lo": -0.5464639791602064,
+        "ci_hi": 0.21555055757860428,
+        "ci_excl0": false,
+        "opposite_veto": false,
+        "strata": {
+          "Discovery": {
+            "d": -0.22991189118379235,
+            "se": 0.30063847957157647,
+            "ci_lo": -0.8124689704142013,
+            "ci_hi": 0.36286668344080664
+          },
+          "Confirmatory": {
+            "d": -0.11914786082961798,
+            "se": 0.2548282960102221,
+            "ci_lo": -0.6560421440755132,
+            "ci_hi": 0.3507238401082838
+          }
+        },
+        "BH_q_of_6": 0.39468484299817536
+      }
+    },
+    "model_instability_VIF_gt10": true
+  },
+  "sensitivity_b_mmrd_classifier": {
+    "label": "MMRd/p53abn classifier-robustness sensitivity (alternative TCGA-style call)",
+    "cannot_override_primary": true,
+    "fields_present_in_confirmatory_mmc2": {
+      "MSI_status": true,
+      "MSIsensor_ratio": true,
+      "POLE": true,
+      "CNV_status": true,
+      "TP53": true,
+      "Ancillary_studies_mlh1": true,
+      "Ancillary_studies_msh2": true,
+      "Ancillary_studies_msh6": true,
+      "Ancillary_studies_pms2": true,
+      "Ancillary_studies_p53": true,
+      "ABSOLUTE_tumor_purity": true,
+      "Batch": true,
+      "Plex": true
+    },
+    "confirmatory_ABSOLUTE_purity_nonempty": 132,
+    "confirmatory_MSI_status_nonempty": 135,
+    "availability_verdict": "AVAILABLE but CONFIRMATORY-STRATUM ONLY. RNA-independent alternative-classifier components (MSI_status/MSIsensor_ratio/POLE/CNV_status/TP53 + MLH1/MSH2/MSH6/PMS2/p53 IHC) exist per-case in the Dou2023 mmc2 Meta_table for the Confirmatory stratum. The Discovery stratum has only the cBioPortal GENOMICS_SUBTYPE (the primary label) in the sealed open sources -- no independent raw MSI/CNV/POLE components. Per the frozen rule the alternative call is therefore a SINGLE-STRATUM (Confirmatory-only) classifier-robustness sensitivity; a two-stratum meta alt-classifier replication is NOT available and is NOT improvised. This is a DISCLOSED LIMITATION. The primary Dou-2023 genomic subtype labels remain PRIMARY and define the confirmatory C2 analysis.",
+    "not_run_as_full_meta_reason": "no RNA-independent alt classifier for Discovery in sealed sources"
+  },
+  "sensitivity_c_center_batch_proxy": {
+    "label": "center / TMT-batch PROXY sensitivity (disclosed proxy, not a site correction)",
+    "cannot_override_primary": true,
+    "confirmatory_batch_distribution": {
+      "b4": 35,
+      "b3": 35,
+      "b1": 33,
+      "b2": 34,
+      "NA": 29
+    },
+    "scope_verdict": "PROXY ONLY, pre-authorized scope. Confirmatory Batch(b1-b4)/Plex are TMT PROTEOMIC processing batches, NOT the RNA-seq batch and NOT a true recruiting tissue_source_site (unpopulated in GDC/PDC). Accrual-family C3L/C3N appears in BOTH strata (not fully confounded with the Discovery-vs-Confirmatory split). A DISCLOSED batch/center proxy sensitivity is admissible in scope, but it is NOT a true-site correction and CANNOT change the primary verdict. A true tissue_source_site correction remains a LIMITATION (not improvised)."
+  },
+  "timestamp_utc": "2026-07-14T13:32:43Z"
+}

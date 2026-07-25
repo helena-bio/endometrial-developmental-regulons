@@ -1,0 +1,34 @@
+# M4_covariate -- proliferation / progenitor control
+# LABEL: COVARIATE-ONLY, not a developmental claim module.
+# STATUS: SEAL CANDIDATE (TASK-028 Freeze B). Used to partial out proliferation (RISK R-10).
+# members = 30 (compact literature-standard proliferation/cell-cycle seed).
+MKI67
+PCNA
+E2F1
+MCM2
+MCM3
+MCM4
+MCM5
+MCM6
+MCM7
+CCNB1
+CCNB2
+CCNE1
+CCNA2
+CDK1
+CDC20
+BUB1
+AURKA
+AURKB
+TOP2A
+BIRC5
+FOXM1
+UBE2C
+TYMS
+RRM2
+CENPA
+CENPE
+PLK1
+KIF11
+NUSAP1
+TPX2

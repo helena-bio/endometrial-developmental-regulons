@@ -1,0 +1,7 @@
+target	family	contrast	pred_direction	d_meta	meta_ci_lo	meta_ci_hi	meta_ci_excl0	BH_q_of_6	direction_match	abs_d_ge_0.5	stratum_consistent	opposite_direction_veto	status
+GATA2	C2	C2	POLE+MMRd_depletion(d<0)	-0.8773	-1.3059	-0.4486	True	0.000362	True	True	True	False	externally_replicated
+HOXA9	C2	C2	POLE+MMRd_depletion(d<0)	-0.3329	-0.7890	0.1232	False	0.183084	True	False	True	False	evaluable--not_replicated
+SOX9	C2	C2	POLE+MMRd_depletion(d<0)	-0.7887	-1.2542	-0.3231	True	0.001798	True	True	True	False	externally_replicated
+WT1	C2	C2	POLE+MMRd_depletion(d<0)	-0.1746	-0.5473	0.1981	False	0.358416	True	False	True	False	evaluable--not_replicated
+LHX1	C1	C1	p53abn_enrichment(d>0)	0.4700	-0.0127	0.9527	False	0.084496	True	False	False	True	underpowered_sensitivity
+PAX8	C1	C1	p53abn_enrichment(d>0)	0.7955	0.3785	1.2125	True	0.000554	True	True	True	False	underpowered_sensitivity

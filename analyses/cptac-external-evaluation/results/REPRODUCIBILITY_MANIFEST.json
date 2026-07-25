@@ -1,0 +1,74 @@
+{
+  "task": "TASK-029 CPTAC-UCEC external replication of TASK-028 F34 (sealed frozen design)",
+  "role": "experimenter (first authorized outcome-bearing run)",
+  "master_seed": 20260714,
+  "subseed_rule": "int(sha256(f'{master_seed}:{step_id}').hexdigest()[:8], 16)",
+  "git_HEAD_start": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+  "git_HEAD_end": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+  "git_unchanged": true,
+  "no_writes_under_revgate": true,
+  "sealed_design_authority": {
+    "SEAL_MANIFEST_replication.sha256": "19/19 load-bearing files verified, 0 mismatch",
+    "roster_pin_dou2023_mmc2.xlsx_sha256": "2ea92c4279918c3a6158b24ebfa1e0e36ffc2876d50fd2ed3f07265a389e0e31 (verified, size 277385)",
+    "task028_sealed_B1_modules": "13/13 files verified against B1_SHA256.manifest, 0 mismatch",
+    "scoring_code_reused_verbatim": "task028-freeze-b-draft/execution/scripts_v3/scoring.py (ssgsea_matrix, area_regulon) + model_engine.py (build_design, fit_ols, subtype_emms, contrast_estimate, bootstrap_contrasts, bh_fdr) -- imported, not re-implemented",
+    "m3_primary_included_signed_edges": 761
+  },
+  "data_sources": {
+    "cptac3_ucec_rna": {
+      "source": "GDC (api.gdc.cancer.gov)",
+      "gdc_data_release": "Data Release 45.0 - December 04, 2025",
+      "gdc_commit": "8f7c2a51ab0084b216ad1b62a3fae8b945439c53",
+      "workflow_type": "STAR - Counts",
+      "quantity": "tpm_unstranded -> log2(TPM+1)",
+      "gene_universe": "GENCODE v36, 60660 genes (identical to TASK-028 frozen universe)",
+      "n_files_selected": 230,
+      "per_file_md5_mismatches": 0,
+      "download_verify": "acq03_download_verify.json (per-file md5 pinned + sha256 recorded)"
+    },
+    "confirmatory_subtype_roster": {
+      "source": "Dou 2023 Cancer Cell mmc2.xlsx (Elsevier CDN), Meta_table, Genomic_subtype",
+      "sha256": "2ea92c4279918c3a6158b24ebfa1e0e36ffc2876d50fd2ed3f07265a389e0e31",
+      "size": 277385
+    },
+    "discovery_subtype_roster": {
+      "source": "cBioPortal ucec_cptac_2020 GENOMICS_SUBTYPE (sealed join table discovery_join.json)"
+    }
+  },
+  "cohort": {
+    "discovery_n": 95, "discovery_subtypes": {"POLE": 7, "MMRd": 25, "NSMP": 43, "p53abn": 20},
+    "confirmatory_n": 135, "confirmatory_subtypes": {"POLE": 6, "MMRd": 47, "NSMP": 66, "p53abn": 16},
+    "pooled_n": 230, "attrition": 0,
+    "cross_stratum_overlap_case_sample_aliquot_file": 0,
+    "dedup_rule_k": "one patient = one primary-tumour analytic unit; keep study-primary aliquot (lowest sample-vial suffix); deterministic tie-break"
+  },
+  "model": "V2 FROZEN NO-PURITY: score ~ subtype + M4 proliferation (covariate-only) + ESTIMATE composition; NO purity in primary",
+  "contrasts": {
+    "C1": "[-1,-1,-1,+3] p53abn vs {POLE,MMRd,NSMP}; predicted d>0 (enrichment)",
+    "C2": "[+1,+1,-2,0] {POLE,MMRd} vs NSMP; predicted d<0 (relative depletion)",
+    "C3": "[+1,-1,0,0] descriptive"
+  },
+  "inference": {
+    "scoring": "per stratum, no raw-expression pooling; M1 ssGSEA (F2 sensitivity); M3 signed VIPER/aREA over 761 signed edges; orphans excluded; all-zero rule",
+    "effect": "standardized d = contrast/sigma_resid per stratum; patient bootstrap n_boot=2000",
+    "meta": "inverse-variance FIXED-EFFECT over the two strata; opposite-direction veto",
+    "family": "F1 = BH-of-6 across {C1: LHX1,PAX8; C2: GATA2,HOXA9,SOX9,WT1}",
+    "replicated_criterion": "ALL of: pre-specified direction; |d|>=0.5 + bootstrap CI excl 0; BH q<=0.05; stratum-consistency; no critical QC/model failure",
+    "H1_floor": 0.50, "SESOI": 0.30
+  },
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.5.1", "scipy": "1.18.0", "pandas": "3.0.3",
+    "statsmodels": "0.14.6", "openpyxl": "3.1.5",
+    "venv": "venv_task029gate"
+  },
+  "commands_run": [
+    "venv_task029gate/bin/python execution/scripts/acq01_gdc_query.py",
+    "venv_task029gate/bin/python execution/scripts/acq02_build_join.py",
+    "venv_task029gate/bin/python execution/scripts/acq03_download.py",
+    "venv_task029gate/bin/python execution/scripts/acq04_qc_matrix.py",
+    "venv_task029gate/bin/python execution/scripts/exec01_score_model_meta.py",
+    "venv_task029gate/bin/python execution/scripts/exec02_sensitivities.py",
+    "venv_task029gate/bin/python execution/scripts/exec03_freeze_tables.py"
+  ]
+}

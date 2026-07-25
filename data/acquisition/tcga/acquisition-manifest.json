@@ -1,0 +1,152 @@
+{
+  "task": "TASK-027 -- acquire the pinned GDC DR45.0 TCGA-UCEC cohort (542 files) + repeat FREEZE A from scratch on the materialized files. HALT before Freeze B.",
+  "produced_utc": "2026-07-12",
+  "scope_statement": "This task DOWNLOADED the pinned 507 primary + 35 normal STAR-Counts files, verified every md5/size against the frozen pins, and re-ran the INPUT feasibility freeze (Freeze A) from scratch on the materialized files. NO biological scoring: no expression VALUE (tpm/count/fpkm) was read into any score, contrast, module, ranking, fold-change, or statistic. Structural file checks only (header columns, 4 STAR summary rows, GENCODE-v36 gene-row count). Freeze B was NOT entered.",
+  "git": {
+    "start_commit": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+    "end_commit": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+    "branch": "experiment/embryonic-atlas",
+    "start_equals_end": true,
+    "note": "No Git write operation was performed. Acquisition artifacts were generated in an isolated workspace. Pre-existing repository changes were not modified."
+  },
+  "environment": {
+    "python": "3.12.3 (/usr/bin/python3)",
+    "third_party_packages": "NONE -- all scripts use the Python standard library only (csv, hashlib, os, re, sys, time, json, urllib, collections). No venv created; no pip install needed.",
+    "curl": "8.5.0 (used only for GDC /status GET and a one-file connectivity/md5 sanity test)",
+    "seed": "N/A -- fully deterministic (no randomness enters selection, join, checksums, or structural validation)"
+  },
+  "source": {
+    "provider": "GDC (Genomic Data Commons), api.gdc.cancer.gov",
+    "project": "TCGA-UCEC",
+    "workflow": "STAR - Counts, augmented_star_gene_counts.tsv",
+    "reference_annotation": "GENCODE v36",
+    "data_release": "Data Release 45.0 - December 04, 2025",
+    "data_release_version": {
+      "major": 45,
+      "minor": 0,
+      "release_date": "2025-12-04"
+    },
+    "status_commit": "8f7c2a51ab0084b216ad1b62a3fae8b945439c53",
+    "status_tag": "8.5.0",
+    "release_status_raw": "release_status.json (sha256 e0217ad3931ecad57c34fd662dc76b55dbb72056945a1a6da4e34a4a461cabb5)",
+    "release_drift": "NONE -- live GDC /status returned exactly DR45.0 / commit 8f7c2a51 / tag 8.5.0; identical to the pinned checkpoint. Pinned UUIDs all resolved and served byte-exact.",
+    "download_endpoint": "https://api.gdc.cancer.gov/data/<uuid> (open-access, no token)"
+  },
+  "frozen_inputs_verified_before_use": {
+    "selection_rule": {
+      "path": "upstream/acquisition-checkpoint/SELECTION_RULE.txt",
+      "sha256_expected": "b92d7478dbc2c5059160624d15ad0e492af045e23cbe2ed2a4e8813283b4ad87",
+      "sha256_verified": "b92d7478dbc2c5059160624d15ad0e492af045e23cbe2ed2a4e8813283b4ad87",
+      "usage": "applied VERBATIM: STEP1 keep sample-type code '01'; STEP2 one per 12-char patient, keep lexicographically-lowest full aliquot barcode."
+    },
+    "pinned_subtype_table": {
+      "path": "upstream/subtype-freeze/subtype_normalized.tsv",
+      "sha256_expected": "17a899a4869fccf806859342454bde440027786a48bdd50f1d1eace810b1ef9e",
+      "sha256_verified": "17a899a4869fccf806859342454bde440027786a48bdd50f1d1eace810b1ef9e",
+      "usage": "READ-ONLY JOIN. Subtypes NOT re-derived/re-mapped/re-called."
+    },
+    "would_download_files_tsv": {
+      "path": "upstream/acquisition-checkpoint/would_download_files.tsv",
+      "sha256_expected": "0801754019fe0b69d88980c650c4f4d604558ec05afd334b714315356acca8af",
+      "sha256_verified": "0801754019fe0b69d88980c650c4f4d604558ec05afd334b714315356acca8af",
+      "usage": "source of the 507 pinned primary UUID+md5+size+barcode+mapped_4way."
+    },
+    "gdc_manifest_full_tsv": {
+      "path": "upstream/acquisition-checkpoint/gdc_manifest_full.tsv",
+      "sha256_expected": "85899f606b64c9f53c0115670eb8997889c47ad833e09c6041a66cab8c5234cb",
+      "sha256_verified": "85899f606b64c9f53c0115670eb8997889c47ad833e09c6041a66cab8c5234cb",
+      "usage": "source of the 35 Solid-Tissue-Normal UUID+md5+size+barcode (sample_type=='Solid Tissue Normal' rows)."
+    },
+    "gdc_files_raw_json": {
+      "path": "upstream/acquisition-checkpoint/gdc_files_raw.json",
+      "sha256_expected": "6254d90e56dec110098a293b00ba69780fe443e52b4e88654340bc91824bc0cc",
+      "sha256_verified": "6254d90e56dec110098a293b00ba69780fe443e52b4e88654340bc91824bc0cc",
+      "usage": "content-anchor cross-check: served Content-Disposition filename == GDC-recorded file_name per file_id."
+    }
+  },
+  "step1_download_manifest": {
+    "file": "download_manifest.tsv",
+    "sha256": "60a713aee692a2f3e7e0f1027c61961f60de43ddf2455e1fb9bab1f5397c35f6",
+    "n_primary": 507,
+    "n_normal": 35,
+    "n_total": 542,
+    "sum_file_size_bytes": 2287429373,
+    "primary_bytes": 2139373015,
+    "normal_bytes": 148056358,
+    "assertions": "n_primary==507, n_normal==35, n_total==542, sum==2287429373, all uuid/md5 non-empty and unique -- ALL PASS."
+  },
+  "step3_download_and_checksums": {
+    "file": "checksums.tsv",
+    "sha256": "efa25ed34aa2bae46c9f3f48eb663ef4d606132c1dff851adf3a12b4877465ed",
+    "originals_dir": "originals/ (542 files, named <uuid>__augmented_star_gene_counts.tsv)",
+    "files_downloaded": 542,
+    "md5_match_true": 542,
+    "size_match_true": 542,
+    "sum_computed_size_bytes": 2287429373,
+    "sha256_recorded_for_all": true,
+    "unique_sha256": 542,
+    "hard_stops": "NONE (0 md5 mismatch, 0 size mismatch, 0 non-200)",
+    "note_cr": "download_and_verify.py wrote checksums.tsv with CRLF terminators (python csv default); the file was normalized to LF (values byte-identical) so it is pure-ASCII with no CR. The downloader's own internal assertion (542/542 md5+size, byte total exact) had already passed and it exited 0 before normalization."
+  },
+  "step5_freeze_a_redux": {
+    "outdir": "freeze_a_redux/",
+    "summary_json_sha256": "6feb3ac9bbb35ac77f7f6e968c8ad7bf69b44aa0e187b39216ac455dcbf1ab9e",
+    "gate_set": "507 PRIMARY files only (normals excluded from gate/selection/thresholds/labels)",
+    "content_anchor": "all 542 served GDC filenames == GDC-recorded file_name (cohort membership re-derived from the ACTUAL materialized files, not the metadata prediction; barcode binding is metadata-intrinsic to GDC and is content-anchored via md5 + GDC filename).",
+    "materialized_primary_files": 507,
+    "step1_keep_01": 507,
+    "excluded_not_primary01": 0,
+    "independent_primary_patients": 507,
+    "patients_with_multiple_primary_rna": 0,
+    "files_dropped_by_collapse": 0,
+    "dedup_note": "The frozen tie-break fired 0 times HERE because the pinned 507-file set is already one-per-patient: task025 applied the SAME frozen rule to the full 553-primary cohort and its 4 tie patients (TCGA-BK-A0CA/A139/A26L/A0CC, 8 files dropped) are each present in the 507 as the KEPT lexicographically-lowest barcode. Re-applying the rule to the pinned winners is a verified no-op; all 4 confirmed non-POLE (NSMP/p53abn), so the tie-break lifts no marginal arm.",
+    "join_matched": 507,
+    "join_primary_no_subtype": 0,
+    "join_subtype_no_primary": 0,
+    "per_subtype_matched": {
+      "POLE": 49,
+      "MMRd": 148,
+      "NSMP": 147,
+      "p53abn": 163
+    },
+    "smallest_mandatory_arm": 49,
+    "pole_count": 49,
+    "pole_ge_20": true,
+    "pole_all_files_md5_and_struct_valid": true,
+    "gate_band": "GREEN",
+    "gate_band_rule": "GREEN >=40 in every mandatory arm; YELLOW smallest 20-39; RED any <20. Smallest arm = 49 (POLE) -> GREEN. DERIVED; no number forced.",
+    "structural_primary_valid": 507,
+    "structural_primary_total": 507,
+    "structural_check": "each primary file: '# gene-model: GENCODE v36' header; data columns == [gene_id,gene_name,gene_type,unstranded,stranded_first,stranded_second,tpm_unstranded,fpkm_unstranded,fpkm_uq_unstranded]; 4 STAR summary rows [N_unmapped,N_multimapping,N_noFeature,N_ambiguous]; gene-row count == 60660. STRUCTURAL ONLY -- no tpm value scored.",
+    "distinct_gene_row_counts": [
+      60660
+    ]
+  },
+  "normals_secondary_substrate": {
+    "n_verified_preserved": 35,
+    "all_md5_true": true,
+    "table": "freeze_a_redux/normals_preserved.tsv",
+    "usage_constraint": "VERIFY + PRESERVE ONLY. NOT in the gate, selection, thresholds, or labels. Adjacent/peri-tumoral Solid-Tissue-Normal: potentially affected by field effect + surgical ascertainment + small N. Reserved for a DEFERRED limited-B sensitivity; NOT used now.",
+    "same_patient_subtype_labels": "recorded in normals_preserved.tsv column same_patient_subtype_label (informational only; a normal sharing a 12-char patient with a subtype-labelled tumour is noted, never used to gate/label)."
+  },
+  "commands_run": [
+    "git -C <analysis-repository> rev-parse HEAD  (start and end: 83503bad47b60193598b2b9ebe819c22c83e8ac1)",
+    "sha256sum on the 4 frozen inputs + gdc_files_raw.json (all verified == expected)",
+    "/usr/bin/python3 scripts/build_download_manifest.py  -> download_manifest.tsv (STEP1 assertions PASS)",
+    "curl -s https://api.gdc.cancer.gov/status -o release_status.json  (DR45.0 verified, no drift)",
+    "curl one-file connectivity+md5 sanity test on 007f9390-... (HTTP200, md5 match)",
+    "/usr/bin/python3 scripts/download_and_verify.py > download.log  -> originals/ (542 files) + checksums.tsv (542/542 md5+size, byte total exact)",
+    "tr -d '\\r' normalize checksums.tsv to LF/ASCII",
+    "/usr/bin/python3 scripts/freeze_a_redux.py  -> freeze_a_redux/ (Freeze A derived counts + structural validation + gate band GREEN)"
+  ],
+  "script_checksums": {
+    "scripts/build_download_manifest.py": "a3f18e803212746cd327b0b7716facae4061c839e9a41f8b3670283620c713d0",
+    "scripts/download_and_verify.py": "c04125e7fd64c812896f40e64d5373a93c1ee104fd38f6a267974a2d8f989aa2",
+    "scripts/freeze_a_redux.py": "a41b2e77beeb3775ce31764adc51498d2ea83058de4eb1ba4d1eb1a11290af86"
+  },
+  "halt": "STOPPED before Freeze B. No module/score/contrast/fold-change computed. Nothing staged, nothing committed. git HEAD end == start == 83503bad47b60193598b2b9ebe819c22c83e8ac1.",
+  "public_path_adaptation": {
+    "status": "adapted_for_public_release",
+    "statement": "Private workspace paths were replaced by logical input paths. Recorded scientific counts, source identifiers, file sizes, and SHA-256 values were not changed."
+  }
+}

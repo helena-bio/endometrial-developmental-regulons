@@ -1,0 +1,52 @@
+# TASK-028 FREEZE B -- SEAL MANIFEST v3 (SHA-256 of every load-bearing file)
+# version: 3  supersedes: v2 (../sealed_v2/) and v1 (../sealed/), both preserved read-only archives
+# amendment: primary-purity COMPLETE-CASE n=506 (OPTION 2) + ABSOLUTE provenance pin; see AMENDMENT_v3.md
+# seal_timestamp_utc: 2026-07-13T12:11:29Z
+# git_HEAD: 83503bad47b60193598b2b9ebe819c22c83e8ac1   (git UNCHANGED; nothing committed/staged)
+# seed_master: 20260713   status: SEALED READ-ONLY (pre-model-fit; tumour-read gate resumes from Phase 1 after targeted critic)
+# ---- B1 module files + ledgers (byte-identical to v2) ----
+B1/02be0133e8091734d547057061e5a260f8a4d362af2c7bdce52f54d13a3b98a1  M1_source.txt
+B1/fb32ca4f0f71aa173320453b6fd21ab5bd7fe101d061aa41204baa1c4f4e64ce  M1_analysis_ready.txt
+B1/e96de995aaaabf52f7a099db1f3c19fb714763b84707ac74117907b5b76f533b  compact_M1_source.txt
+B1/f517fb952ba152191db32e48c50ad6917dc3958a4cb72ce4929cc82119b33d96  compact_M1_analysis_ready.txt
+B1/79f681c90b2d81277fbec557f3796e01c9a578abeddd7d47f702022e6b8171f4  M3_primary_source.txt
+B1/49ff8951ac6d3df0bdc56d0f6b38fc5233555cf07426f6ce9c2d212744dd6da5  M3_primary_analysis_ready.txt
+B1/96d3dd9a84f354a5d3676ea60ab8680ac10444b88cfceb6306a685572e607347  m3_primary_edge_ledger.tsv
+B1/c439121673c4e0ea51cc777ca4b1668c0bfc89ac02ef4bc977d0637cd39e9352  orphan_target_ledger.tsv
+B1/b67cbf62570f77c41a70e02bb2c94feec02a2f8debf9d114011f3150a575d69c  M3_sensitivity.txt
+B1/055c9feff14167e4edde07805750cfe79b54f918c6f81b9256e8b9a6a0dd7c98  M4_covariate.txt
+B1/64cd156b68e625991987d12958703ee64279656ee922ee9576a134fd926f3e7f  B1_gene_level_ledger.tsv
+B1/1610c3b7f7ca2eb3fcfafce32ec2937bbd94f4beca8cd5ceb70a1079daf3f4e0  B1_exclusion_ledger.tsv
+B1/8a7460c0d853a9d436337cc3576005375ec2d7e8fb4d2aca864c7ea051fc1f28  build_sealed_B1.py
+B1/5915486ba5f83324c17b29006b1e0f5865ac2d14649e7ea25333391658a3040c  B1_SHA256.manifest
+# ---- specs + amendments ----
+37ca708a621ae628244b6bcd45c132346046e6f4f9a545ba0989f3111b1ce125  B1_PROVENANCE.md
+682099a03923778d170ff4bd46e8b475405419fe1fadb3259ce4c2e75b43f2c1  B2_MODEL_SPEC.md
+da1dedb6b32ed862a9e2b5f21651f75bba464de5e652ec7d55deb2136e6b4c63  B3_CLAIM_MATRIX.md
+fec0505d9dd4c79ca353464d98f169e88ccee55aaf8a0751ee236896b648ace6  AMENDMENT_v2.md
+7803b4d58df12895e52253d1f209af723eabf3653b423ea312940a4f2de29faa  AMENDMENT_v3.md
+463a17d8feb94a3e432494dc8c744a38d6f7037fdf0ecf9caf33c06e757819aa  ABSOLUTE_PROVENANCE.md
+68fcd645b4760df720a17c6db70250dde29ab8c7b1ed324ae0db041ec32aac0f  m3_edge_reconciliation.md
+721121fc854c7e6eab1b000d9290506bc508ab5997fee85ca6314b85d355b4b3  amend_scripts/build_m3_edge_ledger_v2.py
+6eee65dd23fad16ea88df8df0bad8a607cf8118c967fcde675acd33b44b12024  amend_scripts/build_orphan_target_ledger.py
+# ---- BYTE-IDENTITY PROOF: unaffected v3 files == v2 (19 files) ----
+# IDENTICAL  B1/M1_source.txt
+# IDENTICAL  B1/M1_analysis_ready.txt
+# IDENTICAL  B1/compact_M1_source.txt
+# IDENTICAL  B1/compact_M1_analysis_ready.txt
+# IDENTICAL  B1/M3_primary_source.txt
+# IDENTICAL  B1/M3_primary_analysis_ready.txt
+# IDENTICAL  B1/m3_primary_edge_ledger.tsv
+# IDENTICAL  B1/orphan_target_ledger.tsv
+# IDENTICAL  B1/M3_sensitivity.txt
+# IDENTICAL  B1/M4_covariate.txt
+# IDENTICAL  B1/B1_gene_level_ledger.tsv
+# IDENTICAL  B1/B1_exclusion_ledger.tsv
+# IDENTICAL  B1/build_sealed_B1.py
+# IDENTICAL  B1/B1_SHA256.manifest
+# IDENTICAL  B3_CLAIM_MATRIX.md
+# IDENTICAL  m3_edge_reconciliation.md
+# IDENTICAL  AMENDMENT_v2.md
+# IDENTICAL  amend_scripts/build_m3_edge_ledger_v2.py
+# IDENTICAL  amend_scripts/build_orphan_target_ledger.py
+# byte-identity ALL-IDENTICAL: YES

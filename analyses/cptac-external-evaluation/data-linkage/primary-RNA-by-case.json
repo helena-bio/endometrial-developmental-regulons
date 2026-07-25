@@ -1,0 +1,2842 @@
+{
+ "C3L-00006": [
+  {
+   "file_id": "7c21da64-1f02-43ab-895d-2ff9709e9a4f",
+   "sample": "C3L-00006-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "b5b58fbb-dd6a-4867-b3fc-b661cb1a05b6",
+   "sample": "C3L-00006-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00008": [
+  {
+   "file_id": "f211fe36-05d7-45de-8787-d7570b28c01f",
+   "sample": "C3L-00008-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00032": [
+  {
+   "file_id": "ae12f42d-cba6-4a08-b316-42b193636376",
+   "sample": "C3L-00032-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "602a8474-1b48-4109-9c0f-c66181466ea9",
+   "sample": "C3L-00032-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00086": [
+  {
+   "file_id": "0ab56ed0-669d-4a0c-b7b5-23760049e8c3",
+   "sample": "C3L-00086-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00090": [
+  {
+   "file_id": "a6ec4156-d36b-4940-bc2c-ba29209287fb",
+   "sample": "C3L-00090-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "bc3c470e-513e-48e0-be70-322e0cb2b241",
+   "sample": "C3L-00090-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00098": [
+  {
+   "file_id": "0cb2f7d7-6a5a-4547-90f5-4a819580f0f8",
+   "sample": "C3L-00098-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "94a1832b-d5e4-46db-bf3e-aa6161797a89",
+   "sample": "C3L-00098-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00136": [
+  {
+   "file_id": "d4c8cfe6-14d8-407c-b6e1-deef57162b3b",
+   "sample": "C3L-00136-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "f4746844-6539-45ed-aebd-a7476b1474a2",
+   "sample": "C3L-00136-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00137": [
+  {
+   "file_id": "98bf84f9-ca28-41bd-8e9b-18c00be3e254",
+   "sample": "C3L-00137-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "13bb7e88-e4f2-44c4-aaa0-8025ca1f4a7f",
+   "sample": "C3L-00137-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00139": [
+  {
+   "file_id": "e0462030-2710-4210-9b96-959894348d87",
+   "sample": "C3L-00139-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "6df67f3c-4bdb-45b3-b1e7-1df46caf44ef",
+   "sample": "C3L-00139-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00143": [
+  {
+   "file_id": "54be2e15-cbe2-4f60-8b12-79ad68d1fc38",
+   "sample": "C3L-00143-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "1e4dfe11-5df1-46d9-b6e9-c477675a92c2",
+   "sample": "C3L-00143-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00145": [
+  {
+   "file_id": "f91a79e0-852c-4f34-b53f-0ef927ac0df6",
+   "sample": "C3L-00145-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "8e444be0-86b1-492f-91f0-7702adba0390",
+   "sample": "C3L-00145-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00156": [
+  {
+   "file_id": "86153bbd-73b7-40c1-a63a-fb4330e79902",
+   "sample": "C3L-00156-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "d27f625c-df1f-45cd-810d-8104b03e8468",
+   "sample": "C3L-00156-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00157": [
+  {
+   "file_id": "034d84a7-9f94-4bcf-88f4-e4d5c47bc0d8",
+   "sample": "C3L-00157-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00161": [
+  {
+   "file_id": "66bf78b4-221e-46a5-946c-6e45b8045781",
+   "sample": "C3L-00161-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "66bf78b4-221e-46a5-946c-6e45b8045781",
+   "sample": "C3L-00161-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "2ba9ee9b-45f8-4d06-b9d2-352a5f57b14f",
+   "sample": "C3L-00161-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00356": [
+  {
+   "file_id": "7f454a5a-b84c-4e40-b864-3887ef6699da",
+   "sample": "C3L-00356-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00358": [
+  {
+   "file_id": "43ac6184-9cfc-4e36-8d28-ab9de4ec9cda",
+   "sample": "C3L-00358-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "fabb9150-82e8-42c4-888b-56f6978a97fe",
+   "sample": "C3L-00358-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00361": [
+  {
+   "file_id": "ca013853-72ba-49a8-92d3-92b6a6249490",
+   "sample": "C3L-00361-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "2794637d-3bae-4a48-9147-f4201f523cc3",
+   "sample": "C3L-00361-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00362": [
+  {
+   "file_id": "9dc07176-b01e-44cd-a3bc-63706c35f972",
+   "sample": "C3L-00362-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "66cf3a8d-84fd-44a1-8727-74360c04dbd1",
+   "sample": "C3L-00362-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00413": [
+  {
+   "file_id": "bc43f35b-41c7-43b0-9f36-c31bbc7739d8",
+   "sample": "C3L-00413-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "c29469bf-70fb-4030-aea1-5c1b6042d0f7",
+   "sample": "C3L-00413-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00449": [
+  {
+   "file_id": "86e31630-23b0-4617-a760-df81831ef427",
+   "sample": "C3L-00449-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "1e959a89-06dd-4ae1-8ec0-ac7deab4c9d6",
+   "sample": "C3L-00449-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00563": [
+  {
+   "file_id": "944ad22e-59c5-4547-9c58-6eb6343b7747",
+   "sample": "C3L-00563-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "481402b1-fb77-46a5-a39d-b433624d16f0",
+   "sample": "C3L-00563-13",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00586": [
+  {
+   "file_id": "c5223d57-a5a8-4da2-9753-268561694671",
+   "sample": "C3L-00586-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "ae33e6d4-c8f4-433f-a67f-dc1ba4f7888f",
+   "sample": "C3L-00586-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00601": [
+  {
+   "file_id": "286a27c0-e5aa-42fd-8199-f17aa5f8ede9",
+   "sample": "C3L-00601-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "b3a3a14a-70a3-4053-a725-562268770321",
+   "sample": "C3L-00601-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00605": [
+  {
+   "file_id": "cb73ae7e-c7d8-437f-9bf2-50d121619b82",
+   "sample": "C3L-00605-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a06cb585-b194-4937-9a21-9c56728829c5",
+   "sample": "C3L-00605-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00767": [
+  {
+   "file_id": "f3764751-b929-43db-b792-4ccfacab8ab0",
+   "sample": "C3L-00767-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "ccf4ffdf-cc72-4ff5-b29d-454e45d6a425",
+   "sample": "C3L-00767-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00769": [
+  {
+   "file_id": "c984d6d9-16e8-4c01-b422-b84f8e27fe7d",
+   "sample": "C3L-00769-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "7dca6c94-8a01-4281-ad38-67dd5071b9fe",
+   "sample": "C3L-00769-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00770": [
+  {
+   "file_id": "6c44f677-7fcd-4ef8-b99d-a5130b94a90b",
+   "sample": "C3L-00770-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "ef18d754-47c2-4b5c-b6ad-457e3d40ace4",
+   "sample": "C3L-00770-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00771": [
+  {
+   "file_id": "3c1af943-a41f-434e-aa17-0fb4441f8be9",
+   "sample": "C3L-00771-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "8e2497b7-60b7-4a27-8025-f78295c9c521",
+   "sample": "C3L-00771-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00780": [
+  {
+   "file_id": "3ab694ed-1600-4de4-ae98-97477c71809d",
+   "sample": "C3L-00780-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "3ab694ed-1600-4de4-ae98-97477c71809d",
+   "sample": "C3L-00780-05",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00781": [
+  {
+   "file_id": "5d8776ca-2000-4e8d-a7bc-7c1643abcd9b",
+   "sample": "C3L-00781-14",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "7d77dc16-0e30-415e-91e9-4073b7d53e6b",
+   "sample": "C3L-00781-04",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00898": [
+  {
+   "file_id": "c0dff3fd-f8d4-4dc3-b7b6-a41fa360acc1",
+   "sample": "C3L-00898-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "854af335-4fd1-4103-9a68-0e987b5fbdeb",
+   "sample": "C3L-00898-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00905": [
+  {
+   "file_id": "1fa7b845-a290-4c55-ae83-fbf44d64729d",
+   "sample": "C3L-00905-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "908207f8-c8c4-4a00-bff5-1a8b12aa1814",
+   "sample": "C3L-00905-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00918": [
+  {
+   "file_id": "eaafcca3-8ac6-46c6-b81c-800081930835",
+   "sample": "C3L-00918-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00921": [
+  {
+   "file_id": "5187613d-9ba6-4402-84c3-71801ae29d76",
+   "sample": "C3L-00921-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a8e5f49f-ad00-4992-b08e-bc4c8cdc66f9",
+   "sample": "C3L-00921-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a8e5f49f-ad00-4992-b08e-bc4c8cdc66f9",
+   "sample": "C3L-00921-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00930": [
+  {
+   "file_id": "c11df7c9-71a7-4b7d-9a19-cda982ad159e",
+   "sample": "C3L-00930-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00932": [
+  {
+   "file_id": "3d111240-c127-4185-b5d7-2e44bd7c2c5b",
+   "sample": "C3L-00932-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "f7532a4d-213e-4ec0-8fe0-a650fd6d1006",
+   "sample": "C3L-00932-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00935": [
+  {
+   "file_id": "ab8cfb90-d46a-4398-80b9-f52f29aab224",
+   "sample": "C3L-00935-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00938": [
+  {
+   "file_id": "a93126d3-4c7e-4666-a5e3-bd83b0ea86cc",
+   "sample": "C3L-00938-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "608e3002-4804-4334-9942-cf3c078bd43d",
+   "sample": "C3L-00938-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00942": [
+  {
+   "file_id": "3f5b707c-eaa5-4b67-888d-33cb87ce7423",
+   "sample": "C3L-00942-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "8a69ea1e-f808-40ff-8f61-91f89759822c",
+   "sample": "C3L-00942-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00943": [
+  {
+   "file_id": "1d6f60b9-6b34-48eb-aade-d646a0087d73",
+   "sample": "C3L-00943-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a64fea2d-a1c0-4ce3-85fb-9efd608d54e6",
+   "sample": "C3L-00943-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00946": [
+  {
+   "file_id": "c25f4d04-2936-4d5e-8526-d541be3f8701",
+   "sample": "C3L-00946-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "3347f40e-151e-48a9-9f74-da2340821d5c",
+   "sample": "C3L-00946-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00947": [
+  {
+   "file_id": "e1da8816-62c4-4eeb-9916-3e75e4828cfe",
+   "sample": "C3L-00947-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "9a7617ce-a2f6-4f1b-bf1b-017459416cff",
+   "sample": "C3L-00947-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00949": [
+  {
+   "file_id": "2791f8f6-450d-4446-bf70-60011ee062f5",
+   "sample": "C3L-00949-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00961": [
+  {
+   "file_id": "c910a3eb-cbfb-4216-9577-60af330cd2b0",
+   "sample": "C3L-00961-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "5156a3d0-be5e-4708-9f39-26948c0dbc9b",
+   "sample": "C3L-00961-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-00963": [
+  {
+   "file_id": "5d51f670-c81e-45f3-9a58-bf933f278dbc",
+   "sample": "C3L-00963-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "377d776f-938d-4681-9493-28ade644ab89",
+   "sample": "C3L-00963-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01064": [
+  {
+   "file_id": "12d0a01c-4c7d-4b8d-90f2-c2959e7d52b5",
+   "sample": "C3L-01064-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "12d0a01c-4c7d-4b8d-90f2-c2959e7d52b5",
+   "sample": "C3L-01064-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "329a01d7-bc62-4857-95f4-d5bf39064ca8",
+   "sample": "C3L-01064-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01246": [
+  {
+   "file_id": "10efb855-204a-4168-88bc-ceabe6f29a61",
+   "sample": "C3L-01246-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "145264e2-26cf-4014-9a26-4b8c2a685f21",
+   "sample": "C3L-01246-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01247": [
+  {
+   "file_id": "f72a7926-d491-4302-84b0-5680c652a30e",
+   "sample": "C3L-01247-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01248": [
+  {
+   "file_id": "e01049f0-1ea8-41a7-a8e7-fdf3e97352a2",
+   "sample": "C3L-01248-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "9e608591-2418-4417-9222-24838ebf4b92",
+   "sample": "C3L-01248-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01249": [
+  {
+   "file_id": "c24391f6-bf81-43ca-a340-42e37ba71aad",
+   "sample": "C3L-01249-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "bfa1fdff-05fe-413f-a17b-6c820032de58",
+   "sample": "C3L-01249-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01252": [
+  {
+   "file_id": "57011a6b-5875-40df-a29c-af3d72d9b6f7",
+   "sample": "C3L-01252-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "f5478f71-37f1-4603-86a5-8aa41103d5d8",
+   "sample": "C3L-01252-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01253": [
+  {
+   "file_id": "64ca7658-f184-433b-b6c3-e631c070377a",
+   "sample": "C3L-01253-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01256": [
+  {
+   "file_id": "9de49533-6369-4d26-a964-a376cb54152d",
+   "sample": "C3L-01256-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "367bb6f8-201a-49d8-a76a-5af348b7e267",
+   "sample": "C3L-01256-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01257": [
+  {
+   "file_id": "147a9da9-d93e-4d98-b148-7ecea8e95bdd",
+   "sample": "C3L-01257-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "914f230d-74ee-4ccb-a55a-d04c446afec8",
+   "sample": "C3L-01257-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01275": [
+  {
+   "file_id": "01f40d23-774b-41ee-bfd6-ef0268575ad9",
+   "sample": "C3L-01275-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "f0137afe-a6c7-464d-a61c-ba32446de0ac",
+   "sample": "C3L-01275-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01277": [
+  {
+   "file_id": "b16091b6-6dbf-4361-adf2-d862708de1ac",
+   "sample": "C3L-01277-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "75bd2a75-261b-4eae-ada9-aae77c4f3c4e",
+   "sample": "C3L-01277-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01282": [
+  {
+   "file_id": "3889349a-7394-44ba-8820-f6b95081ba90",
+   "sample": "C3L-01282-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "47453675-c921-4f8a-8f02-821646a453d4",
+   "sample": "C3L-01282-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01304": [
+  {
+   "file_id": "c70dca91-04e7-4f2a-8304-134700ee1cd1",
+   "sample": "C3L-01304-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "7e6f35d3-4d48-43fb-8e15-4609d62e925d",
+   "sample": "C3L-01304-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01307": [
+  {
+   "file_id": "8ec847fd-8693-4b03-9c22-48fa493c6fe6",
+   "sample": "C3L-01307-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "bc33396c-f9eb-4fb1-9db5-a3a7be4a3e5a",
+   "sample": "C3L-01307-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "bc33396c-f9eb-4fb1-9db5-a3a7be4a3e5a",
+   "sample": "C3L-01307-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01311": [
+  {
+   "file_id": "8f7ababe-0c64-4e4d-8b67-eceb48a8e626",
+   "sample": "C3L-01311-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "bfbbf133-5f61-4c42-9b82-a5d40be0928e",
+   "sample": "C3L-01311-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01312": [
+  {
+   "file_id": "2f5388e8-c1ab-4265-864c-d94fda0556c8",
+   "sample": "C3L-01312-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "2d66bace-ed2d-4351-b8f0-b083495d02ca",
+   "sample": "C3L-01312-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01355": [
+  {
+   "file_id": "c8d3b0b7-be6a-4536-ba5b-1f48e077e0ae",
+   "sample": "C3L-01355-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "560f59a9-67b9-4339-b0ab-7176b62fefa9",
+   "sample": "C3L-01355-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01599": [
+  {
+   "file_id": "4ae323c2-48d1-4594-9aa3-fc1484d878a5",
+   "sample": "C3L-01599-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "2f62949d-3a27-4077-aa69-afb142ff3691",
+   "sample": "C3L-01599-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01631": [
+  {
+   "file_id": "1661e57a-f47a-4dfa-9b44-db36774d2177",
+   "sample": "C3L-01631-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "daa955f4-c52a-4a90-af5a-d4c2b7be4675",
+   "sample": "C3L-01631-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01633": [
+  {
+   "file_id": "60d3d758-15a7-45c1-bd14-ba2d353ef5e1",
+   "sample": "C3L-01633-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "36ce75f6-4bce-4f23-a2b5-d53bed0e6f96",
+   "sample": "C3L-01633-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01639": [
+  {
+   "file_id": "f9a1eca6-ae83-4d85-b6f7-6e81c555efb3",
+   "sample": "C3L-01639-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "d202b57d-3420-4ad8-9ebe-f7e0932b502d",
+   "sample": "C3L-01639-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01664": [
+  {
+   "file_id": "7af44ba5-1d62-4ee6-828b-7b45eb347834",
+   "sample": "C3L-01664-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "9e3cb85b-7021-4d7a-9e59-c4be2d2dd6b6",
+   "sample": "C3L-01664-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01668": [
+  {
+   "file_id": "298a79f3-2c2a-4094-b328-e6766ae08dd1",
+   "sample": "C3L-01668-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01672": [
+  {
+   "file_id": "8e140435-091b-4aac-9dd9-6a80a0754214",
+   "sample": "C3L-01672-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "f93482ec-6626-4483-abc3-72d9ec6593e6",
+   "sample": "C3L-01672-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01729": [
+  {
+   "file_id": "397474cb-a85b-40f3-9e1f-67b006811782",
+   "sample": "C3L-01729-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "dc562117-37a9-47b3-9209-b97d75234197",
+   "sample": "C3L-01729-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01732": [
+  {
+   "file_id": "af6e48e0-79b9-4b5d-a7b0-321405c65317",
+   "sample": "C3L-01732-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "f709157a-1650-406d-8997-401f9788b67f",
+   "sample": "C3L-01732-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01739": [
+  {
+   "file_id": "d97c16b9-c6a0-4080-9a9e-09e60540fac7",
+   "sample": "C3L-01739-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "58bbcc03-d397-4271-af85-a13211bfa4fa",
+   "sample": "C3L-01739-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01744": [
+  {
+   "file_id": "a1f44e7c-c9dc-4848-bb68-737442990402",
+   "sample": "C3L-01744-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "59baf8d9-8503-4857-a099-1d9597b67992",
+   "sample": "C3L-01744-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01749": [
+  {
+   "file_id": "6dac5819-904e-449a-8682-dc1f9b6f0ccd",
+   "sample": "C3L-01749-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "4eac5f33-51c6-4b1d-bf9b-777b62cf496a",
+   "sample": "C3L-01749-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01833": [
+  {
+   "file_id": "ea8844f1-b402-4ddd-abd2-d327ccbdfe17",
+   "sample": "C3L-01833-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "e7d85977-a11a-4265-a1a0-03ed2eb11224",
+   "sample": "C3L-01833-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01840": [
+  {
+   "file_id": "777af49d-60f9-4c14-868a-cb120726985b",
+   "sample": "C3L-01840-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "568a851c-33ea-4f2b-91b1-1055563c2e90",
+   "sample": "C3L-01840-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01864": [
+  {
+   "file_id": "f281918b-5e04-4bf0-81d7-082024f15209",
+   "sample": "C3L-01864-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "db79e547-bf8f-490a-93d3-47f3561611ae",
+   "sample": "C3L-01864-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01913": [
+  {
+   "file_id": "4a8d3173-efac-42a5-baa5-3123490c9d54",
+   "sample": "C3L-01913-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "3f0f1191-b6a8-43ee-ad0a-3c553f8f7a7f",
+   "sample": "C3L-01913-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01925": [
+  {
+   "file_id": "7a485216-3301-47a0-95a2-b731323ee1e4",
+   "sample": "C3L-01925-07",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "97759812-b78d-4f3f-91b5-09d136fe4e7a",
+   "sample": "C3L-01925-17",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-01967": [
+  {
+   "file_id": "016ad228-a1b7-4e4e-81f6-c4b45fabb92e",
+   "sample": "C3L-01967-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "dbf101e0-64b2-493a-8637-e0d465264f3b",
+   "sample": "C3L-01967-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02119": [
+  {
+   "file_id": "fc821e8e-083f-4666-a085-77ec0344e21d",
+   "sample": "C3L-02119-16",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "59c3e737-d1de-455a-924a-b8c3d51f8a52",
+   "sample": "C3L-02119-06",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02121": [
+  {
+   "file_id": "32de850c-bd5e-4dc0-bb0c-799b861ecdc8",
+   "sample": "C3L-02121-16",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "7f9a547e-dfd4-4a2b-b9c2-5005930e357e",
+   "sample": "C3L-02121-06",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02125": [
+  {
+   "file_id": "facbcfa2-fecf-44aa-b292-3068406be0c7",
+   "sample": "C3L-02125-17",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "5a991071-e255-45e5-8ee6-8a138f942480",
+   "sample": "C3L-02125-07",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02216": [
+  {
+   "file_id": "2fd0076c-583c-41ee-929b-7bca25a3eeef",
+   "sample": "C3L-02216-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02347": [
+  {
+   "file_id": "98c01713-0c44-4f4c-a682-29563174527f",
+   "sample": "C3L-02347-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "0b01d6fa-05bf-4c3d-ac03-8fa17eab0978",
+   "sample": "C3L-02347-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02353": [
+  {
+   "file_id": "b10f992a-9538-457f-94f8-6485c05c6f9e",
+   "sample": "C3L-02353-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02354": [
+  {
+   "file_id": "df10e9e7-dfd8-4c65-b2d2-07fdf132669f",
+   "sample": "C3L-02354-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "5b30d599-c881-4043-a6a0-59c9f3c57e64",
+   "sample": "C3L-02354-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02357": [
+  {
+   "file_id": "d044f27d-ef1e-4a7b-9d1f-e5fbc579636f",
+   "sample": "C3L-02357-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "441a745a-d688-4b6c-8393-4ca45c4b691c",
+   "sample": "C3L-02357-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02382": [
+  {
+   "file_id": "284c39fe-0119-4ab5-8276-fa9f76c3a0b5",
+   "sample": "C3L-02382-17",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "75052aa2-361c-4409-a2ab-f0804179986d",
+   "sample": "C3L-02382-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02384": [
+  {
+   "file_id": "4a3725c3-bfe9-4494-bfac-adf789cc60e1",
+   "sample": "C3L-02384-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "b081bc51-766a-49ff-8e21-215875677c69",
+   "sample": "C3L-02384-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02389": [
+  {
+   "file_id": "f9516980-6e76-4899-9b91-6e9904f4af9a",
+   "sample": "C3L-02389-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a156fab6-1640-4ca3-b4f6-3a9e03ec53dc",
+   "sample": "C3L-02389-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02392": [
+  {
+   "file_id": "85f770d7-8f67-421d-946d-2e96b70349b4",
+   "sample": "C3L-02392-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a402b718-1190-4b58-a4af-18d0b9a90323",
+   "sample": "C3L-02392-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "e1eebfa3-0452-4031-b7cb-44b0b42dad9e",
+   "sample": "C3L-02392-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02399": [
+  {
+   "file_id": "093509d4-f9f7-431d-a9a7-f0d2df9f0e0e",
+   "sample": "C3L-02399-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "625f86fc-db58-441e-a16a-d85551bf2a90",
+   "sample": "C3L-02399-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02403": [
+  {
+   "file_id": "f001b2dc-6f4b-4ed2-81d8-8349649f7e39",
+   "sample": "C3L-02403-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "b5366c75-a37e-4fed-8205-d7541dc9fed8",
+   "sample": "C3L-02403-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02408": [
+  {
+   "file_id": "54d442f2-1f93-4fb6-ad65-333b92a4a9be",
+   "sample": "C3L-02408-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a607478f-c5c6-43c6-9e43-b5cd7f93b236",
+   "sample": "C3L-02408-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02409": [
+  {
+   "file_id": "f80d2fea-21c0-4e4c-884a-c026388aa3d0",
+   "sample": "C3L-02409-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "53050b47-0a0e-4492-a665-befaa3d071df",
+   "sample": "C3L-02409-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02411": [
+  {
+   "file_id": "12246661-c8a8-4763-9f4f-970fcb44161d",
+   "sample": "C3L-02411-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "7c206b53-23d8-4690-ac89-5f55ca6615a3",
+   "sample": "C3L-02411-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02412": [
+  {
+   "file_id": "82aca709-d767-4394-8afb-8dbfd778eddc",
+   "sample": "C3L-02412-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "b8b66fec-e880-41a8-9b87-7852f8899335",
+   "sample": "C3L-02412-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02449": [
+  {
+   "file_id": "3f9bc534-959c-40f3-b50b-e3959f89c344",
+   "sample": "C3L-02449-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "d56047c1-b766-401d-a8f1-baa2cc135afc",
+   "sample": "C3L-02449-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02468": [
+  {
+   "file_id": "dce549cf-0d13-46d3-836f-95b89b61a170",
+   "sample": "C3L-02468-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "0adc9184-9c77-47b3-98a0-167cd1285e92",
+   "sample": "C3L-02468-13",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02545": [
+  {
+   "file_id": "35d425e1-15c9-430e-a86f-4df0c607f575",
+   "sample": "C3L-02545-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "0c7619b5-0562-453f-ab73-d6341e59109b",
+   "sample": "C3L-02545-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02555": [
+  {
+   "file_id": "7aae951c-1729-43ce-aae7-0dddd152bb07",
+   "sample": "C3L-02555-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "1f61c5c3-a400-4a36-9dc5-c88064cb40b7",
+   "sample": "C3L-02555-13",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02557": [
+  {
+   "file_id": "9556f51f-02ed-4a66-9b09-36265cb6e63d",
+   "sample": "C3L-02557-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "860c48b5-5463-4769-90bc-75d3330885f0",
+   "sample": "C3L-02557-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02602": [
+  {
+   "file_id": "b3a940ea-3945-42e7-a35b-6992b2ac4ad3",
+   "sample": "C3L-02602-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "f3dba94b-a061-492e-bab1-4979ea151123",
+   "sample": "C3L-02602-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02741": [
+  {
+   "file_id": "35d4505f-c2d7-4de2-837a-fc0d8e6b098f",
+   "sample": "C3L-02741-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "bd32ea8f-65e5-48b6-af1d-4aba61a3520b",
+   "sample": "C3L-02741-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02744": [
+  {
+   "file_id": "648be676-9c8f-403e-9801-d8213ba1e29b",
+   "sample": "C3L-02744-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "8d1294ca-9891-4755-ab25-0601cdc01fe8",
+   "sample": "C3L-02744-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02746": [
+  {
+   "file_id": "e87cd32b-7102-4ddf-a120-0e3582c21eab",
+   "sample": "C3L-02746-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "c3d69f12-c2c7-4436-80c0-57ee7c5b2fd4",
+   "sample": "C3L-02746-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02747": [
+  {
+   "file_id": "b19050ff-9cf8-40b5-90cc-3d1cc388469b",
+   "sample": "C3L-02747-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "d77a0deb-b549-47ce-80b5-40d5cd394b79",
+   "sample": "C3L-02747-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02800": [
+  {
+   "file_id": "b69208b8-ac0d-4b45-851c-045338dc2681",
+   "sample": "C3L-02800-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02802": [
+  {
+   "file_id": "6f77dccd-4841-40c7-b4d8-d49a25a8e8d7",
+   "sample": "C3L-02802-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "23d2bcaf-4006-4cc5-a214-215dfcf1f21f",
+   "sample": "C3L-02802-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02894": [
+  {
+   "file_id": "9351c6fa-dcb8-4a60-b76a-e5233240cab2",
+   "sample": "C3L-02894-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "93c88b90-8fff-459b-870b-b090132a5f25",
+   "sample": "C3L-02894-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "5205679e-a3b3-4479-89fb-4a1ed976d726",
+   "sample": "C3L-02894-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02953": [
+  {
+   "file_id": "2276f2c9-d394-48dd-a079-158e5e7477d3",
+   "sample": "C3L-02953-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "52f346aa-d0c7-4cf6-918a-f7bf775bfff9",
+   "sample": "C3L-02953-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-02990": [
+  {
+   "file_id": "24a848f3-4f90-4ef5-9c36-7e1a5f48b15b",
+   "sample": "C3L-02990-08",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "84b390a4-b572-4693-97c4-56a9bcd686c9",
+   "sample": "C3L-02990-18",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-03143": [
+  {
+   "file_id": "79586bed-c039-45c5-8177-70b0f1a3bf0e",
+   "sample": "C3L-03143-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "864c2d3b-6a8a-4a8b-86d4-78dca00b2ecd",
+   "sample": "C3L-03143-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-03264": [
+  {
+   "file_id": "884e2090-f59d-4061-83d5-62d88531a36c",
+   "sample": "C3L-03264-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "03c330e0-bf4d-4a1f-94ca-90a62f94e94c",
+   "sample": "C3L-03264-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-03467": [
+  {
+   "file_id": "8b91e741-30e2-41b9-95a6-3e94a68ef838",
+   "sample": "C3L-03467-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "786ff6bd-e675-4f5e-9db3-a9f288f888c9",
+   "sample": "C3L-03467-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-03589": [
+  {
+   "file_id": "c0dab256-5c91-44e1-8b60-639f0ec5aaee",
+   "sample": "C3L-03589-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "b9e6f0d5-a1e5-4b9a-aee4-686ab47cb2f9",
+   "sample": "C3L-03589-13",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-05571": [
+  {
+   "file_id": "04d98bd0-4ad3-4565-a71e-7f43edde08b7",
+   "sample": "C3L-05571-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "38eb6a6f-ba24-4062-959b-a27b20fe9119",
+   "sample": "C3L-05571-13",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-05848": [
+  {
+   "file_id": "3b73c3ba-715a-4a1b-b867-40846933ba56",
+   "sample": "C3L-05848-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "6188229e-ecbd-4b57-a2a0-7d0b4ccdd698",
+   "sample": "C3L-05848-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3L-05849": [
+  {
+   "file_id": "18d5cc1f-ce69-4008-bac9-d67fa71f38c6",
+   "sample": "C3L-05849-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "deda21c2-4509-4b4d-a2e0-3e3099557563",
+   "sample": "C3L-05849-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00151": [
+  {
+   "file_id": "9c33948f-2f93-4568-bfde-3b50b588341e",
+   "sample": "C3N-00151-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "fb27874e-faf3-4d48-ad25-5664b1a7717d",
+   "sample": "C3N-00151-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00155": [
+  {
+   "file_id": "513bb4f2-a565-495b-81d2-edb558a7f9ef",
+   "sample": "C3N-00155-04",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "b453b22f-62a0-44a5-8a15-3251e5db5a0a",
+   "sample": "C3N-00155-14",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00200": [
+  {
+   "file_id": "400ec7c4-aedd-4992-b2e3-4236a7687f03",
+   "sample": "C3N-00200-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "e6071413-a232-41f9-8808-9773368f463d",
+   "sample": "C3N-00200-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00321": [
+  {
+   "file_id": "d73927c5-ea24-41aa-aa66-c970ec3afdf7",
+   "sample": "C3N-00321-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00322": [
+  {
+   "file_id": "9ecb8c67-6a24-4c61-a663-a169c5f8358d",
+   "sample": "C3N-00322-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00323": [
+  {
+   "file_id": "09536549-1ea8-4f30-aa4f-626000a0d7ed",
+   "sample": "C3N-00323-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00324": [
+  {
+   "file_id": "bd727e4e-2ede-4614-aed5-49f57ec258f6",
+   "sample": "C3N-00324-04",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00326": [
+  {
+   "file_id": "c481ae62-f370-4be7-9c38-57373090e8cb",
+   "sample": "C3N-00326-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00328": [
+  {
+   "file_id": "3db5b018-ac9c-4f2c-9c1d-adb8ea7b57e5",
+   "sample": "C3N-00328-05",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00333": [
+  {
+   "file_id": "f463013e-9495-47f4-9d89-b3d3cd337523",
+   "sample": "C3N-00333-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00334": [
+  {
+   "file_id": "e397ba7c-c4fb-4aa4-bc88-9256f5075bd0",
+   "sample": "C3N-00334-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00335": [
+  {
+   "file_id": "2074b504-f6a7-40cd-aaf1-0b4fe254edec",
+   "sample": "C3N-00335-05",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00337": [
+  {
+   "file_id": "ac96b7d2-b355-4fa1-9af0-383ce3279a02",
+   "sample": "C3N-00337-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00339": [
+  {
+   "file_id": "c518c8e4-6462-49ab-a95e-309203e6f8cb",
+   "sample": "C3N-00339-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00340": [
+  {
+   "file_id": "cf9ed3db-db38-47de-a143-c5969a95a8f9",
+   "sample": "C3N-00340-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00377": [
+  {
+   "file_id": "8b6bb525-8aae-43ae-81fd-69b7097c4d4f",
+   "sample": "C3N-00377-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00379": [
+  {
+   "file_id": "d197888e-b0f9-486d-a62e-46bdfa473387",
+   "sample": "C3N-00379-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00383": [
+  {
+   "file_id": "a3b8e521-cb93-4a4e-b060-e8591c6515c2",
+   "sample": "C3N-00383-04",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00386": [
+  {
+   "file_id": "9b4b656e-fbce-4005-a3e0-7bf86829a716",
+   "sample": "C3N-00386-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00388": [
+  {
+   "file_id": "a7f7c586-7692-4f40-9f90-01dd674f09f4",
+   "sample": "C3N-00388-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00389": [
+  {
+   "file_id": "598fb038-3a0c-404f-9d0c-5d2a776b0b2c",
+   "sample": "C3N-00389-04",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00520": [
+  {
+   "file_id": "fe677d65-229c-4374-a412-b2a66667afc4",
+   "sample": "C3N-00520-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a68e66e3-27e9-4987-8df9-529a616ed523",
+   "sample": "C3N-00520-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a68e66e3-27e9-4987-8df9-529a616ed523",
+   "sample": "C3N-00520-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00729": [
+  {
+   "file_id": "99666f11-9088-4b77-a710-720892115a22",
+   "sample": "C3N-00729-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "8a02a545-2007-4b55-9ff6-34f528c81fa6",
+   "sample": "C3N-00729-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "8a02a545-2007-4b55-9ff6-34f528c81fa6",
+   "sample": "C3N-00729-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00732": [
+  {
+   "file_id": "1e892639-5e9a-48e5-830e-fc7a06d9b0f8",
+   "sample": "C3N-00732-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "56f4fe26-5389-4f06-9c75-703d467ae635",
+   "sample": "C3N-00732-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00734": [
+  {
+   "file_id": "12b3bda1-07e5-4fb9-8b7e-ae243a3105ee",
+   "sample": "C3N-00734-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "9851f88c-dd72-42ad-a59b-70c858346b9c",
+   "sample": "C3N-00734-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "9851f88c-dd72-42ad-a59b-70c858346b9c",
+   "sample": "C3N-00734-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00743": [
+  {
+   "file_id": "aa169275-62a4-45c2-8463-caa859ddfb09",
+   "sample": "C3N-00743-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "fe6cd353-a410-4064-9793-9fda8faa9296",
+   "sample": "C3N-00743-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00750": [
+  {
+   "file_id": "b29091da-8ae5-4918-b83b-754961287359",
+   "sample": "C3N-00750-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "c3b11c6b-6e6d-4894-992f-3a79d596a010",
+   "sample": "C3N-00750-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00753": [
+  {
+   "file_id": "e44dfb1a-51aa-4e1b-93f0-e3145b776133",
+   "sample": "C3N-00753-14",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "f7888267-5238-4013-b9b6-4cb952611030",
+   "sample": "C3N-00753-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00755": [
+  {
+   "file_id": "7a484f08-64f4-468f-8be6-99f296f46488",
+   "sample": "C3N-00755-72",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "7a484f08-64f4-468f-8be6-99f296f46488",
+   "sample": "C3N-00755-71",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "1369480e-a166-4e94-a9d8-6e78485f2da7",
+   "sample": "C3N-00755-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00836": [
+  {
+   "file_id": "bd512749-3281-4ff6-8b41-ed6d5f4ad030",
+   "sample": "C3N-00836-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00847": [
+  {
+   "file_id": "ea07e153-2ba7-4fc8-affb-4ed8a8b0155e",
+   "sample": "C3N-00847-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00848": [
+  {
+   "file_id": "18800764-22ad-44cc-9c3d-4fbc399caad4",
+   "sample": "C3N-00848-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00850": [
+  {
+   "file_id": "68e1a367-d8db-46c5-871c-514adeebfd27",
+   "sample": "C3N-00850-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00858": [
+  {
+   "file_id": "0c857fb9-5347-4029-9853-b797eace48bb",
+   "sample": "C3N-00858-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "0c857fb9-5347-4029-9853-b797eace48bb",
+   "sample": "C3N-00858-04",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "e2955243-9312-4793-974d-fbbdbd29e984",
+   "sample": "C3N-00858-14",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00859": [
+  {
+   "file_id": "05a1db71-0b75-45f7-991d-9bd79673d962",
+   "sample": "C3N-00859-15",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "787dbb21-188f-4e8c-aecb-e5f4deb6f564",
+   "sample": "C3N-00859-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "787dbb21-188f-4e8c-aecb-e5f4deb6f564",
+   "sample": "C3N-00859-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "787dbb21-188f-4e8c-aecb-e5f4deb6f564",
+   "sample": "C3N-00859-05",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00860": [
+  {
+   "file_id": "5f628274-997b-4cb4-8e24-2de6aaa7cedc",
+   "sample": "C3N-00860-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "4cd84302-0d46-491a-9408-7e91a2c574ed",
+   "sample": "C3N-00860-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "4cd84302-0d46-491a-9408-7e91a2c574ed",
+   "sample": "C3N-00860-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "4cd84302-0d46-491a-9408-7e91a2c574ed",
+   "sample": "C3N-00860-04",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00866": [
+  {
+   "file_id": "8760d77d-56dc-4c89-89b0-3f8ee9d38fbd",
+   "sample": "C3N-00866-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "5ed50972-1e1c-4c46-89d5-9c6ac8ca587f",
+   "sample": "C3N-00866-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00872": [
+  {
+   "file_id": "59836f9e-ae68-458f-a524-ab723b46f17f",
+   "sample": "C3N-00872-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "f0ba9f63-997d-4e73-a3fd-6a950deee90b",
+   "sample": "C3N-00872-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "f0ba9f63-997d-4e73-a3fd-6a950deee90b",
+   "sample": "C3N-00872-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-00880": [
+  {
+   "file_id": "1d04c9cd-0d89-4e74-99f3-9e9a0025364d",
+   "sample": "C3N-00880-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "1d04c9cd-0d89-4e74-99f3-9e9a0025364d",
+   "sample": "C3N-00880-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "1d04c9cd-0d89-4e74-99f3-9e9a0025364d",
+   "sample": "C3N-00880-04",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01003": [
+  {
+   "file_id": "71268c98-5c0f-4778-9b1c-4dae13cf10e1",
+   "sample": "C3N-01003-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "480ad50a-3a46-4a34-af21-4c962ae8b333",
+   "sample": "C3N-01003-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01007": [
+  {
+   "file_id": "73f55f88-8817-4ed1-82d7-2da2fe80c308",
+   "sample": "C3N-01007-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01008": [
+  {
+   "file_id": "42f7841e-285b-44ac-b986-03f194858125",
+   "sample": "C3N-01008-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "42f7841e-285b-44ac-b986-03f194858125",
+   "sample": "C3N-01008-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01079": [
+  {
+   "file_id": "b318482f-f9c5-43f3-a77a-5f1cda850459",
+   "sample": "C3N-01079-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "0e081ad0-2609-41b3-ad22-11e13f62b04a",
+   "sample": "C3N-01079-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01171": [
+  {
+   "file_id": "504cc0b3-b1c7-4e91-9487-19c5ea2796f4",
+   "sample": "C3N-01171-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "35d18465-3301-4548-bfbf-b3068f81611e",
+   "sample": "C3N-01171-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01172": [
+  {
+   "file_id": "16b87965-0d4f-44b0-83c7-848022c40c07",
+   "sample": "C3N-01172-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01211": [
+  {
+   "file_id": "405a70df-804d-4945-b828-c337d8313ee8",
+   "sample": "C3N-01211-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "3d33d812-58d3-4cd1-bbe5-a9ccfdb8b09c",
+   "sample": "C3N-01211-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01212": [
+  {
+   "file_id": "731b8046-8f25-4cde-8052-dfb7b6f7fada",
+   "sample": "C3N-01212-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "905cc7ba-382f-4e30-9fbf-c6bf714fa9b5",
+   "sample": "C3N-01212-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01217": [
+  {
+   "file_id": "5f4f6edf-ed96-4e6f-8034-f7fcaec985e0",
+   "sample": "C3N-01217-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "761459fe-6f5b-4b8f-86fd-7da887b03c01",
+   "sample": "C3N-01217-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01219": [
+  {
+   "file_id": "f3a13c85-b725-4910-8f3e-2ac78b7ec3d9",
+   "sample": "C3N-01219-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "fa03db85-da2c-44c4-ac97-ac5f9700a3ef",
+   "sample": "C3N-01219-13",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01267": [
+  {
+   "file_id": "f44a52cb-1278-46e9-b08d-a1915af94818",
+   "sample": "C3N-01267-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "0a47e941-f82c-4373-9c3b-042889ca5412",
+   "sample": "C3N-01267-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01341": [
+  {
+   "file_id": "bb5c95f3-ba1b-4f16-b082-76bd1b9c49d5",
+   "sample": "C3N-01341-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "4c332457-1b45-4272-af87-d002700223a0",
+   "sample": "C3N-01341-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01342": [
+  {
+   "file_id": "b8e32654-2981-40a4-bb17-4b80da1306d5",
+   "sample": "C3N-01342-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "eb09c369-af8c-46fb-8265-4029c64f3f9d",
+   "sample": "C3N-01342-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01344": [
+  {
+   "file_id": "0e296eea-7b78-405d-9be0-78c9b0ff3c92",
+   "sample": "C3N-01344-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "0e296eea-7b78-405d-9be0-78c9b0ff3c92",
+   "sample": "C3N-01344-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "d49edc2c-2753-4fb4-9ed5-2c5f9639b748",
+   "sample": "C3N-01344-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01346": [
+  {
+   "file_id": "c35b4360-710f-44ec-afae-9f67a69d4b0f",
+   "sample": "C3N-01346-04",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "c35b4360-710f-44ec-afae-9f67a69d4b0f",
+   "sample": "C3N-01346-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01349": [
+  {
+   "file_id": "c6200c1a-383f-455f-bccd-16da70eb78bf",
+   "sample": "C3N-01349-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a95ad9f0-0a69-4afb-9ba1-58c1b6cb34be",
+   "sample": "C3N-01349-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01510": [
+  {
+   "file_id": "560a84e5-6e34-44ed-9ceb-2feb67144c5e",
+   "sample": "C3N-01510-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "fc48ed53-148e-404f-910b-a041d828f989",
+   "sample": "C3N-01510-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01520": [
+  {
+   "file_id": "302ce58f-bd48-4328-8963-249429f26fd6",
+   "sample": "C3N-01520-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "fcfc18ce-56e6-4145-ada3-d1de3c891d2c",
+   "sample": "C3N-01520-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01521": [
+  {
+   "file_id": "a850fc88-ebea-4937-acf5-5167715e08f8",
+   "sample": "C3N-01521-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "82b59a11-3f17-48a6-9430-20e981234a09",
+   "sample": "C3N-01521-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01525": [
+  {
+   "file_id": "a2298c24-fdcd-40a8-8098-48da4a9e2d21",
+   "sample": "C3N-01525-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "fcb14807-a004-4846-bc34-449aefff677b",
+   "sample": "C3N-01525-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "85c37383-322e-4c29-b55d-57f190a06d3e",
+   "sample": "C3N-01525-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "2a83c5fb-2ccc-49a1-91f0-2eea6048e8e4",
+   "sample": "C3N-01525-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "81e44462-0fc4-49a5-b717-3a26fd823a13",
+   "sample": "C3N-01525-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "7059afe8-065e-4a80-adbd-90531feeb73d",
+   "sample": "C3N-01525-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "ad5e022c-77f5-4d06-afe2-6c0dc0eca552",
+   "sample": "C3N-01525-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01526": [
+  {
+   "file_id": "a01e730f-037b-4a5e-8845-5584984df348",
+   "sample": "C3N-01526-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "2b050b87-cd04-4e8c-bd81-b5a21910d6b1",
+   "sample": "C3N-01526-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01529": [
+  {
+   "file_id": "76aa7262-dd2a-4ff4-8406-8098593911f2",
+   "sample": "C3N-01529-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "fae281f0-ea84-468a-97c9-d86d458eb9ce",
+   "sample": "C3N-01529-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01537": [
+  {
+   "file_id": "30b45f9b-b59a-4845-9d2b-62e5104f288a",
+   "sample": "C3N-01537-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01761": [
+  {
+   "file_id": "31d3e6de-852a-4a99-916d-20d685390d75",
+   "sample": "C3N-01761-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "77f50207-75e1-4915-936a-939dde9d61d3",
+   "sample": "C3N-01761-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01764": [
+  {
+   "file_id": "69e26bc4-f95e-42d8-9ef5-9770d201c13f",
+   "sample": "C3N-01764-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "d9e4cae4-82b1-4dfe-a5a1-fc63c2d6e6b1",
+   "sample": "C3N-01764-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01765": [
+  {
+   "file_id": "2bc6c289-af2b-4161-8f3d-081fd7313a7f",
+   "sample": "C3N-01765-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "382971e2-1cf2-4673-9ff8-b81ddc4b14d3",
+   "sample": "C3N-01765-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01766": [
+  {
+   "file_id": "ccf373cd-0928-4603-b24b-94b4d48832d3",
+   "sample": "C3N-01766-04",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "085f3daa-d557-4ec2-a32c-984e3af9d756",
+   "sample": "C3N-01766-14",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01802": [
+  {
+   "file_id": "641d2294-023a-46ab-b182-32cd85e25430",
+   "sample": "C3N-01802-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "62f77fdf-ed6b-4636-a0ea-44361be2d44d",
+   "sample": "C3N-01802-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01825": [
+  {
+   "file_id": "96416e63-0259-4cfb-90d5-c179448c7532",
+   "sample": "C3N-01825-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "33ed0820-e428-4367-8592-fa298ef42eab",
+   "sample": "C3N-01825-13",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01830": [
+  {
+   "file_id": "657b6507-9cf8-4f6b-a689-92366f516241",
+   "sample": "C3N-01830-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "c1876f51-75cd-4bc5-97a2-28ef361a19a1",
+   "sample": "C3N-01830-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01843": [
+  {
+   "file_id": "cf32c0da-f486-436f-9035-3403897bcd0c",
+   "sample": "C3N-01843-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "84d00ce4-e88a-4372-a134-ae3de1ef2c3b",
+   "sample": "C3N-01843-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01847": [
+  {
+   "file_id": "4410fd4e-6228-42e9-8003-343b8fcba551",
+   "sample": "C3N-01847-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "6d235dd9-e0bd-44cc-815a-662316e4ed96",
+   "sample": "C3N-01847-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01848": [
+  {
+   "file_id": "fb312d61-9ceb-4128-917d-929b52583879",
+   "sample": "C3N-01848-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "1d931264-51df-479b-8b61-75ebf3aee25b",
+   "sample": "C3N-01848-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01871": [
+  {
+   "file_id": "2c6db88a-ed74-446c-9c62-552390eeef6e",
+   "sample": "C3N-01871-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "2c6db88a-ed74-446c-9c62-552390eeef6e",
+   "sample": "C3N-01871-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "2c6db88a-ed74-446c-9c62-552390eeef6e",
+   "sample": "C3N-01871-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "2c6db88a-ed74-446c-9c62-552390eeef6e",
+   "sample": "C3N-01871-04",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01873": [
+  {
+   "file_id": "2eb87ccf-82e9-4918-b2e1-b4b75d993703",
+   "sample": "C3N-01873-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01874": [
+  {
+   "file_id": "4db2b6d5-2fb6-44c4-88ab-a636cb676917",
+   "sample": "C3N-01874-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "3b74a5a4-9a69-4275-8f82-836c3f5f7fd0",
+   "sample": "C3N-01874-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01875": [
+  {
+   "file_id": "a8100d57-67cd-4710-9ec1-eb97e9dc0076",
+   "sample": "C3N-01875-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a8100d57-67cd-4710-9ec1-eb97e9dc0076",
+   "sample": "C3N-01875-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "84434266-80ea-4447-88b6-ac747c44ba3c",
+   "sample": "C3N-01875-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01876": [
+  {
+   "file_id": "274dab0e-85fe-4fed-b9a2-088b9d7bb2e0",
+   "sample": "C3N-01876-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "c3f56ee6-d988-4438-b02a-9e6c9a610f27",
+   "sample": "C3N-01876-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01877": [
+  {
+   "file_id": "e2efadae-24fe-404e-b558-50397f143b8a",
+   "sample": "C3N-01877-14",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a8a03590-14f7-451b-a313-ad1b62d7528a",
+   "sample": "C3N-01877-04",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01878": [
+  {
+   "file_id": "3f7fe4d8-b883-43d0-8b64-695eeb16cbe1",
+   "sample": "C3N-01878-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "34afb1b4-67e5-41bb-87c2-01d95f4011b9",
+   "sample": "C3N-01878-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01879": [
+  {
+   "file_id": "91a3f441-a6dc-4aad-a78c-ca99043f8635",
+   "sample": "C3N-01879-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-01880": [
+  {
+   "file_id": "ebaba4cb-9b3d-4852-acc0-3b8983347aaf",
+   "sample": "C3N-01880-04",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "ebd48355-b3d0-437a-ad5e-96b11f2c5044",
+   "sample": "C3N-01880-14",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02012": [
+  {
+   "file_id": "7d3c55ed-6c1f-47a0-9ddb-1fc6bff505ed",
+   "sample": "C3N-02012-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "dacb9cd1-a537-468d-91da-c712aa1ebcfd",
+   "sample": "C3N-02012-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02027": [
+  {
+   "file_id": "5f1781d0-cf90-4f3e-9a6c-26f0a7294957",
+   "sample": "C3N-02027-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "671ae5ee-1b50-48c3-906c-eed4195b09a0",
+   "sample": "C3N-02027-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02028": [
+  {
+   "file_id": "4dd04919-e581-4ccc-831a-82be0665970a",
+   "sample": "C3N-02028-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "71b61a91-d79e-4469-a872-c65c1a54fb84",
+   "sample": "C3N-02028-13",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02030": [
+  {
+   "file_id": "b29f0da5-ac06-4b13-a627-3ffb9546905f",
+   "sample": "C3N-02030-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "541346ee-ce03-453f-968b-460c5e915119",
+   "sample": "C3N-02030-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "2c53b15e-c91d-4ecf-969b-3843169b85f8",
+   "sample": "C3N-02030-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a5370eb3-af14-43c6-901a-983a808f1599",
+   "sample": "C3N-02030-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a3d05ece-0062-446d-8cd4-0de1d19fe5ef",
+   "sample": "C3N-02030-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "26584982-c119-45ef-b960-ef0f747baf96",
+   "sample": "C3N-02030-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "dea3db96-5b3f-43db-b17b-509b23af2353",
+   "sample": "C3N-02030-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a9c4bfae-6797-4efe-b602-fde61e031771",
+   "sample": "C3N-02030-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02061": [
+  {
+   "file_id": "128fc565-323f-4511-8733-5479a7f131e5",
+   "sample": "C3N-02061-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "0f774cb9-01ce-4da5-9393-28eac1d3f09f",
+   "sample": "C3N-02061-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02062": [
+  {
+   "file_id": "b97e04e4-1242-4d6f-8d0c-ff75fd37d119",
+   "sample": "C3N-02062-13",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "0d8cf5cc-7149-4b3a-869d-dd530bf159fd",
+   "sample": "C3N-02062-03",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02244": [
+  {
+   "file_id": "58ca7c12-6bfc-4ea4-a2b9-68c46e9b49f8",
+   "sample": "C3N-02244-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "9d02df86-db2f-47bb-b26c-768ae6b3e06d",
+   "sample": "C3N-02244-72",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02247": [
+  {
+   "file_id": "dc46ffd0-17e0-4b5b-997e-f435f4e5a59d",
+   "sample": "C3N-02247-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "83427611-adba-40b9-b0f2-68054ea90da3",
+   "sample": "C3N-02247-72",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02249": [
+  {
+   "file_id": "166dab14-a223-40ab-a793-8e8992f5dd7d",
+   "sample": "C3N-02249-75",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "2a960ac2-85dd-4125-befa-01e0be2a9d20",
+   "sample": "C3N-02249-14",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02253": [
+  {
+   "file_id": "a1a07db5-afdc-4ddf-b8eb-8aa9fd88fab4",
+   "sample": "C3N-02253-74",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "06ca7b41-6930-42b0-8920-3da218955aa1",
+   "sample": "C3N-02253-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02271": [
+  {
+   "file_id": "94188e57-0927-4979-9897-751045f462d2",
+   "sample": "C3N-02271-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "5acf0479-e2de-4df4-9e45-5a619558bbcd",
+   "sample": "C3N-02271-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02274": [
+  {
+   "file_id": "60263fa8-f9db-4f74-a3ff-0f3d962340c5",
+   "sample": "C3N-02274-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "07841a01-1748-469a-b3f8-a768d82115fe",
+   "sample": "C3N-02274-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02296": [
+  {
+   "file_id": "a6b2838e-88bc-478e-ba30-09e1f9d9b204",
+   "sample": "C3N-02296-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "156699cb-45f4-4cc5-81b3-649a7f0d8f62",
+   "sample": "C3N-02296-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02298": [
+  {
+   "file_id": "dd044ce1-06ee-44ab-b6ed-7010a0f54e15",
+   "sample": "C3N-02298-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "d2d5cc00-b3b5-40f6-b378-4507eb1bafa6",
+   "sample": "C3N-02298-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02302": [
+  {
+   "file_id": "83ebea62-2790-4c8d-bb15-12006de77710",
+   "sample": "C3N-02302-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "157d97b2-e94c-434d-ac80-4c2e7b072461",
+   "sample": "C3N-02302-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02337": [
+  {
+   "file_id": "220ecd67-17bd-4c11-801c-0e8066b6dee3",
+   "sample": "C3N-02337-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "64e5c45e-520f-45fe-898e-5daafedb056b",
+   "sample": "C3N-02337-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02372": [
+  {
+   "file_id": "6ad6da4a-6a81-4142-9698-b8414fe5a828",
+   "sample": "C3N-02372-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "af6d66c4-43c0-45d6-abac-824f7465b9d3",
+   "sample": "C3N-02372-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02436": [
+  {
+   "file_id": "9d0184f9-30f6-4bb6-b4ae-fe19a569e8c9",
+   "sample": "C3N-02436-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "f6fd836d-1b27-49e7-a576-c9ece0a575d8",
+   "sample": "C3N-02436-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02437": [
+  {
+   "file_id": "97486fd1-e9ff-4348-bb64-af589b0fb6df",
+   "sample": "C3N-02437-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "74073ac4-7496-45d8-b87d-7f5e1094916c",
+   "sample": "C3N-02437-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02595": [
+  {
+   "file_id": "37be26f4-8bcd-40d3-9cdc-8f855e9166d8",
+   "sample": "C3N-02595-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "bd72be5a-6f4a-4619-81d0-4a64984ee7b7",
+   "sample": "C3N-02595-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02598": [
+  {
+   "file_id": "6407716d-7fe4-4538-846e-0264a10be2bc",
+   "sample": "C3N-02598-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "12bcd3ad-3256-4c12-a413-e6ca0fb67a49",
+   "sample": "C3N-02598-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02631": [
+  {
+   "file_id": "48226952-657f-4a8e-9ccd-6cc7568c06f1",
+   "sample": "C3N-02631-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "c7bf9b06-14eb-41d6-8075-5797ca6a6caa",
+   "sample": "C3N-02631-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02632": [
+  {
+   "file_id": "479c1ba8-6868-4cc6-a17b-89e1de8324d1",
+   "sample": "C3N-02632-15",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "5895863d-92dc-4441-b124-7b5f1e8e4877",
+   "sample": "C3N-02632-05",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02635": [
+  {
+   "file_id": "bef2ea8c-9c58-4ed9-a831-df3004f7f640",
+   "sample": "C3N-02635-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "193986c5-8a84-4247-adeb-927833560fb4",
+   "sample": "C3N-02635-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02636": [
+  {
+   "file_id": "7e44f339-d07c-4725-8b71-3909d1f29eaa",
+   "sample": "C3N-02636-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "35f13025-53d0-4be2-98c5-1cbffa8139d4",
+   "sample": "C3N-02636-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02637": [
+  {
+   "file_id": "0164b5d0-f392-4157-bbe7-701b0df26cb0",
+   "sample": "C3N-02637-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "0164b5d0-f392-4157-bbe7-701b0df26cb0",
+   "sample": "C3N-02637-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "bf91a3b4-0973-48dc-bdf3-2c83f47f205a",
+   "sample": "C3N-02637-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02639": [
+  {
+   "file_id": "a1e69845-08cb-4da9-9e9d-0a29c02f9400",
+   "sample": "C3N-02639-02",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "442ed16d-d5fe-419a-8142-077fc91f2028",
+   "sample": "C3N-02639-12",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02678": [
+  {
+   "file_id": "79023acb-64b6-485e-b93f-2a04e8587d8d",
+   "sample": "C3N-02678-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "a9588333-f216-48b7-9da6-b058f7525da9",
+   "sample": "C3N-02678-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02789": [
+  {
+   "file_id": "af4e22c6-3eda-418e-a77f-b4fbbd3a73ad",
+   "sample": "C3N-02789-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "4fd976c6-23ec-41ce-a1dc-c3680bea36be",
+   "sample": "C3N-02789-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02947": [
+  {
+   "file_id": "35c46988-bb01-4d0d-95ba-f1d9e27a0f85",
+   "sample": "C3N-02947-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "b650dd2d-531e-4eb9-9db4-0c861dc0021d",
+   "sample": "C3N-02947-13",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02972": [
+  {
+   "file_id": "75922ea2-93f8-4323-95ce-9ff87b41e9a5",
+   "sample": "C3N-02972-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "3a6c2235-e3d0-4713-89d8-6c21f3c533b3",
+   "sample": "C3N-02972-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02976": [
+  {
+   "file_id": "3cc881e9-7b4d-4d89-9a97-6cdd05d136bd",
+   "sample": "C3N-02976-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "716892d1-ac52-4c45-8caf-82e95189a79f",
+   "sample": "C3N-02976-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02978": [
+  {
+   "file_id": "31da315c-dccd-407a-920f-26321df4135e",
+   "sample": "C3N-02978-12",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "10540f94-c97c-4a3f-a1f7-a39b1e199c6f",
+   "sample": "C3N-02978-02",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02979": [
+  {
+   "file_id": "82dedbc6-1571-4098-a68e-f86475877417",
+   "sample": "C3N-02979-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "3245346b-7d80-4129-a012-4249b4dc0af1",
+   "sample": "C3N-02979-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-02994": [
+  {
+   "file_id": "4a624cc1-6fcc-4347-aa16-709ab921c007",
+   "sample": "C3N-02994-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "4d9590c8-dae6-4fa0-8236-4a95550e997e",
+   "sample": "C3N-02994-11",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-03005": [
+  {
+   "file_id": "3eb01c31-4811-4906-acf7-4239f24e2515",
+   "sample": "C3N-03005-03",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "84b2e85a-9b57-42a1-83ab-b4e681cc345e",
+   "sample": "C3N-03005-13",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-03415": [
+  {
+   "file_id": "f939d8b7-6072-4de1-b7cf-43f4b5c1053b",
+   "sample": "C3N-03415-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "1d7ecd6f-d753-49cc-976a-fd1106a825e4",
+   "sample": "C3N-03415-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-03417": [
+  {
+   "file_id": "3cd56e50-f03f-4a2d-82dd-a5b591811628",
+   "sample": "C3N-03417-11",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "51aba8b9-d2df-4ae3-9c2f-3e8e8233e6c2",
+   "sample": "C3N-03417-01",
+   "sample_type": "Primary Tumor"
+  }
+ ],
+ "C3N-03767": [
+  {
+   "file_id": "55f852d5-c81b-4737-a433-aecd26c56989",
+   "sample": "C3N-03767-01",
+   "sample_type": "Primary Tumor"
+  },
+  {
+   "file_id": "34f9d1f0-0308-4e1f-bc97-588af624bab6",
+   "sample": "C3N-03767-11",
+   "sample_type": "Primary Tumor"
+  }
+ ]
+}

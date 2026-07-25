@@ -1,0 +1,7 @@
+stratum	n	sigma_resid	contrast	d	boot_ci_lo	boot_ci_hi	boot_se
+Discovery	95	0.1737	C1	-0.6046	-1.3372	-0.0042	0.3438
+Discovery	95	0.1737	C2	-0.8486	-1.3815	-0.3865	0.2500
+Discovery	95	0.1737	C3	0.3798	-0.3912	1.0459	0.3657
+Confirmatory	135	0.1504	C1	-0.0585	-0.8025	0.7005	0.3806
+Confirmatory	135	0.1504	C2	-0.8833	-1.5650	-0.3580	0.2963
+Confirmatory	135	0.1504	C3	0.0085	-1.0490	0.8891	0.5055

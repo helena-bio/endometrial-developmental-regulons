@@ -1,0 +1,56 @@
+{
+  "phase": "acq04_qc",
+  "git_HEAD": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+  "stops": [],
+  "checks": {
+    "n_discovery": 95,
+    "n_confirmatory": 135,
+    "Discovery_matrix_shape": [
+      60660,
+      95
+    ],
+    "Discovery_nonfinite_raw_tpm": 0,
+    "Confirmatory_matrix_shape": [
+      60660,
+      135
+    ],
+    "Confirmatory_nonfinite_raw_tpm": 0,
+    "n_genes_gencode_v36": 60660,
+    "gene_universe_is_60660": true,
+    "all_ensg_ids": true,
+    "gene_id_order_sha256": "b59e4fa49bce8b8dd16d8a3003ab26aa62981a7981a5e810d0334acb5e2bdb93",
+    "gene_name_order_sha256": "03939ddbd0f3e7e83187680dcd12d39a29fc64fe3994fe8c33c30e5fc9bd64f8",
+    "task028_gene_universe_identical": true,
+    "task028_n_genes": 60660,
+    "nonfinite_raw_tpm_total": 0,
+    "Discovery_allzero_genes_total": 4000,
+    "Discovery_module_allzero_counts": {
+      "M1_analysis_ready": 1,
+      "compact_M1_analysis_ready": 1,
+      "M3_primary_analysis_ready": 4,
+      "M4_covariate": 0
+    },
+    "Discovery_module_unmapped_counts": {
+      "M1_analysis_ready": 0,
+      "compact_M1_analysis_ready": 0,
+      "M3_primary_analysis_ready": 0,
+      "M4_covariate": 0
+    },
+    "Confirmatory_allzero_genes_total": 2885,
+    "Confirmatory_module_allzero_counts": {
+      "M1_analysis_ready": 1,
+      "compact_M1_analysis_ready": 1,
+      "M3_primary_analysis_ready": 2,
+      "M4_covariate": 0
+    },
+    "Confirmatory_module_unmapped_counts": {
+      "M1_analysis_ready": 0,
+      "compact_M1_analysis_ready": 0,
+      "M3_primary_analysis_ready": 0,
+      "M4_covariate": 0
+    }
+  },
+  "started": "2026-07-14T13:25:02Z",
+  "verdict": "PASS",
+  "finished": "2026-07-14T13:25:16Z"
+}

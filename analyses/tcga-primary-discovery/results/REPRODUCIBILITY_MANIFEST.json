@@ -1,0 +1,79 @@
+{
+  "task": "TASK-028 Freeze B v3 PRIMARY=C locked execution (resumed)",
+  "git_HEAD_start": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+  "git_HEAD_at_seal": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+  "git_unchanged": true,
+  "master_seed": 20260713,
+  "sub_seed_rule": "sha256('20260713:<step_id>')[:8] -> int; step ids logged in each config/module",
+  "data_sources": {
+    "cohort": {
+      "path": "external-inputs/cohort_selected_primary.tsv",
+      "sha256": "e6f9d390730bff4248379b2280b12e2914ec800e2f56516b466f2151b169f3be"
+    },
+    "subtype_table": {
+      "path": "external-inputs/subtype_normalized.tsv",
+      "sha256": "17a899a4869fccf806859342454bde440027786a48bdd50f1d1eace810b1ef9e"
+    },
+    "aran_cpe_xlsx": {
+      "path": "external-inputs/aran_cpe.xlsx",
+      "sha256": "fce1ba13ff3a6432b7e4f260eb516e407c967d615ca87bc8dffa7765baf97529",
+      "column": "CPE",
+      "complete_case_n": 506
+    },
+    "pancanatlas_absolute": {
+      "path": "external-inputs/absolute_purity.txt",
+      "sha256": "f430a975433d82e0098d7405619d4f12a0c765fcd97e7d63cc9b1de7f2d763cd",
+      "column": "purity",
+      "complete_case_n": 502
+    },
+    "estimate_gmt": {
+      "path": "external-inputs/ESTIMATE_SI_geneset.gmt",
+      "sha256": "bfd34f3f811656a5781521d9e59b513bc34c45692ad35afdd81c3879d7a187ca"
+    },
+    "star_originals_dir": "external-inputs/originals"
+  },
+  "sealed_packet": "sealed_v3 (all 23 input SHAs verified vs SEAL_MANIFEST.sha256)",
+  "n_boot": 2000,
+  "n_perm": 2000,
+  "package_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "python": "3.12.3"
+  },
+  "commands": [
+    "python3 execution/scripts_v3/phase1_qc_v3.py",
+    "python3 execution/scripts_v3/phase2a_score.py",
+    "python3 execution/scripts_v3/phase2b_models.py",
+    "python3 execution/scripts_v3/phase3_freeze.py"
+  ],
+  "timestamp_utc": "2026-07-13T12:51:29Z",
+  "result_files_sealed": [
+    "DEVIATIONS.txt",
+    "allzero_exclusions.tsv",
+    "discordance_Dt_H4.tsv",
+    "equivalence_C1_F4.tsv",
+    "gene_flow_ledger.json",
+    "model_diagnostics.json",
+    "phase1_qc_verdict.json",
+    "phase2a_score_manifest.json",
+    "phase2b_models.json",
+    "primary_results.tsv",
+    "sample_flow_ledger.json",
+    "sensitivity_SENS_S1.tsv",
+    "sensitivity_SENS_S2.tsv",
+    "sensitivity_SENS_absolute.tsv",
+    "sensitivity_SENS_compactM1.tsv",
+    "sensitivity_SENS_nopurity.tsv",
+    "sensitivity_SENS_signedssgsea.tsv",
+    "sensitivity_concordance.tsv",
+    "software_env.json"
+  ],
+  "seal_excludes": [
+    "REPRODUCIBILITY_MANIFEST.json",
+    "RESULT_SEAL.sha256"
+  ],
+  "public_path_adaptation": {
+    "status": "adapted_for_public_release",
+    "statement": "Absolute workspace paths were replaced by logical public input paths. Scientific values and recorded source SHA-256 digests were not changed."
+  }
+}

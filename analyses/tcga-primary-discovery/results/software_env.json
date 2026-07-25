@@ -1,0 +1,21 @@
+{
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "platform": "Linux-6.8.0-100-generic-x86_64-with-glibc2.39",
+  "numpy": "2.2.6",
+  "pandas": "2.2.3",
+  "pip_freeze": [
+    "et_xmlfile==2.0.0",
+    "numpy==2.2.6",
+    "openpyxl==3.1.5",
+    "packaging==26.2",
+    "pandas==2.2.3",
+    "patsy==1.0.2",
+    "python-dateutil==2.9.0.post0",
+    "pytz==2026.2",
+    "scipy==1.15.3",
+    "six==1.17.0",
+    "statsmodels==0.14.4",
+    "tzdata==2026.3"
+  ],
+  "timestamp_utc": "2026-07-13T12:51:29Z"
+}

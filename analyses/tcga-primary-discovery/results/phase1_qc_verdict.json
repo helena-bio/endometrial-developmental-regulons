@@ -1,0 +1,242 @@
+{
+  "phase": 1,
+  "version": "v3",
+  "master_seed": 20260713,
+  "git_HEAD": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+  "stops": [],
+  "checks": {
+    "cohort_n_rows": 507,
+    "unique_patients": 507,
+    "unique_uuids": 507,
+    "unique_aliquots": 507,
+    "subtype_counts_507": {
+      "POLE": 49,
+      "MMRd": 148,
+      "NSMP": 147,
+      "p53abn": 163
+    },
+    "subtype_counts_507_expected": {
+      "POLE": 49,
+      "MMRd": 148,
+      "NSMP": 147,
+      "p53abn": 163
+    },
+    "subtype_table_sha256": "17a899a4869fccf806859342454bde440027786a48bdd50f1d1eace810b1ef9e",
+    "cohort_file_sha256": "e6f9d390730bff4248379b2280b12e2914ec800e2f56516b466f2151b169f3be",
+    "set_equality_cohort_vs_subtype_table": true,
+    "subtype_label_mismatches": 0,
+    "cohort_patients_missing_from_subtype_table": 0,
+    "missing_star_files": 0,
+    "n_genes_gencode_v36": 60660,
+    "gene_universe_is_60660": true,
+    "all_ensg_ids": true,
+    "matrix_shape_genes_x_samples": [
+      60660,
+      507
+    ],
+    "nonfinite_in_raw_tpm": 0,
+    "duplicate_unversioned_ensg": 44,
+    "duplicate_gene_names_in_universe": 1233,
+    "nonfinite_in_log2": 0,
+    "module_gene_counts": {
+      "M1_analysis_ready": 236,
+      "compact_M1_analysis_ready": 185,
+      "M3_primary_analysis_ready": 577,
+      "M4_covariate": 30
+    },
+    "allzero_removals_n": 5,
+    "allzero_removals": [
+      {
+        "module": "M1_analysis_ready",
+        "gene": "C19orf33",
+        "reason": "all-zero-507"
+      },
+      {
+        "module": "compact_M1_analysis_ready",
+        "gene": "C19orf33",
+        "reason": "all-zero-507"
+      },
+      {
+        "module": "M3_primary_analysis_ready",
+        "gene": "CCL27",
+        "reason": "all-zero-507"
+      },
+      {
+        "module": "M3_primary_analysis_ready",
+        "gene": "FERD3L",
+        "reason": "all-zero-507"
+      },
+      {
+        "module": "M3_primary_analysis_ready",
+        "gene": "ICAM4",
+        "reason": "all-zero-507"
+      }
+    ],
+    "unmapped_module_genes_n": 0,
+    "unmapped_module_genes": [],
+    "cpe_finite_coverage_n": 506,
+    "cpe_missing_patients": [
+      {
+        "patient": "TCGA-BS-A0TG",
+        "subtype": "NSMP"
+      }
+    ],
+    "absolute_finite_coverage_n": 502,
+    "absolute_missing_patients": [
+      {
+        "patient": "TCGA-A5-A0G1",
+        "subtype": "POLE"
+      },
+      {
+        "patient": "TCGA-A5-A1OH",
+        "subtype": "p53abn"
+      },
+      {
+        "patient": "TCGA-BG-A0M9",
+        "subtype": "NSMP"
+      },
+      {
+        "patient": "TCGA-D1-A0ZU",
+        "subtype": "NSMP"
+      },
+      {
+        "patient": "TCGA-EY-A1GT",
+        "subtype": "NSMP"
+      }
+    ],
+    "estimate_signature_sizes": {
+      "StromalSignature": 141,
+      "ImmuneSignature": 141
+    },
+    "m4_genes_scored": 30,
+    "estimate_stromal_scored": 136,
+    "estimate_immune_scored": 140,
+    "nonfinite_m4": 0,
+    "nonfinite_strom": 0,
+    "nonfinite_imm": 0,
+    "nonfinite_comp": 0,
+    "cpe_complete_case_n": 506,
+    "cpe_dropped_patients": [
+      "TCGA-BS-A0TG"
+    ],
+    "cpe_drop_reason": "primary purity covariate non-finite",
+    "cpe_complete_case_subtype_counts": {
+      "POLE": 49,
+      "MMRd": 148,
+      "NSMP": 146,
+      "p53abn": 163
+    },
+    "cpe_complete_case_subtype_counts_expected": {
+      "POLE": 49,
+      "MMRd": 148,
+      "NSMP": 146,
+      "p53abn": 163
+    },
+    "design_n506_ncol": 7,
+    "design_n506_rank": 7,
+    "VIF_n506_CPE_model": {
+      "subMMRd": 2.9289861470682177,
+      "subNSMP": 3.3297015800065144,
+      "subp53abn": 3.064583700483404,
+      "M4": 1.4425482787076163,
+      "purity_CPE": 1.5019521099161577,
+      "composition": 1.5832446484248193
+    },
+    "max_VIF_n506": 3.3297015800065144,
+    "design_n507_ncol": 6,
+    "design_n507_rank": 6,
+    "VIF_n507_nopurity_model": {
+      "subMMRd": 2.9138001385807204,
+      "subNSMP": 3.3417911921636065,
+      "subp53abn": 3.0562069576995996,
+      "M4": 1.4393468544993444,
+      "composition": 1.0936043396391983
+    },
+    "max_VIF_n507": 3.3417911921636065,
+    "absolute_complete_case_n": 502,
+    "absolute_dropped_patients": [
+      {
+        "patient": "TCGA-A5-A0G1",
+        "subtype": "POLE"
+      },
+      {
+        "patient": "TCGA-A5-A1OH",
+        "subtype": "p53abn"
+      },
+      {
+        "patient": "TCGA-BG-A0M9",
+        "subtype": "NSMP"
+      },
+      {
+        "patient": "TCGA-D1-A0ZU",
+        "subtype": "NSMP"
+      },
+      {
+        "patient": "TCGA-EY-A1GT",
+        "subtype": "NSMP"
+      }
+    ],
+    "absolute_complete_case_subtype_counts": {
+      "POLE": 48,
+      "MMRd": 148,
+      "NSMP": 144,
+      "p53abn": 162
+    },
+    "absolute_complete_case_subtype_counts_expected": {
+      "POLE": 48,
+      "MMRd": 148,
+      "NSMP": 144,
+      "p53abn": 162
+    },
+    "design_n502_ABSOLUTE_rank": 7,
+    "design_n502_ABSOLUTE_ncol": 7,
+    "VIF_n502_ABSOLUTE_model": {
+      "subMMRd": 2.9463462433824885,
+      "subNSMP": 3.3533616724105455,
+      "subp53abn": 3.0962906967957835,
+      "M4": 1.4393301462721886,
+      "purity_CPE": 1.6558670566175455,
+      "composition": 1.741951880996386
+    },
+    "max_VIF_n502": 3.3533616724105455,
+    "max_VIF_overall": 3.3533616724105455,
+    "VIF_flagged_gt5": {
+      "n506": {},
+      "n507": {},
+      "n502": {}
+    },
+    "contrast_matrix": {
+      "C1": [
+        -1,
+        -1,
+        -1,
+        3
+      ],
+      "C2": [
+        1,
+        1,
+        -2,
+        0
+      ],
+      "C3": [
+        1,
+        -1,
+        0,
+        0
+      ]
+    },
+    "contrast_orthogonality_dotproducts": {
+      "C1.C2": 0.0,
+      "C1.C3": 0.0,
+      "C2.C3": 0.0
+    },
+    "contrasts_mutually_orthogonal": true,
+    "seed_substep_examples": {
+      "bootstrap_M1_C1": 2255084692,
+      "perm_omnibus_M1": 2961175399
+    },
+    "seeds_deterministic": true
+  },
+  "verdict": "PASS",
+  "timestamp_utc": "2026-07-13T12:26:40Z"
+}

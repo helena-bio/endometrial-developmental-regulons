@@ -1,0 +1,87 @@
+{
+  "provenance": {
+    "gdc_project": "CPTAC-3",
+    "gdc_uterine_cases_total": 241,
+    "discovery_source": "Dou 2020 Cell PMID 32059776; cBioPortal ucec_cptac_2020 (GENOMICS_SUBTYPE); PDC000125",
+    "confirmatory_source": "Dou 2023 Cancer Cell PMID 37567170; PMC10631452 Table S1 (paper-text aggregate); PDC000439",
+    "recon_date": "2026-07-14"
+  },
+  "independence_check": {
+    "level": "PDC biospecimen IDs (case_submitter_id, sample_submitter_id, aliquot_submitter_id)",
+    "primary_tumor_case_overlap": 0,
+    "primary_tumor_sample_overlap": 0,
+    "primary_tumor_aliquot_overlap": 0,
+    "only_shared_id_all_samples": "'Ref' (CompRef internal reference pool, not a patient)",
+    "discovery_tumor_patients_PDC": 103,
+    "confirmatory_tumor_patients_PDC": 138,
+    "within_study_patient_duplicates": "none (2 patients each have replicate aliquots of the SAME tumour: Disc C3N-01825; Conf C3N-02978, C3L-05571) -> aggregate to one value/patient at acquisition",
+    "verdict": "CLEAN: zero donor-level overlap"
+  },
+  "recruiting_center_proxy": {
+    "note": "case-ID prefix (C3L/C3N) is an accrual-group-family proxy; true tissue_source_site not populated in GDC/PDC open metadata -> CONFIRM-AT-ACQUISITION",
+    "discovery_tumor": {
+      "C3L": 58,
+      "C3N": 45
+    },
+    "confirmatory_tumor": {
+      "C3L": 62,
+      "C3N": 76
+    },
+    "shared_accrual_families": [
+      "C3L",
+      "C3N"
+    ],
+    "disclosure": "shared recruiting infrastructure -> possible common-site batch effect; does NOT break donor independence"
+  },
+  "per_stratum_subtype_counts": {
+    "discovery_Dou2020": {
+      "POLE": 7,
+      "MMRd": 25,
+      "NSMP": 43,
+      "p53abn": 20,
+      "total_classified": 95,
+      "source": "cBioPortal GENOMICS_SUBTYPE, RESOLVED"
+    },
+    "confirmatory_Dou2023": {
+      "POLE": 6,
+      "MMRd": 47,
+      "NSMP": 66,
+      "p53abn": 16,
+      "unclassified": 3,
+      "total": 138,
+      "source": "Dou 2023 paper text aggregate; per-CASE subtype roster = CONFIRM-AT-ACQUISITION (behind PMC JS gate)"
+    },
+    "pooled_classified": {
+      "POLE": 13,
+      "MMRd": 72,
+      "NSMP": 109,
+      "p53abn": 36
+    }
+  },
+  "contrast_group_sizes": {
+    "discovery": {
+      "C1_p53abn": 20,
+      "C1_rest": 75,
+      "C2_POLEMMRd": 32,
+      "C2_NSMP": 43
+    },
+    "confirmatory": {
+      "C1_p53abn": 16,
+      "C1_rest": 119,
+      "C2_POLEMMRd": 53,
+      "C2_NSMP": 66
+    },
+    "pooled": {
+      "C1_p53abn": 36,
+      "C1_rest": 194,
+      "C2_POLEMMRd": 85,
+      "C2_NSMP": 109
+    }
+  },
+  "confirm_at_acquisition_gaps": [
+    "Dou 2023 Table S1 per-CASE subtype assignments (aggregate resolved 6/47/66/16; per-case labels behind PMC proof-of-work download gate)",
+    "8 Discovery PDC tumour cases beyond the 95 in the Cell-2020 subtype analysis (C3L-00084, C3L-00157, C3L-00356, C3L-00938, C3L-01247, C3L-01253, C3L-01284, C3N-01001) -> confirm they are QC/subtype-unassignable exclusions",
+    "3 Confirmatory 'unclassified' tumours -> confirm handling (excluded from C1/C2)",
+    "tissue_source_site / recruiting-center identity (not populated in GDC/PDC open metadata)"
+  ]
+}

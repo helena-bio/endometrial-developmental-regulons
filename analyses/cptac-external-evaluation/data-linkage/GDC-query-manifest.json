@@ -1,0 +1,74 @@
+{
+  "queried_at": "2026-07-14T13:06:25Z",
+  "gdc_data_release": "Data Release 45.0 - December 04, 2025",
+  "gdc_status": {
+    "commit": "8f7c2a51ab0084b216ad1b62a3fae8b945439c53",
+    "data_release": "Data Release 45.0 - December 04, 2025",
+    "data_release_version": {
+      "major": 45,
+      "minor": 0,
+      "release_date": "2025-12-04"
+    },
+    "status": "OK",
+    "tag": "8.5.0",
+    "version": 1
+  },
+  "query_payload": {
+    "filters": {
+      "op": "and",
+      "content": [
+        {
+          "op": "in",
+          "content": {
+            "field": "cases.project.project_id",
+            "value": [
+              "CPTAC-3"
+            ]
+          }
+        },
+        {
+          "op": "in",
+          "content": {
+            "field": "cases.primary_site",
+            "value": [
+              "Uterus, NOS",
+              "Corpus uteri"
+            ]
+          }
+        },
+        {
+          "op": "in",
+          "content": {
+            "field": "data_category",
+            "value": [
+              "Transcriptome Profiling"
+            ]
+          }
+        },
+        {
+          "op": "in",
+          "content": {
+            "field": "data_type",
+            "value": [
+              "Gene Expression Quantification"
+            ]
+          }
+        },
+        {
+          "op": "in",
+          "content": {
+            "field": "analysis.workflow_type",
+            "value": [
+              "STAR - Counts"
+            ]
+          }
+        }
+      ]
+    },
+    "format": "JSON",
+    "size": "5000",
+    "fields": "file_id,file_name,md5sum,file_size,data_format,state,access,created_datetime,updated_datetime,analysis.workflow_type,cases.submitter_id,cases.case_id,cases.project.project_id,cases.primary_site,cases.samples.submitter_id,cases.samples.sample_id,cases.samples.sample_type,cases.samples.sample_type_id,cases.samples.tissue_type,cases.samples.portions.analytes.aliquots.submitter_id,cases.samples.portions.analytes.aliquots.aliquot_id"
+  },
+  "n_files": 493,
+  "endpoint": "https://api.gdc.cancer.gov/files"
+}

@@ -1,0 +1,240 @@
+{
+  "primary_model": "V2 FROZEN NO-PURITY: score ~ subtype + M4(covariate) + ESTIMATE composition",
+  "per_stratum_sigma_resid": {
+    "Discovery": {
+      "M1": 0.17368955503493674,
+      "GATA2": 7.615835657923572,
+      "HOXA9": 4.180406191449227,
+      "SOX9": 7.004928827953994,
+      "WT1": 8.850695525309007,
+      "LHX1": 2.82290065347905,
+      "PAX8": 4.251691338151332
+    },
+    "Confirmatory": {
+      "M1": 0.1503832982130184,
+      "GATA2": 7.386162784162957,
+      "HOXA9": 4.396728627167877,
+      "SOX9": 7.324834682827985,
+      "WT1": 9.269303890396658,
+      "LHX1": 2.9815748779173377,
+      "PAX8": 4.545108991076398
+    }
+  },
+  "per_stratum_omnibus_p_F": {
+    "Discovery": {
+      "M1": 0.0013813497825158135,
+      "GATA2": 0.05760923928388029,
+      "HOXA9": 0.08086358433300984,
+      "SOX9": 0.010359093722919805,
+      "WT1": 0.005239306525172584,
+      "LHX1": 0.1164246060587123,
+      "PAX8": 0.2238764121255976
+    },
+    "Confirmatory": {
+      "M1": 0.0010805310634021278,
+      "GATA2": 0.0039874034237046664,
+      "HOXA9": 0.7260893631875189,
+      "SOX9": 0.05992548998912458,
+      "WT1": 0.8055660194442351,
+      "LHX1": 7.502433582821073e-05,
+      "PAX8": 0.007497559485610285
+    }
+  },
+  "estimate_purity_collinearity": {
+    "Discovery": {
+      "VIF": {
+        "MMRd": 3.383797737449321,
+        "NSMP": 4.552777510891326,
+        "p53abn": 3.073285183264786,
+        "M4": 1.6312674635801694,
+        "composition": 439123473.6867889,
+        "estimate_purity": 439123452.2784232
+      },
+      "corr_composition_purity": -0.9999999988369686,
+      "max_VIF": 439123473.6867889
+    },
+    "Confirmatory": {
+      "VIF": {
+        "MMRd": 5.8055614272216465,
+        "NSMP": 6.395899022096247,
+        "p53abn": 3.3247200731379993,
+        "M4": 1.5203417731111915,
+        "composition": 354761775.067065,
+        "estimate_purity": 354761872.8767878
+      },
+      "corr_composition_purity": -0.999999998585769,
+      "max_VIF": 354761872.8767878
+    }
+  },
+  "estimate_purity_model_instability_VIF_gt10": true,
+  "m3_edges_used_per_stratum": {
+    "Discovery": {
+      "DLX5": {
+        "edges_listed": 31,
+        "targets_used": 31
+      },
+      "EMX2": {
+        "edges_listed": 6,
+        "targets_used": 6
+      },
+      "FOXA2": {
+        "edges_listed": 109,
+        "targets_used": 108
+      },
+      "GATA2": {
+        "edges_listed": 76,
+        "targets_used": 75
+      },
+      "GATA3": {
+        "edges_listed": 133,
+        "targets_used": 132
+      },
+      "HOXA10": {
+        "edges_listed": 32,
+        "targets_used": 32
+      },
+      "HOXA11": {
+        "edges_listed": 5,
+        "targets_used": 5
+      },
+      "HOXA13": {
+        "edges_listed": 14,
+        "targets_used": 14
+      },
+      "HOXA9": {
+        "edges_listed": 19,
+        "targets_used": 19
+      },
+      "LHX1": {
+        "edges_listed": 6,
+        "targets_used": 6
+      },
+      "MSX1": {
+        "edges_listed": 24,
+        "targets_used": 24
+      },
+      "MSX2": {
+        "edges_listed": 40,
+        "targets_used": 40
+      },
+      "PAX2": {
+        "edges_listed": 20,
+        "targets_used": 20
+      },
+      "PAX8": {
+        "edges_listed": 23,
+        "targets_used": 23
+      },
+      "SALL1": {
+        "edges_listed": 5,
+        "targets_used": 5
+      },
+      "SIX1": {
+        "edges_listed": 15,
+        "targets_used": 15
+      },
+      "SOX17": {
+        "edges_listed": 31,
+        "targets_used": 31
+      },
+      "SOX9": {
+        "edges_listed": 70,
+        "targets_used": 70
+      },
+      "TBX18": {
+        "edges_listed": 9,
+        "targets_used": 9
+      },
+      "WT1": {
+        "edges_listed": 93,
+        "targets_used": 92
+      }
+    },
+    "Confirmatory": {
+      "DLX5": {
+        "edges_listed": 31,
+        "targets_used": 31
+      },
+      "EMX2": {
+        "edges_listed": 6,
+        "targets_used": 6
+      },
+      "FOXA2": {
+        "edges_listed": 109,
+        "targets_used": 109
+      },
+      "GATA2": {
+        "edges_listed": 76,
+        "targets_used": 75
+      },
+      "GATA3": {
+        "edges_listed": 133,
+        "targets_used": 132
+      },
+      "HOXA10": {
+        "edges_listed": 32,
+        "targets_used": 32
+      },
+      "HOXA11": {
+        "edges_listed": 5,
+        "targets_used": 5
+      },
+      "HOXA13": {
+        "edges_listed": 14,
+        "targets_used": 14
+      },
+      "HOXA9": {
+        "edges_listed": 19,
+        "targets_used": 19
+      },
+      "LHX1": {
+        "edges_listed": 6,
+        "targets_used": 6
+      },
+      "MSX1": {
+        "edges_listed": 24,
+        "targets_used": 24
+      },
+      "MSX2": {
+        "edges_listed": 40,
+        "targets_used": 40
+      },
+      "PAX2": {
+        "edges_listed": 20,
+        "targets_used": 20
+      },
+      "PAX8": {
+        "edges_listed": 23,
+        "targets_used": 23
+      },
+      "SALL1": {
+        "edges_listed": 5,
+        "targets_used": 5
+      },
+      "SIX1": {
+        "edges_listed": 15,
+        "targets_used": 15
+      },
+      "SOX17": {
+        "edges_listed": 31,
+        "targets_used": 31
+      },
+      "SOX9": {
+        "edges_listed": 70,
+        "targets_used": 70
+      },
+      "TBX18": {
+        "edges_listed": 9,
+        "targets_used": 9
+      },
+      "WT1": {
+        "edges_listed": 93,
+        "targets_used": 93
+      }
+    }
+  },
+  "allzero_genes_per_stratum": {
+    "Discovery": 3820,
+    "Confirmatory": 2750
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "checkpoint": "TASK-029 ACQUISITION / QC CHECKPOINT",
+  "verdict": "PASS",
+  "timestamp_utc_note": "see acq0x logs for exact times",
+  "git_HEAD_start": "83503bad47b60193598b2b9ebe819c22c83e8ac1",
+  "seal_verification": {
+    "seal_manifest": "SEAL_MANIFEST_replication.sha256",
+    "load_bearing_files_verified": 19,
+    "load_bearing_mismatches": 0,
+    "sealed_B1_module_files_verified": 13,
+    "sealed_B1_mismatches": 0,
+    "roster_pin_dou2023_mmc2_sha256_ok": true,
+    "roster_pin_size_277385_ok": true,
+    "m3_primary_included_signed_edges": 761
+  },
+  "gdc_provenance": {
+    "gdc_data_release": "Data Release 45.0 - December 04, 2025",
+    "gdc_commit": "8f7c2a51ab0084b216ad1b62a3fae8b945439c53",
+    "workflow_type": "STAR - Counts",
+    "n_star_counts_files_returned": 493,
+    "n_files_selected": 230,
+    "per_file_md5_pinned": true,
+    "per_file_md5_mismatches": 0,
+    "per_file_sha256_recorded": true
+  },
+  "join_and_dedup": {
+    "n_needed_subtyped_cases": 230,
+    "n_joined_to_primary_tumor_rna": 230,
+    "attrition": 0,
+    "dedup_rule": "frozen rule k: one patient = one primary-tumour analytic unit; keep study-primary aliquot = lowest sample-vial suffix; deterministic tie-break (released+open, then lowest suffix number, then lowest sample id, then lowest file_id)",
+    "cases_with_multiple_primary_tumor_samples": 190,
+    "frozen_expectation_ref": "PATIENT_LEVEL_SUBTYPE_GATE.md lines 59-66 (199/240 uterine cases carry >1 primary-tumour RNA file; -0X/-1X replicate vials; collapse to one analytic unit by rule k; no patient dropped)",
+    "cross_stratum_overlap_case": 0,
+    "cross_stratum_overlap_sample": 0,
+    "cross_stratum_overlap_aliquot": 0,
+    "cross_stratum_overlap_file": 0,
+    "sample_type_census": {"Primary Tumor": 472, "Solid Tissue Normal": 45, "Metastatic": 1},
+    "subtype_label_conflicts_vs_sealed_join_tables": 0,
+    "discovery_subtype_counts": {"POLE": 7, "MMRd": 25, "NSMP": 43, "p53abn": 20},
+    "confirmatory_subtype_counts": {"POLE": 6, "MMRd": 47, "NSMP": 66, "p53abn": 16},
+    "discovery_counts_match_frozen": true,
+    "confirmatory_counts_match_frozen": true
+  },
+  "gene_identity": {
+    "n_genes": 60660,
+    "gencode_v36_60660_ok": true,
+    "gene_universe_identical_across_all_230_files": true,
+    "gene_universe_identical_to_task028_frozen": true,
+    "module_gene_mapping": "GENCODE-v36 gene_name identity; best-row = highest mean log2 among duplicate symbols (verbatim TASK-028)",
+    "unmapped_module_genes": 0
+  },
+  "all_zero_rule": {
+    "rule": "frozen item i: drop genes all-zero across the analytic cohort PER STRATUM; log; no replacement",
+    "discovery_allzero_genes_total": 4000,
+    "confirmatory_allzero_genes_total": 2885,
+    "discovery_module_allzero": {"M1": 1, "compactM1": 1, "M3": 4, "M4": 0},
+    "confirmatory_module_allzero": {"M1": 1, "compactM1": 1, "M3": 2, "M4": 0}
+  },
+  "fatal_conditions_checked": {
+    "checksum_manifest_mismatch": "NONE",
+    "gene_identity_mismatch_outside_frozen_rule": "NONE",
+    "unresolvable_patient_or_subtype_join": "NONE (multiplicity resolved by frozen rule k; 0 attrition)",
+    "donor_duplication_or_cross_stratum_overlap": "NONE (0 at case/sample/aliquot/file)",
+    "critical_attrition_changing_evaluability_or_power": "NONE (0 attrition; counts identical to frozen; C2 remains evaluable)",
+    "subtype_label_conflicts": "NONE"
+  },
+  "decision": "ALL FROZEN TECHNICAL CONDITIONS PASS -> PROCEED to FROZEN PRIMARY EXECUTION"
+}

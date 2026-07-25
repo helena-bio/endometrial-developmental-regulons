@@ -1,0 +1,58 @@
+{
+  "Discovery": {
+    "module_allzero_removals": {
+      "M1_analysis_ready": [
+        "C19orf33"
+      ],
+      "compact_M1_analysis_ready": [
+        "C19orf33"
+      ],
+      "M3_primary_analysis_ready": [
+        "CCL27",
+        "GH1",
+        "ICAM4",
+        "SRY"
+      ],
+      "M4_covariate": []
+    },
+    "module_unmapped": {
+      "M1_analysis_ready": [],
+      "compact_M1_analysis_ready": [],
+      "M3_primary_analysis_ready": [],
+      "M4_covariate": []
+    },
+    "estimate_allzero_removals": {
+      "StromalSignature": [],
+      "ImmuneSignature": [
+        "PTPRCAP"
+      ]
+    }
+  },
+  "Confirmatory": {
+    "module_allzero_removals": {
+      "M1_analysis_ready": [
+        "C19orf33"
+      ],
+      "compact_M1_analysis_ready": [
+        "C19orf33"
+      ],
+      "M3_primary_analysis_ready": [
+        "CCL27",
+        "ICAM4"
+      ],
+      "M4_covariate": []
+    },
+    "module_unmapped": {
+      "M1_analysis_ready": [],
+      "compact_M1_analysis_ready": [],
+      "M3_primary_analysis_ready": [],
+      "M4_covariate": []
+    },
+    "estimate_allzero_removals": {
+      "StromalSignature": [],
+      "ImmuneSignature": [
+        "PTPRCAP"
+      ]
+    }
+  }
+}

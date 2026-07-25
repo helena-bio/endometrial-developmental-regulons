@@ -1,0 +1,7 @@
+# Scientific Python dependencies for the analysis scripts.
+# Exact execution environments are recorded in the result metadata.
+numpy
+pandas
+scipy
+statsmodels
+openpyxl

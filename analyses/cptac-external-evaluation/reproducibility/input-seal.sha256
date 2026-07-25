@@ -1,0 +1,26 @@
+# TASK-029 FROZEN EXTERNAL-REPLICATION DESIGN -- SEAL MANIFEST (SHA-256 of every load-bearing file)
+# approved_by: Vladimir 2026-07-14 ; seal_timestamp_utc: 2026-07-14T12:46:12Z
+# git_HEAD: 83503bad47b60193598b2b9ebe819c22c83e8ac1   (git UNCHANGED; F34 sealed/staged; git not a blocker)
+# seed_master: 20260714   status: SEALED READ-ONLY (pre-execution; feasibility, not achieved replication)
+# roster pin: sources_task029gate/dou2023_mmc2.xlsx MUST verify sha256 + size==277385 before every run; publisher-replaced file NOT auto-accepted
+# ---- load-bearing frozen files ----
+3647de824054f1a01597e8161ad04aeb3f00ea12efbd714c01b892caf8fcea43  FROZEN_REPLICATION_DESIGN.md
+d98a5d28583d0498ca2e401a050259ab1f7bf3d99a814c659aad4854bed0b906  FINAL_FREEZE_RULES_bm.md
+ff9a4b247a5b87bf792ea4cb091fc0581c9b6932f1fbf0892474a9fde32cb11f  REPLICATION_FREEZE_DESIGN_v3.md
+4e4bb83b28000d41126ee470e6bedd2434700e422add73873710b1a9a561c8e2  roster_provenance.json
+49b0041e4452d48a199c6de19dee5679877cab002346b7d0f915eb8cb737fb3b  SUBTYPE_PROVENANCE_AND_CROSSWALK.md
+1e70870346848982e2e3f14bc31a88054d15e8e26d452762ddc5f924784b71ca  CPTAC_INDEPENDENCE.md
+dca417a72caf9ba2ad13296b2b7666d53d373c0b8d50d667d319293a16b4e7c0  rosters_overlap_counts.json
+9fc7307920c006ccdbac0463f01f61ac47e197be926b5e9b03b5a0fa0e973f3b  PATIENT_LEVEL_SUBTYPE_GATE.md
+315a9d29f1add19fd90db85188762937ac2e49262d64a51813aca5fb5ccb48ad  join_tables/discovery_join.json
+95b9f754970e7f0691faddf6e350aca6cfe465c5c0c98600a4ed34ebbfe43743  join_tables/confirmatory_join.json
+51f18b71951af9292810ac00702c1466ad9cafb866364a93366b4f0c266e2572  join_tables/joined_contrast_sizes.json
+cfa70beee2475158e88749b411ff4b676e8d7c8beadf64080d0069222c64399b  recompute_power_joinable_results.json
+5d7ca93cdcaee5213f35bc2e33e8de203ba153f674c27a2e3d262001787b49f1  simulated_power_f1_results.json
+a5383420f1ccebc6f7e47695d5c473ad38f46d19b6a25321c1c137dee65af89f  m1_equivalence_power_results.json
+3c92945714608befeaf9343dbb0e08457a37667d0c0ed35f06762a5ec8af0e4d  COVARIATE_COMPATIBILITY_TABLE.md
+c39286f9b8042834059a2373f1e23d98f5e9445458a9cd83fc81c73806af72d2  ACQUISITION_CHECKPOINT_metadata.md
+c31608d1654a76a20d326dd9fb4e2a60d8b77284c19a5a9ea96d2499864794e0  simulate_power_f1.py
+5d0d911d59115be9197ba686c1b42395f08c3b522e0d32fe9cc564606ebd2a22  recompute_power_joinable.py
+2ea92c4279918c3a6158b24ebfa1e0e36ffc2876d50fd2ed3f07265a389e0e31  sources_task029gate/dou2023_mmc2.xlsx
+# missing: 0 (want 0)

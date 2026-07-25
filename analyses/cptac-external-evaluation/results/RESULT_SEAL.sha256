@@ -1,0 +1,19 @@
+# TASK-029 RESULT SEAL -- SHA-256 of every frozen result file
+# git_HEAD: 83503bad47b60193598b2b9ebe819c22c83e8ac1  (start == end; unchanged)
+# master_seed: 20260714
+# seal_timestamp_utc: 2026-07-14T13:34:51Z
+# gdc_data_release: Data Release 45.0 - December 04, 2025
+# ---- result files ----
+ce973f672f9f2ec1ac2318c18dd442e71ae153b090e4919e10a82311799e9a30  acq04_qc_verdict.json
+1526970d306df5df822a8f5fee55df6c8e19d933cf730daae18b01fe14db1e78  ACQUISITION_CHECKPOINT_VERDICT.json
+65f9e9e1f43883717e42b01cdfd0e8fa3aade6aa0016bb25b028665ad0e441f3  gene_flow_ledger.json
+04de61e67c98a17f32811a745a0fa23911522d9f524727d0896bdcbce9134dd9  model_diagnostics.json
+65457ac8003d3e9d44336216ca4a2a9e74046b1d68f72b1b9af3b9dc586e4a2c  primary_results.json
+94bfcb5c6a12e840a0363ceb250dd94c70dab2d5be4570095837d69bb4db3f9f  REPRODUCIBILITY_MANIFEST.json
+add045d012e3055c597ad9cbaa36a28ac270239e0ceaa59ebb558d55d89ad564  sample_flow_ledger.tsv
+d8406ec43bfe5878d9c659fd1171344d1e360578b0dd97294e8aea35efa8522c  sensitivity_results.json
+079394b4e238fd5ba35899703f170d995a2d6bce236e018882493a265ecfaf24  table_M1_F2_sensitivity.tsv
+7fc561324ca5e1642b42f359460c2c695f8454c018929a18147097d9f5f2d5e3  table_meta_fixedeffect.tsv
+00455df5cada3217ed820b64cff6401c8506e89a562122ac2f26096b852d23b8  table_per_stratum_effects.tsv
+fd22a70d1df961bbbfe61c3eda90f0ba6f42bd064faa6bc2fb833548f0801dbc  table_primary_per_target.tsv
+85a344753122d6e08a38302242d154befedc0124b4198902706fc98883329573  table_sensitivity_estimate_purity.tsv

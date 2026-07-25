@@ -1,0 +1,84 @@
+{
+  "artifact": "Dou-2023 CPTAC-UCEC confirmatory subtype roster (mmc2.xlsx)",
+  "role": "defining input for subtype exposure in the TASK-029 external replication (Confirmatory stratum)",
+  "publisher_cdn_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1535610823002477-mmc2.xlsx",
+  "publisher_article": {
+    "citation": "Dou Y, et al. Proteogenomic insights suggest druggable pathways in endometrial carcinoma. Cancer Cell 2023;41(9):1586-1605.",
+    "pmid": "37567170",
+    "pmc": "PMC10631452",
+    "doi": "10.1016/j.ccell.2023.07.007",
+    "sciencedirect_pii": "S1535610823002477"
+  },
+  "supplement_file": {
+    "title": "Table S1 (mmc2.xlsx) -- Sample clinical and molecular meta information",
+    "version_note": "Elsevier CDN media-object copy (the ars.els-cdn.com content/image path). The PMC copy (PMC10631452) is behind the open-access download gate for this article; the CDN media-object copy returns HTTP 200 and was the source used. Publisher does not stamp an explicit revision number on this xlsx; the byte-identity is pinned by the SHA-256 below.",
+    "worksheets_present": [
+      "README",
+      "Meta_table",
+      "Normal samples"
+    ]
+  },
+  "retrieval": {
+    "retrieved_by": "TASK-029 patient-level subtype-join gate (immutable copy under sources_task029gate/)",
+    "provenance_verify_datetime_utc": "2026-07-14T12:35:24Z",
+    "download_command": "curl -s -L \"https://ars.els-cdn.com/content/image/1-s2.0-S1535610823002477-mmc2.xlsx\" -o dou2023_mmc2.xlsx"
+  },
+  "local_immutable_copy": {
+    "path": "external-inputs/dou2023_mmc2.xlsx",
+    "file_size_bytes": 277385,
+    "sha256": "2ea92c4279918c3a6158b24ebfa1e0e36ffc2876d50fd2ed3f07265a389e0e31"
+  },
+  "join_and_label_columns": {
+    "worksheet": "Meta_table",
+    "case_sample_id_join_column": "Case_id",
+    "case_id_format": "CPTAC C3L-/C3N- case_submitter_id (joins 1:1 to GDC CPTAC-3 primary-tumour RNA by case_submitter_id)",
+    "subtype_label_column": "Genomic_subtype",
+    "subtype_label_vocabulary_observed": [
+      "POLE",
+      "MSI-H",
+      "CNV_L",
+      "CNV_H",
+      "NA"
+    ],
+    "supporting_classifier_ingredient_columns_metadata_only": [
+      "POLE (Yes/No/NA)",
+      "MSI_status (MSS/MSI-H/NA)",
+      "CNV_status (CNV_L/CNV_H/NA)",
+      "CNV_ratio (numeric, informational; not read as outcome)",
+      "MSIsensor_ratio (numeric, informational; not read as outcome)",
+      "Case_excluded (Yes/No -- source-level dedup flag)",
+      "Group (Tumor/Adjacent_normal/Enriched_Normal)",
+      "Discovery_study (No for all Confirmatory tumor rows)",
+      "Batch (b1/b2/b3/b4/NA)"
+    ]
+  },
+  "roster_label_counts_metadata_only": {
+    "note": "Counts of the Genomic_subtype LABEL among analysis-eligible tumor cases (Group=Tumor, Case_excluded!=Yes). Label vocabulary only; NO expression, regulon, or outcome read.",
+    "tumor_cases_eligible": 138,
+    "POLE": 6,
+    "MSI-H": 47,
+    "CNV_L": 66,
+    "CNV_H": 16,
+    "NA_unclassified": 3,
+    "unclassified_case_ids": [
+      "C3L-00898",
+      "C3L-02802",
+      "C3N-02298"
+    ],
+    "unclassified_reason_published": "missing WGS-based CNV data (Dou-2023 main text) -- a data-completeness reason, NOT a biological outcome"
+  },
+  "checksum_verify_rule": {
+    "rule": "Every future run MUST recompute and VERIFY sha256 == 2ea92c4279918c3a6158b24ebfa1e0e36ffc2876d50fd2ed3f07265a389e0e31 (and size == 277385 bytes) on the local immutable copy BEFORE any analysis.",
+    "on_mismatch": "STOP. If the publisher replaces or updates the CDN file, the new version is NOT auto-accepted; re-pin (record new URL/size/sha256) and re-verify the worksheet + column names before any use. Silent substitution is forbidden."
+  },
+  "constraint_attestation": {
+    "tumour_blind": true,
+    "read": "roster METADATA (Case_id + subtype label vocabulary + classifier ingredient labels) and published METHODS text only",
+    "not_read": "NO expression value, NO regulon score, NO subtype effect, NO outcome, NO RNA matrix; TASK-028 SECONDARY-B/ATAC not opened; sealed_v3 and staged F34 not altered",
+    "label_derivation": "NO label derived or corrected via RNA/regulon/observed effect; Genomic_subtype taken as published"
+  },
+  "public_path_adaptation": {
+    "status": "adapted_for_public_release",
+    "statement": "The private local path was replaced by a logical public input path. File size and SHA-256 were not changed."
+  }
+}

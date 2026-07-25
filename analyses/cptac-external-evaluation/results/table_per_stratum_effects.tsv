@@ -1,0 +1,13 @@
+target	contrast	stratum	d	boot_se	boot_ci_lo	boot_ci_hi	n_boot_used	direction
+GATA2	C2	Discovery	-0.6890	0.3493	-1.4085	-0.0453	1998	neg
+GATA2	C2	Confirmatory	-0.9987	0.2805	-1.6161	-0.4973	1996	neg
+HOXA9	C2	Discovery	-0.5501	0.3733	-1.2549	0.2040	1999	neg
+HOXA9	C2	Confirmatory	-0.1948	0.2976	-0.7970	0.3774	1993	neg
+SOX9	C2	Discovery	-0.9931	0.3667	-1.7351	-0.2644	1997	neg
+SOX9	C2	Confirmatory	-0.6408	0.3118	-1.3220	-0.0496	1996	neg
+WT1	C2	Discovery	-0.2550	0.2920	-0.7942	0.3895	2000	neg
+WT1	C2	Confirmatory	-0.1154	0.2506	-0.6043	0.3689	1997	neg
+LHX1	C1	Discovery	-0.0312	0.3366	-0.6976	0.6562	1999	neg
+LHX1	C1	Confirmatory	1.0475	0.3613	0.3961	1.8336	1998	pos
+PAX8	C1	Discovery	0.5003	0.3115	-0.1021	1.1397	1999	pos
+PAX8	C1	Confirmatory	1.0537	0.2913	0.5085	1.6488	1994	pos
