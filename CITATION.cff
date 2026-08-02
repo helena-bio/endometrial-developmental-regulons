@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: >-
+  Please cite the exact archived release or repository commit used.
+title: >-
+  Endometrial developmental regulons: computational and reproducibility
+  record
+type: software
+authors:
+  - family-names: Toncheva
+    given-names: Draga
+  - family-names: Sgurev
+    given-names: Vasil
+  - family-names: Mitev
+    given-names: Vladimir
+repository-code: >-
+  https://github.com/helena-bioinformatics/endometrial-developmental-regulons
+url: >-
+  https://github.com/helena-bioinformatics/endometrial-developmental-regulons
+abstract: >-
+  Computational and reproducibility record for the prespecified analysis of
+  developmental transcription-factor regulons in endometrial carcinoma.
+  The repository includes TCGA-UCEC discovery, CPTAC-UCEC external
+  evaluation, sensitivity analyses, provenance records, machine-readable
+  results, and release-verification tooling.
+keywords:
+  - bioinformatics
+  - computational biology
+  - endometrial carcinoma
+  - gene regulatory networks
+  - regulons
+  - reproducible research
+  - transcriptomics
+  - TCGA
+  - CPTAC

@@ -11,6 +11,10 @@ TEXT_SUFFIXES = {
     '.md', '.txt', '.tsv', '.csv', '.json', '.jsonl',
     '.yaml', '.yml', '.py', '.sh', '.log', '.lock',
 }
+UNICODE_TEXT_ALLOWLIST = {
+    'LICENSES/Apache-2.0.txt',
+    'LICENSES/CC-BY-4.0.txt',
+}
 RUNTIME_PARTS = {
     '.venv', 'venv', 'venv_phase1', '__pycache__',
     '.pytest_cache', '.mypy_cache', 'site-packages',
@@ -76,7 +80,10 @@ def main() -> None:
             failures.append(f'secret-like content: {relative}')
         if any(term in text for term in PRIVATE_PATHS):
             failures.append(f'private absolute path: {relative}')
-        if any(ord(char) > 127 for char in text):
+        if (
+            relative not in UNICODE_TEXT_ALLOWLIST
+            and any(ord(char) > 127 for char in text)
+        ):
             failures.append(f'non-ASCII text: {relative}')
     if failures:
         for failure in failures:
