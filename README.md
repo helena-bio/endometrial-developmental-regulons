@@ -216,12 +216,13 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## Citation and release status
 
-The manuscript and immutable citation metadata are being prepared.
+The first versioned public release, `v1.0.0`, was published through GitHub.
+The repository is connected to Zenodo for archival of subsequent releases
+and registration of a persistent DOI.
 
-Until a versioned release and persistent identifier are published, identify
-the repository by organisation, repository name, exact commit, and access
-date. Do not cite the moving `main` branch as though it were an immutable
-scientific release.
+The current metadata release is `v1.0.1`. Cite the exact archived release
+and DOI associated with the version used. Do not cite the moving `main`
+branch as though it were an immutable scientific release.
 
 ## Maintainer
 

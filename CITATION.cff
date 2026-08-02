@@ -1,10 +1,12 @@
 cff-version: 1.2.0
 message: >-
-  Please cite the exact archived release or repository commit used.
+  Please cite this versioned software release and its archived DOI.
 title: >-
   Endometrial developmental regulons: computational and reproducibility
   record
 type: software
+version: 1.0.1
+date-released: 2026-08-02
 authors:
   - family-names: Toncheva
     given-names: Draga

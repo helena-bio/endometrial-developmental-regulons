@@ -36,6 +36,14 @@ changes that do not alter scientific outputs are identified explicitly.
 
 ### Release metadata
 
+- Recorded GitHub release `v1.0.0` as the first versioned public release.
+- Prepared metadata-only release `v1.0.1` for Zenodo archival and DOI
+  registration.
+- Added the release version and release date to `CITATION.cff`.
+- Updated the citation-status text to distinguish immutable releases from
+  the moving `main` branch.
+- No frozen protocol, executable analysis, numerical result, figure,
+  category, verdict, or scientific interpretation was changed.
 - Updated the public file manifest and SHA-256 records for documentation files
   changed in this documentation pass.
 
