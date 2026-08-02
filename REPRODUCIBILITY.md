@@ -1,96 +1,302 @@
 # Reproducibility
 
-This repository accompanies the endometrial developmental-regulon study. It contains the analysis code, frozen model and module definitions, acquisition records, result tables, figures, sensitivity analyses, independent audit records, and release checksums used for the manuscript.
+This repository accompanies the study:
 
-The repository supports two distinct operations:
+> Robustness and cross-cohort concordance of developmental regulons in
+> endometrial carcinoma
 
-1. verification of the published release and its recorded results;
-2. re-execution of analyses after the required source data have been acquired.
+It contains frozen analysis specifications, acquisition records, executable
+code, derived results, figures, sensitivity analyses, independent
+validation records, and release checksums.
 
-These operations should not be treated as equivalent. A checksum verifies that a published file has not changed. It does not establish scientific correctness or recreate an analysis from raw data.
+## Reproducibility has two distinct meanings here
 
-## Verify the release
+The repository supports two different operations:
+
+1. verification of the published repository files;
+2. re-execution of an analysis from its documented source inputs.
+
+These operations are not equivalent.
+
+A checksum establishes that a recorded file has not changed. It does not
+reconstruct a study cohort, rerun a statistical model, establish
+scientific correctness, or prove that a different computing environment
+will produce byte-identical numerical output.
+
+## Verify the published release
 
 From the repository root, run:
 
-```bash
-python3 scripts/verify-release.py
-```
+    python3 scripts/verify-release.py
 
-The verifier checks the files listed in `release/file-manifest.tsv` against their recorded sizes and SHA-256 values in `release/SHA256SUMS`. A successful run confirms that the checked-out release is complete and byte-consistent with the published manifest.
+The verifier reads `release/file-manifest.tsv` and checks every listed path
+against its recorded file size and SHA-256 digest.
 
-This check does not download data, fit models, or reassess the scientific interpretation.
+A successful run confirms that the local checkout is complete and
+byte-consistent with the release manifest.
+
+It does not:
+
+- download upstream source data;
+- reconstruct TCGA-UCEC or CPTAC-UCEC cohorts;
+- calculate module or regulon scores;
+- fit statistical models;
+- repeat bootstrap or permutation procedures;
+- reassess the scientific interpretation;
+- establish causal or clinical validity.
 
 ## Python environment
 
-The public scripts use Python and the packages declared in `requirements.txt`. A local environment can be created with:
+Create a local environment with:
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```
+    python3 -m venv .venv
+    source .venv/bin/activate
+    python -m pip install --upgrade pip
+    python -m pip install -r requirements.txt
 
-The frozen analysis records also identify the software versions and execution conditions used for the reported runs. Those records are retained within the corresponding analysis packages. Installing the current dependency file is sufficient for inspecting and running the public Python code, but it is not a claim of byte-identical numerical output across all operating systems, hardware, BLAS implementations, or future package releases.
+Package-local environment and provenance records identify the software
+conditions used for the reported analyses.
+
+Installing the current repository requirements supports inspection and
+execution of the public Python code. It is not a guarantee of
+byte-identical output across operating systems, processors, BLAS
+implementations, Python builds, or future dependency releases.
 
 ## Analysis packages
 
-The principal workflows are organised under `analyses/`:
+The principal workflows are organised under `analyses/`.
 
-- `tcga-primary-discovery/` contains the frozen TCGA-UCEC discovery analysis, module and regulon definitions, model specification, source code, results, and validation records.
-- `cptac-external-evaluation/` contains the target-level CPTAC-UCEC external evaluation, cohort records, analysis rules, results, and provenance seals.
-- `no-purity-sensitivity/` contains the TCGA no-purity sensitivity analysis, gene leave-one-out assessment, deterministic rerun records, and independent numerical audits.
-- `molecular-subtype-sensitivity/` contains the post-hoc per-class decomposition.
-- `grade-histology-sensitivity/` contains the TCGA grade and histology sensitivity analysis.
+### TCGA primary discovery
 
-Each package should be read from its own `README.md`, protocol files, and `src/` directory. The package-local documentation defines the expected inputs, analysis boundary, output files, and interpretation limits. Scripts should not be moved between packages or run against substituted inputs without recording that change.
+`analyses/tcga-primary-discovery/` contains:
 
-## Source data
+- the frozen TCGA-UCEC cohort and model specification;
+- the fetal Mullerian epithelial module definition;
+- the prespecified 20-factor developmental regulon panel;
+- molecular-subtype contrasts and covariates;
+- omnibus and gated multiplicity families;
+- pointwise association results;
+- universal single-target-deletion analyses;
+- primary result and validation records.
 
-Raw TCGA-UCEC and CPTAC-UCEC files are not redistributed as a general-purpose copy inside this repository. Their acquisition records, identifiers, release information, mappings, checksums, and cohort-construction records are published where redistribution permits.
+Pointwise subtype association and universal deletion robustness are
+reported separately.
 
-A full rerun therefore requires the user to acquire the relevant files from the Genomic Data Commons or the named upstream source, subject to the source terms and access controls. The acquisition records under `data/acquisition/` and the package-local provenance files define the inputs used in the study.
+### CPTAC external evaluation
 
-Restricted or controlled-access material must be obtained by an authorised user. This repository does not bypass source access requirements.
+`analyses/cptac-external-evaluation/` contains:
+
+- Discovery and Confirmatory cohort-linkage records;
+- patient, sample, and RNA-file mappings;
+- the frozen six-target external-evaluation family;
+- model-adapted stratum analyses;
+- fixed-effect meta-analysis outputs;
+- power and evaluability records;
+- target-level verdict and provenance records.
+
+The CPTAC analysis uses the same biological contrast definitions but is not
+an identical covariate replication of the TCGA model.
+
+### No-purity sensitivity
+
+`analyses/no-purity-sensitivity/` contains:
+
+- the TCGA no-purity model;
+- comparison with the primary purity-adjusted model;
+- complete mapped-target leave-one-out analyses;
+- effect decomposition;
+- deterministic rerun records;
+- independent numerical checks.
+
+A stable no-purity result does not establish purity independence.
+
+### Molecular-subtype sensitivity
+
+`analyses/molecular-subtype-sensitivity/` contains the post-hoc
+decomposition of the frozen C2 contrast into:
+
+- POLE versus NSMP;
+- MMRd versus NSMP;
+- POLE versus MMRd.
+
+The estimates are derived from unchanged full models. Pairwise subsets are
+not refitted.
+
+These analyses are descriptive and cannot alter the frozen TCGA or CPTAC
+verdicts.
+
+### Grade and histology sensitivity
+
+`analyses/grade-histology-sensitivity/` contains:
+
+- the outcome-blind clinical-variable feasibility audit;
+- TCGA binary-histology adjustment;
+- endometrioid-restricted binary-grade adjustment;
+- matched base and adjusted models;
+- attenuation decomposition;
+- influence diagnostics;
+- deterministic and independent verification records.
+
+CPTAC clinical modelling is not included because the available annotations
+did not satisfy the frozen harmonisation rules.
+
+Each package must be read together with its own README, protocol files,
+source code, result records, and validation material.
+
+## Source data boundary
+
+Large upstream TCGA-UCEC and CPTAC-UCEC expression datasets are not
+redistributed as a general-purpose copy in this repository.
+
+Where redistribution permits, the repository retains:
+
+- acquisition records;
+- source-release identifiers;
+- file and case identifiers;
+- patient-to-sample mappings;
+- checksums;
+- cohort-construction records;
+- permitted derived inputs and outputs.
+
+A complete rerun requires the user to acquire the relevant source files
+from the Genomic Data Commons or the named upstream repository, subject to
+the original access terms and repository policies.
+
+Restricted or controlled-access material must be obtained by an authorised
+user. This repository does not bypass access requirements.
 
 ## Re-executing an analysis
 
-Before running a workflow:
+Before executing a package:
 
-1. verify the repository release;
-2. read the package README and frozen protocol;
-3. acquire the exact source release identified by the acquisition record;
-4. confirm input checksums and sample mappings;
-5. install the declared Python dependencies;
-6. run the package-local script in the documented order;
-7. compare generated outputs with the published result and audit tables.
+1. record the repository commit or immutable release identifier;
+2. run the repository release verifier;
+3. read the package README and frozen protocol;
+4. acquire the exact source release named in the acquisition record;
+5. confirm input checksums and sample mappings;
+6. create the documented software environment;
+7. execute package-local scripts in the documented order;
+8. preserve generated logs and environment information;
+9. compare generated outputs with the published result records;
+10. record every deviation from the frozen protocol.
 
-The public result tables remain the manuscript record. A rerun using a newer GDC release, changed clinical annotations, altered dependencies, or a different cohort definition is a new analysis and should not be presented as a reproduction of the frozen study.
+The published machine-readable results and verdict records remain the
+scientific record for the manuscript release.
 
-## Independent checks
+A rerun using any of the following is a new analysis:
 
-The repository includes independent reconstruction and comparison records for the load-bearing analyses. These records cover family-wise multiple-testing calculations, the six prespecified targets, complete gene leave-one-out credit, purity decomposition, deterministic reruns, and scientific-byte preservation.
+- a newer or different source-data release;
+- changed clinical annotations;
+- a modified cohort definition;
+- substituted sample mappings;
+- a different target network;
+- changed contrast weights;
+- changed covariates;
+- changed thresholds or multiplicity families;
+- a different outcome definition;
+- an undocumented dependency substitution.
 
-They document the checks performed for the reported release. Their presence does not convert target-level directional concordance into causal evidence, clinical validation, therapeutic prediction, or proof of direct transcription-factor binding.
+Such a run must not be represented as reproduction of the frozen study
+without a complete account of the deviation.
+
+## Determinism and numerical comparison
+
+The reported workflows use prespecified seeds and version-controlled code
+for bootstrap, permutation, reconstruction, and validation procedures.
+
+Deterministic execution does not imply that every future platform will
+produce byte-identical floating-point output.
+
+A reproduction report must distinguish among:
+
+- exact file identity;
+- exact parsed-value identity;
+- agreement within a declared numerical tolerance;
+- agreement of a result category or verdict.
+
+The comparison method and tolerance must be stated.
+
+## Independent verification
+
+The repository retains separate reconstruction and comparison records for
+load-bearing analyses.
+
+Their documented scope includes:
+
+- TCGA omnibus and gated multiple-testing families;
+- the six frozen external-evaluation targets;
+- complete mapped-target deletion categories;
+- no-purity effect decomposition;
+- per-class C2 contrasts;
+- CPTAC fixed-effect meta-analysis;
+- grade and histology sensitivities;
+- scientific-byte preservation;
+- release-level checksums.
+
+These records establish numerical and provenance integrity within their
+documented scope. They do not establish causal validity.
+
+## Scientific-state hierarchy
+
+Repository materials have different roles and authority:
+
+1. frozen protocols define the prespecified analysis;
+2. machine-readable result and verdict records define the stored numerical
+   outcome;
+3. independent validation records document reconstruction or comparison;
+4. the manuscript and supplementary material define the supported public
+   interpretation;
+5. post-hoc explanatory analyses may delimit or explain a result but cannot
+   promote or replace a frozen verdict.
+
+Presentation files must not silently override machine-readable scientific
+records.
 
 ## Interpretation boundary
 
-The reported analyses support pointwise associations, prespecified robustness checks, and target-level cross-cohort directional comparisons within the documented models.
+The repository supports pointwise associations, prespecified robustness
+checks, clinical-composition sensitivities, and target-level cross-cohort
+directional comparisons within the documented models.
 
-The repository does not claim:
+It does not establish:
 
 - causal transcription-factor activity;
 - direct DNA binding from bulk-expression associations;
-- fetal-program reactivation as an established mechanism;
-- biomarker validity or clinical utility;
-- treatment response or therapeutic dependence;
-- equivalence between molecular classes when an interval spans zero.
+- uniform fetal-program reactivation;
+- diagnostic, prognostic, or predictive biomarker validity;
+- clinical utility;
+- treatment response;
+- therapeutic dependence;
+- equality or equivalence merely because an interval spans zero;
+- interchangeability of TCGA and CPTAC standardized effects;
+- absence of confounding because one sensitivity analysis is stable.
 
-The manuscript, supplementary material, and frozen verdict records govern the scientific wording. Repository files should be interpreted within those boundaries.
+Bulk regulon scores summarise signed target-expression patterns at cohort
+level. They are not direct measurements of transcription-factor protein
+activity or binding.
+
+GATA2 and SOX9 are interpreted as showing cross-cohort directional
+concordance rather than confirmatory replication because their source TCGA
+signals did not receive universal single-target-deletion credit.
 
 ## Reporting a reproduction
 
-A reproduction report should identify the repository commit, data releases, input checksums, dependency versions, operating environment, command sequence, and every deviation from the frozen protocol.
+A reproduction report should identify:
 
-A successful release-integrity check may be reported as verification of the published files. It should not be described as a complete rerun unless the source data were reacquired and the analysis was executed from its documented inputs.
+- the repository commit or release;
+- source-data releases;
+- input checksums;
+- patient and sample mappings;
+- dependency versions;
+- operating system and hardware context;
+- the command sequence;
+- generated output checksums;
+- the numerical comparison method and tolerance;
+- every deviation from the frozen protocol.
+
+A successful integrity check may be reported as verification of the
+published repository files.
+
+It must not be described as a complete rerun unless the source data were
+reacquired, the cohort was reconstructed, and the analysis was executed
+from its documented inputs.
