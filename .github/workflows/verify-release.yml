@@ -1,0 +1,57 @@
+name: Verify release integrity
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Verify public release files
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify release manifest and checksums
+        run: python3 scripts/verify-release.py
+
+      - name: Reject non-ASCII committed text
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          suffixes = {
+              '.md', '.txt', '.tsv', '.csv', '.json', '.jsonl',
+              '.yaml', '.yml', '.py', '.sh', '.lock',
+          }
+
+          failures = []
+          for path in Path('.').rglob('*'):
+              if not path.is_file() or '.git' in path.parts:
+                  continue
+              if path.suffix.lower() not in suffixes:
+                  continue
+              text = path.read_text(encoding='utf-8')
+              if any(ord(char) > 127 for char in text):
+                  failures.append(str(path))
+
+          if failures:
+              for path in failures:
+                  print(f'non-ASCII text: {path}')
+              raise SystemExit(1)
+
+          print('PASS: committed text is ASCII-only')
+          PY

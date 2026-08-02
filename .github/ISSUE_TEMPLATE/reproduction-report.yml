@@ -1,0 +1,91 @@
+name: Reproduction report
+description: Report an independent execution or numerical comparison.
+title: '[Reproduction]: '
+labels:
+  - reproduction
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for an independently executed analysis.
+        Do not include restricted data, credentials, or participant information.
+
+  - type: input
+    id: commit
+    attributes:
+      label: Repository commit or release
+      description: Exact commit SHA, tag, or release used.
+      placeholder: e84eb95 or v1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: package
+    attributes:
+      label: Analysis package
+      placeholder: analyses/tcga-primary-discovery
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source data and checksums
+      description: Identify releases, files, mappings, and checksums.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Execution environment
+      description: Operating system, hardware, Python, and dependencies.
+    validations:
+      required: true
+
+  - type: textarea
+    id: commands
+    attributes:
+      label: Commands executed
+      render: shell
+    validations:
+      required: true
+
+  - type: dropdown
+    id: comparison
+    attributes:
+      label: Comparison performed
+      options:
+        - Exact byte identity
+        - Exact parsed-value identity
+        - Numerical tolerance
+        - Category or verdict agreement
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: result
+    attributes:
+      label: Result
+      description: State what matched, differed, or could not be reproduced.
+    validations:
+      required: true
+
+  - type: textarea
+    id: deviations
+    attributes:
+      label: Deviations from the frozen protocol
+      description: State every changed, missing, substituted, or newer input.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have not included restricted or identifiable data.
+          required: true
+        - label: I have distinguished file verification from full re-execution.
+          required: true

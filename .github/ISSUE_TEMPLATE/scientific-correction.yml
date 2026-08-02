@@ -1,0 +1,79 @@
+name: Scientific correction
+description: Report a possible error in the frozen scientific record.
+title: '[Scientific correction]: '
+labels:
+  - scientific-correction
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for a specific, evidence-based correction.
+        Report security, privacy, or restricted-data matters privately.
+
+  - type: input
+    id: commit
+    attributes:
+      label: Repository commit or release
+      placeholder: e84eb95 or v1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Affected package and file
+      placeholder: analyses/cptac-external-evaluation/results/...
+    validations:
+      required: true
+
+  - type: input
+    id: scientific_unit
+    attributes:
+      label: Target, contrast, model, or result
+      placeholder: GATA2, C2, CPTAC fixed-effect meta-analysis
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Explain what appears incorrect and why.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Provide reproducible calculations, source references, or file comparisons.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Possible impact
+      options:
+        - label: Numerical value
+        - label: Result category
+        - label: Frozen verdict
+        - label: Figure or table
+        - label: Manuscript interpretation
+        - label: Documentation only
+
+  - type: textarea
+    id: proposed_resolution
+    attributes:
+      label: Proposed resolution
+      description: Optional. State the correction or verification you recommend.
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have not included restricted or identifiable data.
+          required: true
+        - label: I have distinguished observation from interpretation.
+          required: true
